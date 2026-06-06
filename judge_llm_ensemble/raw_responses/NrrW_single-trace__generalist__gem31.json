@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size of over 13,000 students, resulting in an astronomically small p-value that effectively rules out random chance.",
+      "The claim involves a straightforward, descriptive survey comparison of a well-documented disparity, making it highly robust to replication."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 29.99,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

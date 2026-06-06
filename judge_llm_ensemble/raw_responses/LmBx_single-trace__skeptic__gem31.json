@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (n=14) means the study is severely underpowered, making the large reported effect size highly likely to be inflated by noise.",
+      "Although threat bias in anxiety is heavily researched, specific reaction-time task effects have notoriously low reliability and often fail to replicate in well-powered studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.73,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

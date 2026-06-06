@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=33 for a cross-country macroeconomic regression is extremely small, making the results highly vulnerable to outliers and overfitting.",
+      "Subsetting the sample to 'strong democracies' and testing multiple specifications heavily increases researcher degrees of freedom, suggesting a high risk of fragility."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.03,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

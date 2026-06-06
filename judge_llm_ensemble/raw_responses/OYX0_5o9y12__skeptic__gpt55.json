@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large national survey with a very large, precisely estimated group difference and an extremely small p-value.",
+      "The claim is descriptive rather than causal, though model dependence and subgroup composition prevent near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.98,
+  "_task": {
+    "claim_id": "OYX0_5o9y12",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

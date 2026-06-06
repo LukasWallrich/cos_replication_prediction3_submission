@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national sample and p=.003 for a simple prevalence contrast support a real descriptive association.",
+      "But it is a subgroup/category comparison with possible multiple testing and confounding, and related duration analyses were null."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.47,
+  "_task": {
+    "claim_id": "MKLD",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

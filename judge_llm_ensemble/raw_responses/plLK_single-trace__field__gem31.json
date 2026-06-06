@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very small sample size (N=62) for an experimental comparison, resulting in low statistical power.",
+      "A p-value of 0.034 in a small-N behavioral lab experiment from 2009 is a strong historical indicator of low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.78,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

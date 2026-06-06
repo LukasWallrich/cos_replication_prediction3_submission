@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.029 sits comfortably in the marginal zone where analytic flexibility often pushes non-significant findings over the significance threshold.",
+      "The reliance on covariate controls ('other factors equal') in a moderately sized sample (N=647) makes this estimate particularly susceptible to specification searching."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.15,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

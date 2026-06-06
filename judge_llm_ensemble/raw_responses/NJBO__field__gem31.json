@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very subtle linguistic framing manipulation, a class of effects that historically replicate poorly.",
+      "However, the relatively large sample size (N=422) and robust p-value (< .001) provide countervailing statistical strength, making the replication outcome uncertain."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 12.56,
+  "_task": {
+    "claim_id": "NJBO",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

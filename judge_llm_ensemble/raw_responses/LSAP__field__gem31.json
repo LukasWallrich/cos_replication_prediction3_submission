@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a cross-sectional mediation model, which is notoriously fragile and highly dependent on the specific covariance structure of the sample.",
+      "The reported effect size is extremely small (β = -.05), meaning even minor variations in sample composition or measurement in a replication could render it non-significant."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.85,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of 24 observations for a cross-country macroeconomic regression makes the estimates highly susceptible to influential outliers.",
+      "Using a 'long specification' with multiple controls on such a small sample severely restricts degrees of freedom, sharply increasing the risk of overfitting and non-replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.73,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

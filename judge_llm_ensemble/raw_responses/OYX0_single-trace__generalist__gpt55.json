@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim comes from a fairly large national survey using multilevel growth modeling, with a clearly significant slope difference reported.",
+      "It is still an observational subgroup comparison with model dependence and possible multiple-parameter emphasis, so exact differences may be less stable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.57,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis relies on a very small subset of 33 countries while employing a 'long specification' of controls, risking severe overfitting.",
+      "Cross-country macroeconomic regressions with flexible specifications and subgroup analyses are highly susceptible to researcher degrees of freedom and rarely replicate robustly."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 45.46,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

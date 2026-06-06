@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a massive, nationally representative dataset (NSSO), ensuring very high statistical power and precision.",
+      "The association between advanced age and non-communicable diseases is a fundamental, universally established epidemiological fact."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 5.51,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

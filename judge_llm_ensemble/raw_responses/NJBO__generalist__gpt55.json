@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A randomized wording manipulation with N=422 reports a moderate severity-rating difference and a strong p-value, which is better than thin evidence.",
+      "The outcome is an immediate self-report framing response from a single study, so context sensitivity and overestimation remain plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.09,
+  "_task": {
+    "claim_id": "NJBO",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

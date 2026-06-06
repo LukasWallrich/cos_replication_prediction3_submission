@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim comes from a very small clinical sample, with a huge RT effect likely inflated by noise and winner’s curse.",
+      "Threat-related attentional bias in anxiety is plausible, but specific face-RT contrasts often show poor reliability and task-dependent replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.91,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

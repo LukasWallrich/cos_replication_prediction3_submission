@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cross-country sample is tiny, especially for the strong-democracy subgroup with a long control specification, making outliers and model dependence likely.",
+      "The p=.01 result and robustness across specifications help, but this is an observational subgroup finding amid multiple tested samples/specifications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.73,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

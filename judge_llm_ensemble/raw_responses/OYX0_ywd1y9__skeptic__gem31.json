@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N=12,012) and uses the highly reliable Early Childhood Longitudinal Survey, providing enormous statistical power for intercept differences.",
+      "The finding reflects a well-established demographic achievement gap in the US, supported by an extremely small reported p-value for the intercept difference."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 49.52,
+  "_task": {
+    "claim_id": "OYX0_ywd1y9",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

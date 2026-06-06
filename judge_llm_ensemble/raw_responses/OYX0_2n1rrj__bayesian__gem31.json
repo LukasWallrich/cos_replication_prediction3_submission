@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on data from the Early Childhood Longitudinal Survey (ECLS), a large, high-quality, nationally representative dataset, enhancing reliability.",
+      "The sample size is large (N=1200) and the reported p-value is very small (p < .001) for a straightforward descriptive group difference."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.2,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

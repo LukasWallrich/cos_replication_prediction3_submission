@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect matches a robust behavioral regularity: loss prospects often reduce risk-taking and willingness to invest in collective outcomes.",
+      "But it comes from a small lab sample with a just-significant p-value, so the original magnitude is likely inflated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.69,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

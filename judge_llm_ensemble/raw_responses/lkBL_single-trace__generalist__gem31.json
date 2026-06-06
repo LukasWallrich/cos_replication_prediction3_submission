@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of N=42 for a 2x2 interaction implies roughly 10 participants per cell, which is severely underpowered.",
+      "The claim involves mortality salience effects, a literature with a notoriously poor replication record in independent, well-powered studies."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 27.19,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

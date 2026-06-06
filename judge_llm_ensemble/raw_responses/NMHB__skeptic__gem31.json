@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a barely significant p-value (t=2.177, p~0.03) pulled from a large matrix of multiple asset types and well-being dimensions.",
+      "The cross-sectional design and uncorrected multiple comparisons make this tiny effect highly susceptible to being a spurious, non-replicable finding."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.16,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

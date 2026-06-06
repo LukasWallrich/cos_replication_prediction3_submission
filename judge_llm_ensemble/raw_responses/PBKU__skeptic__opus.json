@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The indirect effect CI [0.08, 0.15] is well away from zero and n=384 is decent, suggesting a robust statistical signal rather than a borderline p-just-under-.05 finding.",
+      "Status-wellbeing links are well-established in social class literature, so a direct replication with the same cross-sectional self-report design should recover the mediation pattern, even if causal interpretation is shakier."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 12.5,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "skeptic",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

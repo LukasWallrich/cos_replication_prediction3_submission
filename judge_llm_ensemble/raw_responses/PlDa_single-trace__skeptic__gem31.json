@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely high t-statistic (11.11) indicates an overwhelmingly strong signal-to-noise ratio, making a false positive highly improbable despite the small apparent sample size.",
+      "The structural relationship between funding illiquidity and the CDS-bond basis during crises is a well-established and repeatedly replicated stylized fact in financial economics."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.72,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

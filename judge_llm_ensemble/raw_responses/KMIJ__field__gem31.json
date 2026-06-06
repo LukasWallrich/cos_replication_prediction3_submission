@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between health insurance coverage and increased healthcare utilization is a highly robust, well-established structural regularity in health economics.",
+      "The study relies on multiple waves of the Demographic and Health Survey, which provides large, nationally representative samples that yield highly stable estimates."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.12,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

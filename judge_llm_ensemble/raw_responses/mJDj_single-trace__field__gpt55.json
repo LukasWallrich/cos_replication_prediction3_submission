@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large cross-sectional sample and consistency across body-weight measures make a small positive association plausible.",
+      "But the effect is tiny, barely significant, and broad neuroticism-BMI associations are less robust than conscientiousness findings."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.54,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

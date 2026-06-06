@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Loss aversion in economic decisions is a robust, well-replicated phenomenon, and reduced contributions under loss prospects aligns with strong prior literature.",
+      "However, n=62 with a borderline p-value (.03) and small effect (f²=.08) suggests inflated estimate; the directional effect likely holds but may be weaker."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 11.65,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

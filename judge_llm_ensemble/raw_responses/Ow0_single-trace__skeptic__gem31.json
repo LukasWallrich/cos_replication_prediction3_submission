@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 106 (about 53 per condition) is historically underpowered for detecting robust framing effects, making the estimated effect size likely inflated.",
+      "Although the p-value of 0.007 is relatively small, small-sample behavioral framing experiments on self-reported psychological states frequently fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.26,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is tiny and only just significant amid many asset-by-wellbeing tests, raising multiple-comparison and false-positive concerns.",
+      "Cross-sectional observational data cannot isolate cash savings from broader socioeconomic confounding, though the large national sample gives some chance of a weak association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.92,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

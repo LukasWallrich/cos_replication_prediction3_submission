@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 290 is adequately powered to detect an effect size of r = 0.21, yielding a robust p-value well below the .05 threshold.",
+      "Simple cross-sectional correlations between self-report measures typically replicate reliably in similar populations, especially when the initial p-value is strong."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.36,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

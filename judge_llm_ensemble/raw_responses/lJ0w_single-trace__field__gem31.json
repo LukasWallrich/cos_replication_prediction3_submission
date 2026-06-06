@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The constructs involved (leadership, trust, OCB) have robust, well-documented positive bivariate correlations in the organizational psychology literature.",
+      "The large sample size (N=475) and extremely small p-value for the indirect effect suggest the basic statistical relationships are highly unlikely to be flukes."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.31,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

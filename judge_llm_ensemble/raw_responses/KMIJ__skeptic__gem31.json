@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis leverages three rounds of the Demographic and Health Survey, yielding a massive, nationally representative sample and exceptionally tight confidence intervals.",
+      "The positive association between health insurance coverage and healthcare utilization is a robust, globally established phenomenon that is practically certain to replicate."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.44,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

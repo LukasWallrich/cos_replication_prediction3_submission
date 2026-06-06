@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 73 is extremely small for a cross-sectional logistic regression, leading to low statistical power and likely inflated effect sizes.",
+      "The p-value of 0.02 and very wide confidence interval indicate a fragile statistical result that may be specific to this small, single-university sample."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.05,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

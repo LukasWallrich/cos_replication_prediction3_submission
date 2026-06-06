@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A small positive self-report correlation between prosocial orientation and COVID preventive compliance is plausible and consistent with broader pandemic-behaviour evidence.",
+      "The online cross-sectional design and culturally/time-specific context make the exact association vulnerable to sample composition and period effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.67,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

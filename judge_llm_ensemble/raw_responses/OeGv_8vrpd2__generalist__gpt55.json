@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is from a very small cross-country observational sample (n=29) with controls, making coefficients highly unstable.",
+      "The reported evidence is borderline (p=.05) and this result is described as an exception rather than a robust pattern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.85,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Large n=1200 with small SEs yields a slope difference (~5.0) that is many SEs from zero, making the directional finding robust.",
+      "Descriptive group-level comparisons from large longitudinal surveys (ECLS) typically replicate well, especially for SES/language demographic patterns."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 11.29,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "generalist",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

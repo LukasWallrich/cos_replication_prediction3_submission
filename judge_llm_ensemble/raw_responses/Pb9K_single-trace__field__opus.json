@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Direction aligns with well-established ambiguity aversion literature, but p=0.029 is marginal and such borderline coefficients in regression-with-controls designs replicate inconsistently.",
+      "Adequate n=647 and theoretically grounded mechanism push slightly upward, but the specific magnitude in a likely multi-covariate model is fragile to specification changes."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 57.16,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A three-way interaction in a repeated measures design with only 20 participants is statistically fragile and highly prone to false positives.",
+      "The extremely large reported effect size (partial eta squared = .47) in such a small sample strongly suggests effect size inflation, a common issue in embodied cognition research."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.58,
+  "_task": {
+    "claim_id": "Kj9d_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

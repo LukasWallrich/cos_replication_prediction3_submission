@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is moderately sized and reports a small indirect effect with a confidence interval excluding zero.",
+      "The claim is a specific cross-sectional mediation/significance-pattern result, which has a lower replication base rate than simple associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.76,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

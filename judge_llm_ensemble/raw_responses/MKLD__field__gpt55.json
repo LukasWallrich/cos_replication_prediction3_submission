@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple behavioral association in a large national survey, with a plausible outdoor-exposure mechanism and p=.003.",
+      "However, it is a modest adjusted subgroup contrast, with null duration results and no similar association among women, suggesting some fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.29,
+  "_task": {
+    "claim_id": "MKLD",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

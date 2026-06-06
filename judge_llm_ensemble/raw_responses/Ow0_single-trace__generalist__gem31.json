@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 106 (about 53 per cell) is relatively small for detecting a between-subjects framing effect on a subjective state like stress.",
+      "Psychological framing effects on self-reported measures often struggle to replicate, suggesting the moderately large reported effect size (d=0.54) may be inflated."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.54,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

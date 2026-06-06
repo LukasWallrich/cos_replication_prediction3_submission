@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The core associations among contingent reward leadership, trust, and OCB are plausible and well-established positive workplace-behavior correlations.",
+      "The mediated indirect effect is cross-sectional and construct-heavy, but the original sample was moderate-sized with a very strong reported signal."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.62,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

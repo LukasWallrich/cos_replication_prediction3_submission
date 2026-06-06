@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study has a moderately large sample and reports a small indirect effect with a confidence interval excluding zero.",
+      "Cross-sectional SEM mediation and the “only mediator” framing make this more fragile than a simple association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.29,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

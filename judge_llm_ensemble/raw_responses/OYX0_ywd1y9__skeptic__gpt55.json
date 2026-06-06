@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large national dataset with direct reading assessments and an extremely small p-value for a sizable kindergarten-score difference.",
+      "The claim is descriptive rather than causal, though model specification and cohort-specific language-group definitions could affect the exact magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.0,
+  "_task": {
+    "claim_id": "OYX0_ywd1y9",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

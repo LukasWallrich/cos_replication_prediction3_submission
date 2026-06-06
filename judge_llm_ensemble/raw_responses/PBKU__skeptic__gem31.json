@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The statistical mediation is driven by robust, well-known correlations among self-reported social class, status, and health, making the indirect effect likely to replicate.",
+      "The tight 95% confidence interval [0.08, 0.15] sits far from zero, suggesting the path for status is strong enough to survive potential multicollinearity with power."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 47.67,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

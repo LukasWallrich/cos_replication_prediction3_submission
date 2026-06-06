@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely high t-statistic (11.11) and minuscule p-value indicate a massive effect size, even with the unusually small reported sample size of 18.",
+      "The relationship between funding illiquidity and arbitrage bases (like the CDS-bond basis) during crises is theoretically tight and a well-established stylized fact in finance."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.29,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

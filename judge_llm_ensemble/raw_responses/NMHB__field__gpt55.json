@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a very specific asset-type by well-being-dimension association, likely among many tested outcomes and predictors.",
+      "The reported effect is tiny and only marginally significant, though a broad SES-child behavior link is plausible in this population."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.4,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

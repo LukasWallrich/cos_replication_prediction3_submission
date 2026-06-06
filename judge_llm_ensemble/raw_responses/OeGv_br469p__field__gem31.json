@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A sample size of 33 countries is extremely small for multiple regression, making the findings highly susceptible to outliers and specific covariate choices.",
+      "Macro-level observational relationships in cross-country data typically lack robust out-of-sample replication and depend heavily on specific data vintages and confounder sets."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.98,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

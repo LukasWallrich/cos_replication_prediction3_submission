@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported country-level association is large (0.63) and statistically strong despite only 25 countries.",
+      "But cross-national variance-component results with small country samples are vulnerable to influential cases, modeling choices, and multiple comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.25,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

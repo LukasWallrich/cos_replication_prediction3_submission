@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "p-value (0.0493) sits suspiciously at the .05 threshold despite a large n=7741, suggesting a very small, fragile coefficient-difference effect.",
+      "Paternoster tests for differences in regression coefficients across groups are interaction-type findings, which historically replicate poorly in cross-sectional self-report data."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 10.91,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "skeptic",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

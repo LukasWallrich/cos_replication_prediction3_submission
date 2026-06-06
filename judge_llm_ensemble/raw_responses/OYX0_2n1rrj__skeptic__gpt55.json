@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large national educational dataset with objective achievement measures and a p-value well below .01, not a marginal result.",
+      "Still, the subgroup contrast comes from observational latent growth modeling and may be sensitive to covariate specification, cohort composition, and multiple comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.21,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

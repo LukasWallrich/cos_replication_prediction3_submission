@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The focal test is weak: N=90, an interaction model, and only marginal significance at p=.086 using a 10% threshold.",
+      "The abstract reports additional behavioral, scenario, and field studies finding related patterns, which modestly raises confidence beyond this single test."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.14,
+  "_task": {
+    "claim_id": "K4ZD_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

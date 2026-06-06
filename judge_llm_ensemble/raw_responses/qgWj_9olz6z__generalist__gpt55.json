@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported short-term panel association is very strong statistically, with a large t-value despite only moderate sample size.",
+      "But it is observational cross-national modeling, so confounding, measurement choices, and influential cases could affect whether the pattern replicates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.27,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

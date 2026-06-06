@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a small sample size (N=81) and a relatively weak p-value (p=0.015) for testing incremental validity.",
+      "Estimates of unique variance are notoriously unstable in small samples, making this finding vulnerable to shrinkage in replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.88,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

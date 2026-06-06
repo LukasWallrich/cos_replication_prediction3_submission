@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large DHS sample and a sizable odds ratio make a crude religion-related difference plausible rather than a pure chance result.",
+      "Adjusted religion effects in Nigeria are highly entangled with region, service access, and culture, so this specific OR may be confounding-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.46,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

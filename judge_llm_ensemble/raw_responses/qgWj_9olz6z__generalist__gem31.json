@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported T-value of 9.4 yields an extremely small p-value, suggesting a massive statistical signal that is very robust within this type of data.",
+      "While the sample size of 118 is small for individual-level data, it is substantial for country-level ecological models, making directional replication highly probable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 30.79,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

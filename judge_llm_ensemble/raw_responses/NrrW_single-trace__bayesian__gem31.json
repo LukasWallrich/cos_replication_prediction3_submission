@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N > 13,000), providing extremely high statistical power, and the reported difference is large with an overwhelmingly small p-value.",
+      "This is a straightforward descriptive claim that strongly aligns with a vast and well-established body of literature on mental health disparities among LGBTQ youth."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.14,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

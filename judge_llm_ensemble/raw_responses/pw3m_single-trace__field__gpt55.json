@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A large country-level association between inequality and between-school math variance is structurally plausible through segregation and resource stratification.",
+      "But only 25 countries and variance-component outcomes make the result sensitive to country composition, measurement, and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.11,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

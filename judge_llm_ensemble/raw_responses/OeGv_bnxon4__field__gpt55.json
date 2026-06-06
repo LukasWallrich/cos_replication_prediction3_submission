@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-N cross-country subgroup regression with many controls, a design where significance is highly model- and sample-dependent.",
+      "The reported p-value is strong and robustness across specifications helps, but the large coefficient likely reflects leverage and measurement choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.37,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

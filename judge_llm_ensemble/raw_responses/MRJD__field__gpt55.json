@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Age is a fundamental, highly replicated determinant of non-communicable disease burden across populations.",
+      "The result comes from a large national survey, and the reported magnitude is plausible when comparing 60+ adults with younger groups."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 26.23,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

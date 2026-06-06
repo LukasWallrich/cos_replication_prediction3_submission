@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on a large, high-quality, nationally representative dataset (NDHS) with an adequate sample size (N=4493).",
+      "The reported effect is large (OR = 2.7) with an extremely small p-value (p < 0.001), making it highly robust against statistical noise."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.01,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

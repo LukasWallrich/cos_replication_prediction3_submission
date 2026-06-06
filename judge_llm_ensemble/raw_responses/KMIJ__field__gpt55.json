@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Health insurance membership and healthcare utilization are a direct structural association, and the OR is plausible with a very tight confidence interval.",
+      "Residual confounding and changing PhilHealth eligibility could alter the magnitude, but a positive outpatient-utilization association should replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.17,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

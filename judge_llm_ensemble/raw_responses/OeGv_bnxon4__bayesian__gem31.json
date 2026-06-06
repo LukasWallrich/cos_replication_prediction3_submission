@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (n=24) for a cross-country macroeconomic regression, making the results highly susceptible to outliers and overfitting.",
+      "The claim relies on subgroup analysis (restricting to strong democracies), which combined with the small sample size strongly suggests a high risk of a false positive."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.49,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

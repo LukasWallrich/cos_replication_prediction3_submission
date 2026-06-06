@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=81) is quite small for establishing the unique predictive validity of a novel psychometric scale, increasing the risk of overfitting.",
+      "The relatively high p-value (p=0.015) for a small-N incremental variance claim suggests the effect will likely shrink or disappear in a well-powered replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.11,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

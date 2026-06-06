@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study tests multiple predictors against 10 different child well-being indicators, creating a high risk of false positives due to multiple comparisons.",
+      "The reported effect is very small with a borderline p-value (t = 2.177, p ~ 0.03), which is weak evidence in an uncorrected cross-sectional analysis."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.05,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

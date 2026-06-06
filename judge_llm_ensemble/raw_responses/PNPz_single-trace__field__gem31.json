@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 290 provides adequate statistical power for an r=0.21 effect size, supported by a robust p-value (<0.001).",
+      "The theoretical distinction between general greed and materialism makes it highly plausible that greed predicts desire for food when controlling for materialism."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.46,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

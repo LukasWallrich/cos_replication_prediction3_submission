@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The sample is large, which helps, but the only supplied evidence is a single coefficient-difference test with p barely under .05.",
+      "With no abstract, effect size, or design details, the result could reflect a real small difference or a borderline false positive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.57,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a large sample size (N = 1014), providing ample power and precision for detecting a modest correlation of r = 0.22.",
+      "The link between prosocial traits and adherence to pandemic guidelines is theoretically sound and has been widely replicated across multiple contexts."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.39,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

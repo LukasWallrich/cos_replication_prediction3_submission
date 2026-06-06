@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 62 across multiple experimental conditions is very small, resulting in low statistical power.",
+      "The p-value of 0.034 is close to the significance threshold, which frequently predicts replication failure in underpowered behavioral studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.08,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

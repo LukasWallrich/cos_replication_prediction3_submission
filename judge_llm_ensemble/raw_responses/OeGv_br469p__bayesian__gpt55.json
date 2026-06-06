@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very small cross-country subgroup with observational controls, making it vulnerable to leverage, confounding, and model dependence.",
+      "A p=.01 coefficient and reported robustness across specifications are positive signals, but multiple samples/specifications limit the evidential update."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.7,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

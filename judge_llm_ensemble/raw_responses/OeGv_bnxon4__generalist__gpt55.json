@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The evidence comes from a very small cross-country observational regression, vulnerable to outliers, model choice, and many controls.",
+      "The reported p=.01 and claimed robustness across specifications support the direction, but subgroup and multiple-specification testing keep replication risk high."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.84,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from a small cross-country regression, with the strong-democracy subgroup likely much smaller and sensitive to controls/outliers.",
+      "The reported p=.01 and robustness across specifications are meaningful, but observational subgroup analyses often overstate stable effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.14,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a complex three-way interaction using difference scores, with a relatively small sample size of approximately 26 participants per cell.",
+      "Although the reported p-value is moderately strong (p < .002), three-way interactions from this era of behavioral research are notoriously underpowered and difficult to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.04,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

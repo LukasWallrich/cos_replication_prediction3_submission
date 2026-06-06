@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is plausible and p=.02, but it comes from only 73 students with a very wide logistic-regression confidence interval.",
+      "Single-university cross-sectional self-report data and likely sparse events make this headline predictor vulnerable to instability and confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.13,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

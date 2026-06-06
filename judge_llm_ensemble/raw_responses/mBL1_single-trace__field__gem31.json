@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 20 participants is extremely small for testing a complex interaction effect in a mixed-effects logistic regression.",
+      "Although the theoretical basis (prospect theory) is strong, highly specific behavioral departures from mathematical optimality in small-N lab experiments frequently fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.72,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

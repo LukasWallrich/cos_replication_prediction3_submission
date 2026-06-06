@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "A predicted three-way interaction on difference scores is a fragile, specification-sensitive finding in behavioral consumer research.",
+      "The p-value is fairly strong and n=209 is reasonable, but the interaction effect is modest and likely inflated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.65,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

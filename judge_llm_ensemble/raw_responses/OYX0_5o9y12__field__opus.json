@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Large-sample (n=12,012) descriptive group-mean difference from ECLS, with an ~8.5-point gap and tiny SEs — exactly the structural demographic pattern that replicates robustly.",
+      "Spanish-speaking ELLs scoring below Asian-language ELLs on early reading is a well-documented, repeatedly observed population fact tied to SES and language exposure."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 11.12,
+  "_task": {
+    "claim_id": "OYX0_5o9y12",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

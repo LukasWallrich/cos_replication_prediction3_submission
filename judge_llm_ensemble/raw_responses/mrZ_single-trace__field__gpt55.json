@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample, near-threshold moderation of a correlation, the kind of consumer-behavior effect that often shrinks or vanishes.",
+      "The interaction is theoretically plausible, but depends on condition-specific confounding and a dichotomous spending choice with about 44 participants per cell."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.92,
+  "_task": {
+    "claim_id": "mrZ_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

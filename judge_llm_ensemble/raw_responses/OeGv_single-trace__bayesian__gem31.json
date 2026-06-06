@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of just 24 countries for a macroeconomic regression with multiple controls strongly suggests a high risk of overfitting and fragility.",
+      "Furthermore, heteroscedasticity-robust standard errors are known to be downward biased in very small samples, meaning the reported p-value of 0.01 is likely highly overstated."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.16,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

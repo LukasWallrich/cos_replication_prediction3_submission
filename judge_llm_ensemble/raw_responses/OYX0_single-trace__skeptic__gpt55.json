@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national longitudinal sample and p≈0.0006 make this less vulnerable to the usual underpowered p-hacking concerns.",
+      "The comparison is observational between broad language groups, so composition, SES, and model specification could materially affect the slope difference."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.27,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

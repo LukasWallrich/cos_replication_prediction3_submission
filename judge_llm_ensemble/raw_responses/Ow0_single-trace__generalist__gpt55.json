@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported effect is moderately sized and statistically stronger than a marginal result, with p=0.007 in a simple two-condition comparison.",
+      "But it comes from a single modest-sized experiment in a behavioral framing context, with limited design details and no direct replication described."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.07,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

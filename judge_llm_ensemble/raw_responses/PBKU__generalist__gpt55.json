@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate sample and reports a fairly tight indirect-effect CI well away from zero for physical health.",
+      "The evidence is cross-sectional self-report mediation, so the causal pathway language is weaker than the statistical association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.6,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

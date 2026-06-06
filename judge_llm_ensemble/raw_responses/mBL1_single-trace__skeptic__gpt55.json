@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The p-value is strong, but the evidence comes from only 20 participants analyzed via many repeated trial observations.",
+      "This is an interaction in a behavioral task comparing participants to a model, a setting vulnerable to shrinkage and specification dependence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.85,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

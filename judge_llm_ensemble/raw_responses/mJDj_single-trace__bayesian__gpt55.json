@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large baseline sample and a simple cross-sectional correlation make a small personality–BMI association reasonably replicable.",
+      "But the effect is tiny and only borderline significant, with many related tests creating false-positive risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.23,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

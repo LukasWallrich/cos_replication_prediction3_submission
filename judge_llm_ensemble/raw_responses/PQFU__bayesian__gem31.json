@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A bivariate association between disease knowledge and preventive behavior in a sample of n=1220 is highly conceptually plausible.",
+      "Although the p-value of 0.015 is modest, such broad survey correlations often replicate well due to strong underlying socioeconomic confounders."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.42,
+  "_task": {
+    "claim_id": "PQFU",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

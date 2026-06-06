@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=2664), but the reported p-value is close to the significance threshold (p=0.032) for a very small effect (beta=0.05).",
+      "The study tests multiple personality traits against multiple weight measures, suggesting a high risk of false positives due to multiple comparisons."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.84,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

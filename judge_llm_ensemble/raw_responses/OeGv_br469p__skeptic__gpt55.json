@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The statistical signal is fairly strong and reportedly robust across specifications, not merely a p=.049 result.",
+      "But this is a small cross-country observational subgroup analysis with substantial confounding, measurement, and multiple-specification fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.68,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

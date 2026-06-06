@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 14 is extremely small for a reaction time-based attentional bias task, making the reported huge effect size highly suspect due to the winner's curse.",
+      "Reaction time measures of attentional bias to threat in anxiety are notoriously unreliable and frequently fail to replicate in well-powered, preregistered studies."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.12,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

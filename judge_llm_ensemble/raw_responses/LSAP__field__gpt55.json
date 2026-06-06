@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The indirect effect is a small cross-sectional SEM mediation among latent motivational constructs, a class that often proves model-dependent.",
+      "The component associations are theoretically plausible within self-determination theory, but the “only mediator” aspect is especially fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.37,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

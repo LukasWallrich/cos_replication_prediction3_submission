@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very small effect size (beta = -0.05) within a complex cross-sectional mediation model, making it fragile to model specification.",
+      "Specific mediation claims tested cross-sectionally typically have low replication rates due to the testing of multiple pathways and increased risk of false positives."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.84,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

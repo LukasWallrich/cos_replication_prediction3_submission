@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large nationally representative DHS sample and a sizeable OR with CI far from null make a pure chance finding relatively unlikely.",
+      "Religion is strongly confounded with Nigerian region and service access, so residual confounding/model dependence could shrink or erase the adjusted association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.12,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

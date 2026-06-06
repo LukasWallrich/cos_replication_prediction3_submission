@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=24 countries is extremely small for a multiple regression with a 'long specification' of controls, leaving very few degrees of freedom.",
+      "Cross-country macroeconomic regressions with small samples and subgroup analyses are notoriously fragile and highly vulnerable to outliers and specification searching."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 47.22,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

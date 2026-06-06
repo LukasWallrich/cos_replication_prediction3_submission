@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a small strong-democracy subsample of 24 countries and a specific long specification, making estimates fragile.",
+      "The reported p=.01 is stronger than a marginal result, and the abstract claims robustness, but observational cross-country designs replicate unevenly."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.56,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

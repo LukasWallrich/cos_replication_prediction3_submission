@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The substantive effect aligns with robust personality findings: narcissistic admiration relates positively to self-esteem, rivalry relates less adaptively.",
+      "The exact latent-class contrast is more fragile than a simple correlation, but sample size is large and effect magnitude is plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.04,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

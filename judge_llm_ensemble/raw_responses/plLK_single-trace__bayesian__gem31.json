@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 62 is quite small for this type of experimental design, severely limiting statistical power.",
+      "The p-value of 0.033 is borderline significant, a common indicator of lower replication success in older behavioral studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.26,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

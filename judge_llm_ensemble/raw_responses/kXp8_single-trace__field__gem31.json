@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The statistical evidence is quite strong, with a highly significant p-value (p < 0.001) and a substantial z-score of 3.57.",
+      "Although the sample size is relatively small (N=206), the structural relationship between technology resources and firm outcomes in emerging markets is a well-established macro-level pattern."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.39,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

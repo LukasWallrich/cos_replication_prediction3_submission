@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.029 is relatively close to the 0.05 threshold, which is often associated with lower replication success rates.",
+      "Without an abstract to assess the rigor of the study design and measurements, it is difficult to confidently predict a successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 11.2,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

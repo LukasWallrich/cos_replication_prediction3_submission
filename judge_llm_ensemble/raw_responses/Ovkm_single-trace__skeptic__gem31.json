@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on an arguably unstable latent class analysis with borderline 'p < 0.05' significance, raising concerns about overfitting and exact replicability.",
+      "However, the conceptual link between narcissistic admiration and higher self-esteem (relative to rivalry) is a robust, theoretically expected truism in this literature."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.75,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The positive association between agentic aspects of narcissism (ADM) and self-esteem is a robust and well-established regularity in personality research.",
+      "Although findings based on latent classes can sometimes be fragile, the class structure here was consistent across multiple large samples, increasing the reliability of the derived associations."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.71,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

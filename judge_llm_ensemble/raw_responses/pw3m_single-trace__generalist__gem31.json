@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The effective sample size for the country-level predictor is only 25, which makes the estimate highly vulnerable to outliers and overfitting.",
+      "Cross-national macro-level correlations based on small samples rarely replicate robustly when applied to different sets of countries or time periods."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.55,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

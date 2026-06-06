@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Funding illiquidity and high-yield bases have a plausible crisis-linked structural connection, with an extremely large reported t-statistic.",
+      "But n=18 time-series evidence is fragile to crisis-period confounding, trends, and autocorrelation corrections."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.21,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

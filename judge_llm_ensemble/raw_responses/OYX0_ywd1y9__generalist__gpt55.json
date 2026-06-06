@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large national-sample growth-model result with a sizable intercept gap relative to reported standard errors.",
+      "The broader “all parameters” wording and observational/model-dependent grouping make it less certain than the initial-score contrast alone."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.55,
+  "_task": {
+    "claim_id": "OYX0_ywd1y9",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

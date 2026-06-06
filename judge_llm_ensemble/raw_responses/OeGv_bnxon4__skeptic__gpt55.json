@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small cross-country observational regression, likely with even fewer strong democracies and many controls, making estimates highly unstable.",
+      "The p=.01 and robustness across specifications help, but sample splitting, self-reported polarization, and confounding create substantial fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.07,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

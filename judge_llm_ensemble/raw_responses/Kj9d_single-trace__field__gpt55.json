@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is a highly specific three-way interaction from only 20 participants, a pattern class that often proves fragile.",
+      "However, the reported within-subject effect is large and directionally consistent with well-established reading-direction compatibility mechanisms."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.22,
+  "_task": {
+    "claim_id": "Kj9d_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

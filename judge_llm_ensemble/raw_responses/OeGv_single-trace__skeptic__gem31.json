@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of N=24 for a cross-country regression with multiple controls makes the findings highly vulnerable to outliers.",
+      "Restricting the sample to 'strong democracies' introduces researcher degrees of freedom, further reducing the likelihood that this specific effect would replicate."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.3,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

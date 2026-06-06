@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is statistically strong (t ≈ 3.57), which typically provides some buffer against replication failure.",
+      "However, the sample size is small for an observational firm-level study (N=206), and the lack of a relevant abstract severely limits study design evaluation."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 41.59,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

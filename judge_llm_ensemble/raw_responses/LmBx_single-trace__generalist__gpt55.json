@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is plausible given broader anxiety-threat attention findings and the reported within-subject p-value is fairly strong.",
+      "But it rests on only 14 GAD participants, making RT effects and the large effect-size estimate fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.51,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

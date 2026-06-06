@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate sample and reports a small-to-moderate partial correlation with a fairly strong p-value.",
+      "The claim is plausible and simple, but likely based on self-report measures within one study, leaving some risk of overfitting or measurement artifacts."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.01,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

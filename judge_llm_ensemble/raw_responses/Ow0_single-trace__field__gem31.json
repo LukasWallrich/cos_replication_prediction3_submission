@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Framing effects on transient states like stress often exhibit low replicability, particularly in small experimental samples (around 50 per cell).",
+      "The asymmetric finding where one sub-construct is affected but a related one is not often indicates sample-specific variance rather than a robust theoretical mechanism."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.85,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

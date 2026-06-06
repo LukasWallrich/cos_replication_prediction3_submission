@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a cross-sectional statistical mediation where both the a-path (social class to status) and b-path (status to health) are historically robust positive correlations.",
+      "The reported indirect effect for physical health has a tight confidence interval far from zero, suggesting the purely statistical mediation will easily survive a well-powered direct replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.65,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

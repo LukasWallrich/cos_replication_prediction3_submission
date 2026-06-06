@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (n=4493) and standardized data from the Demographic and Health Survey, which typically yields highly reliable estimates.",
+      "The reported effect size is large (OR = 2.70) with an extremely low p-value (< 0.001), strongly suggesting a robust correlational finding."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.36,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

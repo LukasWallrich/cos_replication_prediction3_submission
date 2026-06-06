@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Neuroticism-BMI associations in the literature are mixed and often small/null; conscientiousness shows more consistent links than neuroticism.",
+      "The reported beta is tiny (.05) with p just under .05 despite n=2664, suggesting a fragile effect that may not survive replication."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 15.21,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

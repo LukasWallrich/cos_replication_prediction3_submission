@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a basic demographic difference in reading scores using a massive, nationally representative dataset (N=12,012), which is highly stable.",
+      "The magnitude of the difference (z ~ 7.7) is extremely large relative to the standard errors, making a false positive virtually impossible."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.01,
+  "_task": {
+    "claim_id": "OYX0_ywd1y9",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of 20 participants severely limits the reliability of the estimated interaction effect.",
+      "Although the reported p-value is strong (< 0.001), the tiny sample size makes the result highly susceptible to inflated effect sizes and false positives."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.65,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

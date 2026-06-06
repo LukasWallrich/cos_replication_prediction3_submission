@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "The association is large, descriptively simple, and based on a very large sample with an extremely small p-value.",
+      "LGBTQ youth elevated suicidal ideation is a highly replicated pattern, despite self-report and cross-sectional limitations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 4.79,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

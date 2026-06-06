@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between advanced age and non-communicable diseases is a universal, structurally anchored demographic fact.",
+      "The claim relies on a large, nationally representative survey (NSSO), ensuring highly stable and replicable descriptive statistics."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 5.21,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

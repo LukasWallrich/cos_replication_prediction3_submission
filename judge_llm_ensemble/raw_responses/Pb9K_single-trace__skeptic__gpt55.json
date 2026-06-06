@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is modest: p=.029 with n=647 gives only a marginal z-statistic and likely overstates the effect size.",
+      "The hypothesized link is plausible, but a control-adjusted behavioral association with risk aversion is vulnerable to measurement noise and specification choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.99,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of N=20 provides very few independent clusters, making the interaction effect highly susceptible to small-sample bias.",
+      "While the p-value is < 0.001, complex mixed-effects models with very few participants often underestimate standard errors, raising severe doubts about this finding's reliability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.12,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

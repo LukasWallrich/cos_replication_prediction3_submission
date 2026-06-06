@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses data from a large, nationally representative longitudinal survey (ECLS), which tends to yield stable and reliable descriptive estimates.",
+      "The highly significant p-value (p < .001) for the difference between the two groups further supports the reliability of this finding."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.06,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The result is statistically strong and comes from many trial-level decisions analyzed against a clear optimal-model benchmark.",
+      "However, only 20 participants and limited design details make robustness uncertain, especially for a modest interaction effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.03,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

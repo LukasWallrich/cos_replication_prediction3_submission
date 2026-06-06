@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large and the p-value is vanishingly small, leaving virtually no room for a statistical fluke.",
+      "The finding documents a descriptive disparity that aligns with a massive and highly consistent body of literature on LGBTQ youth mental health."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.59,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

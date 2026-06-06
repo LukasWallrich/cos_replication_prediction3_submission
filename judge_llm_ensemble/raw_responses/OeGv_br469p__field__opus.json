@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Cross-country regression with n=33 and a subsample split (strong democracies) is exactly the fragile design where results depend heavily on control set and sample.",
+      "Effect is statistically significant but rests on small-n macro data with researcher degrees of freedom in defining polarization, democracy threshold, and controls."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 10.24,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

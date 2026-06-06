@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The positive association between neuroticism and BMI is a well-documented empirical regularity supported by large-scale meta-analyses and biobank studies.",
+      "Although the effect size is small and the p-value is marginal in this specific sample, a well-powered replication is highly likely to detect this established structural relationship."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.47,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

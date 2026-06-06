@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample (n=1014) with tight p<0.001 on a modest correlation (r=0.22) — descriptive/correlational claims of this kind tend to replicate reliably.",
+      "Cross-sectional self-report design and potential common-method variance add some uncertainty, but the effect is well-powered and not borderline significant."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 11.48,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "bayesian",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

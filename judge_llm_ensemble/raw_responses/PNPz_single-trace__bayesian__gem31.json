@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=290) provides adequate statistical power to detect a moderate effect size (r=0.21), supported by a solid p-value (<0.001).",
+      "However, the use of partial correlation introduces potential researcher degrees of freedom, which slightly tempers confidence in direct replicability."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.95,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

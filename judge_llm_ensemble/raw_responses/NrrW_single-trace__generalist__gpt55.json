@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "The sample is very large and the reported group difference is substantial, with an extremely small p-value unlikely to hinge on noise.",
+      "The claim is a straightforward descriptive association, not a fragile mediation or complex model, though self-report and population variation remain caveats."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.2,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

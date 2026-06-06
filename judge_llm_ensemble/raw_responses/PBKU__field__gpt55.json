@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The component associations—higher social class with higher perceived status, and status with health-related quality of life—are plausible and usually robust.",
+      "But this is a cross-sectional parallel mediation in a modest convenience sample, so the specific indirect-effect claim is confound-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 30.61,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

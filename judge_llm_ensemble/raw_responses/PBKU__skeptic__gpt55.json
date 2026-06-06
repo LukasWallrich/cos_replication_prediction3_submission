@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The indirect effect is well away from zero in a moderately sized sample, not a marginal p≈.05 finding.",
+      "However, it is cross-sectional self-report mediation, vulnerable to common-method bias and unstable causal/path decompositions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.78,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample social-priming interaction with ethnicity, a pattern that often shrinks or disappears in direct replications.",
+      "The reported p-value is strong, but the very large interaction from n=42 is likely inflated and culturally sample-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.94,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

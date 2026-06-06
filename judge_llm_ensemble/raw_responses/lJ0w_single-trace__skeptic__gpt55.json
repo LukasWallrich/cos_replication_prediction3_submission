@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and extremely small reported p-value make a pure sampling-fluke explanation less plausible.",
+      "But cross-sectional self-report mediation from one firm is vulnerable to common-method bias and overconfident causal-path interpretation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.84,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

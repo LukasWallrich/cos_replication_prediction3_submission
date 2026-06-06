@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "With n=1014, a Pearson r=0.22 is statistically robust and well-powered; modest correlations in large cross-sectional surveys typically replicate in direction and approximate magnitude.",
+      "The mechanism (prosocial benevolence linked to COVID compliance) is plausible and consistent with broader prosociality-cooperation literature, though the M/SD discrepancy between claim and abstract slightly lowers confidence."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 15.81,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "generalist",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

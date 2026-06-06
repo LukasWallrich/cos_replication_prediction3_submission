@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a well-established demographic disparity in mental health outcomes between LGBTQ and straight youth that is consistently documented in large public health surveillance datasets.",
+      "The study uses a very large sample size (N=13,213) with a massive test statistic, making false positives highly improbable for such a direct descriptive correlation."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.48,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

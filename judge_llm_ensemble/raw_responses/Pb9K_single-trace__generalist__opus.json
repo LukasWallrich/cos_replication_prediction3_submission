@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The coefficient is just barely significant (p ≈ 0.029, z ≈ 2.18), a zone where replication rates historically run below 50%.",
+      "No abstract is supplied to assess design quality, and marginal political-choice findings with moderate n often shrink on replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 47.7,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "generalist",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

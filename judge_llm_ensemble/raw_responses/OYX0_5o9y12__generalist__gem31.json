@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large, nationally representative dataset (N = 12,012 from the ECLS) to estimate a demographic achievement gap.",
+      "The reported effect has an extremely small p-value (p < .001, reported as ~10^-9), which strongly suggests a robust descriptive difference in the population."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.6,
+  "_task": {
+    "claim_id": "OYX0_5o9y12",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

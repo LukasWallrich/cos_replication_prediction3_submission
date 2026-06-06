@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-sectional single-source mediation models with latent constructs are known to be fragile and often inflated by common method variance.",
+      "However, the basic contingent-reward → trust → OCB pathway is well-trodden in leadership research, and n=475 with a moderate beta gives some robustness."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 20.68,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

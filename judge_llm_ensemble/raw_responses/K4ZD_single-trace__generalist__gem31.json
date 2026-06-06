@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a marginal interaction effect (p = 0.086) tested in a very small sample (N = 90) for a behavioral experiment.",
+      "Interaction effects typically require much larger samples to be reliably detected, making this marginal result highly susceptible to being a false positive."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.06,
+  "_task": {
+    "claim_id": "K4ZD_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

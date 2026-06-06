@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is reasonably large and the reported indirect association is moderate with a very small p-value.",
+      "However, the mediation claim likely rests on observational single-firm survey data, so causal pathway evidence is less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.02,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

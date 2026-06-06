@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 475 provides adequate power for a moderate indirect effect (beta = .27), and the highly significant p-value suggests a robust statistical association.",
+      "Although cross-sectional mediation designs cannot prove causality, the underlying patterns of survey correlations typically replicate very reliably in direct replications."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 19.73,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

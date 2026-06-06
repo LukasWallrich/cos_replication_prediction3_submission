@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large descriptive association in n=13,213, with a substantial 17.8-point gap and extremely small p-value.",
+      "The direction matches a well-established pattern of higher suicidal ideation among LGBTQ youth, reducing concern that this is a sample fluke."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.03,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim aligns perfectly with well-established theoretical models indicating that the narcissistic admiration pathway is positively associated with self-esteem.",
+      "Although the reported p-value is borderline and latent class approaches introduce analytical flexibility, the large sample size provides reasonable power and stability for this expected association."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.77,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

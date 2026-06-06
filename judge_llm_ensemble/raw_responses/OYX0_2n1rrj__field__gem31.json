@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a widely established demographic difference in educational achievement (Asian vs. Hispanic ELL students) using a highly reliable, nationally representative dataset (ECLS).",
+      "Descriptive demographic disparities in large samples typically replicate extremely well, and the reported estimates have small standard errors relative to the difference."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 44.42,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

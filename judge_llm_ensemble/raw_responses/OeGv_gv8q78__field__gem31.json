@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N=33) for a regression with a 'long specification' of control variables, severely limiting degrees of freedom.",
+      "Cross-country macroeconomic associations are notoriously fragile, heavily depending on the specific set of controls and countries, typically failing to replicate in new samples."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.92,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Small cross-sectional sample (n=73) with very wide CI (0.05-0.74) suggests the OR estimate is unstable and likely inflated.",
+      "Direction is plausible (recent arrivals face more food insecurity), but borderline p=.02 from observational logistic regression rarely survives well-powered replication."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 10.27,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "bayesian",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

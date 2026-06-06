@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small lab experiment with n=62 and a borderline p=.034, so the estimated effect is likely inflated.",
+      "The claim is a direct experimental contrast with a plausible loss-aversion mechanism, which makes it more credible than correlational or mediation findings."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.2,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

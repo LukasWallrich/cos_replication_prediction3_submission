@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a simple bivariate association in a moderate-large survey sample, which is more replicable than complex causal or mediation claims.",
+      "The p-value is modest and likely comes from many table comparisons with no effect size reported, limiting the upward update."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.34,
+  "_task": {
+    "claim_id": "PQFU",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

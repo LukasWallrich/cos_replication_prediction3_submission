@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from a large national survey with a modest but statistically clear adjusted difference between specified male walking groups.",
+      "The claim is a cross-sectional subgroup contrast with possible multiple comparisons and self-report confounding, so it is less secure than a preregistered clean test."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.46,
+  "_task": {
+    "claim_id": "MKLD",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

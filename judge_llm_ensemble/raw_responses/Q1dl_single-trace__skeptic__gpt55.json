@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small n=81 validation sample with p=.015 and 6% unique variance leaves substantial risk of an overfit or inflated association.",
+      "Both predictor and criterion are likely same-source self-reports about closely related workplace intergenerational constructs, making some positive association plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.07,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

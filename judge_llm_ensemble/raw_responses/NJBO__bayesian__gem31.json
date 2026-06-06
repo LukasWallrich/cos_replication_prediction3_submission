@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 422 is reasonably large for an experimental framing study, providing adequate power to detect moderate differences.",
+      "The highly significant p-value (p < .001) combined with a plausible moderate effect size (d = .38) suggests a robust main effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.18,
+  "_task": {
+    "claim_id": "NJBO",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

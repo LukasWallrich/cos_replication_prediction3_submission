@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported significance is internally inconsistent: the table estimates imply p≈.069, not p<.05 or p≤.01.",
+      "The contrast is a plausible descriptive group difference from a large survey, but the Asian subgroup estimate is imprecise and model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.93,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

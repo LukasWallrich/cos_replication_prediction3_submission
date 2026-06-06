@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The small sample size (N=81) makes the estimation of unique variance in a multiple regression model unstable and highly prone to overfitting.",
+      "While common method bias between overlapping self-report measures might inflate correlations, incremental validity effects often shrink substantially in replication, making the 6% estimate brittle."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 47.3,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

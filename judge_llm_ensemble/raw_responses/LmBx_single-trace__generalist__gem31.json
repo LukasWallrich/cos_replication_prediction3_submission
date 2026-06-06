@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N=14), suggesting the original finding and its large effect size may heavily capitalize on chance.",
+      "Although attentional bias to threat in anxiety is widely studied, reaction-time measures for these cognitive tasks historically suffer from low reliability and poor replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.93,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

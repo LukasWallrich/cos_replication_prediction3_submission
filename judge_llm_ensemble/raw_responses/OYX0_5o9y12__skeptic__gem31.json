@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive, nationally representative dataset (N=12,012) to evaluate basic demographic differences, yielding an extremely small p-value.",
+      "Descriptive differences in baseline standardized test scores between large subgroups in high-quality survey data are highly robust and almost certain to replicate."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.25,
+  "_task": {
+    "claim_id": "OYX0_5o9y12",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

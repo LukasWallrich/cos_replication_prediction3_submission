@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small reported p-value provides a massive buffer against sampling variance, strongly suggesting the underlying statistical associations will replicate.",
+      "Although cross-sectional mediation claims are causally weak, the direct replication of this statistical indirect effect in a similar sample of N=475 is highly probable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.9,
+  "_task": {
+    "claim_id": "lJ0w_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

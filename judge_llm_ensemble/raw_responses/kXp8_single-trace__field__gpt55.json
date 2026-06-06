@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The positive link between international technology resources and organizational transformation is structurally plausible and estimated with a fairly strong coefficient-to-SE ratio.",
+      "It is still an observational, industry-specific regression with likely specification dependence and one-tailed significance, limiting confidence in exact replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.9,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The overall dataset is large and nationally oriented, making a descriptive group difference more credible than a small convenience-sample result.",
+      "However, the reported statistics imply only marginal evidence for this specific intercept difference, with apparent inconsistency between p-value descriptions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.66,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

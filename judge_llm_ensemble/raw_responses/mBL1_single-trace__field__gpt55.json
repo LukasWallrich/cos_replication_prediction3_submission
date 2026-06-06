@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim rests on a small n=20 experimental sample with many trial-level observations, making participant-level generalisation fragile.",
+      "The direction is theoretically plausible from prospect theory, but this specific model-comparison interaction is task- and analysis-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.45,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

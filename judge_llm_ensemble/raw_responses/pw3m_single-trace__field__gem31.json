@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis relies on a macro-level correlation with a very small sample size of only 25 countries, making it highly susceptible to outliers.",
+      "Cross-national correlations of this type are notoriously fragile and frequently fail to replicate when tested in different country samples or time periods."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.08,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

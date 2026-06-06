@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a highly standardized, nationally representative dataset (ECLS), which typically yields reliable descriptive estimates.",
+      "The reported p-value is very small (~0.0005) and the sample size is adequately large (N=1200), strongly supporting the robustness of this non-causal demographic difference."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.71,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

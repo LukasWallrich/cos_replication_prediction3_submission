@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Large correlation (r=0.63) with p<.01 across 25 countries aligns with established theory that schools matter more where inequality is high.",
+      "Small n=25, cross-sectional ecological design, and likely multiple comparisons (math/science × multiple country measures) raise concerns about robustness."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 13.08,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "bayesian",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

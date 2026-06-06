@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is very strong statistically, with t=9.4 despite a moderate sample of 118 macro observations.",
+      "But it is an observational cross-national dynamic model, so trends, specification choices, and non-independence could inflate the apparent effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.94,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

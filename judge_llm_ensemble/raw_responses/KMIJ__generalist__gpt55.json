@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The outpatient association is sizable and very precisely estimated, suggesting a large pooled survey sample rather than a fragile single test.",
+      "The claim is observational association, not causation, so unmeasured confounding matters less for replication of the reported positive relationship."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.7,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

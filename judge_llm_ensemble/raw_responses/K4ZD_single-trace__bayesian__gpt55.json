@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence for this specific interaction is weak: n=90, p=.086, and a 10% significance threshold for a moderation claim.",
+      "The abstract reports converging later studies, but without details this only partly offsets the low reliability of the focal result."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.36,
+  "_task": {
+    "claim_id": "K4ZD_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

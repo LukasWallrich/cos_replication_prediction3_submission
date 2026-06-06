@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study uses a very large national sample and the claim is a relatively simple descriptive group intercept difference.",
+      "The reported significance is inconsistent and the computed difference appears only borderline, so sampling/model uncertainty remains substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.09,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

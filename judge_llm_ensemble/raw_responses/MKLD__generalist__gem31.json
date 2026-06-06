@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large, nationally representative dataset (N = 26,632), meaning sampling variance is extremely low.",
+      "The finding describes a highly plausible mechanical relationship (more walking entails more sun exposure) supported by a robust p-value (.003)."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.53,
+  "_task": {
+    "claim_id": "MKLD",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is large and not a marginal p=.05 result, which helps despite a small country-level sample.",
+      "But it is a cross-sectional 25-country ecological analysis, vulnerable to outliers, confounding, and analytic flexibility in variance-component modeling."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.66,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

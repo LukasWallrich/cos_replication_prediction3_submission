@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Tiny cross-country sample (n=24) with multiple specifications and polarization measures creates substantial researcher-degrees-of-freedom risk for a p=.01 result.",
+      "Effect is restricted-sample subgroup analysis (strong democracies only), a classic split that often inflates estimates and rarely survives well-powered replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 46.11,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "skeptic",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

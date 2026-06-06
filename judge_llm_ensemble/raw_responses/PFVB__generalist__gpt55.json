@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small single-university cross-sectional sample makes the logistic regression estimate vulnerable to instability and sample-specific confounding.",
+      "The reported association is sizable and statistically significant, with a plausible direction, but the confidence interval is wide."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 4.3,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

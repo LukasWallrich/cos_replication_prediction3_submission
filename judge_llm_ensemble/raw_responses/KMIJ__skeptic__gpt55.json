@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is moderately sized, highly precise, and far from a marginal p-value, suggesting a large survey-based signal.",
+      "The design is observational and cross-sectional, so confounding could affect magnitude, but the positive association itself is plausible and robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.8,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

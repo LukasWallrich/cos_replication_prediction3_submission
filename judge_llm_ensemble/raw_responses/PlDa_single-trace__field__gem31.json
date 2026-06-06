@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely high t-statistic (11.11) indicates a massive effect size and very strong signal-to-noise ratio, making statistical false positives highly improbable.",
+      "The claim describes a structural financial anomaly (deviations from the Law of One Price tied to liquidity constraints) which typically represents a highly robust empirical regularity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.7,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

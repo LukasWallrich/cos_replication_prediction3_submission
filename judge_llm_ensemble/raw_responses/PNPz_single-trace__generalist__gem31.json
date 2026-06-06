@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a reasonable sample size (N=290) for detecting a moderate correlation (r=0.21).",
+      "The highly significant p-value (p < .001) in a scale validation study suggests the effect is statistically robust and likely to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 6.7,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

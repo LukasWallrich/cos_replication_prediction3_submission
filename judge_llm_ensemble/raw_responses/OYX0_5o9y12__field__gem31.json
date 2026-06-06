@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a direct demographic difference in baseline reading scores using a massive, nationally representative dataset (ECLS) with a very large sample size (N=12,012).",
+      "Achievement gaps between different language and ethnic groups at school entry are highly robust, structurally anchored descriptive facts in US educational research."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.09,
+  "_task": {
+    "claim_id": "OYX0_5o9y12",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

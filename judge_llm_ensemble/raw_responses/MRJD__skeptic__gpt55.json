@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Age is a strong, biologically expected predictor of NCD prevalence, and the reported odds ratio is very large.",
+      "The study uses a large national survey, though cross-sectional self-report and modeling details may affect the exact magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.32,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

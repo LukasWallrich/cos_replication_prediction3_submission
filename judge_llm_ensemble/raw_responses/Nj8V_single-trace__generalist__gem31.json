@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a three-way interaction in a 2x2x2 design with a modest sample size (N=209, ~26 per cell), which is historically underpowered.",
+      "While the p-value is relatively strong (p < .002), higher-order interactions in consumer psychology from this era often fail to replicate due to flexibility in analysis."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.3,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

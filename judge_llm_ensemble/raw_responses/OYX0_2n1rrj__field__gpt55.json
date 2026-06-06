@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct language-group difference in reading growth from a large national longitudinal dataset, not a fragile mediation/intervention effect.",
+      "The Spanish-versus-Asian contrast is culturally and compositionally heterogeneous, so magnitude and significance may shift across cohorts and model specifications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.48,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

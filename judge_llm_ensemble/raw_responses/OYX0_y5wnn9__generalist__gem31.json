@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=12012) comes from a high-quality, nationally representative survey (ECLS), which typically yields stable demographic estimates.",
+      "However, the reconstructed p-value for this specific contrast is marginal (~0.069), introducing some uncertainty despite the well-documented broader demographic trends."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.5,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

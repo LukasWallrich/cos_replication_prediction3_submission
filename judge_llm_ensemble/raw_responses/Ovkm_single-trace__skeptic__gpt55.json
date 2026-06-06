@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and theory-consistent self-report associations make ADM-only narcissists having higher self-esteem than ADM+RIV plausible.",
+      "Latent-class construction, cross-sectional common-method data, multiple subgroup contrasts, and threshold p-value reporting reduce confidence in the exact finding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.81,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported interaction is statistically strong for such a small study, but it rests on roughly ten participants per cell.",
+      "A predicted cross-cultural pattern and second conceptual study help, yet social-priming interactions from small samples often shrink or fail."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.84,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

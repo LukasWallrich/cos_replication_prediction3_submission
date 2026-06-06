@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=88 total, ~44 per cell) is drastically underpowered to reliably detect a difference in correlations between two independent groups.",
+      "The reported finding is a complex interaction effect with a p-value just under .05 (p=0.032), a profile strongly associated with replication failure."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.98,
+  "_task": {
+    "claim_id": "mrZ_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

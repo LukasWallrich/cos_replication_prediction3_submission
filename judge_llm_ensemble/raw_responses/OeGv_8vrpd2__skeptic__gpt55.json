@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a tiny cross-country observational regression with many controls and only 29 observations, making coefficient estimates highly fragile.",
+      "The reported p-value is exactly .05, and the result appears as a specification-specific exception amid multiple tested preference measures."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.21,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

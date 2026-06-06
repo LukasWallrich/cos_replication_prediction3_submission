@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a cross-sectional parallel mediation model where highly correlated psychological constructs (power and status) compete for variance.",
+      "Such specific partialled mediation paths in convenience samples often prove fragile upon replication due to multicollinearity and unstable covariance structures."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.96,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

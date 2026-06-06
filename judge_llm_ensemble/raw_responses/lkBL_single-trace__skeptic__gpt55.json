@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The interaction comes from a very small 2x2 social-priming study, with roughly 10 participants per cell and self-report attitudes.",
+      "Although p=.003 is stronger than marginal evidence, interaction effects in mortality-salience/cultural-psychology studies often shrink or fail in well-powered replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.64,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

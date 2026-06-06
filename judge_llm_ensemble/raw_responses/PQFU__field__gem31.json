@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Bivariate associations between basic health knowledge and the uptake of preventive health behaviours are highly robust empirical regularities.",
+      "The finding is based on a large, nationally representative survey (n=1220) where such basic descriptive correlations typically replicate very well."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.76,
+  "_task": {
+    "claim_id": "PQFU",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

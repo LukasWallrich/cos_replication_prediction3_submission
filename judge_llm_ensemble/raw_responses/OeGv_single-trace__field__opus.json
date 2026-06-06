@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Cross-country regression with n=24 restricted further to 'strong democracies' subsample is highly sensitive to country coding, control set, and specification choices.",
+      "Direction is theoretically plausible (veto-player intuition) and t-stat ~3.9 is reasonably strong, but small-N macro findings with subgroup slicing have a poor replication track record."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 38.18,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

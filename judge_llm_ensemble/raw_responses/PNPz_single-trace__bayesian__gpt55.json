@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate sample and a small-to-moderate partial correlation with a fairly strong p-value, not merely borderline significance.",
+      "This is a correlational scale-validation claim with possible multiple-testing and researcher-flexibility concerns, so the effect could be inflated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.24,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

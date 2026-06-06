@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is modest but statistically clear in a small sample, explaining 6% unique variance with p≈.015.",
+      "Related self-report workplace climate and intergenerational contact measures are plausibly associated, though the single-study n=81 evidence is not strong."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.04,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

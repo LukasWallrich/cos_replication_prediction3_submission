@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-N cross-country regression with many controls and a subgroup restriction, a design prone to confounding and overfitting.",
+      "The direction is theoretically plausible and p-value is strong, but the specific robust conditional estimate is fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.22,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

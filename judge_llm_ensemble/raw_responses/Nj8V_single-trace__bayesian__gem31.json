@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Three-way interactions in behavioral research are historically fragile and have very low replication rates compared to main effects.",
+      "A sample size of 209 across eight cells (~26 per cell) is generally underpowered to reliably detect a three-way interaction."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.96,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

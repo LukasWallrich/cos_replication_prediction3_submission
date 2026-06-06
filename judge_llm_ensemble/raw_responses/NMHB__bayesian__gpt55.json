@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Despite a fairly large sample, the specific association is tiny and only borderline significant (t=2.18, p<.05).",
+      "Many asset-by-well-being regressions were examined, making this small cross-sectional finding vulnerable to multiple-testing noise."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.82,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

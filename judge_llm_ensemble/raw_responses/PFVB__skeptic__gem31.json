@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 73 is extremely small for logistic regression, producing an implausibly large effect size and an exceptionally wide confidence interval.",
+      "Although the directional hypothesis is plausible, cross-sectional convenience samples with such low power and p-values near .05 rarely replicate successfully."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.55,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

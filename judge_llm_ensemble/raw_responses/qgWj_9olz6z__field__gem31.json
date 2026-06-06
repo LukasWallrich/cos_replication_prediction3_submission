@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between aggregate emancipative values and protest levels is a well-established structural correlation in cross-national political sociology.",
+      "The extremely large t-statistic (9.4) in this macro-level analysis indicates a very strong signal that is highly likely to replicate directionally."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.42,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

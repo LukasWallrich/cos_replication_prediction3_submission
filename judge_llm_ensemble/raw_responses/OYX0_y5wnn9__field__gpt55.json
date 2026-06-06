@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Asian-background educational achievement advantages are a fairly robust demographic pattern, and the large national dataset supports population-level generalization.",
+      "However, the reported contrast appears marginal/inconsistent statistically and model-adjusted intercept differences can shift with SES and specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.78,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

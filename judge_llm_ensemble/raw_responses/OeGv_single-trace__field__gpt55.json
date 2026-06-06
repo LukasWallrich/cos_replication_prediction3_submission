@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a small-n cross-national subgroup estimate in a long controlled specification, making it sensitive to country inclusion and covariates.",
+      "The p-value is fairly strong and theory-consistent, but polarization and government consumption measures are noisy and institutionally contingent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.8,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

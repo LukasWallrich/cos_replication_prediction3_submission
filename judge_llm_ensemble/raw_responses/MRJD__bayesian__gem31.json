@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim states that non-communicable diseases (NCDs) are significantly more common in adults over age 60, which is a universally established epidemiological fact.",
+      "The finding is based on a massive, nationally representative survey (NSSO) and demonstrates a massive effect size (OR=12) with extremely high statistical precision."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.94,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

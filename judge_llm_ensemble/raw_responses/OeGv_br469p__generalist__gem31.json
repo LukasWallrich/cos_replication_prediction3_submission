@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=33 for a cross-country macroeconomic regression is extremely small, making results highly susceptible to outliers and overfitting.",
+      "Relying on subsets ('strong democracies') and multiple control specifications with such limited data severely increases the risk of false positives."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.82,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

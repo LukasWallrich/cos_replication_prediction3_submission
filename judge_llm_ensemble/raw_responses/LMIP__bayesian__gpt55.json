@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large DHS sample and a sizeable adjusted odds ratio with CI well away from 1 strongly support a real association.",
+      "The claim is observational and subgroup/model-dependent, with religion highly confounded by region and service access in Nigeria."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.76,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

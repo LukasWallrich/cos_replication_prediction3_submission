@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study appears reasonably large and the abstract reports similar subgroup patterns across multiple German and US samples.",
+      "The specific coefficient is only reported around p<0.05 and depends on latent-class classification and multiple subgroup comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.84,
+  "_task": {
+    "claim_id": "Ovkm_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

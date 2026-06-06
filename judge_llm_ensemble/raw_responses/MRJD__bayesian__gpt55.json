@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Age-related increases in non-communicable diseases are a highly established epidemiological pattern, and this is an associational rather than subtle causal claim.",
+      "The reported odds ratio is very large with a tight confidence interval, likely from a large national survey despite missing metadata n."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 27.0,
+  "_task": {
+    "claim_id": "MRJD",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

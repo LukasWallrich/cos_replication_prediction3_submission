@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A WICS association with positive intergenerational contact is conceptually direct and plausibly reflects shared workplace climate and age-attitude variance.",
+      "The estimate comes from a small cross-sectional validation sample with a modest, just-significant unique effect vulnerable to shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.39,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

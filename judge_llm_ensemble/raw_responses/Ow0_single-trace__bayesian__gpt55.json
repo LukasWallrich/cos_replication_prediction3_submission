@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A randomized experiment with p=0.007 and moderate d≈0.54 provides a meaningful upward update from the 40–60% prior.",
+      "The sample is small (n=106) and the construct-specific framing result could be inflated or selective, limiting confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.53,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

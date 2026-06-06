@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The result is statistically significant in a moderate sample, and the direction is substantively plausible for ambiguity-related choice.",
+      "Evidence is thin: no abstract or design details, and the p-value is only modestly below 0.05."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.71,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

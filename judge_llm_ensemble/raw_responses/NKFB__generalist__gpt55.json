@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a large sample and reports a modest but highly significant positive correlation, which is less likely to be pure noise.",
+      "Both variables appear self-reported in a cross-sectional online design, so common-method bias and sample-specific effects limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.31,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

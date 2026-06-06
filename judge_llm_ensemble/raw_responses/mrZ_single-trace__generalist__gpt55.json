@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a small between-condition difference in correlations, with about 44 participants per condition and p just under .05.",
+      "The moderation pattern is theoretically plausible, but this single thin test is the kind that often shrinks or fails in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.46,
+  "_task": {
+    "claim_id": "mrZ_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

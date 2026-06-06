@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and p<.001 make a small positive association unlikely to be pure sampling noise.",
+      "Cross-sectional self-report COVID survey is vulnerable to social desirability and common-method bias, likely inflating the reported correlation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.21,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

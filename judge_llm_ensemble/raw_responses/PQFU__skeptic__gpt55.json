@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The national survey sample is moderately large, and a knowledge–uptake association is plausible in this health-behaviour context.",
+      "But p=0.015 without an effect size amid many bivariate tests is modest evidence and vulnerable to confounding or measurement artifacts."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.46,
+  "_task": {
+    "claim_id": "PQFU",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

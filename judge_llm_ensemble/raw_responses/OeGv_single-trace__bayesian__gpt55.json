@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim comes from a very small cross-country subgroup regression (n=24), likely with many controls and high specification fragility.",
+      "The reported p=.01 and large coefficient update upward, but observational design and subgroup/model dependence keep replication odds below even."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.2,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized experimental contrast and p=0.007 provide stronger evidence than a marginal underpowered correlational finding.",
+      "Still, n=106 and self-reported stress in a framing experiment leave substantial risk of demand effects and shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.14,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

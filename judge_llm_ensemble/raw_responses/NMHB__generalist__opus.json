@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Tiny standardized effect (β=0.047, R²=0.036) just clearing p<0.05 in a multi-outcome regression — classic fragile finding vulnerable to multiple-comparisons inflation.",
+      "Cross-sectional observational design with many asset-outcome pairs tested; the abstract emphasizes heterogeneous effects, suggesting this specific cell is unlikely to be robust."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 10.32,
+  "_task": {
+    "claim_id": "NMHB",
+    "persona": "generalist",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

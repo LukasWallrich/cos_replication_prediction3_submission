@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The p-value is fairly strong and the factorial experiment has a clear predicted effect, not just a borderline exploratory result.",
+      "But it is a small three-way interaction on difference-score self-reports with roughly 26 participants per cell, a fragile pattern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.04,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

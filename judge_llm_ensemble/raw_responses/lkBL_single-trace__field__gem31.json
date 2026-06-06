@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=42) is drastically underpowered to detect a 2x2 interaction, strongly suggesting the effect is inflated or a false positive.",
+      "Mortality salience effects (Terror Management Theory), particularly those involving complex cultural interactions, have a historically poor replication track record."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.63,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

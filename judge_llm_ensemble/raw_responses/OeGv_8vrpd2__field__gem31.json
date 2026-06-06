@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=29 in a cross-country regression with a 'long specification' of controls leaves very few degrees of freedom, creating high risk of overfitting.",
+      "The p-value is right on the boundary (p = 0.05), which in the context of a highly specific confounder structure and tiny sample strongly suggests fragility."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 16.6,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

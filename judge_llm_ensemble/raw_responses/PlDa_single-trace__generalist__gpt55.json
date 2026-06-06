@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported association is extremely strong, with a t-statistic of 11.11, making a purely null result less plausible.",
+      "But the sample size is only 18, and finance time-series results can be driven by crisis-period outliers or specification choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.17,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

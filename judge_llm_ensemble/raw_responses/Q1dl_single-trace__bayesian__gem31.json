@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 81 is very small for testing unique variance in a regression model, leading to unreliable effect size estimates.",
+      "The p-value of 0.015 provides relatively weak evidence in a small-sample cross-sectional design, indicating a high risk of an inflated or false positive effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.13,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

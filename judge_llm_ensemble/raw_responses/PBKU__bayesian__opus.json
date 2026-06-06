@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-sectional mediation claim with n=384 — specific mediation effects often fail to replicate due to confounding and model dependence.",
+      "However, the CI is tight [0.08, 0.15] and status–health links are well-established in the literature, supporting partial credibility."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 12.39,
+  "_task": {
+    "claim_id": "PBKU",
+    "persona": "bayesian",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round3"
+  }
+}

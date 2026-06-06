@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses data from the Early Childhood Longitudinal Survey, a large and high-quality nationally representative dataset, with a solid sample size of 1,200.",
+      "The reported effect is a straightforward group difference in growth trajectories with a very low p-value (p < .001), making it highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.79,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

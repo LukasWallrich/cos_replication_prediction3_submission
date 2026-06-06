@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=20 is extremely small for a behavioral experiment estimating mixed-effects interaction terms, raising concerns about replicability.",
+      "Although grounded in well-established prospect theory and reporting a strong p-value (p < 0.001), the tiny sample size makes the effect vulnerable to outliers."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.81,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

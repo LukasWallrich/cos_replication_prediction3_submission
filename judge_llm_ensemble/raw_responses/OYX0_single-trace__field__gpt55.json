@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct language-group achievement growth difference in a large population survey, a relatively robust descriptive association.",
+      "The estimate is precise and highly significant, though subgroup composition and latent growth modeling make the exact slope contrast somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.44,
+  "_task": {
+    "claim_id": "OYX0_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

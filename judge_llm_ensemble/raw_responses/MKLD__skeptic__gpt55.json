@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national sample and p=.003 make this less likely to be a pure sampling fluke than typical marginal findings.",
+      "Cross-sectional self-report, subgroup contrasts, multiple comparisons, and absent duration gradient make the specific association vulnerable to shrinkage or nonreplication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.42,
+  "_task": {
+    "claim_id": "MKLD",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

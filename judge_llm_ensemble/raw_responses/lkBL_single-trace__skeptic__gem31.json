@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 42 (roughly 10 participants per cell) is drastically underpowered to reliably detect a 2x2 interaction effect.",
+      "The study relies on mortality salience priming, a paradigm that has famously and repeatedly failed to replicate in large-scale multi-lab efforts."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.98,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

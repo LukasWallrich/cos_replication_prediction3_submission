@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N = 29) for a cross-country observational study, making the estimates highly sensitive to outliers.",
+      "The p-value is exactly at the borderline of significance (p = 0.05), which in combination with the small sample size strongly suggests a fragile result."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.59,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

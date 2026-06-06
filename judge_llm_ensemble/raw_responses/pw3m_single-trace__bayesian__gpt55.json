@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported country-level association is large and statistically strong despite only 25 countries, making pure noise less likely.",
+      "Cross-national observational variance-component results are fragile, vulnerable to influential countries and multiple specifications, limiting confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.58,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

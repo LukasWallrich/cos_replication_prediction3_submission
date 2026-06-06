@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported p-value is 0.0493, essentially at threshold, a classic low-replication signal absent effect size.",
+      "This is a regression-coefficient difference/interaction-type test in observational data, vulnerable to model specification and sampling instability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.35,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

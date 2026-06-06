@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a borderline p-value just under .05, which provides only weak support and is vulnerable to sampling noise.",
+      "This is a coefficient-difference/moderation-style claim, which generally replicates less reliably despite the large sample size."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.68,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

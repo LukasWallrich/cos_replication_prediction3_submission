@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a fairly large baseline sample, and the abstract reports the neuroticism association consistently across multiple body-weight measures.",
+      "The specific BMI effect is extremely small and only marginally significant, so it could easily shrink or disappear in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.28,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

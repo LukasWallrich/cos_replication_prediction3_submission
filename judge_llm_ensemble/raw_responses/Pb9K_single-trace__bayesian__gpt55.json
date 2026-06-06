@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The sample is moderate, but the evidence is only borderline significant with p≈0.029 and a coefficient just over two SEs from zero.",
+      "The claim is a simple plausible association, yet measured risk aversion and candidate choice leave confounding and specification concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.3,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

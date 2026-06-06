@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses the Early Childhood Longitudinal Survey, a massive nationally representative dataset (N=12,012), making intercept estimates highly stable.",
+      "Demographic differences in early academic achievement, such as Asian-language speakers outperforming native English speakers, are well-documented and robust structural regularities."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.26,
+  "_task": {
+    "claim_id": "OYX0_y5wnn9",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

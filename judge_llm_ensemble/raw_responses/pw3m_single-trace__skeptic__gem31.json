@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis relies on a country-level correlation with an extremely small sample size (N=25), making the estimate highly susceptible to outliers.",
+      "Macro-level associations like this often fail to replicate in new international datasets due to severe confounding and leverage points."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.93,
+  "_task": {
+    "claim_id": "pw3m_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

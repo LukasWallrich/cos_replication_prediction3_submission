@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a specific cross-group coefficient-difference/moderation claim, which is typically less robust than main demographic associations.",
+      "The reported evidence is barely significant at p=0.049, with no effect size given, raising fragility concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.44,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

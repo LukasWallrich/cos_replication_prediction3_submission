@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a large, nationally representative demographic and health survey (DHS, n=4493), which typically yields robust population-level correlations.",
+      "While the effect is highly significant (p < 0.001), the strong overlap between religion and geographic region in Nigeria means this specific conditional estimate might be somewhat sensitive to model specification."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.37,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

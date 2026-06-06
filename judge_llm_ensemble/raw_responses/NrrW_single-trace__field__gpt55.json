@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large descriptive disparity in a well-established risk domain, not a fragile mediation or adjusted association.",
+      "The sample is large and the reported gap is substantial, making sampling error or model dependence unlikely explanations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.46,
+  "_task": {
+    "claim_id": "NrrW_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small cross-country observational regression, with an even smaller subgroup and many controls, making estimates highly leverage- and specification-sensitive.",
+      "The p=.01 result is stronger than marginal significance and reportedly robust across specifications, but it remains a headline subgroup association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.16,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

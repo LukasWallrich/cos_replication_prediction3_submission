@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.049 is just below the conventional significance threshold, strongly suggesting fragility and potential publication bias.",
+      "The claim involves a test for differences in regression coefficients (effectively an interaction), which typically replicate poorly compared to main effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 19.33,
+  "_task": {
+    "claim_id": "pN7E_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

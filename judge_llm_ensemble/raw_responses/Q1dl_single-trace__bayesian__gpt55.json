@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a plausible correlational construct-validity finding with related workplace climate/contact measures, so the prior moves somewhat upward.",
+      "But the sample is small and the effect is modest with only p≈.015, making winner’s-curse or multiple-testing concerns substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.66,
+  "_task": {
+    "claim_id": "Q1dl_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

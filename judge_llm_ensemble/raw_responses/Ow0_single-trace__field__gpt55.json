@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is a direct valenced framing manipulation on a proximal self-report outcome, with a moderately strong original signal.",
+      "However, it is a single small experiment in a consumer-psychology context, where framing effects often shrink or fail under replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.14,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

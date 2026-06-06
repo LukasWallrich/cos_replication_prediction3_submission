@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is very low (p < 0.001, t > 3.5), which provides a strong statistical signal and a buffer against minor specification changes.",
+      "However, the sample size is quite small (n=206) for an observational firm-level study, leaving it vulnerable to omitted variable bias and idiosyncratic sample characteristics."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 39.54,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

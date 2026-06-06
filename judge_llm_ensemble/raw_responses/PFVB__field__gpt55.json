@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Duration in the U.S. is a plausible, fairly direct correlate of international students’ food security and adaptation resources.",
+      "However, the single-university sample is very small with a wide confidence interval, so the estimated effect is unstable and composition-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.21,
+  "_task": {
+    "claim_id": "PFVB",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

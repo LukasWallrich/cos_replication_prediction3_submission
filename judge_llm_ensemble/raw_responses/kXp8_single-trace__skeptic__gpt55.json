@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a preregistered-looking main hypothesis with a strong coefficient-to-SE ratio, not a marginal p=.04 finding.",
+      "Still, it is observational organizational research with model-specification discretion and one-tailed significance testing, so shrinkage or nonreplication remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.98,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

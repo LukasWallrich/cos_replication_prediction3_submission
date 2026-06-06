@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample interaction effect with only marginal evidence, p=.086, in a model type where estimates are often unstable.",
+      "The hypothesized direction and related studies make it plausible, but workplace social-psychological moderation effects commonly shrink or disappear on direct replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.78,
+  "_task": {
+    "claim_id": "K4ZD_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

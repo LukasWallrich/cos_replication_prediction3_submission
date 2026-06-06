@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A small positive partial correlation is plausible because greed should predict wanting more broadly, including food, beyond materialism.",
+      "However, this is a cross-sectional covariate-adjusted personality association, so the unique effect could shrink or shift with measurement details."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.0,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

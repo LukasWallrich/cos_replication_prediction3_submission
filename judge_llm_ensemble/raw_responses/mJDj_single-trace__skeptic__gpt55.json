@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is extremely small and only barely significant, with p=.032 amid many personality-by-weight tests.",
+      "The large baseline sample and plausible direction help, but cross-sectional observational data and likely multiple-comparison selection make replication doubtful."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.52,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

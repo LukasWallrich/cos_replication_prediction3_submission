@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=24 in a cross-country regression with a 'long' specification leaves very few degrees of freedom, implying severe overfitting.",
+      "Macro-political correlations in small samples are notoriously fragile and highly sensitive to the specific set of countries, time periods, and control variables."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.15,
+  "_task": {
+    "claim_id": "OeGv_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

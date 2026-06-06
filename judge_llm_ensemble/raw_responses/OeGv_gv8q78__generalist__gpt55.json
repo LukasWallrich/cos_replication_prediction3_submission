@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported coefficient is strong and p=.01, with robustness claimed across specifications for the strong-democracy subsample.",
+      "But this is a small observational cross-country regression with subgrouping and controls, where confounding and specification fragility are serious concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.21,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

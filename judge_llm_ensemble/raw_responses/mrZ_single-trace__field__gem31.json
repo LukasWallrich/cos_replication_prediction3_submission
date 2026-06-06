@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=88) is drastically too small to reliably detect a difference between two correlations, resulting in highly unstable estimates.",
+      "The p-value is just below 0.05 for a complex moderation effect, which is exactly the type of finding that rarely survives rigorous replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.41,
+  "_task": {
+    "claim_id": "mrZ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

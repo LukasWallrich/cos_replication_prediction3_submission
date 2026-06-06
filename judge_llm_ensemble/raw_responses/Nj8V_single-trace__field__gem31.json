@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Three-way interactions in behavioural and psychological research are notoriously fragile and rarely replicate in larger samples.",
+      "A sample size of 209 for a 2x2x2 design leaves about 26 participants per cell, which is vastly underpowered to reliably estimate complex interactions."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.68,
+  "_task": {
+    "claim_id": "Nj8V_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

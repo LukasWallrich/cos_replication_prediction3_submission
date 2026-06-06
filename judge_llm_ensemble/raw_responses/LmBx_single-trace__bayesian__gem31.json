@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=14 is extremely small, meaning the study is severely underpowered and the reported large effect size is likely highly inflated.",
+      "Attentional bias tasks in anxiety research often have low reliability and fail to replicate when subjected to larger, well-powered studies."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.66,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

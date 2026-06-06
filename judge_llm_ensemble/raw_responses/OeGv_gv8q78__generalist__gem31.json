@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 33 countries is extremely small for a cross-country regression, especially one using a 'long specification' with multiple control variables.",
+      "Cross-country macro-political regressions from this era with such small samples are notoriously prone to overfitting and specification searching, making replication unlikely."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.07,
+  "_task": {
+    "claim_id": "OeGv_gv8q78",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

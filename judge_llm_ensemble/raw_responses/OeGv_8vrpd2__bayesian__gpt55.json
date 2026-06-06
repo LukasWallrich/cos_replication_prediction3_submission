@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very small cross-country sample with many controls, making coefficients highly fragile.",
+      "The reported COMP result is borderline significant at p=.05 with a large standard error, a classic weak replication signal."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.25,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

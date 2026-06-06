@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The within-subject experimental manipulation produced a large effect with p=.0006, not a marginal cross-sectional association.",
+      "But n=20 and a complex three-way interaction in RT data make effect-size inflation and pattern instability plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.49,
+  "_task": {
+    "claim_id": "Kj9d_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

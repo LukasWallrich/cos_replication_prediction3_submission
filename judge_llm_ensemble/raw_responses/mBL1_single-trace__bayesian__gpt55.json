@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The participant sample is only n=20, making the population-level interaction estimate fragile despite many trial observations.",
+      "A p<0.001 mixed-effects result is supportive, but this is a specific interaction comparing participants to a model, which lowers replicability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.01,
+  "_task": {
+    "claim_id": "mBL1_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

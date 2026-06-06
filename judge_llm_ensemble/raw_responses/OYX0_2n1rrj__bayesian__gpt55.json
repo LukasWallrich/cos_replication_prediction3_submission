@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a descriptive longitudinal group difference with n≈1200 and a fairly strong p-value around .0006.",
+      "Replication risk remains because subgroup definitions, cohort composition, and model-based growth parameters can shift these specific slope estimates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.07,
+  "_task": {
+    "claim_id": "OYX0_2n1rrj",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

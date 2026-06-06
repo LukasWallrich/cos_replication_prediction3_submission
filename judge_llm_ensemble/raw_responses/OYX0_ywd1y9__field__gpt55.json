@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large, nationally sampled, descriptive language-group achievement gap with a very large test statistic.",
+      "Initial reading differences for Spanish-speaking ELLs versus native English speakers are structurally plausible and repeatedly observed, though cohort and measurement details matter."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.33,
+  "_task": {
+    "claim_id": "OYX0_ywd1y9",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

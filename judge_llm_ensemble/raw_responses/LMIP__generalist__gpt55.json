@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim comes from a large national survey with a sizable adjusted odds ratio and confidence interval well above one.",
+      "It is observational and religion is strongly entangled with geography and access patterns in Nigeria, so residual confounding or model sensitivity is plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.79,
+  "_task": {
+    "claim_id": "LMIP",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

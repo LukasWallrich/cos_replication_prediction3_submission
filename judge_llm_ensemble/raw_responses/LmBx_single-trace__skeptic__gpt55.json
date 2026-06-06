@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is large and p=.009, not merely a threshold result, despite the very small clinical subgroup.",
+      "Threat-related attentional facilitation in anxiety is plausible, but RT emotion effects from n=14 samples are noisy and often shrink."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.79,
+  "_task": {
+    "claim_id": "LmBx_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

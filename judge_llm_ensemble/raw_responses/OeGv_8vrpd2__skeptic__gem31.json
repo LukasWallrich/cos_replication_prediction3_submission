@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 29 is exceptionally small for cross-country regressions with multiple controls, making the estimates highly vulnerable to outliers and specification choices.",
+      "The p-value sits squarely at the .05 threshold for a secondary robustness finding, strongly suggesting the effect is fragile and unlikely to replicate."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.24,
+  "_task": {
+    "claim_id": "OeGv_8vrpd2",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

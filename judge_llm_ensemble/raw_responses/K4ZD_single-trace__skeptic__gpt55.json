@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is marginal: p=.086 only becomes “significant” under a lenient 10% two-tailed threshold.",
+      "It is an interaction from a small n=90 study, a pattern class that commonly shrinks or disappears in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.87,
+  "_task": {
+    "claim_id": "K4ZD_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

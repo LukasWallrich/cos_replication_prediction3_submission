@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The direction is theoretically plausible: risk-averse people should be less willing to choose an ambiguous political option.",
+      "However, the evidence is only marginal in a modest sample and adjusted candidate-choice effects can be context-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.91,
+  "_task": {
+    "claim_id": "Pb9K_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized vignette experiment with N=422 and p<.001 for a moderate d=.38 main effect gives a meaningful upward update from base rates.",
+      "Effect is a specific framing response in social psychology, likely context-sensitive and not large enough to justify very high confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.79,
+  "_task": {
+    "claim_id": "NJBO",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=20 is extremely small for reliably detecting a three-way interaction, strongly increasing the risk of a false positive or highly inflated effect size.",
+      "Complex interaction effects on reaction times within embodied cognition paradigms have historically shown low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.94,
+  "_task": {
+    "claim_id": "Kj9d_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

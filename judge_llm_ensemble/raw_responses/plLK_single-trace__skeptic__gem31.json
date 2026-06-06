@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 62 is remarkably small for an experimental design comparing multiple outcome variance conditions, indicating severe underpowering.",
+      "The p-value of .034 sits precariously close to the .05 significance threshold, which frequently fails to replicate in small-sample behavioral studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 31.62,
+  "_task": {
+    "claim_id": "plLK_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

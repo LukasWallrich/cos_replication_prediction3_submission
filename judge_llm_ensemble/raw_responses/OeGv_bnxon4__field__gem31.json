@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of 24 countries for a regression with multiple control variables creates a high risk of overfitting and outlier-driven results.",
+      "Macro-level cross-country associations that rely on specific control specifications are notoriously fragile and rarely survive robust replication attempts."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.01,
+  "_task": {
+    "claim_id": "OeGv_bnxon4",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

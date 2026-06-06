@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a randomized experimental design with an adequate sample size (N=422) for testing a main effect, yielding a robust p-value (< .001).",
+      "Although subtle linguistic framing effects often shrink in replication, the strong initial statistical signal suggests a true, albeit potentially smaller, non-zero effect exists."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.92,
+  "_task": {
+    "claim_id": "NJBO",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

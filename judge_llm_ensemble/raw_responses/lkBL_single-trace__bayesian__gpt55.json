@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported interaction is statistically strong for this small study, with p=.003 and a large implied effect.",
+      "But n=42 and a culturally moderated mortality-salience priming interaction are high-variance, theory-heavy social-psychology signals prone to inflated estimates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.26,
+  "_task": {
+    "claim_id": "lkBL_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

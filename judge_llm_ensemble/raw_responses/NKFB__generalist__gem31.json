@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 1014 provides strong statistical power to reliably estimate a correlation of this magnitude (r = 0.22).",
+      "The conceptual link between prosocial attitudes and pandemic compliance is well-documented, making the finding highly plausible to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 86.07,
+  "_task": {
+    "claim_id": "NKFB",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported t-statistic is extremely large, making a purely noise-driven association less plausible despite the very small sample.",
+      "The estimate likely relies on a short crisis-dominated time series, so autocorrelation and common macro shocks could substantially inflate significance."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.52,
+  "_task": {
+    "claim_id": "PlDa_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

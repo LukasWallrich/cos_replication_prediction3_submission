@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported coefficient is fairly precise and strongly significant in a moderate sample, which supports a positive association.",
+      "But the evidence is a single observational regression with one-tailed testing and little design detail, so model dependence is a real concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.18,
+  "_task": {
+    "claim_id": "kXp8_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

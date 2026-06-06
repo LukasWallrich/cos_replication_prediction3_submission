@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=2664), but the effect size is very small (beta = .05) and the p-value is marginally significant (p = .032).",
+      "Despite the marginal p-value, large-scale meta-analyses consistently support a weak but robust positive association between Neuroticism and BMI, increasing the probability of replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 46.52,
+  "_task": {
+    "claim_id": "mJDj_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

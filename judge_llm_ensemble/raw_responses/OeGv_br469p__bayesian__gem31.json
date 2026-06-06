@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (n=33) for a cross-country regression makes the estimate highly vulnerable to outliers and model specification choices.",
+      "The presence of multiple analytical specifications and sample splitting (e.g., isolating 'strong democracies') significantly increases the risk of false positives."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.37,
+  "_task": {
+    "claim_id": "OeGv_br469p",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

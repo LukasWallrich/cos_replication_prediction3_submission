@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Aggregate emancipative values and protest are plausibly linked, and the reported association is very strong statistically.",
+      "But this is an ecological longitudinal culture model with modest country-period observations, vulnerable to common trends and specification-dependent confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.03,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is modest but estimated with n=290 and p=.0003, not a marginal underpowered p≈.05 result.",
+      "It is still a single cross-sectional partial correlation using likely self-report desire measures, vulnerable to common-method bias and analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.88,
+  "_task": {
+    "claim_id": "PNPz_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

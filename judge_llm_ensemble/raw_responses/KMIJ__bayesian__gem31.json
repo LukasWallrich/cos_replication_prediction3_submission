@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The tight confidence interval (1.36-1.48) and very low p-value indicate a very large sample size, common for pooled Demographic and Health Surveys.",
+      "The positive association between health insurance coverage and healthcare utilization is a highly robust and well-established finding in health economics."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.01,
+  "_task": {
+    "claim_id": "KMIJ",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

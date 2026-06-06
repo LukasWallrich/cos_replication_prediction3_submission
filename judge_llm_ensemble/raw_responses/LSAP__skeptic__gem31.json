@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-sectional mediation models relying entirely on self-reported data are highly susceptible to common-method bias and typically fail to replicate causally.",
+      "The reported mediation effect is extremely small (beta = -0.05), making it fragile and highly sensitive to model specification choices."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.44,
+  "_task": {
+    "claim_id": "LSAP",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

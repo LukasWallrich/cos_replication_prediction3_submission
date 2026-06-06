@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 106 is quite small for a between-subjects behavioral framing experiment, increasing the likelihood of an exaggerated effect size.",
+      "Framing effects on subjective states have historically low replication rates, and the presence of non-significant related measures suggests possible multiple comparisons."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.45,
+  "_task": {
+    "claim_id": "Ow0_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

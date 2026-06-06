@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A simple bivariate knowledge–uptake association in a large national survey is more robust than complex adjusted mediation claims.",
+      "The p-value is modest and effect size unreported, so this could be a weak culturally and temporally contingent association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.1,
+  "_task": {
+    "claim_id": "PQFU",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}
