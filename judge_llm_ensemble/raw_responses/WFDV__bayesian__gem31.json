@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (n=28,097) and drawn from a well-regarded nationally representative dataset, which makes demographic correlations highly reliable.",
+      "The effect size is substantial (AOR = 1.9) with a strong confidence interval well above 1.0, aligning with well-established literature on minority stress and substance use."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 33.06,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a straightforward demographic correlation using a well-regarded, nationally representative dataset (NSHAP), which typically yields highly replicable descriptive findings.",
+      "The very strong p-value (p < .001) and large effect size provide robust statistical evidence that easily justifies updating positively from the base rate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.2,
+  "_task": {
+    "claim_id": "Vj0p_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large n=2022 and a theoretically expected correlational SEM path update above the 40–60% replication base rate.",
+      "The effect is modest and cross-sectional self-report with p<.01, so evidence is not strong enough for very_likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 25.67,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

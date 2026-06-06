@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (N > 110,000) results in near-zero standard errors, making statistical significance extremely robust to sampling variation.",
+      "The claim describes a straightforward, theoretically expected association between immigration concern and institutional distrust, which typically replicates very well in large survey data."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.01,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

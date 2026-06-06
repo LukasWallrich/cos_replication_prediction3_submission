@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The authors explicitly state that this was an unhypothesized finding, making it highly susceptible to being a false positive derived from exploratory analysis.",
+      "Subtle message framing effects on subjective measures like processing fluency are notoriously fragile and sensitive to the specific stimuli used."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.64,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

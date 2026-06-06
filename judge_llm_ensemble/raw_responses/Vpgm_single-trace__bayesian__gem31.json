@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a meta-analysis with a cumulative sample size of 2474, which significantly reduces the risk of single-study sampling artifacts.",
+      "The estimated correlation is theoretically plausible, and its confidence interval ([-.33, -.11]) is tight and comfortably excludes zero."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.05,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple, theoretically coherent bivariate value-attitude correlation rather than a fragile multivariable mediation or interaction.",
+      "The effect is modest and meta-analytic, though heterogeneity across cultures, measures, and publication year prevents near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.24,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and P<0.001 for a simple adjusted mean difference move substantially above the 40–60% base rate.",
+      "The claim is descriptive rather than causal, though cross-national survey timing and cultural response differences prevent near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.52,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

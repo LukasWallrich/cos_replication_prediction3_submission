@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample direct attitudinal association, and anti-immigration concern plausibly co-varies robustly with institutional distrust across Europe.",
+      "The exact adjusted coefficient may vary with covariates and period, but a positive statistically detectable effect is likely to persist."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.83,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

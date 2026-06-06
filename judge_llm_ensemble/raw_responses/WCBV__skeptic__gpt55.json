@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Randomized factorial design and p=.009 with N=749 make a simple main effect more credible than typical underpowered correlational findings.",
+      "The effect is small, self-reported, and explicitly not hypothesized, raising multiple-testing and optimistic-reporting concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.15,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

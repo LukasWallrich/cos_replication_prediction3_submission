@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is very precise in a large longitudinal-survey sample, with a t-statistic far beyond a marginal p-value.",
+      "However, the OLS observational design and self-reported life satisfaction make causal 'reduces inequality' wording vulnerable to confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.55,
+  "_task": {
+    "claim_id": "XGVO",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

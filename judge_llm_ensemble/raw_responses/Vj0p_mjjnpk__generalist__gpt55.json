@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a moderately large, nationally representative sample, and duration-related sexual inactivity is plausible in this population.",
+      "The specific coefficient is essentially zero when rounded and only barely significant, making this single weak model result fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.89,
+  "_task": {
+    "claim_id": "Vj0p_mjjnpk",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

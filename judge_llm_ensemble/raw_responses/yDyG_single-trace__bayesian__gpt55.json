@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a specific moderated-mediation pathway, a design/claim type with lower replication rates than simple main effects.",
+      "Evidence is modest: n=189 and p=.019 for a small coefficient leave substantial risk of overestimation or false positive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.35,
+  "_task": {
+    "claim_id": "yDyG_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

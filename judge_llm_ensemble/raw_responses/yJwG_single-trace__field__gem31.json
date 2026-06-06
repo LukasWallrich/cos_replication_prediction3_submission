@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-modal alerting, where a loud auditory cue improves visual processing speed, is a highly robust and well-established phenomenon in cognitive psychology.",
+      "The within-subjects design yielded a large effect size (dz = 0.89) and a highly significant p-value, indicating a strong and consistent effect across participants."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.25,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

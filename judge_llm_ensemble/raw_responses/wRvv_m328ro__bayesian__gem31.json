@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large individual-level sample size (N > 110,000) and highly significant p-value (p < .001) provide very strong statistical power for detecting even small effects.",
+      "While interaction effects in multi-level models can be sensitive to specification and effective higher-level sample sizes, the robust t-statistic mitigates much of this concern."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.15,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

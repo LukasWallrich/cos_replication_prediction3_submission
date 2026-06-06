@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding was explicitly stated as unhypothesized, significantly increasing the risk that it is a false positive emerging from multiple implicit or explicit comparisons.",
+      "While the sample size is relatively large (N=749) and the p-value is 0.009, the small effect size and post-hoc nature of the claim lower the probability of successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 51.01,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

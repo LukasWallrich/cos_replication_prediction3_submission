@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a highly specific subgroup analysis (9th income decile within a 'low-wage unionism' subsample), which strongly suggests post-hoc data exploration.",
+      "The reported standard errors (0.041 and 0.040) imply a difference of 0.097 is only marginally significant (z roughly 1.7), contradicting the claimed 0.01% significance level."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.4,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

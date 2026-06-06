@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis uses a massive, high-quality, nationally representative longitudinal dataset (PATH) with a confidence interval lower bound well above 1.0.",
+      "The association between gender minority status and elevated tobacco use is a robust, extensively documented finding in the epidemiological literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.86,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

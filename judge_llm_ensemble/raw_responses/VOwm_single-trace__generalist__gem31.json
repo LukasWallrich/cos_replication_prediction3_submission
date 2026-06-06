@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N=18,949), which is typical for archival finance and economics panel datasets and substantially reduces the risk of statistical noise.",
+      "Although the abstract provided is missing (showing boilerplate publisher text instead), standard observational results with high significance (1% level) in such large samples typically replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.75,
+  "_task": {
+    "claim_id": "VOwm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

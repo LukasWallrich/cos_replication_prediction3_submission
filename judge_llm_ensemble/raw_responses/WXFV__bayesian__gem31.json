@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (n > 11,000), yielding a highly significant p-value (p < 0.001) for this simple group comparison.",
+      "Descriptive group differences in survey measures of well-being typically replicate at a very high rate compared to complex interactions."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.17,
+  "_task": {
+    "claim_id": "WXFV",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

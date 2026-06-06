@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is extremely precise in a very large survey sample, with a large t-statistic despite a small substantive effect.",
+      "It is observational OLS and the abstract gives limited design detail, so causal wording and model dependence temper confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.77,
+  "_task": {
+    "claim_id": "XGVO",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

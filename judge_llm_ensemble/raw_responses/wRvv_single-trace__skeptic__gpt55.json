@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Very large sample and p far from threshold make a nonzero adjusted association likely to survive replication.",
+      "However, this is cross-sectional self-report observational evidence, so causal “effect” language and residual confounding warrant caution."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.96,
+  "_task": {
+    "claim_id": "wRvv_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

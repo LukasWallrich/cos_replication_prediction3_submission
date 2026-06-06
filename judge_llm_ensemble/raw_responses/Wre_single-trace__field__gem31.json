@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a social behavioral priming effect from 2010, a literature with an exceptionally poor replication record.",
+      "An extremely small sample size (N=36) coupled with a p-value of .022 strongly suggests an underpowered, potentially false positive finding."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.73,
+  "_task": {
+    "claim_id": "Wre_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

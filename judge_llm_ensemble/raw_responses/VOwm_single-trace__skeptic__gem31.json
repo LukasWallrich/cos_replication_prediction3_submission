@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of nearly 19,000 observations provides immense statistical power, minimizing the risk that this is a small-sample false positive.",
+      "The p-value is highly significant (p < .01) rather than resting just below the .05 threshold, suggesting a robust statistical signal within this model specification."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.69,
+  "_task": {
+    "claim_id": "VOwm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

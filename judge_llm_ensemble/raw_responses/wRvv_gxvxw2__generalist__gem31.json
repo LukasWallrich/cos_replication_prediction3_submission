@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the total sample size is massive (N > 110,000), the claim relies on a cross-level interaction involving country-level variables, meaning the effective Level-2 sample size is likely small.",
+      "The extremely low p-value suggests a robust statistical signal within the data, but the tiny effect size makes the finding vulnerable to minor changes in context or specification."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 45.66,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

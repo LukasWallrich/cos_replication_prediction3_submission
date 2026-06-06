@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported ANOVA is moderately significant with a modest effect in a reasonable but not large survey sample.",
+      "The groups were data-derived clusters, so instability and unreported multiple comparisons weaken confidence in this specific difference."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.9,
+  "_task": {
+    "claim_id": "w5dv_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

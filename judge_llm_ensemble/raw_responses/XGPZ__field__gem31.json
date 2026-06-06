@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Intergenerational correlations of beliefs and knowledge between adjacent generations within families are well-established and typically replicate robustly.",
+      "The substantial effect size (β = .45) and strong statistical significance (p < .001) in a decent sample of 189 triads suggest this direct relationship is likely a real effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 28.79,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

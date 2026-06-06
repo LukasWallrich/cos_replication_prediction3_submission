@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Social identity priming effects on complex economic preferences have a notoriously poor track record of replication in behavioral science.",
+      "The finding relies on a subtle manipulation producing a dramatic behavioral shift, which is characteristic of fragile effects that rarely survive well-powered replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.35,
+  "_task": {
+    "claim_id": "WaYe_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

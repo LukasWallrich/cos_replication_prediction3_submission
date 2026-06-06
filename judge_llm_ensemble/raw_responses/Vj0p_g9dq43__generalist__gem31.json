@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding relies on a large, nationally representative sample (n=1,502) and yields a highly significant p-value (<.001).",
+      "The association between marriage duration and sexual inactivity in older adults is highly plausible and relies on straightforward survey measures."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.52,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

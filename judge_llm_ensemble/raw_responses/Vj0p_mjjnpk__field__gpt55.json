@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Marital duration and sexual inactivity are a plausible, structural demographic-behavioral association in an older nationally representative sample.",
+      "The reported coefficient is extremely small, rounded to OR=1.00 and only p<.05, making the specific linear-term result fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.14,
+  "_task": {
+    "claim_id": "Vj0p_mjjnpk",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

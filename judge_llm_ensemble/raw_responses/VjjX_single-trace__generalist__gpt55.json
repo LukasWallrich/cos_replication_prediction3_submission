@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported within-subject effect is large and statistically strong, which helps despite the small sample of 16 participants.",
+      "It is a single psychophysical study, so measurement or analytic idiosyncrasies could inflate the apparent spatial-distance effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.01,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

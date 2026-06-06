@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Stereotype threat interactions are historically plagued by low replicability, and the inclusion of a covariate suggests potential ad-hoc specification searching.",
+      "Although the p-value (0.002) is robust, the online survey setting and notoriously weak nature of such priming manipulations strongly limit replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.87,
+  "_task": {
+    "claim_id": "xYbO_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

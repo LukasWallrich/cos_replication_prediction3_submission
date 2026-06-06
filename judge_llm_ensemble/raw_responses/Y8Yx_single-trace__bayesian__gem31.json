@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is purely descriptive and based on two waves of a massive, nationally representative demographic survey (NFHS) with over 60,000 observations.",
+      "A nearly 8 percentage point shift over 14 years in such a large dataset yields an overwhelmingly small p-value, making this demographic trend virtually certain to be a real effect."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 23.59,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

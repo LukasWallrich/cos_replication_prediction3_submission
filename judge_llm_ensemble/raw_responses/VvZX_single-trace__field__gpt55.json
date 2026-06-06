@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small laboratory-game interaction estimated within a six-group condition is highly fragile, despite a nominally strong coefficient.",
+      "Asymmetry and position effects are plausible, but this specific lagged moderation is not a broad structural regularity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.88,
+  "_task": {
+    "claim_id": "VvZX_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample (N=8808) from a high-quality longitudinal dataset (NELS88) to examine the association.",
+      "The reported effect size is large and the p-value is extremely small, suggesting a highly robust statistical association that is very likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.71,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

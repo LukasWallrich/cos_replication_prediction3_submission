@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a large panel dataset (N=3617) which generally provides reliable estimates for standard demographic relationships.",
+      "The reported p-value of 0.004 indicates strong statistical significance for the difference in coefficients, aligning with the general literature on well-being and marriage."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.62,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

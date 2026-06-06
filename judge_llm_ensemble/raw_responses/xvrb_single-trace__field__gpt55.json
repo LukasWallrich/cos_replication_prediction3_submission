@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a simple experimental contrast with a large effect, not a fragile multi-construct mediation or confound-dependent survey finding.",
+      "Common knowledge facilitating risky coordination is theoretically strong and behaviorally plausible, though task framing and demand characteristics could affect magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.21,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

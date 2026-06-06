@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-level interactions involving macro-level variables like country-level party popularity are notoriously fragile due to the small effective sample size of countries.",
+      "The authors admit the effect is tiny and single out one specific outcome (legal system) as the strongest, strongly suggesting capitalization on chance."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 32.61,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

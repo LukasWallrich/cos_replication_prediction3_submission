@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Complex moderated mediation models involving multiple latent psychological constructs typically have very low replication rates in behavioural sciences.",
+      "The small sample size (N=189) combined with a p-value near the significance threshold (p=0.019) suggests the interactive effect is fragile."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 5.88,
+  "_task": {
+    "claim_id": "yDyG_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

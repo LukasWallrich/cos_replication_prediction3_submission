@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim explicitly states the finding was not hypothesized, significantly increasing the risk that it is a false positive emerging from multiple comparisons.",
+      "Although the sample size is large (N=749) and the p-value is .009, exploratory post-hoc findings from complex factorial designs often fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.06,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a randomized, simple main-effect contrast with a reasonably large sample and a plausible small difference in perceived message ease.",
+      "The effect was not hypothesized, is small, and depends on specific vaccine-message wording and self-reported fluency, making it somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.22,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

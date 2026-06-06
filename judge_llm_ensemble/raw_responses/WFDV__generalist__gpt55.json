@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a straightforward adjusted association in a large national dataset, with a moderate odds ratio and confidence interval excluding null.",
+      "Uncertainty remains because the gender-varying subgroup may be relatively small and observational adjustment/measurement choices could affect the estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.35,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

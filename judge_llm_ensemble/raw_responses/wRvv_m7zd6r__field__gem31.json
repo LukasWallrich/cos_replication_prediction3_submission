@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size (n > 110,000), typical of large cross-national surveys, providing highly precise estimates for main effects.",
+      "The relationship between concern about immigration and political distrust is a robust, well-established structural correlation in political sociology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 31.98,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

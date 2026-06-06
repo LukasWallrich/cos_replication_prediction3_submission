@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a highly specific contextual moderation (union membership × high income decile × low-wage unionism context) in observational survey data, which tends to be fragile.",
+      "There is a potential internal contradiction: the reported standard errors for the sub-groups (0.041 and 0.040) imply a standard error of the difference of roughly 0.057, making a 0.097 difference only marginally significant, not 0.01%."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.61,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

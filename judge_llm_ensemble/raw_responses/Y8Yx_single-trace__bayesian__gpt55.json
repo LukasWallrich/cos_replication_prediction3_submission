@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a descriptive comparison from large nationally representative NFHS samples, with a 7.8-point change and extremely tiny p-value.",
+      "Main residual risk is measurement/coding comparability across waves, not sampling noise or fragile modeling."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.61,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a complex three-way interaction (union effect among high-income respondents within a specific context of low-wage unionism), which typically has a low replication rate.",
+      "The reported standard errors for the two groups (0.041 and 0.040) imply a standard error of the difference around 0.057, making the 0.097 difference only marginally significant (z ~ 1.7), contradicting the claim that it is 'significant at .01%'."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.72,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

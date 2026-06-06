@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study has a sufficiently large sample size (N=1389), and the confidence interval's upper bound (0.58) indicates the p-value is comfortably below the .05 threshold.",
+      "A positive association between higher educational attainment and positive attitudes toward health data sharing or scientific research is theoretically highly plausible and consistent with prior literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.64,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

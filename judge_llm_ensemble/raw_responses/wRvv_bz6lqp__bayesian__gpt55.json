@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from an extremely large survey sample, making the positive association unlikely to be a sampling fluke.",
+      "The claim is an observational adjusted association, not a causal effect, so omitted variables and model dependence prevent near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.06,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

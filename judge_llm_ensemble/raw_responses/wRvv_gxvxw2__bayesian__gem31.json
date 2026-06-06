@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (N > 110,000) provides massive statistical power, meaning even tiny effects are likely to be consistently detected in a direct replication.",
+      "However, the reported effect size is very small (b = 0.003) and relies on a cross-level interaction, which are historically fragile and prone to overconfident standard errors."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.01,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

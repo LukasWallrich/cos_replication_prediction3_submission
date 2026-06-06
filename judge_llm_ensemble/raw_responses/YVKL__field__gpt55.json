@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple, large cross-national descriptive difference with a large sample and very strong statistical signal.",
+      "US–Japan self-rated health comparisons are culturally response-sensitive, but Japanese respondents often report lower SRH despite better objective health."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.76,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is highly plausible and estimated in a very large multilevel survey, with significance far from the p≈.05 danger zone.",
+      "Causal language is too strong because the design is cross-sectional self-report, but the adjusted association itself should replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.01,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

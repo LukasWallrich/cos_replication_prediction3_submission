@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Meta-analytic evidence with n=2474 and a CI excluding zero supports a modest negative correlation rather than a borderline single-study result.",
+      "The claim is correlational and plausible, but self-report constructs, heterogeneity, and possible publication bias keep it below very-likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.08,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

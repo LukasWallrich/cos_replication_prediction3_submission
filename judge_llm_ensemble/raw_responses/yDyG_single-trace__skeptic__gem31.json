@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex moderated mediation model, which requires very large samples to reliably estimate, yet the sample size is only 189.",
+      "A p-value of .019 provides weak evidence for such a highly parameterized effect, raising strong concerns about low power and analytical flexibility."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.21,
+  "_task": {
+    "claim_id": "yDyG_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

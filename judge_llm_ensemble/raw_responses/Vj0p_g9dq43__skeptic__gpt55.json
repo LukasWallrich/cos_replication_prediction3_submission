@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Duration and inactivity are plausibly related, with national sample, decent n, and p<.001, not marginal.",
+      "Still observational self-report, and duration is collinear with age; plus the per-year OR/SE reporting looks odd."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.86,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

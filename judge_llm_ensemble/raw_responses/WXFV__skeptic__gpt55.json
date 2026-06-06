@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is statistically strong in a large sample, with p<.001 and a plausible demographic well-being disparity rather than a fragile interaction.",
+      "Still, it is an observational self-report group comparison likely sensitive to controls, subgroup coding, and compositional confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.89,
+  "_task": {
+    "claim_id": "WXFV",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cluster analysis in small samples (N=173) is highly unstable, meaning the specific three-group structure might not emerge in a new sample.",
+      "Testing group differences across these data-driven clusters further increases the risk of capitalizing on sample-specific noise."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 6.56,
+  "_task": {
+    "claim_id": "w5dv_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

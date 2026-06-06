@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The overall sample is large and the union-membership association with redistribution is described as consistent in prior studies.",
+      "This is a specific subgroup/decile comparison, so the exact “largest effect” claim is more fragile than the general direction."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.56,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

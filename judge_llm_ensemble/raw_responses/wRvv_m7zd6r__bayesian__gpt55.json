@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is enormous and the coefficient is overwhelmingly significant, making sampling error an unlikely explanation.",
+      "The claim is an adjusted observational association, so confounding and model dependence prevent near-certainty about the specific effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.62,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

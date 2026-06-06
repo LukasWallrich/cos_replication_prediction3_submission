@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a broad cross-sectional self-report correlation, and poorer psychosocial functioning commonly covaries with higher psychopathology symptoms.",
+      "The effect is large but may be inflated by common-method variance, construct overlap, and a small mixed convenience sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.51,
+  "_task": {
+    "claim_id": "yypJ_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

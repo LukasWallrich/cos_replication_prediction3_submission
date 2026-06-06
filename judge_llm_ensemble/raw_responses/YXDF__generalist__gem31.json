@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 2022 is very large, providing excellent statistical power to reliably detect a moderate correlation of beta = -0.18.",
+      "The inverse relationship between a supportive climate and controlled motivation is standard in self-determination theory and typical of cross-sectional survey self-reports."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 30.13,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

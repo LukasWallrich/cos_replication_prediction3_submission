@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large sample size (N nearly 5000) with a highly significant p-value (< 0.001) for a simple mean difference.",
+      "Cross-cultural differences where Americans report higher self-rated health than Japanese respondents are a well-established and highly robust phenomenon."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.55,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a small effect in a modest sample with borderline significance, so publication/selection bias could easily explain it.",
+      "The claim is a simple randomized vignette contrast and psychologically plausible, which keeps it near the base rate rather than clearly unlikely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.79,
+  "_task": {
+    "claim_id": "y3R4_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The very large NFHS sample and extremely small p-value strongly support a nonzero association beyond the base replication rate.",
+      "The claim is observational and model-dependent with controls and a contextual discrimination measure, limiting confidence in a robust causal effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.01,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

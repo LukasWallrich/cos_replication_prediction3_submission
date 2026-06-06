@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a massive sample size (N > 110,000), meaning statistical power is extremely high and the reported p-value is solidly zero.",
+      "The correlation between anti-immigration attitudes and institutional or political distrust is a robust, widely documented structural regularity in political sociology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.37,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

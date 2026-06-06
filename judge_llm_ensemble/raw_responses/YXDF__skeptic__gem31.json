@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=2022) provides high statistical power, making the modest reported association (beta = -0.18, p < .01) statistically stable.",
+      "Although common-method bias limits causal inference in cross-sectional surveys, a direct replication would share this artifact, reliably reproducing the established theoretical correlation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 84.17,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

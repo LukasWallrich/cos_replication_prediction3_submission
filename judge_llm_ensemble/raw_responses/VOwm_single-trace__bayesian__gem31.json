@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study utilizes a very large sample size (N=18,949), providing substantial statistical power to reliably detect the specified effect.",
+      "The strong reported p-value (p < 0.01) combined with the large sample size in an observational economics context suggests a high likelihood of directional replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.33,
+  "_task": {
+    "claim_id": "VOwm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

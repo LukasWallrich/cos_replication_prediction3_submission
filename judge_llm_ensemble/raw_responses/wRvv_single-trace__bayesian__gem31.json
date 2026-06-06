@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (n > 110,000) provides immense statistical power, meaning any genuine non-zero association will easily be detected.",
+      "The relationship between concern about immigration and political distrust is theoretically highly plausible and well-documented in European observational data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 19.62,
+  "_task": {
+    "claim_id": "wRvv_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The within-subjects design yields a highly significant, large effect (dz = 0.89, p < .001) for a well-established cross-modal alerting phenomenon.",
+      "The abstract indicates that this effect on visual processing speed was internally replicated across three separate experiments within the same paper."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.07,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

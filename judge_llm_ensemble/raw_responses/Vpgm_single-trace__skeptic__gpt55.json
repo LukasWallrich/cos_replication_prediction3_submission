@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a modest meta-analytic association with a reasonably large combined sample and a confidence interval clearly below zero.",
+      "Evidence is mostly correlational and likely self-report/convenience-sample based, so publication bias and common-method confounding could shrink it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.64,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

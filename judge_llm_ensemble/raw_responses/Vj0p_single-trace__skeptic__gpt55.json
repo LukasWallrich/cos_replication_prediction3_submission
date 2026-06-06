@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is large and highly significant in a reasonably sized nationally representative sample, not a marginal p=.05 result.",
+      "Still, this is an observational secondary covariate effect, and the reported SE=.01 looks implausible enough to raise reporting/extraction concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.3,
+  "_task": {
+    "claim_id": "Vj0p_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

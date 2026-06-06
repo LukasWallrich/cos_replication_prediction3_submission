@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and strong adjusted association with CI far from null makes random error less likely.",
+      "Cross-sectional self-report survey with possible nonrepresentative sampling, multiple outcomes, and ad hoc covariate choices could inflate the education-attitude association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.37,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

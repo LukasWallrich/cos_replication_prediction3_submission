@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a reasonably large sample and reports a large adjusted association with a confidence interval excluding null.",
+      "It is cross-sectional survey evidence with possible sampling, modeling, and multiple-comparison issues, limiting confidence in this specific subgroup estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.16,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

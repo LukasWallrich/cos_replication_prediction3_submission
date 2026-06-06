@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Marital status is a direct demographic correlate of subjective well-being patterns, and the estimate is very precise in a large longitudinal survey.",
+      "The effect is small and model-dependent, so its exact magnitude/direction could be sensitive to controls and period composition."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.74,
+  "_task": {
+    "claim_id": "XGVO",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

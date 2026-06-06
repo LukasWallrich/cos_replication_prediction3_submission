@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a meta-analysis with a large pooled sample size (N=2474), providing a stable estimate of the correlation.",
+      "The effect size (r = -.22) is moderate, theoretically plausible, and the confidence interval is comfortably bounded away from zero."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.74,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

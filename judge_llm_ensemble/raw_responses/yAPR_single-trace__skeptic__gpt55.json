@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The contrast is supported by a reasonably large panel study and p=.004, not a marginal single-test result.",
+      "Still, it is observational self-reported well-being and a gender/subgroup partnership comparison vulnerable to selection, model dependence, and multiple testing."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.89,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex moderated mediation effect, a type of analysis that historically has a very low replication rate.",
+      "The relatively small sample size (n=189) combined with a p-value near the threshold (p=.019) suggests the study is underpowered for reliable interaction detection."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.22,
+  "_task": {
+    "claim_id": "yDyG_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

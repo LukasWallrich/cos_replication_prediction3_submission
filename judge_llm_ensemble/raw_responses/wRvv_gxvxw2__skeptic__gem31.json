@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "While the individual-level sample size is massive, the country-level N is likely small, making cross-level interactions highly susceptible to outlier countries.",
+      "The authors admit the effect is very small, and such tiny interaction effects in observational data often fail to replicate under different model specifications."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.19,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

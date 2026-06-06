@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is a straightforward descriptive statistic drawn from a massive, high-quality, nationally representative demographic survey.",
+      "With a sample size exceeding 60,000, sampling error is minimal, making this 8-percentage-point increase virtually certain to reflect a true population trend."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.0,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

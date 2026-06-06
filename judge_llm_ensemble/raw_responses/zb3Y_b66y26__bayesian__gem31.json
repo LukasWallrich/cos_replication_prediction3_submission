@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves an observational contextual/peer effect, which is highly susceptible to unmeasured institutional confounding and often fragile in replication.",
+      "A sample size of 236 is very small for multilevel modeling of institution-level effects, suggesting the estimate may be unstable despite the low p-value."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 43.74,
+  "_task": {
+    "claim_id": "zb3Y_b66y26",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

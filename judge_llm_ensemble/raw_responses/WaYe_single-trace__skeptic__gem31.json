@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Social identity priming effects on behavioral preferences are notoriously fragile and have historically shown very low replication rates.",
+      "Although the reported p-value is highly significant, the sample size of the specific Asian subgroup is likely small, raising concerns about inflated effect sizes."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 53.16,
+  "_task": {
+    "claim_id": "WaYe_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

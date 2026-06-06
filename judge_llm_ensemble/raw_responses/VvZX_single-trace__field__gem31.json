@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves an interaction effect with a lagged behavioural variable within a specific sub-condition of a lab experiment.",
+      "Complex temporal interactions in behavioural games with limited sample sizes are notoriously prone to overfitting and often fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.23,
+  "_task": {
+    "claim_id": "VvZX_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

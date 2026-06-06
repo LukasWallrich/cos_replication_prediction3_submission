@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported group difference is large and highly significant in a moderate sample, making a purely noisy finding less plausible.",
+      "The abstract reports conceptually consistent findings across larger samples and an experiment, though the specific n=81 comparison may still be inflated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.01,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

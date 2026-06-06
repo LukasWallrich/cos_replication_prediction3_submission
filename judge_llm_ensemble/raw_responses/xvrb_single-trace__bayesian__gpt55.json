@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Experimental design with n=276 found a large phi=.48 and extremely small p-value, strongly above typical replication priors.",
+      "The behavioral contrast is simple and theoretically plausible, though a single psychology study with possible demand/confounding prevents near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.84,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

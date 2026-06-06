@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N = 43,576) from a well-established demographic survey, ensuring high statistical power and stability.",
+      "The reported p-value is extremely small (p < 1e-8), meaning the specific observational association is highly unlikely to be a statistical fluke."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.57,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

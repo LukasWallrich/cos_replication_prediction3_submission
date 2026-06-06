@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Phasic auditory alerting improving visual processing speed is a well-established, direct within-subject perceptual effect, not a fragile mediation or confounded survey association.",
+      "The reported effect is large and highly significant despite n=28, with converging support from related experiments, though TVA parameter modeling adds some fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.92,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

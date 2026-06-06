@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a large association in a reasonably sized experiment, with an extremely small p-value and clear directional comparison.",
+      "The manipulation and outcome seem straightforward, though it is still a single psychology study possibly vulnerable to demand or framing effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.98,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

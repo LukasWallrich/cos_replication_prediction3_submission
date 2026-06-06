@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample descriptive country difference with a highly significant p-value, not a borderline mediation or interaction claim.",
+      "Cross-national self-rated health comparisons face cultural response and sampling comparability issues, so the adjusted magnitude may not replicate exactly."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 29.95,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

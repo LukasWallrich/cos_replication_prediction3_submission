@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is explicitly acknowledged as an unhypothesized, exploratory result, making it highly susceptible to multiple-testing artifacts.",
+      "However, the relatively large sample size (N=749) and a p-value of .009 provide some statistical stability, leaving a direct replication as a coin-flip."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.05,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

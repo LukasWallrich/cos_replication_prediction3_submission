@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is enormous and the reported association is far from a marginal p≈.05 result, so sign replication is highly probable.",
+      "However, this is cross-sectional self-report modelling with potentially ad hoc controls, so the causal “effect” interpretation is much less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.73,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

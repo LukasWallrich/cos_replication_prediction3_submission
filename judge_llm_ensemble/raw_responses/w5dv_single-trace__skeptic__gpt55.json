@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is modest but not merely threshold-significant, with p=.005 and a plausible association between work-motivation clusters and schedule preferences.",
+      "Concerns include survey self-report, data-driven clustering, missingness, and likely multiple comparisons across work features."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.22,
+  "_task": {
+    "claim_id": "w5dv_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

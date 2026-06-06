@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported within-subject effect is large with n=28 and a strong t-test, making pure sampling noise less likely.",
+      "The abstract describes converging experiments and related intensity/pupil evidence, though the specific claim comes from a modest sample and model-derived parameter."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 2.96,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

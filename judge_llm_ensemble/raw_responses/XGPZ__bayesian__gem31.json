@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect size is large (β = .45) and highly significant (p < .001) in a decent sample size of 189 triads.",
+      "Intergenerational transmission of health beliefs and knowledge is theoretically very plausible, increasing the likelihood that this direct correlation is a real effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.79,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

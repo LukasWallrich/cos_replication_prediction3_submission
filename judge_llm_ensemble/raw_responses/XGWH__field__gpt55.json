@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Education-attitude gradients in health and research contexts are common demographic associations and often replicate directionally.",
+      "The adjusted OR is large but from a cross-sectional attitude survey, where sample composition and covariate choices can affect significance."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.21,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

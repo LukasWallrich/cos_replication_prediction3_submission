@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis uses panel data to estimate within-person effects, which reduces time-invariant confounding compared to cross-sectional designs.",
+      "The p-value for the difference between coefficients is 0.004, providing a comfortable buffer against the .05 threshold despite the potential for subgroup testing."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.33,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

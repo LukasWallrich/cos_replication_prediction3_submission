@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific power-priming claim rests on a small sample of 36 and a single modest p-value, making the effect estimate fragile.",
+      "The abstract reports conceptual convergence across three experiments, but not an independent direct replication of this particular manipulation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.72,
+  "_task": {
+    "claim_id": "Wre_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

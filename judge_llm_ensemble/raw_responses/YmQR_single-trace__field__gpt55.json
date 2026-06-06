@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Female child mortality gradients linked to societal gender discrimination in India are plausible, structural, and estimated in a very large national sample.",
+      "The adjusted zero-inflated Poisson marginal effect is model- and confounder-dependent, so the exact conditional association remains somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.75,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

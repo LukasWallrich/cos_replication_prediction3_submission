@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is precise in a very large survey, with b=0.06 and SE=0.01 well beyond borderline significance.",
+      "This is a small cross-level interaction depending on country classification and relatively few country-level units, which limits robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.21,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

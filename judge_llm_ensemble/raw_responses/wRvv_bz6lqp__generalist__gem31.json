@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study utilizes an enormous sample size of over 110,000 individuals, making the statistical estimate highly precise and robust to sampling variation.",
+      "The relationship between concern about immigration and political distrust is theoretically highly plausible and consistently found in European political sociology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.26,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

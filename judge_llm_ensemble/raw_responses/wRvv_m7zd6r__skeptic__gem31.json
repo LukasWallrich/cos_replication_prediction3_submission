@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 110,000 practically guarantees high statistical power, making the reported p-value of 0.000 highly robust.",
+      "The relationship between immigration concerns and political distrust is a well-established and theoretically expected finding in political science."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.7,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

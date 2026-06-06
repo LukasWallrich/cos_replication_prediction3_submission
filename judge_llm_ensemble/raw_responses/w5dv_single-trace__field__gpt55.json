@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Data-driven cluster profiles in a modest convenience sample are somewhat unstable and sensitive to sample composition.",
+      "The effect is small-to-moderate with p=.005, and work-schedule preferences plausibly differ by job-seeker motives."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.41,
+  "_task": {
+    "claim_id": "w5dv_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The intrinsic-versus-extrinsic values link to environmental concern is theoretically plausible and supported by broader value-behaviour literature.",
+      "However, the small convenience sample and very large self-report WTP difference are likely inflated and culturally/sample sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.56,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is large and far from the significance threshold in a within-subject psychophysical design, which improves evidential strength.",
+      "However, n=16 and headline visual-perception findings can overestimate effects, with possible flexibility across conditions and analyses."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.0,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

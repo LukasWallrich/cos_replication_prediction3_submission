@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a social identity priming manipulation, a class of psychological effects that has historically had extremely low replication rates.",
+      "Although the reported p-value is small (p < .001), the relatively small sample size suggests the effect size may be inflated or fragile."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 45.26,
+  "_task": {
+    "claim_id": "WaYe_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

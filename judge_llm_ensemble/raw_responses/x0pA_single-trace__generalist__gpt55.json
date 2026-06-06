@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a large negative estimate in a large matched sample, with abstracted consistency across propensity-score and sibling fixed-effects analyses.",
+      "Because grade retention is observational and highly selected, residual confounding and some reporting inconsistencies temper confidence in the causal magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.93,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

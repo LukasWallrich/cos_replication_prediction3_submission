@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized design and a relatively objective accuracy outcome help, but the claim is a single post-hoc cell contrast.",
+      "The p-value is right at .05 with modest per-cell sample size and likely multiple comparisons, making inflation/shrinkage likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.07,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

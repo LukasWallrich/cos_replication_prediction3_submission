@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 61 is very small for a between-subjects design, leaving the study vulnerable to low power and exaggerated effect sizes.",
+      "The strongest p-value (0.002) is reported for a specific 24-hour follow-up while the overall effect is borderline (p=0.045), suggesting possible analytical flexibility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 638.8,
+  "_task": {
+    "claim_id": "WPTV",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

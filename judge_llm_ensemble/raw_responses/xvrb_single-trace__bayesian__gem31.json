@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extremely small with a large effect size (phi = 0.48), providing robust statistical evidence for the claim.",
+      "The moderate sample size (n = 276) combined with a clean experimental manipulation of knowledge states reduces the likelihood of a false positive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.85,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

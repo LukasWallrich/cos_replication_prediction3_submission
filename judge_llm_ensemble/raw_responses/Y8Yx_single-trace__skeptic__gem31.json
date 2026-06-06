@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a straightforward demographic trend using a massive, nationally representative sample (N > 60,000) from the Indian National Family Health Survey.",
+      "The reported p-value is infinitesimally small, making false positives due to sampling error virtually impossible for this basic descriptive statistic."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 43.07,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

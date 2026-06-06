@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive, representative survey sample of 54,916 respondents, ensuring high statistical power and precise estimates.",
+      "The claim describes a stable demographic correlation (marital status and life satisfaction) that aligns with prior literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.85,
+  "_task": {
+    "claim_id": "XGVO",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

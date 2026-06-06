@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported marriage–cohabitation difference is reasonably precise and statistically stronger than a marginal result, with p=.004 in a panel sample of 3,617.",
+      "Still, it is an observational subgroup/model-based comparison amid several reported partnership, gender, cohort, and orientation contrasts, so replication risk remains material."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.03,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

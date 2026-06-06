@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific post-hoc comparison between two cells in a 3x2 design with a small per-cell sample size (~53) and a marginal p-value (p < .05).",
+      "Effects of subtle digital educational design features, such as interactions between interactivity and imagery type, typically suffer from low signal-to-noise ratios and rarely replicate robustly."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 32.66,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

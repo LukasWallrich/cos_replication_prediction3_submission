@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The overall effect was borderline significant (p=0.045), suggesting the p=0.002 at the 24-hour follow-up is inflated by selective reporting of multiple time points.",
+      "A total sample size of 60 is severely underpowered for detecting subtle behavioral influences on nocebo effects, likely indicating an exaggerated effect size."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.73,
+  "_task": {
+    "claim_id": "WPTV",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is far from the significance threshold in a very large survey, making a pure sampling-fluke explanation less plausible.",
+      "It is still an observational cross-level interaction with a country dummy, vulnerable to specification choices and limited effective country-level variation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.76,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

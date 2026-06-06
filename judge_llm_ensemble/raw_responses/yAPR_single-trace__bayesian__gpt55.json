@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is moderately large and the reported contrast is fairly precise, with p=.004 rather than borderline significance.",
+      "It is still an observational panel subgroup comparison, and partnership-status wellbeing effects can be confounded or specification-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.74,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

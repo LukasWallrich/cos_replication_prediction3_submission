@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a tiny cross-level interaction, a type that often depends on country composition, model specification, and period-specific politics.",
+      "The large individual N gives precision, but effective evidence for far-right popularity is limited by countries and contextual measurement."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.92,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

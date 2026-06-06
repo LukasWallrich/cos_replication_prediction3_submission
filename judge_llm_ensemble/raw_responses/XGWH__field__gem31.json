@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Educational gradients in attitudes toward scientific research and health technology are well-established and robust structural facts in population surveys.",
+      "The sample size is large enough to reliably detect sociodemographic differences, making this descriptive correlational finding highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 5.87,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

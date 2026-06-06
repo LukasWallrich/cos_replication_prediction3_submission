@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a complex moderated mediation pathway, which historically has a low rate of successful replication.",
+      "A sample size of 189 is quite small to reliably detect an interaction effect, especially given the p-value of 0.019."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.3,
+  "_task": {
+    "claim_id": "yDyG_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

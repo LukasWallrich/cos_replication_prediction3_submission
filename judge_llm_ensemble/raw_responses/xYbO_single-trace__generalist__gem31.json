@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect with an included covariate ('controlling for political interest'), which often indicates researcher degrees of freedom.",
+      "While the p-value is relatively strong (p=0.002), the broader literature on stereotype threat interactions has shown mixed replication success."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.88,
+  "_task": {
+    "claim_id": "xYbO_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

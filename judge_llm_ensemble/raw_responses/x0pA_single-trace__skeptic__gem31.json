@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis relies on a large, nationally representative longitudinal dataset with an extremely small p-value, indicating excellent statistical power.",
+      "The use of rigorous covariate adjustment and matching models limits confounding, making the existence of a real negative association highly robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.1,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

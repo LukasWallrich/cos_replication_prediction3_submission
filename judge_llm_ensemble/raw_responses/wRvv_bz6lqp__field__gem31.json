@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between concern about immigration and political distrust is a highly robust, structurally anchored regularity in European political behavior.",
+      "The massive sample size (N > 110,000) provides immense statistical power, ensuring that this main effect will reliably replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.62,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

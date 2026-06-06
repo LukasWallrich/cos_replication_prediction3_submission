@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The contrast is a plausible immediate educational effect from randomized exposure, comparing the most enhanced condition with the weakest presentation.",
+      "But it is a marginal post-hoc cell comparison in six arms with modest n, making chance and shrinkage substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 25.03,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

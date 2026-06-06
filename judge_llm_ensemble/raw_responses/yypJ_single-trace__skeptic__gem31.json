@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect size is large (r = -0.51) and the p-value is extremely small, providing a massive buffer against standard effect size inflation.",
+      "Cross-sectional self-reports of broad psychosocial constructs and psychopathology almost always correlate reliably due to common-method variance and general negative affectivity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 49.11,
+  "_task": {
+    "claim_id": "yypJ_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

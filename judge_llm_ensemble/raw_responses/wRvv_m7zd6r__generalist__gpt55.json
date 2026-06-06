@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association comes from an extremely large sample and remains statistically significant after multiple controls in a multilevel model.",
+      "It is still observational, and the abstract provides limited methodological detail, so causal wording and exact magnitude deserve caution."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.71,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

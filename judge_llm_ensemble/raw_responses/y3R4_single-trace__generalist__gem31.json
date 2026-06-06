@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.045 is very close to the standard significance threshold, which historically correlates with lower replication success.",
+      "The confidence interval for the effect size barely excludes zero, indicating that the observed difference is quite tenuous and could easily be noise."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 98.45,
+  "_task": {
+    "claim_id": "y3R4_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

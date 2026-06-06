@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is very large and the reported gender coefficient is far from the significance threshold, making pure sampling error unlikely.",
+      "This is an observational, model-adjusted association, and the abstract appears somewhat inconsistent about the gender direction, limiting certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.51,
+  "_task": {
+    "claim_id": "YWep_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

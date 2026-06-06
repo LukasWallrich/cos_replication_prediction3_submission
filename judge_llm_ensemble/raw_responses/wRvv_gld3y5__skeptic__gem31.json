@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N > 110,000), providing immense statistical power and highly precise estimates (p < .001).",
+      "While the causal language might be overstated for observational data, the underlying statistical association is highly robust and certain to replicate in a similarly powered sample."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.97,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

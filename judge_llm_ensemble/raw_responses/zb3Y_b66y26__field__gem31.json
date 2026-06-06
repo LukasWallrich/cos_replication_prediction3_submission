@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Contextual spillover effects derived from aggregate observational data are highly susceptible to unmeasured institutional confounders, such as selectivity or overall academic culture.",
+      "Controlling for individual engagement does not eliminate ecological confounding, meaning this effect is likely to attenuate or disappear with stricter covariate controls."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.3,
+  "_task": {
+    "claim_id": "zb3Y_b66y26",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

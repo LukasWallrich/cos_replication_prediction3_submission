@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is reasonably large and the adjusted odds ratio is strong with a confidence interval excluding one.",
+      "However, it is an observational cross-sectional survey with possible self-selection, multiple tested attitudes, and a fairly wide interval."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.78,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

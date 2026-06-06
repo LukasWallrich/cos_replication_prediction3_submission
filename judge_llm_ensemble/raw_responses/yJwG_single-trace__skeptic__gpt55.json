@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a within-subject experimental contrast with a large effect and p far below .05, not a marginal finding.",
+      "The small sample and model-derived outcome add some fragility, but phasic auditory alerting effects are plausible and reportedly converge across experiments."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.07,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

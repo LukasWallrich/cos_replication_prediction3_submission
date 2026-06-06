@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a post-hoc comparison between two specific cells in a 6-cell design, strongly suggesting cherry-picking of extreme means to achieve significance.",
+      "The implied t-statistic for the difference is roughly 2.12 (p ~ .036) with small cell sizes (~50), making it highly susceptible to false positive results."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.62,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

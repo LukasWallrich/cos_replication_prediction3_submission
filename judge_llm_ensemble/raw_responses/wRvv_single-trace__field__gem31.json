@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive sample size (N > 100,000), making the statistical detection of a real, non-zero correlation highly reliable.",
+      "The positive relationship between concern about immigration and political distrust is a robust, well-documented structural regularity in European political sociology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.41,
+  "_task": {
+    "claim_id": "wRvv_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size for this specific comparison is very small (N=81), which combined with a surprisingly large effect size (d=1.09) suggests severe estimation inflation.",
+      "Claims linking psychological value differences or priming to behavioral intentions like willingness to pay typically replicate poorly without much larger samples."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.12,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

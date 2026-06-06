@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a relatively large panel dataset (N=3617), which generally allows for better control of unobserved heterogeneity than cross-sectional designs.",
+      "The reported p-value for the difference between coefficients is strong (p = .004), providing solid statistical evidence that justifies an upward update from the base rate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.16,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

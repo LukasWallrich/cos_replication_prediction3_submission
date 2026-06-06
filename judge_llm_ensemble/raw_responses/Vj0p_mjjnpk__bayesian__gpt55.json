@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Moderate representative sample supports a descriptive association, but n=1502 is not large enough to rescue a borderline result.",
+      "The effect is extremely tiny and p<.05, with a polynomial duration term likely sensitive to specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.7,
+  "_task": {
+    "claim_id": "Vj0p_mjjnpk",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

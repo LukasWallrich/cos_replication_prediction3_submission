@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (N > 40,000) and extremely small p-value (p < .001) make a statistical false positive highly unlikely.",
+      "The core substantive claim that societal discrimination against girls is associated with higher female child mortality is deeply established in demographic literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 30.64,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

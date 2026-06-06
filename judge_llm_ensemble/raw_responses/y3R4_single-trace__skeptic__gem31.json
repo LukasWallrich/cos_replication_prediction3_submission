@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .045 sits squarely at the significance threshold, a classic indicator of potential publication bias or analytical flexibility.",
+      "The relatively small effect size (d = .286) in a modest sample (N = 200) for a vignette experiment suggests a high risk of effect size inflation."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.53,
+  "_task": {
+    "claim_id": "y3R4_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

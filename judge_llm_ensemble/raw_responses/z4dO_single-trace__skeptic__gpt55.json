@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The broad union-membership association is plausible and based on a large survey sample.",
+      "But this is a high-income subgroup/interaction-style “largest effect” from cross-sectional self-report data, vulnerable to confounding and multiplicity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.5,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

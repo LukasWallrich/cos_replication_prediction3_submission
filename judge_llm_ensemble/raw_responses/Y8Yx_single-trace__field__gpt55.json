@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large-sample descriptive demographic trend from nationally representative Indian surveys, not a fragile latent mediation or adjusted association.",
+      "The eight-point increase is plausible and statistically overwhelming, though household-structure definitions and sample composition could modestly affect estimates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.98,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

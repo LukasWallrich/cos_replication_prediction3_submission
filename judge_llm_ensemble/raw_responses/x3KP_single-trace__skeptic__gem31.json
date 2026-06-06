@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The association between optimism and lower perceived stress is a highly established and robust main effect in the psychological literature.",
+      "The reported p-value (< .001) is strong and not borderline, suggesting the effect in this sample is reliable despite the moderate sample size."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.41,
+  "_task": {
+    "claim_id": "x3KP_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

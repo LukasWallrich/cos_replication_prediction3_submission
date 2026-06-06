@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Stereotype threat effects, especially complex interaction terms in online survey experiments, have a notoriously poor replication record.",
+      "The finding relies on an interaction effect conditional on a specific covariate (political interest) with moderate sample size per cell, increasing fragility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.72,
+  "_task": {
+    "claim_id": "xYbO_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a well-established cross-sectional correlation within Self-Determination Theory that consistently appears in survey research.",
+      "The large sample size (N=2022) ensures the estimated relationship is stable and highly likely to replicate in similar conditions."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 184.3,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

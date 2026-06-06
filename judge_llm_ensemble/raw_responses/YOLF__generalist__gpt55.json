@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim rests on a post-hoc pairwise comparison with p just below .05, raising multiple-testing and fragility concerns.",
+      "The randomized experiment has a moderate overall sample, but six cells make this specific contrast relatively thin despite plausible directionality."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.11,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

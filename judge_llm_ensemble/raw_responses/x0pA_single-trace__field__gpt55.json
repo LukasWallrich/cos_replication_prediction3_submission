@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Grade retention and later non-completion are a strong, structurally plausible association likely to replicate in large longitudinal cohorts.",
+      "The causal magnitude is vulnerable to residual confounding, and the reported log-odds/OR values are internally inconsistent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.72,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

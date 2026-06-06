@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Remarriage versus first marriage is a concrete relationship-status correlate in a nationally representative older-adult sample, so the broad association is plausible.",
+      "The reported OR is very large and the SE appears internally implausible, suggesting possible reporting/model-specific fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.78,
+  "_task": {
+    "claim_id": "Vj0p_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

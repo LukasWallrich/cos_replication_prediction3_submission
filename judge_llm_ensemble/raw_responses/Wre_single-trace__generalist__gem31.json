@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 36 participants for a between-subjects design is extremely small, suggesting the study is severely underpowered.",
+      "Social and power priming effects from this era with p-values near 0.05 have a notoriously poor track record of independent replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 21.8,
+  "_task": {
+    "claim_id": "Wre_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

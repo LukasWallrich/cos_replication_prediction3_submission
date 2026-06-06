@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis relies on clusters derived from a relatively small sample (N=173), which are notoriously unstable and may not replicate in a new sample.",
+      "While the p-value (p < 0.01) is moderately strong, the exploratory nature of cluster analysis combined with likely multiple testing reduces confidence."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.67,
+  "_task": {
+    "claim_id": "w5dv_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

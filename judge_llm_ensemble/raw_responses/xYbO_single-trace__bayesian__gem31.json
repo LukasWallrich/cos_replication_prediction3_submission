@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves an interaction effect in the stereotype threat literature, a subfield with a historically poor replication record.",
+      "Although the p-value is relatively strong (p=0.002), the sample size of 368 is modest for detecting robust interaction effects in online experiments."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.12,
+  "_task": {
+    "claim_id": "xYbO_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

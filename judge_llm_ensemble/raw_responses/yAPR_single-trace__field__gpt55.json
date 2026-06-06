@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Marriage and cohabitation differences in subjective well-being are plausible and repeatedly observed in demographic panel research.",
+      "Still, the contrast is culturally contingent and vulnerable to selection/life-stage confounding despite the significant estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.76,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

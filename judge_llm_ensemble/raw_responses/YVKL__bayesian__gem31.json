@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size of nearly 5,000 and tight p-value (<0.001) provide strong statistical support for this simple group difference.",
+      "Descriptive cross-cultural differences in subjective self-report measures generally replicate at high rates due to robust and persistent cultural response styles."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.69,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

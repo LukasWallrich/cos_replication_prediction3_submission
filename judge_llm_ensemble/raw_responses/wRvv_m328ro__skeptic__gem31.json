@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the individual-level sample size is massive, cross-level interactions depend heavily on the much smaller number of macro-level units (countries).",
+      "Observational interaction effects are notoriously sensitive to model specification, though the extremely small p-value provides some buffer against pure noise."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 38.97,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

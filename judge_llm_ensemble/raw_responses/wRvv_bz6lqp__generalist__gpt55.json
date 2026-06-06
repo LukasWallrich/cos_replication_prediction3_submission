@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a very large sample and an apparently highly precise positive coefficient in a controlled multilevel model.",
+      "The claim is a straightforward survey association, not a fragile mediation or interaction, though observational modeling choices limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.71,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

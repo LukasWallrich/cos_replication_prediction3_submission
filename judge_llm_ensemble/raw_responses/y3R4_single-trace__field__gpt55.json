@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The contrast is a simple vignette manipulation with an intuitively plausible semantic basis: correcting a mistake often implies extra work.",
+      "But the estimate is small and barely significant in n=200, so sampling error and wording dependence remain meaningful risks."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.73,
+  "_task": {
+    "claim_id": "y3R4_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

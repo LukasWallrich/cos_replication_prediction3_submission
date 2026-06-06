@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct intergenerational association in self-reported health communication knowledge, with a moderately large path estimate and strong p-value.",
+      "Convenience triad samples and advance-care-planning beliefs are composition-sensitive, so the effect may shrink or vary across families."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.26,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

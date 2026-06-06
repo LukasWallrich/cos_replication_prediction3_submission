@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Random assignment and a fairly strong p=0.002 for a sizable mean difference update upward from the 40–60% base rate.",
+      "But n≈60, subjective outcome, and likely multiple timepoints/outcomes make the specific 24-hour effect vulnerable to inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.64,
+  "_task": {
+    "claim_id": "WPTV",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

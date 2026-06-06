@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The individual-level sample is very large and the reported interaction is highly statistically significant, supporting a small positive moderation effect.",
+      "But the effect is tiny and cross-national interaction evidence may depend on limited country-level variation, making it more fragile than the headline N suggests."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.61,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

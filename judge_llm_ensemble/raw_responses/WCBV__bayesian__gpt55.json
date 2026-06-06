@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Randomized experiment with n=749 and p=.009 provides stronger-than-base evidence for a small framing effect on fluency.",
+      "The effect was not hypothesized and is small, so multiple-testing/publication-selection concerns keep the update modest."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 3833.28,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

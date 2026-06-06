@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim evaluates a standard demographic association (well-being differences between marriage and cohabitation) using a robust, large-scale panel dataset.",
+      "Such broad structural correlations typically replicate reliably, and the strong p-value (p = 0.004) suggests the estimate is precise."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.43,
+  "_task": {
+    "claim_id": "yAPR_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

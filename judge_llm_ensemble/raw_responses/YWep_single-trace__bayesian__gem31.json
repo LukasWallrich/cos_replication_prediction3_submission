@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N = 11,767), providing massive statistical power to detect simple demographic differences.",
+      "The reported p-value is astronomically small (p < 10^-48), making the probability of a false positive for the direction of the effect vanishingly small."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.74,
+  "_task": {
+    "claim_id": "YWep_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 110,000 respondents provides enormous statistical power, making the extremely small p-value highly reliable.",
+      "The claim describes a straightforward main effect rather than a fragile interaction or complex mediation, which strongly increases its replicability."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.62,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

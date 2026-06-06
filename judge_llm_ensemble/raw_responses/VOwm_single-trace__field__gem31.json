@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N=18,949) typical of archival financial datasets, making the finding less susceptible to small-sample noise.",
+      "The positive association between entry barriers (costs) and managerial compensation is theoretically standard in economics, reflecting rent capture in less competitive markets."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.08,
+  "_task": {
+    "claim_id": "VOwm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and theory-consistent hypothesized association make a same-population direct replication more plausible than a marginal small study.",
+      "Cross-sectional self-report SEM leaves substantial risk of common-method bias and model-contingent shrinkage, especially for a modest beta."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.62,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

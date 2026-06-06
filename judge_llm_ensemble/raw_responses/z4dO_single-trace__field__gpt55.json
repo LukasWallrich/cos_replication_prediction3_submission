@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Union membership and support for redistribution is a robust descriptive association, and this estimate comes from a large cross-national sample.",
+      "The exact subgroup pattern—largest among high-income respondents in low-wage unionism contexts—is a specific moderation sensitive to composition and controls."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.48,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

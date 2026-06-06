@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported parent-grandparent association is fairly large (β=.45) and highly significant in a moderate-sized triadic sample.",
+      "Still, it is cross-sectional self-report from likely convenience families, so common-method bias and selection could inflate the path."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.78,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is highly statistically precise in a very large survey, and the interaction direction is plausible for political-trust attitudes.",
+      "However, it is a small cross-national interaction likely dependent on country coding and relatively few country-level units."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.95,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

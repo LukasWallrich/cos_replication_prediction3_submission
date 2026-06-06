@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study analyzes macro-level data from nearly all countries (N=229), meaning the sample is essentially a population census with minimal sampling variance.",
+      "Macroeconomic and public health variables like political stability and TB incidence are highly autocorrelated, making this association extremely stable across similar datasets or adjacent years."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.09,
+  "_task": {
+    "claim_id": "YJOF",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

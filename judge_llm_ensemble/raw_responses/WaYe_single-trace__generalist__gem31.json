@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on social identity priming, a class of psychological interventions that has historically exhibited very low replication rates.",
+      "Although the reported p-value is highly significant, the sample size of 284 suggests the relevant sub-sample of Asian participants is likely quite small."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.32,
+  "_task": {
+    "claim_id": "WaYe_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

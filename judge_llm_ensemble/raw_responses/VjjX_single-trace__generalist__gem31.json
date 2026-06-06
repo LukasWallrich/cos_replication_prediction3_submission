@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a very small sample size (N=16), which generally increases the risk of false positives and inflated effect sizes.",
+      "However, the claim involves a low-level psychophysical perceptual effect with a highly significant p-value (p < .001), which often indicates a robust within-subject signal."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.43,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

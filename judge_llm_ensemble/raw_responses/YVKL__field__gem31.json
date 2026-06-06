@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Cross-national differences in self-rated health between the US and Japan are a very well-documented descriptive regularity, largely driven by cultural response styles.",
+      "The finding relies on large, established cohort datasets (MIDUS and MIDJA) demonstrating robust main-effect differences that are highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.3,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

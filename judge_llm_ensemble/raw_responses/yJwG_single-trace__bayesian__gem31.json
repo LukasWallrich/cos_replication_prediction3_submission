@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value is extremely robust (p < 0.001) for a within-subjects design, paired with a large effect size (Cohen's dz = 0.89).",
+      "Cross-modal alerting effects (e.g., auditory cues speeding visual processing) are well-established and generally replicate highly successfully in cognitive psychology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 61.7,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

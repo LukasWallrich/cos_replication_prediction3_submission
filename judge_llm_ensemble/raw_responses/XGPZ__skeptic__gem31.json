@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value (<.001) is highly robust and the sample size of 189 dyads provides excellent statistical power for detecting a moderate-to-large effect (β = .45).",
+      "Intergenerational correlations between adjacent generations for family-related knowledge are theoretically well-supported and typically replicate, making a true positive directional effect highly probable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 16.97,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

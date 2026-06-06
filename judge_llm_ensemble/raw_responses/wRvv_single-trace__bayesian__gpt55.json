@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has an exceptionally large sample, making the reported conditional association unlikely to be a pure sampling fluctuation.",
+      "The claim is observational and specification-dependent, so causal wording and model controls temper confidence despite the strong statistical signal."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.08,
+  "_task": {
+    "claim_id": "wRvv_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

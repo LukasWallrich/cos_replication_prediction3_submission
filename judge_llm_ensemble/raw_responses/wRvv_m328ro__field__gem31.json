@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the individual-level sample size is massive, the country-level degrees of freedom for the macro-level dummy are likely very small, making cross-level interactions highly sensitive to the specific countries included.",
+      "While the descriptive difference between Western and Eastern/Southern Europe regarding immigration and political trust is plausible, such interaction effects often evaporate when country sets or confounders change."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.7,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

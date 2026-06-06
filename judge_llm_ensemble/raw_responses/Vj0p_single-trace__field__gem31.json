@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct demographic correlation using a large, nationally representative dataset (NSHAP), which typically yields robust and replicable findings.",
+      "The highly significant p-value and large effect size for remarriage suggest a strong structural or life-course pattern that is unlikely to be a statistical fluke."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.67,
+  "_task": {
+    "claim_id": "Vj0p_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

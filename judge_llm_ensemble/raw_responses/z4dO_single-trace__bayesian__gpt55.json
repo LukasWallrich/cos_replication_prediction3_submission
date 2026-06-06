@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large overall survey and a well-established union-membership association with redistribution update above the 40–60% replication prior.",
+      "The claim is a specific subgroup/heterogeneity result in observational data, with possible multiple-comparison and SE/significance ambiguity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.15,
+  "_task": {
+    "claim_id": "z4dO_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

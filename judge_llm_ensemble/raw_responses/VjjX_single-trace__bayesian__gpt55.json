@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Within-subject experimental manipulation shows a large main effect with p<.001, raising credibility above the replication base rate.",
+      "But n=16 is very small and the claim concerns a specific psychophysical ANOVA effect, increasing estimate instability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.88,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

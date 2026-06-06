@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (n = 2022), providing high statistical power to reliably detect the observed moderate effect sizes.",
+      "The claim aligns with well-established principles of self-determination theory, making the observed correlation highly plausible and likely to replicate in similar survey contexts."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 79.31,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

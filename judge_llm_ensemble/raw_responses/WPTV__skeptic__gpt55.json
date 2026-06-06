@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Random assignment and a p=0.002 difference provide stronger evidence than typical underpowered borderline behavioural findings.",
+      "But n≈60, self-reported side-effect attribution, and a highlighted 24-hour subgroup/timepoint raise multiplicity and inflation concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.41,
+  "_task": {
+    "claim_id": "WPTV",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

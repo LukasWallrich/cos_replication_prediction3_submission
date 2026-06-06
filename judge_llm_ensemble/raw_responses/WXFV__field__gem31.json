@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a direct demographic correlation regarding racial disparities in subjective well-being, which is structurally anchored and typically replicates very well.",
+      "The study uses a large sample size of over 11,000 participants and reports a highly significant, plausible effect size."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.59,
+  "_task": {
+    "claim_id": "WXFV",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

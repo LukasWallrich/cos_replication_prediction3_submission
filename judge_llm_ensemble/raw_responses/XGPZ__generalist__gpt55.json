@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is moderately large (β=.45) with p<.001 in a reasonably sized triadic sample of 189 families.",
+      "It is still an observational self-report path estimate from one study, so sampling and model-specific choices could affect replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.3,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

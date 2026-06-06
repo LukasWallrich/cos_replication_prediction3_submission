@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The within-subject design with a highly significant p-value (p < 0.001) provides strong statistical evidence despite the modest sample size of 28.",
+      "Cross-modal alerting effects (e.g., auditory cues speeding visual processing) are well-established phenomena in cognitive psychology, increasing the plausibility of a real effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 107.47,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N > 110,000), providing immense statistical power and yielding an extremely small p-value (p < 0.001) for this coefficient.",
+      "The finding is a straightforward correlational relationship between two well-known linked political attitudes (concern about immigration and political distrust), which highly increases plausibility."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 17.29,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

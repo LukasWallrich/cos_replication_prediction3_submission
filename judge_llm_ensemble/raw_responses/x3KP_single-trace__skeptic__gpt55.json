@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a simple, theoretically established prospective association with p<.001, not a borderline mediation or interaction result.",
+      "However, n=85 is small and both optimism and stress are self-reports, leaving common-method bias and stable negative affect confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.36,
+  "_task": {
+    "claim_id": "x3KP_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

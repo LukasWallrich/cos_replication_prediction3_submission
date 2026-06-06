@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a reasonably large, nationally representative sample and reports a large odds ratio with strong statistical significance.",
+      "The exact SE appears implausibly tiny, and the remarriage finding is only one covariate in observational regression."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.86,
+  "_task": {
+    "claim_id": "Vj0p_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

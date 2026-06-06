@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses an extremely large sample size of 11,767 students, providing immense statistical power for detecting main effects like gender differences.",
+      "The reported p-value is practically zero (p < 10^-48), making it overwhelmingly probable that this gender difference is a real feature of the sampled population."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.45,
+  "_task": {
+    "claim_id": "YWep_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

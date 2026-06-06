@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct demographic-behavioural disparity in a large national tobacco dataset, and gender-minority tobacco disparities are well documented.",
+      "The adjusted association could shift with covariates and gender-variability measurement, but the OR near 1.9 is plausible and not marginal."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.58,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (n > 54,000) yields a highly precise and stable estimate of a basic demographic correlation.",
+      "The association between marital status and life satisfaction metrics is a well-established structural regularity that typically replicates reliably."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 25.06,
+  "_task": {
+    "claim_id": "XGVO",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The sample is very large and the direction is substantively plausible: immigration concern is more politically trust-relevant in long-immigration countries.",
+      "But this is a cross-level interaction using a country dummy, vulnerable to country composition, period effects, and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.09,
+  "_task": {
+    "claim_id": "wRvv_m328ro",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

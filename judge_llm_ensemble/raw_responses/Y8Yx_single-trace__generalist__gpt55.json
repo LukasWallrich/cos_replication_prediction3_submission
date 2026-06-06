@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large descriptive comparison across national survey waves, with a sizable eight-point difference and extremely small p-value.",
+      "The claim is not a fragile mediation or subgroup effect, though comparability of survey measurement across years remains a residual concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.29,
+  "_task": {
+    "claim_id": "Y8Yx_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

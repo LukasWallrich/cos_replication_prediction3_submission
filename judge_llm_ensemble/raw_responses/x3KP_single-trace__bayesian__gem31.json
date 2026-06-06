@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a simple, widely replicated main effect in psychology: optimism predicting lower self-reported stress.",
+      "Despite a modest sample size of 85 couples, the reported p-value is < .001, providing strong statistical evidence for this basic association."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.05,
+  "_task": {
+    "claim_id": "x3KP_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study was randomized, but this is a specific post-hoc cell comparison with only about 50 participants per group.",
+      "The evidence is borderline (p<.05) and likely vulnerable to multiple-comparison and winner’s-curse inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.37,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

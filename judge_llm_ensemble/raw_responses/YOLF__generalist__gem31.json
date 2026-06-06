@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study has a modest sample size per condition (~54 participants), which is likely underpowered to reliably detect small-to-moderate effects between specific cells.",
+      "The claim relies on a specific pairwise comparison within a 3x2 design with a p-value near 0.05, suggesting a high risk of inflated effect sizes."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.69,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

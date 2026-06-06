@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Very large survey sample and extremely small p-value make a positive association unlikely to be pure sampling noise.",
+      "But the observational ZIP model, constructed discrimination measure, and adjustment choices leave substantial confounding/model-dependence concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.12,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

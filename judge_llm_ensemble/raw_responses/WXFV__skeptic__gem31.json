@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N > 11,000) and reports a highly significant p-value (p < .001), providing excellent statistical power.",
+      "This is a straightforward demographic main effect on subjective well-being, a type of descriptive finding that consistently replicates in large national surveys."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.01,
+  "_task": {
+    "claim_id": "WXFV",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

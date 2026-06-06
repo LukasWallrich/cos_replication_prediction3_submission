@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The negative country-level association is substantively plausible and supported by a reasonably large cross-national sample with p≈0.001.",
+      "However, it is cross-sectional ecological SEM with correlated development indicators, so the specific adjusted path may be model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.72,
+  "_task": {
+    "claim_id": "YJOF",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

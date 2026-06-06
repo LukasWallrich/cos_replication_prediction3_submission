@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large cross-national sample and a simple attitudinal association make a nonzero adjusted effect quite plausible.",
+      "Anti-immigration concern and political distrust are theoretically and empirically linked, though controls and period composition may shift the coefficient."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.77,
+  "_task": {
+    "claim_id": "wRvv_bz6lqp",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

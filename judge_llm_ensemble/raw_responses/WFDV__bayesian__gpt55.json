@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national sample and a moderate adjusted odds ratio with CI excluding null support a real descriptive association.",
+      "The gender-varying subgroup is likely small and the p-value is only around .01, limiting precision and leaving confounding/measurement concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.62,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study used a fairly large randomized factorial experiment, and the reported main effect is statistically stronger than a marginal finding.",
+      "The effect is small and explicitly not hypothesized, so multiple testing or chance exploration remains a meaningful concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.79,
+  "_task": {
+    "claim_id": "WCBV",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

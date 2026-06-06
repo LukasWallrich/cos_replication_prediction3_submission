@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the sample size is very small (N=16), the repeated-measures psychophysical design typically involves many trials per participant, yielding reliable within-subject estimates.",
+      "The highly significant p-value (p < .001) and large effect size in a within-subjects design strongly suggest a consistent and robust perceptual effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.64,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 189 dyads/triads is adequately powered to detect a large effect size of beta = 0.45.",
+      "The highly significant p-value (< .001) and the strong theoretical plausibility of intergenerational transmission of knowledge suggest a robust finding."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.91,
+  "_task": {
+    "claim_id": "XGPZ",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

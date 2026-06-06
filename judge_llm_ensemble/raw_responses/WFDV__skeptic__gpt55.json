@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is a main-effect demographic disparity in a large national PATH sample, with a moderate OR and CI excluding modest null drift.",
+      "Observational self-report and possible residual confounding remain concerns, but similar tobacco-use disparities among gender-minority populations are well documented."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.02,
+  "_task": {
+    "claim_id": "WFDV",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

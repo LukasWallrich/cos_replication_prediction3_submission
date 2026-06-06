@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Political stability and TB incidence are structurally linked at country level through conflict, institutions, and health-service disruption.",
+      "The specific SEM-adjusted path is vulnerable to collinearity with wealth and health-system indicators in one-year cross-sectional country data."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 26.24,
+  "_task": {
+    "claim_id": "YJOF",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

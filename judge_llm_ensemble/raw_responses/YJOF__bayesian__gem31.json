@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses country-level macroscopic data where the sample (N=229) represents nearly the entire population of countries, making sampling variance relatively small.",
+      "The highly significant p-value (p < 0.001) and strong theoretical plausibility of the negative association between political stability and TB incidence suggest a robust correlational effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.49,
+  "_task": {
+    "claim_id": "YJOF",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

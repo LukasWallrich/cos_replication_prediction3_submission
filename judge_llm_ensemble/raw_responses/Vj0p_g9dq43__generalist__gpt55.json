@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a fairly large nationally representative sample and reports a robust, highly significant association after adding covariates.",
+      "The claim is observational and potentially sensitive to age-duration collinearity and model specification, so replication is not near-certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.04,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

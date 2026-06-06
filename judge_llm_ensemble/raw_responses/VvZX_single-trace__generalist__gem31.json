@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is quite large (t > 4.5), which typically provides a strong buffer against statistical noise.",
+      "However, the claim specifically references a subset of just 6 groups (30 subjects), and interaction effects in small, specific subgroups are highly prone to being false positives."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 41.41,
+  "_task": {
+    "claim_id": "VvZX_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

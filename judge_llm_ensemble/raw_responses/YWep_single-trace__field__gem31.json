@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a massive, nationally representative stratified sample of over 11,000 students, providing immense statistical power and stability.",
+      "The extremely small p-value (p < 10^-48) for a direct demographic difference strongly suggests this is a structural regularity in the population that will replicate reliably."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 54.54,
+  "_task": {
+    "claim_id": "YWep_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

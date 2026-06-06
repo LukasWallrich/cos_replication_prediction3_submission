@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The measure of 'fast life history' (Mini-K) includes items capturing instability, impulsivity, and poor social support, which inherently overlap with symptoms of psychopathology.",
+      "The sample mixes general population and community mental health patients, likely increasing variance and artificially inflating the correlation, an effect that would persist in a direct replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 51.24,
+  "_task": {
+    "claim_id": "yypJ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

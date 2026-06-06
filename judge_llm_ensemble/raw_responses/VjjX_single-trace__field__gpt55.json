@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large within-subject psychophysical main effect, not a fragile mediation or culturally contingent association.",
+      "The sample is small, but p<.001 and spatial-proximity effects in low-level visual perception are biologically plausible and often replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.67,
+  "_task": {
+    "claim_id": "VjjX_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

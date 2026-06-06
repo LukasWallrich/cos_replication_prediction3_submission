@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Although nominal n=270 and t≈4.6 are encouraging, the effect comes from only six 5-player groups with repeated observations.",
+      "This is a specific lagged interaction in a subgroup model, a claim type with relatively poor replication prospects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.48,
+  "_task": {
+    "claim_id": "VvZX_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

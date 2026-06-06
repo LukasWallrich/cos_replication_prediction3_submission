@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample, theory-consistent association between perceived support and motivation, with a plausible modest effect size.",
+      "It is still cross-sectional self-report SEM, and the negative link with controlled motivation may vary by volunteer sample and measurement."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.66,
+  "_task": {
+    "claim_id": "YXDF",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

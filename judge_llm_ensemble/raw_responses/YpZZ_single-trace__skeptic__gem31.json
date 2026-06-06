@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value (p < .001) suggests the finding is not a marginal artifact, increasing the probability of successful replication in direction.",
+      "However, the reported effect size (Cohen's d = 1.09) is suspiciously large for a small-sample (N=81) psychological study, suggesting severe effect-size inflation."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 46.29,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

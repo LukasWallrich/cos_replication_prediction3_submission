@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is not marginal (t=3.84, p<.001), giving more signal than a typical barely significant result.",
+      "But it is observational with self-reported outcomes, and campus-level engagement is plausibly confounded by institutional culture, selectivity, or response biases."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.05,
+  "_task": {
+    "claim_id": "zb3Y_b66y26",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

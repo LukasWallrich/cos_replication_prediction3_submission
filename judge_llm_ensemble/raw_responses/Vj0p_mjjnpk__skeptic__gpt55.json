@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is plausibly real in this population, using a reasonably large nationally representative sample and a simple duration-outcome relationship.",
+      "But the reported effect rounds to OR=1.00 and p is just below .05, making this specific coefficient fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.31,
+  "_task": {
+    "claim_id": "Vj0p_mjjnpk",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

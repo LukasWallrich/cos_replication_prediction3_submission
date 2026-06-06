@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a post-hoc comparison between two specific cells in a 3x2 design with a borderline p-value (<.05), strongly increasing false positive risk.",
+      "The sample size per cell is relatively small (~53 participants), which reduces the reliability of the effect estimate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 82.51,
+  "_task": {
+    "claim_id": "YOLF",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

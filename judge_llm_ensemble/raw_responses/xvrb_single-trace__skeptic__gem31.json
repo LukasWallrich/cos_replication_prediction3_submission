@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extraordinarily small (p < 10^-13), providing overwhelming statistical evidence against the null hypothesis.",
+      "The sample size (N=276) is adequately large to reliably detect the large reported effect size (phi = 0.48), reducing the risk of a false positive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.97,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

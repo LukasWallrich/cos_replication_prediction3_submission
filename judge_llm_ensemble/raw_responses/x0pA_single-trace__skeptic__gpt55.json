@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is large and precisely estimated in a large, non-convenience longitudinal dataset, making a negative adjusted association likely to replicate.",
+      "Causal interpretation and the 75% magnitude are weakened by observational matching, likely residual confounding, and inconsistencies among reported log-odds, OR, and p-value."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.75,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

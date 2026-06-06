@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N=36), which heavily inflates the risk of false positives and exaggerated effect sizes.",
+      "The claim relies on 2010-era social priming (power priming influencing empathy), a literature with notoriously low replication rates, compounded by a p-value close to 0.05."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.27,
+  "_task": {
+    "claim_id": "Wre_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

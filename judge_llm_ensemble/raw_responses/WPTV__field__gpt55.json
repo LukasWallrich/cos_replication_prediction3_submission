@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a randomized manipulation with a fairly strong reported difference at follow-up, not a fragile cross-sectional adjustment finding.",
+      "However, the sample is small and convenience-based, and subjective nocebo side-effect counts are prone to inflated context-specific effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.0,
+  "_task": {
+    "claim_id": "WPTV",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

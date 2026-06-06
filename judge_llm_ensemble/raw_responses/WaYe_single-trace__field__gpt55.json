@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Identity-salience priming of economic preferences is a fragile, context-sensitive intervention, not a stable demographic association.",
+      "The reported p-value is strong, but the subgroup convenience sample and culturally loaded mechanism make the large effect suspect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.07,
+  "_task": {
+    "claim_id": "WaYe_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

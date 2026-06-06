@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Cross-sectional country-level SEM with n=229 and p=.001 gives moderate evidence but is vulnerable to ecological confounding and specification.",
+      "The negative stability–TB association is substantively plausible and likely reflects broad development/health-system gradients, supporting replication of direction."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.23,
+  "_task": {
+    "claim_id": "YJOF",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

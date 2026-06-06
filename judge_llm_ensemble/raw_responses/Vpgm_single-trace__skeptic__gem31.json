@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a meta-analysis with a substantial aggregate sample size, making the estimated correlation robust to single-study idiosyncrasies.",
+      "A modest negative correlation between materialism and environmental attitudes is theoretically highly plausible and unlikely to be entirely a statistical artifact."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.12,
+  "_task": {
+    "claim_id": "Vpgm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is exceptionally large (N=11,767), providing enormous statistical power for detecting a simple main effect like gender differences.",
+      "The p-value is astronomically small (p < 10^-48), making a false positive due to sampling variation virtually impossible in this population."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.32,
+  "_task": {
+    "claim_id": "YWep_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

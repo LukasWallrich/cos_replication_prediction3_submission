@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The overall sample is huge and the reported interaction is highly significant, which raises credibility above a typical moderation claim.",
+      "But this is a tiny cross-level interaction likely driven by limited country-level variation, making replication and model robustness uncertain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.69,
+  "_task": {
+    "claim_id": "wRvv_gxvxw2",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

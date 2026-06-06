@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Despite small n=28, the within-participant effect is large and statistically strong, t=4.71, p=0.000066.",
+      "Phasic auditory alerting improving visual processing speed is plausible and reportedly echoed across related experiments, though model-derived parameters add uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.2,
+  "_task": {
+    "claim_id": "yJwG_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

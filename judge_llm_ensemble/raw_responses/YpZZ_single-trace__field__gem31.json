@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect size (Cohen's d = 1.09) is implausibly large for a psychological values-to-behaviour link, suggesting substantial inflation due to the small sample size.",
+      "Experimental or quasi-experimental comparisons of intrinsic versus extrinsic values on hypothetical willingness to pay in small samples (n=81) historically suffer from low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.64,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

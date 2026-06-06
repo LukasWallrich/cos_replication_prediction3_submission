@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a strong bivariate correlation (r = -0.51) between self-report measures, supported by a highly significant p-value in a moderate sample of 138.",
+      "Conceptual overlap and shared method variance between questionnaires measuring 'fast life history' (often capturing impulsivity and instability) and psychopathology make a robust correlation highly probable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.08,
+  "_task": {
+    "claim_id": "yypJ_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

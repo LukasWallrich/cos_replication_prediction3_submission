@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has an extremely large sample, making the adjusted association unlikely to be a pure sampling-fluke result.",
+      "The claim is an observational adjusted association, not a causal effect, so model dependence and confounding temper confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.33,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

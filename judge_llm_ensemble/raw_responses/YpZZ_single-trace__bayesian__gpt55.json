@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported effect is large and statistically strong despite the small sample, making a null result less likely than for borderline findings.",
+      "The claim is correlational/self-report and from a small social-psychology study, so effect size inflation or analytic flexibility remains a concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.77,
+  "_task": {
+    "claim_id": "YpZZ_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

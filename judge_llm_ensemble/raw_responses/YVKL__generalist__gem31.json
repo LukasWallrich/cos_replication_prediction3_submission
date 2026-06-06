@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a large sample size (N=4,957) drawing from two well-established, high-quality national surveys.",
+      "The finding describes a basic cross-cultural mean difference with a highly significant p-value (<0.001), making it highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.66,
+  "_task": {
+    "claim_id": "YVKL",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

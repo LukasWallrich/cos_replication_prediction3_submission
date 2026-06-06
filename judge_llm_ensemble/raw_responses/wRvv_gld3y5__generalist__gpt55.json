@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study appears to use a very large multilevel survey sample, making a nonzero adjusted association statistically credible.",
+      "The evidence is observational and details are thin, so causal wording and exact magnitude are less secure than the directional association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.18,
+  "_task": {
+    "claim_id": "wRvv_gld3y5",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

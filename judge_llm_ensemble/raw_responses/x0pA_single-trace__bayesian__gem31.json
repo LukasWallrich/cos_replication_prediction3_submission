@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample (N=8808) from a high-quality, nationally representative longitudinal dataset, heavily reducing the risk of sampling error.",
+      "The combination of a substantial effect size (75% reduction in odds) and an extremely small p-value provides strong statistical evidence for the reported association."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.47,
+  "_task": {
+    "claim_id": "x0pA_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

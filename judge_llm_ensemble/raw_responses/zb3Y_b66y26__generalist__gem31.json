@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The highly significant p-value (p < .001) suggests a robust statistical association that is likely to reappear in a similarly structured dataset.",
+      "However, as an observational, institution-level contextual effect, it is highly susceptible to unmeasured confounding, which slightly reduces confidence in its replicability across different samples."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 41.5,
+  "_task": {
+    "claim_id": "zb3Y_b66y26",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

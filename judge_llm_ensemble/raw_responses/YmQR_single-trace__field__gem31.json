@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large, nationally representative dataset (N > 40,000) with an extremely small p-value, reducing the risk of small-sample noise.",
+      "The core relationship between societal discrimination and female child mortality in India is a well-established, robust structural demographic regularity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.28,
+  "_task": {
+    "claim_id": "YmQR_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is reasonably large (N=1389), and the reported odds ratio indicates a strong association with a confidence interval well away from the null.",
+      "The claim is a straightforward demographic correlation (education level and attitudes), which typically replicates well in survey research."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 12.34,
+  "_task": {
+    "claim_id": "XGWH",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

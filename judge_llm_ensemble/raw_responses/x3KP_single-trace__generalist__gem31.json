@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between optimism and lower reported stress is a well-established and highly plausible psychological phenomenon.",
+      "The actor effect is a simple direct path with a strong p-value (<.001), making it robust even within a relatively small sample of 85 couples."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 25.14,
+  "_task": {
+    "claim_id": "x3KP_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

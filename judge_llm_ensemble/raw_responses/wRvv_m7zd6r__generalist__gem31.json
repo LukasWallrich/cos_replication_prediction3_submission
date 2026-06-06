@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size (N = 110,732), which ensures extremely high precision and stability for the estimated coefficients.",
+      "The relationship between concern about immigration and political distrust is a well-established pattern in political science, making a highly significant directional effect very likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.62,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The experimental manipulation directly tests a well-established game-theoretic principle with a strong, unambiguous signal.",
+      "The statistical evidence is overwhelming (p < 1e-14) in a reasonably sized sample for a straightforward behavioral task."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 5.74,
+  "_task": {
+    "claim_id": "xvrb_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large cross-national sample and a direct attitudinal association make a positive immigration-concern distrust link fairly robust.",
+      "The controlled cross-sectional specification and culturally time-sensitive attitudes leave meaningful risk that the adjusted coefficient changes or attenuates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.92,
+  "_task": {
+    "claim_id": "wRvv_m7zd6r",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}
