@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The within-individual longitudinal design using NLSY97 data is a rigorous approach that accounts for stable unobserved confounding.",
+      "While the specific 24-month threshold suggests possible subgroup specification searching, the highly significant p-value (p < .001) for the effect in longer marriages suggests a robust underlying signal."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 23.86,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

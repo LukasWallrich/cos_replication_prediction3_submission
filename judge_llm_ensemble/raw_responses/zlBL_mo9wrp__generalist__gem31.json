@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large sample (N = 4458) and an objective outcome (mortality) over a long follow-up period, reducing the risk of random noise.",
+      "The p-value is strong (p <= .001) and the finding aligns with well-established epidemiological literature linking life satisfaction to lower mortality risk."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 30.92,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

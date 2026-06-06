@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a correlation between two self-reported survey measures, which typically correlate positively due to general student engagement and common method variance.",
+      "The reported t-statistic is exceptionally large (t = 9.74), making the statistical association highly robust and very likely to replicate in a similar sample."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.42,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

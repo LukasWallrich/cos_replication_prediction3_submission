@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is enormous and p is far from .05, so sampling error alone is unlikely to explain the direction.",
+      "However, it is a small social-psychology experiment using self-reported intimacy, vulnerable to demand and exaggerated effect size."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.47,
+  "_task": {
+    "claim_id": "zlm2_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A campus-average contextual association is plausible, but it is highly vulnerable to institutional confounding and sample composition.",
+      "The reported t-value is strong, yet the small multilevel sample and cross-sectional controls make the independent effect fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.54,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

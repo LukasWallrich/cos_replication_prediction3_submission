@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The attenuation of life satisfaction's effect on mortality after controlling for depression is a highly robust structural finding due to strong construct overlap.",
+      "The large sample size (N=4458) ensures that the hazard ratio estimate is stable, making it highly probable that a replication would yield a similar non-significant effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.18,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

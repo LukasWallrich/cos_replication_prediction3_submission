@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a cross-sectional correlation between self-reported student engagement in diversity classes and self-reported academic skills, which typically replicates well due to underlying general student motivation.",
+      "The extremely large t-statistic (t=10.40) provides a very strong statistical signal that is highly likely to survive a well-powered direct replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 44.23,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

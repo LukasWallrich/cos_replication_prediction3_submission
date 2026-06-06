@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim compares a group that successfully learned the grammar (73% correct) to a group at chance (52%), making the massive effect size theoretically plausible.",
+      "Although the sample size is very small (N=27), the p-value of .001 provides relatively strong statistical evidence against the null hypothesis."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 31.88,
+  "_task": {
+    "claim_id": "zNEm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

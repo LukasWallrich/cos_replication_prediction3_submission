@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The adjusted hazard ratio is small and only marginal, with the confidence interval including the null and p around .10.",
+      "Although prospective mortality follow-up and n=4458 help, this observational self-report predictor remains vulnerable to confounding and shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.86,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

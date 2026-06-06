@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a correlational association, not a causal mechanism, and such broad survey relationships usually replicate better than interaction or mediation claims.",
+      "Despite modest sample size, the reported estimate is very precise and highly significant, making pure sampling error an unlikely explanation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.17,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

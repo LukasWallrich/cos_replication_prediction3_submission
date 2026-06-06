@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The manipulation is direct and proximal: receiving attention plausibly and reliably increases reported intimacy toward that partner.",
+      "Although n=29 inflates the reported d=2.20, the effect is huge and supported by multiple related experiments."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.18,
+  "_task": {
+    "claim_id": "zlm2_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

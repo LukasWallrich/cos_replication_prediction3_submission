@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a relationship between two closely related constructs (cross-racial interaction and racial/cultural engagement) with an extremely large t-statistic (32.28).",
+      "Such highly correlated behavioral/attitudinal measures typically replicate very well because they often tap into overlapping latent constructs."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.49,
+  "_task": {
+    "claim_id": "zb3Y_mw9jx3",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

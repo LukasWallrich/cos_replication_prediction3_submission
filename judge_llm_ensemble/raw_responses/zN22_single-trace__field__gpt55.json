@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small n=40 with between-subject modality and borderline p=.039 makes this interaction highly vulnerable to sampling and analytic noise.",
+      "The effect is a specific task-by-load cognitive moderation, not a broad structural association, and such mechanisms often shrink or fail."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.19,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

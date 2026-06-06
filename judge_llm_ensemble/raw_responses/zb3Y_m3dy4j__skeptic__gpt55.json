@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is extremely strong statistically, with t=18.57 and p<.001, not a marginal underpowered finding.",
+      "However, the design appears observational and self-report, so causal 'effects' may reflect confounding or construct overlap."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.89,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

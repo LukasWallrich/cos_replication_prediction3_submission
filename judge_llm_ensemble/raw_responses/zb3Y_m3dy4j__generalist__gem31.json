@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The incredibly large t-statistic (18.57) indicates a highly precise estimate, likely driven by a massive student-level sample nested within the 236 institutions.",
+      "Large observational studies in higher education typically yield highly stable correlational findings that replicate directionally across similar large-scale datasets."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.18,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

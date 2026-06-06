@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of nearly 8 million indicates the use of comprehensive administrative data, making the estimate highly precise and reliable.",
+      "The p-value is astronomically small, and state-level variations in special education autism identification are a well-documented, structurally stable phenomenon."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.25,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

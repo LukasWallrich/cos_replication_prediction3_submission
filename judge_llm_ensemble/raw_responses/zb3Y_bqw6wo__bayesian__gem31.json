@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is quite large (t = 5.47, p < .001), providing a strong statistical signal that the association is robust against random noise.",
+      "However, the reliance on an observational multilevel design to estimate contextual effects introduces a risk of unmeasured confounding, particularly given the relatively small sample size."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 40.5,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

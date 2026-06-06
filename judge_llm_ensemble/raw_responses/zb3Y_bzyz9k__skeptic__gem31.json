@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The student-level association has a massive t-statistic (10.40) and p < .001, indicating a very strong statistical signal that is highly robust to random noise.",
+      "Although the cross-sectional, self-report design is vulnerable to common-method and selection biases, these exact biases mean the observational association is highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.69,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

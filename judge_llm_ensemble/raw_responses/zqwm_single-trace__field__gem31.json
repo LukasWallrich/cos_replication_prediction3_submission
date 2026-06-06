@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is a direct descriptive comparison of administrative data between two states, supported by a massive population-level sample of nearly 8 million.",
+      "State-level differences in autism identification rates are well-documented structural facts driven by differing state policies, making this highly robust."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.59,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

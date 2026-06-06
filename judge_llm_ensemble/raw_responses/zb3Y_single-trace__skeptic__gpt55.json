@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported contextual association is fairly strong statistically (t=3.84, p<.001), not a just-significant result.",
+      "But it is an observational multilevel/self-report education study with likely residual confounding and optimistic headline-model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.99,
+  "_task": {
+    "claim_id": "zb3Y_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

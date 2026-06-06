@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a very large sample size (N=1607) for comparing the two conditions, resulting in an exceptionally small p-value (p < 10^-18).",
+      "Given the high statistical power and the straightforward nature of the IAT task design, the reported effect of focal valence is extremely robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.89,
+  "_task": {
+    "claim_id": "zK2_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

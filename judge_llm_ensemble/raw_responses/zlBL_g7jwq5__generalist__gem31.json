@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The original effect has a p-value of approximately 0.10 and a confidence interval spanning 1.0, indicating weak evidence for a true effect.",
+      "Although the sample size is large, the small effect size (Hazard Ratio = 1.08) and marginal significance make it unlikely to replicate as a true positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 26.43,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

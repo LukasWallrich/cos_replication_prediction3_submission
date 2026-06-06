@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large longitudinal cohort with objective mortality outcome makes a modest life-satisfaction variability association reasonably credible.",
+      "The specific variability metric and covariate-adjusted psychological association remain somewhat confounding-sensitive, so replication is not assured."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.32,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

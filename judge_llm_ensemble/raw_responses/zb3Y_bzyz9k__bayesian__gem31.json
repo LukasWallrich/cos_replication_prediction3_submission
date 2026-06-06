@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large t-statistic (t=10.40) provides a very strong statistical signal that is highly unlikely to be a false positive.",
+      "The association relies on self-reported observational data (class participation and self-reported skills), which typically yield stable, replicable correlations due to underlying student engagement."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.66,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

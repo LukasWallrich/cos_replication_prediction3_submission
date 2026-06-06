@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective mortality outcome with n=4,458 and HR=1.15 has a reasonably precise CI excluding null and p≈.001.",
+      "The effect is modest and observational, with psychological variability potentially sensitive to measurement choices and residual health confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.51,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

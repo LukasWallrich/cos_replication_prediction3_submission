@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction between mean levels and intraindividual variability, which is notoriously sensitive to measurement artifacts and scaling.",
+      "Despite the large sample size and low p-value, novel moderation effects of psychological variables predicting distal outcomes like mortality frequently shrink or disappear in replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.88,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

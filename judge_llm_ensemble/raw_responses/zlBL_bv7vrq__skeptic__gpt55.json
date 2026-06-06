@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective cohort with objective mortality outcome and n=4458 gives more credibility than typical cross-sectional self-report findings.",
+      "The effect is modest and observational, so residual health and socioeconomic confounding could explain or shrink it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.7,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

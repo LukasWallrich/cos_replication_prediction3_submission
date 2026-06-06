@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The within-individual longitudinal estimate is moderately large and statistically strong, with OR≈1.52 and p<.001 rather than borderline evidence.",
+      "However, divorce is non-random and offending may both precede and follow marital dissolution, limiting causal interpretation despite within-person controls."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.3,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

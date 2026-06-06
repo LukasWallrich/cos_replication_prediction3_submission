@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A small protective life-satisfaction mortality association is plausible in older adults, and the longitudinal sample with objective mortality is reasonably strong.",
+      "The adjusted estimate is weak and nonsignificant, and psychosocial-mortality effects often depend heavily on depressive symptoms and other confounders."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.43,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

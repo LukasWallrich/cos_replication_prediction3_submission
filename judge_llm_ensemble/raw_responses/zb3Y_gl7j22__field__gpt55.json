@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a straightforward student-level association between cross-racial interaction and self-reported academic skills, with a large t-statistic.",
+      "It remains vulnerable to common-method bias, selection into engagement, and model-dependent controls rather than representing a clean structural effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.65,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

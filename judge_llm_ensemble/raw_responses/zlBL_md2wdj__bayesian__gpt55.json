@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is fairly large and longitudinal, but the adjusted effect is small with a confidence interval including no association.",
+      "A life-satisfaction mortality link is plausible, yet this observational covariate-adjusted estimate provides only weak evidence beyond the base rate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.94,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=4458) and highly significant p-value (<0.001) provide strong statistical evidence for the effect within the specified model.",
+      "However, interaction effects derived from observational data are highly sensitive to covariate selection and measurement variance, tempering overall confidence."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.09,
+  "_task": {
+    "claim_id": "zlBL_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic of 4.09 yields a highly significant p-value (< .001), providing a comfortable buffer against typical effect size shrinkage.",
+      "However, the cross-sectional observational design and reliance on self-reported engagement metrics leave the finding vulnerable to common-method bias and unmeasured confounding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 10.5,
+  "_task": {
+    "claim_id": "zb3Y_mp3lzw",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

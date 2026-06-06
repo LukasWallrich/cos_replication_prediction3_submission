@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is large and the reported effect is medium-sized with an extremely small p-value and CI far from zero.",
+      "The claim is a descriptive mean difference, but implicit-association measures can be context-sensitive, limiting confidence below near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.24,
+  "_task": {
+    "claim_id": "zK2_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

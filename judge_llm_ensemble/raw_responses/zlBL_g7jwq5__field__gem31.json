@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The original effect is not statistically significant at the conventional alpha level (p = 0.10, CI includes 1), indicating weak initial evidence.",
+      "The reported hazard ratio of 1.08 in a large sample (N=4458) is very close to the null, suggesting the true effect is likely zero."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.86,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

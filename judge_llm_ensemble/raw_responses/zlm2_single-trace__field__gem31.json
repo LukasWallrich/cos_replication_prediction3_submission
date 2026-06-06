@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=29 is extremely small for a between-subjects design, strongly suggesting an inflated effect size (d=2.20) due to publication bias or the winner's curse.",
+      "While the conceptual link between attention and intimacy is intuitive, small-sample laboratory manipulations in social psychology historically have a high failure rate in rigorous, well-powered replications."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.4,
+  "_task": {
+    "claim_id": "zlm2_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

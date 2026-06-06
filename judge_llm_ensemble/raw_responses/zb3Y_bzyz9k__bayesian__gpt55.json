@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from a 40–60% prior, the reported association is highly significant with a large t-statistic, making pure sampling noise less likely.",
+      "The evidence is observational and self-reported with a modest sample, so causal language and common-method bias limit upward updating."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.32,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is very strong statistically, with a large positive coefficient relative to its tiny standard error.",
+      "The design appears observational and self-report based, so causal “effects” language is less secure than the directional relationship."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.3,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample descriptive implicit-association contrast with a moderate effect and extremely small p-value.",
+      "The specific MC-IAT valence-focal pattern is method- and culture-sensitive, so some shrinkage or instability remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.0,
+  "_task": {
+    "claim_id": "zK2_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

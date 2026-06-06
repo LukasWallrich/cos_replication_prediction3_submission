@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective mortality outcome and large older-adult sample make a modest life-satisfaction association more credible than cross-sectional psychosocial claims.",
+      "However, the effect depends on limited covariate adjustment and may reflect health or socioeconomic confounding, so replication is not assured."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.31,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N = 1607), providing excellent statistical power and precision for the estimated effect.",
+      "The p-value is infinitesimally small (p < 1e-18) with a moderate and plausible effect size, making it highly robust to sampling variation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.38,
+  "_task": {
+    "claim_id": "zK2_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

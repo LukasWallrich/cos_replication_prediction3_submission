@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive t-statistic (18.57) strongly implies a very large student-level sample size, providing excellent statistical power and precision for this estimate.",
+      "The relationship between engaging in diversity curriculum and participating in racial-cultural activities is a straightforward behavioral correlation that is highly robust in higher education research."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.78,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

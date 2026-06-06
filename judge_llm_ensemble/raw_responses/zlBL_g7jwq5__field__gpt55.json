@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The adjusted mortality association is plausible but small and only marginally supported, with the confidence interval including no effect.",
+      "This is a specific longitudinal covariate-adjusted psychological predictor, more fragile than direct demographic or behavioral mortality associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.67,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 4,458 is relatively large for a longitudinal study predicting mortality, providing reasonable power.",
+      "The reported p-value (< 0.001) for the interaction effect suggests strong statistical evidence, though interaction effects in observational studies can be sensitive to model specification."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.87,
+  "_task": {
+    "claim_id": "zlBL_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

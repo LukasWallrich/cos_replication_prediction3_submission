@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on a within-individual longitudinal design using a nationally representative dataset (NLSY97), which strongly controls for time-stable confounding.",
+      "The criminogenic effect of transitioning out of marriage (divorce) is a well-established and highly robust structural finding in life-course criminology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.16,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

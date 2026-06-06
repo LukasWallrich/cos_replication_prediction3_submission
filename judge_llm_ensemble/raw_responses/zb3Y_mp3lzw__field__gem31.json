@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Contextual or peer effects (average institutional diversity affecting individual engagement) are notoriously sensitive to unobserved selection bias and the specific set of covariates used.",
+      "The small reported sample size raises concerns about over-fitting in a complex multilevel model, making this conditional association fragile upon replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.83,
+  "_task": {
+    "claim_id": "zb3Y_mp3lzw",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

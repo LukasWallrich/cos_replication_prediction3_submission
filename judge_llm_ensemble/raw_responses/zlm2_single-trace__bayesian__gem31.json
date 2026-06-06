@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (N=29) and massively inflated effect size (d=2.20) are classic red flags for fragility in 2014-era social psychology.",
+      "However, the highly significant p-value (p < 10^-5) suggests there may be a genuine, albeit much smaller, underlying directional effect despite the likely exaggeration."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 53.36,
+  "_task": {
+    "claim_id": "zlm2_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

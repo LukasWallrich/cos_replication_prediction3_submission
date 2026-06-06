@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .001 suggests a robust statistical signal despite the very small sample size of fewer than 30 participants.",
+      "While the small sample size risks an inflated effect size, the theoretical grounding of the 'starting small' advantage in cognitive science supports the effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.81,
+  "_task": {
+    "claim_id": "zNEm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

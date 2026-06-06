@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective mortality outcome and n=4,458 make this less fragile than typical cross-sectional self-report findings.",
+      "Still observational with modest self-reported exposure, and health-status confounding could explain or attenuate the association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.32,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

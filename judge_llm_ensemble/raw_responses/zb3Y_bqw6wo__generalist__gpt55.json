@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported contextual effect is large and precise (t=5.47, p<.001) from multilevel modeling, which raises replication odds.",
+      "But it is observational, likely same-source campus climate data, and the abstract gives limited design detail for causal/contextual interpretation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.13,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

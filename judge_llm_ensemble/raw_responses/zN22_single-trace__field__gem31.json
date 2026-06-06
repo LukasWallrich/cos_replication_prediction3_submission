@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very small (N=40, ~20 per between-subject group), making the study underpowered to robustly detect a true interaction effect.",
+      "The p-value is just below the significance threshold (p=0.039), which, combined with the small sample and complex dual-task design, strongly suggests low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 6.41,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

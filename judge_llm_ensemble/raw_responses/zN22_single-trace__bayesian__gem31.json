@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 40 is very small for detecting an interaction involving a between-subject variable.",
+      "The p-value is just under the standard significance threshold (p = 0.039), which, combined with the small N, strongly indicates low evidentiary value."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.85,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

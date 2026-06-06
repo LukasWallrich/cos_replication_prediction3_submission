@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Longitudinal within-individual NLSY data and p=.001 for the long-marriage coefficient make the main association more credible than a marginal result.",
+      "But the duration-stratified divorce claim is observational subgroup evidence with small event counts, and the short-marriage “null” is imprecisely estimated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.74,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

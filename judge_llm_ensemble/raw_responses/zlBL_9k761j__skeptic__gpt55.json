@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large longitudinal cohort with objective mortality outcome and p≈.001 reduces concern about a chance finding.",
+      "But it is a headline observational interaction using self-reported variability, so confounding and model dependence remain serious."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.66,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

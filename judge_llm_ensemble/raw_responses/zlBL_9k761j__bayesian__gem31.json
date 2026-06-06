@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 4,458 is quite large for detecting this type of observational association.",
+      "The p-value of 0.001 provides a strong statistical signal, though interaction effects in observational data can still be sensitive to model specification."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.47,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

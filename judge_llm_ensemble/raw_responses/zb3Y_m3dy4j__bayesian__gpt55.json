@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is extremely precise and large statistically, with t=18.57 and p<.001 despite only moderate reported sample size.",
+      "The design appears observational and constructs may overlap, so it strongly supports replication of association but not a definitive causal effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.95,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

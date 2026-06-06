@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is quite large (5.47, p < .001), indicating a strong statistical association within the analyzed dataset.",
+      "However, contextual peer effects derived from survey data are often sensitive to model specification and susceptible to unobserved confounding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 38.76,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

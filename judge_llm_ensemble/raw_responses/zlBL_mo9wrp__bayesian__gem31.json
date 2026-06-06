@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N = 4458) and reports a robust p-value (p ≤ .001), providing strong statistical evidence for the effect.",
+      "The claim describes a standard longitudinal observational association between life satisfaction and mortality, a well-documented and typically robust relationship."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.08,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

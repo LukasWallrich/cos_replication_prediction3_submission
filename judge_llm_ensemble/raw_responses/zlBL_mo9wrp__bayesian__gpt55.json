@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective sample is fairly large, with objective mortality outcome and a statistically clear adjusted hazard ratio excluding null.",
+      "The effect is modest and observational, so residual confounding or model-dependent attenuation could undermine a direct replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.0,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

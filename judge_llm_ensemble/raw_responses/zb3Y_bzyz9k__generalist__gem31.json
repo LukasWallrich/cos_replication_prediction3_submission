@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is extremely large (t = 10.40), providing a very strong statistical signal that is highly likely to replicate directionally.",
+      "The claim involves observational survey data where self-reported engagement and self-reported skills typically correlate robustly due to general student engagement or common method variance."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 26.07,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

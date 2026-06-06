@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a fairly large longitudinal sample and objective mortality outcome, with a modest but statistically clear adjusted hazard ratio.",
+      "Because it is observational and only partly adjusted, residual confounding and cohort-specific patterns make exact replication less certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.17,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The incredibly large t-statistic (t = 18.57) provides overwhelming statistical evidence against the null for this specific association.",
+      "The measures are likely self-reported and conceptually overlapping, meaning the strong association is highly robust to replication, even if driven partly by common-method variance."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.53,
+  "_task": {
+    "claim_id": "zb3Y_m3dy4j",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

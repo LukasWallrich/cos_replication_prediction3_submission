@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Contextual effects estimated from observational data often shrink or disappear when different institutional-level confounders are included in the model.",
+      "If the sample size of 236 refers to individuals across institutions, the study is severely underpowered to reliably estimate level-2 institutional effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.91,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

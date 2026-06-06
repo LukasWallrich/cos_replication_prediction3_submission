@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is very statistically strong, not a marginal p=.05 result, so pure sampling noise is unlikely.",
+      "However, the cross-sectional self-report design makes shared-method bias and confounding plausible, so the reported effect may shrink substantially."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.52,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

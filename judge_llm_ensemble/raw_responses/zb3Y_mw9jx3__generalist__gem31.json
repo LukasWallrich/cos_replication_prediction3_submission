@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is exceptionally large (t = 32.28), indicating a highly robust statistical association with a very small standard error.",
+      "The predictor and outcome (cross-racial interaction and racial/cultural engagement) likely have high conceptual overlap, making a positive correlation practically inevitable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.53,
+  "_task": {
+    "claim_id": "zb3Y_mw9jx3",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

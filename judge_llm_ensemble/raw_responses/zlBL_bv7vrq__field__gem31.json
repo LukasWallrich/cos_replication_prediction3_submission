@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large sample size (N=4458) and reports a highly significant p-value (≤ .001), providing strong statistical evidence for the association.",
+      "The reported effect size (HR = 1.15) is plausible for an observational epidemiological study, making it likely to replicate in similar large cohorts."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.22,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

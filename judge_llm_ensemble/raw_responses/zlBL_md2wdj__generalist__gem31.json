@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=4458) provides a relatively precise and stable estimate of the hazard ratio.",
+      "The claim describes a common epidemiological pattern where adding a highly correlated covariate (depressive symptoms) renders a small effect non-significant."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 45.22,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

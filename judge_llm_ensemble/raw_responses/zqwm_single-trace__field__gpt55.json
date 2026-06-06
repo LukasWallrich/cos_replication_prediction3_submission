@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct state-level administrative identification difference in a very large population, a class of findings that usually replicates well.",
+      "Autism identification policies and practices plausibly vary by state, though the exact Ohio–California contrast may depend on adjustment choices and year."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.18,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

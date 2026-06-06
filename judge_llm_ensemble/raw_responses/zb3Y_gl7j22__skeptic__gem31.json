@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is extremely large (t = 9.74), indicating a highly robust statistical association that is unlikely to be a false positive.",
+      "The finding relies on self-reported measures where common-method bias and general sociability likely produce consistent positive correlations, ensuring the observational association replicates."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.31,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (N=29) suggests the reported effect size (d=2.20) is likely inflated.",
+      "However, the directional effect involves a very basic social response to attention, which is plausible and likely to replicate directionally."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.05,
+  "_task": {
+    "claim_id": "zlm2_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

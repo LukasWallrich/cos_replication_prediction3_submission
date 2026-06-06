@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is an observational multilevel contextual effect depending on final-model controls, a class of findings that often shifts with confound specification.",
+      "The positive association between diversity-related coursework and self-reported skills is plausible and statistically strong, but the campus-level independent effect is less robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.28,
+  "_task": {
+    "claim_id": "zb3Y_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

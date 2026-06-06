@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=4458) and strong p-value (p < 0.001) provide robust statistical evidence for an association with mortality, a highly objective outcome.",
+      "However, interaction effects between mean and variability metrics are notoriously fragile and heavily dependent on the specific set of covariates and model specification."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.45,
+  "_task": {
+    "claim_id": "zlBL_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

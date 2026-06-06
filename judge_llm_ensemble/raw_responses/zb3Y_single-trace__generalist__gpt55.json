@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The multilevel model reports a fairly strong campus-level association with p<.001 in a moderate sample, favoring replication.",
+      "But it is observational and model-dependent, with potential confounding and multiple diversity predictors in the final specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.52,
+  "_task": {
+    "claim_id": "zb3Y_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

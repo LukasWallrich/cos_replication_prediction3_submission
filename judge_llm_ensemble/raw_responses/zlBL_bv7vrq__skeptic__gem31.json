@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study utilizes a large sample size of 4,458 and an objective outcome (mortality), significantly reducing the risk of common-method bias.",
+      "The reported p-value is highly significant (p ≤ .001), suggesting a robust statistical association that is unlikely to be a mere false positive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.87,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

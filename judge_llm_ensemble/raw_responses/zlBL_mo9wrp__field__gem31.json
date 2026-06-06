@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a main effect of mean life satisfaction on mortality risk, a well-established epidemiological association with a highly plausible hazard ratio (0.87).",
+      "The large sample size (N=4458) and strong statistical significance (p <= .001) provide substantial confidence that this direct association would replicate in a similar cohort."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.41,
+  "_task": {
+    "claim_id": "zlBL_mo9wrp",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

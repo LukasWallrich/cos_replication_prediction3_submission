@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The adjusted estimate is small and nonsignificant, with a confidence interval that includes no association despite a fairly large sample.",
+      "The longitudinal sample is substantial, but this observational covariate-adjusted association could reflect residual confounding or sampling noise."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.31,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

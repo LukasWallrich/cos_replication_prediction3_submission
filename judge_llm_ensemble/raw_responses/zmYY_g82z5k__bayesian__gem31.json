@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a robust within-individual longitudinal design over 13 years, effectively controlling for stable, unobserved individual differences.",
+      "The claim is supported by a large sample size of person-months and a highly significant p-value (p < .001) for a theoretically well-established phenomenon."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.55,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

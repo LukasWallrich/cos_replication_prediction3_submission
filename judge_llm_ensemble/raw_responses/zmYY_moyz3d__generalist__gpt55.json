@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The long-marriage divorce association is sizeable, statistically strong, and appears in within-individual longitudinal models using a substantial national dataset.",
+      "The marriage-length split and null short-marriage findings are more fragile, with observational confounding and imprecise subgroup estimates limiting certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.46,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

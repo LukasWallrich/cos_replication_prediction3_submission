@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is moderately sized with very large N and an extremely small p-value, not a borderline significance result.",
+      "Implicit-attitude task effects can be method-sensitive and may shrink, but a well-powered direct replication should still detect this contrast."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.81,
+  "_task": {
+    "claim_id": "zK2_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

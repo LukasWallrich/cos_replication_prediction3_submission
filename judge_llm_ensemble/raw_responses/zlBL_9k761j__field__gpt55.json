@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a longitudinal mortality outcome with decent sample size and a statistically strong, modest hazard-ratio interaction.",
+      "But psychological variability-by-mean interactions and covariate-adjusted robustness claims are often fragile and sensitive to measurement and confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.13,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

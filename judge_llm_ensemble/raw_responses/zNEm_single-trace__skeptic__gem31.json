@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N=27 between-subjects), which strongly inflates the risk of false positives and exaggerated effect sizes.",
+      "However, the control group performing at chance (52% correct, d'=0.08) versus the treatment group showing clear learning (73%, d'=1.51) makes the underlying mechanism highly plausible."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.44,
+  "_task": {
+    "claim_id": "zNEm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

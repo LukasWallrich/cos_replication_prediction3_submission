@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The result comes from a small sample with a just-significant p-value, making the interaction estimate likely noisy.",
+      "It is an interaction matching a broader double-dissociation narrative, but the abstract provides no independent replication or strong converging evidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.33,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

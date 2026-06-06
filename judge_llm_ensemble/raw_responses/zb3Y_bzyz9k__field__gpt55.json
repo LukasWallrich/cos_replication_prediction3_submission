@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a straightforward behavioral/self-report association: students taking more diversity-related coursework plausibly report stronger general academic skills.",
+      "The very large t-value supports reliability, but cross-sectional self-selection and model-dependent controls make the adjusted effect less certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.19,
+  "_task": {
+    "claim_id": "zb3Y_bzyz9k",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

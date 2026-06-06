@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Marriage and divorce links to offending are established, structurally plausible longitudinal associations rather than fragile latent-mechanism claims.",
+      "Within-individual modeling and strong SE support help, though time-varying confounding and reverse causality make the causal wording less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.22,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

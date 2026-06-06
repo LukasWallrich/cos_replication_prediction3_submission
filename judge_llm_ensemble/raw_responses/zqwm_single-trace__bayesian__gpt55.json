@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is enormous and the reported p-value is far from borderline, making sampling error an unlikely explanation.",
+      "This is a descriptive state-level administrative comparison, though unknown effect size and modeling choices leave some risk of fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.48,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

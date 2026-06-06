@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a fairly large longitudinal sample and objective mortality outcome, with a modest but statistically clear hazard ratio.",
+      "Because this is an observational psychosocial association, residual confounding and researcher degrees of freedom make replication less certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.48,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

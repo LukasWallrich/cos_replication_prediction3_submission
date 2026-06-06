@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on a complex longitudinal regression with multiple covariates, where the unique effect of relaxation on joviality is very small (Cohen's f-squared = 0.017).",
+      "Specific paths linking distinct recovery experiences to specific affective states often fail to replicate due to overlapping variance among self-reported psychological predictors."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.14,
+  "_task": {
+    "claim_id": "zekm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

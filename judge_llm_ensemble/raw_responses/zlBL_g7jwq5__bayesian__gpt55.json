@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is fairly large and longitudinal with an objective mortality outcome, which supports reliability over a small cross-sectional finding.",
+      "But the reported association is small and only marginal, with CI including the null and p around .10."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.8,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

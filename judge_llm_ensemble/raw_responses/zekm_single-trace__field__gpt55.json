@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "A positive link between relaxation and positive affect is plausible and partly longitudinal, with prior affect controlled.",
+      "The effect is small and model-specific in a modest self-report sample, so significance may be sensitive to covariates and multiple testing."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.56,
+  "_task": {
+    "claim_id": "zekm_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

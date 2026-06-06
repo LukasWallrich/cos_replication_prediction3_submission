@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The mortality outcome and large longitudinal sample support credibility, and the reported interaction is not merely borderline.",
+      "This is a novel psychological moderation effect with extensive covariate adjustment, a pattern that often weakens under replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.99,
+  "_task": {
+    "claim_id": "zlBL_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

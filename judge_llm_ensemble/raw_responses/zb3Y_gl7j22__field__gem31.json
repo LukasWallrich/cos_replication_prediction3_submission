@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a straightforward correlation between two self-reported measures (interaction frequency and perceived skills), which typically replicates well due to common method variance and general engagement.",
+      "The extremely large t-statistic (t=9.74) indicates a highly robust statistical association that is very likely to survive a well-powered direct replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 23.76,
+  "_task": {
+    "claim_id": "zb3Y_gl7j22",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

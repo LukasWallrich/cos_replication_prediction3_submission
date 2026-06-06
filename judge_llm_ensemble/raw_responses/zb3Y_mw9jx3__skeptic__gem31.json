@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The enormous t-statistic (t = 32.28) indicates a massive signal-to-noise ratio, making a statistical false positive highly improbable.",
+      "The predictor and outcome (cross-racial interaction and racial-cultural engagement) likely share conceptual overlap, virtually guaranteeing this strong association will reliably appear in direct replications."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 29.71,
+  "_task": {
+    "claim_id": "zb3Y_mw9jx3",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses long longitudinal monthly data and within-individual models, with a reasonably precise reported divorce coefficient and p<.001.",
+      "It is observational and the causal wording may overreach, but the directional within-person association seems plausibly reproducible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.47,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

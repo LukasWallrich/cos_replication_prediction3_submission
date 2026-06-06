@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a headline interaction effect in observational behavioral epidemiology, a class with substantial researcher degrees of freedom and poor replication history.",
+      "The cohort is fairly large, mortality is objective, and the reported CI is not just barely significant, supporting a nontrivial chance of replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.33,
+  "_task": {
+    "claim_id": "zlBL_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

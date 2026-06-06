@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Controlling for depressive symptoms typically attenuates the predictive variance of life satisfaction on mortality due to their strong conceptual and statistical overlap.",
+      "The observed effect size is very small (HR = 0.93), making it highly probable that a replication would similarly find a weak or nonsignificant association."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.75,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

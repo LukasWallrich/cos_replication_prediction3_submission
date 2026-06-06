@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Divorce after a sustained marriage plausibly increases arrest risk, and the within-person longitudinal design supports this better than cross-sectional comparisons.",
+      "The 24-month threshold and short-marriage null are specific subgroup/moderation claims from a small arrest-history sample, making them fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.9,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

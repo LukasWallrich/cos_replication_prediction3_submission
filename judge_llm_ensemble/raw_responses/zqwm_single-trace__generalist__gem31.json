@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of nearly 8 million strongly suggests the use of comprehensive administrative data, making sampling variance negligible.",
+      "A descriptive difference in state-level autism identification rates is highly plausible given known variations in state educational policies and practices."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.6,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

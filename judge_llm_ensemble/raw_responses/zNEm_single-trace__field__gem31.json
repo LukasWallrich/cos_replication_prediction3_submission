@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (N=27) combined with a massive effect size (d > 1.4) strongly suggests capitalization on chance or an overestimated effect.",
+      "While the 'starting small' theoretical mechanism is well-known, highly specific learning effects in underpowered artificial grammar tasks frequently fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.86,
+  "_task": {
+    "claim_id": "zNEm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

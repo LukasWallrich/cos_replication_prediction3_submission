@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a null or nonsignificant finding resulting from the addition of a highly correlated covariate (depressive symptoms), which typically reliably attenuates main effects due to shared variance.",
+      "The large sample size (N=4458) provides a stable estimate of the hazard ratio (0.93), making it highly probable that a replication would similarly find a weak, statistically nonsignificant unique effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.94,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large longitudinal sample and mortality outcome, with HR 0.91 and CI 0.86–0.96, provide a meaningful upward update from base rates.",
+      "It is still an observational interaction effect, which is more model-dependent and less reliably replicated than main descriptive associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.74,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim is a conditional multilevel contextual effect, which is more fragile than a simple student-level diversity-engagement correlation.",
+      "The coefficient is statistically strong and directionally plausible, but small samples and campus-level confounding make replication uncertain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.47,
+  "_task": {
+    "claim_id": "zb3Y_mp3lzw",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

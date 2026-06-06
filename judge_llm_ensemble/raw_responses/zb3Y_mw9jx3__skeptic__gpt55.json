@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is enormous and far from the significance threshold, making a same-direction replication highly plausible.",
+      "However, it is likely cross-sectional self-report with overlapping diversity constructs, so the causal 'effects' wording is not well supported."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.48,
+  "_task": {
+    "claim_id": "zb3Y_mw9jx3",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

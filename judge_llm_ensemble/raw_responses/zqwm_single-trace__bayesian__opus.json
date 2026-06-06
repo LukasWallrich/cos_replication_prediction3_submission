@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Descriptive comparison of administrative identification rates across two states with n~8M and p~2.7e-10 — essentially a population-level fact, not a contested causal effect.",
+      "Cross-state disparities in autism identification are well-documented in IDEA/CDC data, and the direction (Ohio lower than CA) is consistent with prior literature."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 29.54,
+  "_task": {
+    "claim_id": "zqwm_single-trace",
+    "persona": "bayesian",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

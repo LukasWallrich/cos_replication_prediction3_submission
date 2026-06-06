@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect has a very small p-value (p < 0.001) and a solid t-statistic (3.84), suggesting strong statistical evidence within the study's framework.",
+      "However, estimating contextual peer effects in observational multilevel models is notoriously prone to omitted variable bias, adding risk to its replicability."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.22,
+  "_task": {
+    "claim_id": "zb3Y_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

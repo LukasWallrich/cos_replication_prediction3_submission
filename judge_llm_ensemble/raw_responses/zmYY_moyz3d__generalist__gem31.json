@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a strong within-individual longitudinal design over 13 years, which effectively controls for time-invariant confounding factors.",
+      "The p-value for the effect in longer marriages is strong (p=0.001), though the failure to find an effect in short marriages may simply reflect lower power."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 27.7,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

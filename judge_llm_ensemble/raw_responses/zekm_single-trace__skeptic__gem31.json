@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies entirely on self-reported measures of conceptually overlapping affective states, which are highly prone to common-method variance that would reliably replicate.",
+      "However, the modest sample size and small reported effect size raise some concerns about model overfitting when controlling for baseline affect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.39,
+  "_task": {
+    "claim_id": "zekm_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prospective cohort with objective mortality and decent sample supports a possible small association, not just common-method self-report bias.",
+      "The adjusted estimate is weak and nonsignificant (HR 0.93, CI crosses 1), with substantial scope for health/depression confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.83,
+  "_task": {
+    "claim_id": "zlBL_md2wdj",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

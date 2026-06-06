@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The long-marriage divorce coefficient is sizeable and precisely estimated across two models (OR≈1.7, p≤.001), updating above base rate.",
+      "However, this is an observational subgroup/moderation claim with modest person-level n and a thresholded null-versus-significant comparison."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.84,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The adjusted hazard ratio is small and only marginally supported, with a confidence interval including no association.",
+      "The cohort is reasonably large with longitudinal mortality follow-up, but the abstract gives limited design detail and possible model multiplicity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.66,
+  "_task": {
+    "claim_id": "zlBL_g7jwq5",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

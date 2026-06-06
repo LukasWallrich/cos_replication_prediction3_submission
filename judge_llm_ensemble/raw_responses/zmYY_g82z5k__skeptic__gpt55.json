@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is longitudinal within-individual and well below conventional significance thresholds, reducing concern that this is a marginal false positive.",
+      "Causal language is too strong because divorce is endogenous and time-varying confounding could inflate the observed arrest association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.37,
+  "_task": {
+    "claim_id": "zmYY_g82z5k",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

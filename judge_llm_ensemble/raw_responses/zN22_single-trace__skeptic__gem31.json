@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=39 is severely underpowered for detecting a robust between-within interaction effect.",
+      "The p-value of .039 sits precariously close to the .05 threshold, which is highly predictive of replication failure for interaction effects."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.66,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

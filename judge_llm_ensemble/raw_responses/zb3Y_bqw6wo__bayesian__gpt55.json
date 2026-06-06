@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Strong reported evidence (t=5.47, p<.001) moves upward from the base rate despite only moderate sample size.",
+      "But it is an observational multilevel contextual association, likely sensitive to controls and institutional-level sampling."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.45,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

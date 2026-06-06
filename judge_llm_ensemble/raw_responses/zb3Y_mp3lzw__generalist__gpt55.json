@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported coefficient is reasonably precise and statistically strong, suggesting more than a marginal single-test finding.",
+      "The evidence is still observational and contextual, with limited metadata on sampling, controls, and institutional-level robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.61,
+  "_task": {
+    "claim_id": "zb3Y_mp3lzw",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

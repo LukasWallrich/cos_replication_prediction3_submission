@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The small effect size (β = 0.15) and moderate sample size (N = 229) suggest limited statistical power for a robust finding.",
+      "The study tests multiple predictors and outcomes, significantly increasing the risk of false positives from multiple comparisons."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.85,
+  "_task": {
+    "claim_id": "zekm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

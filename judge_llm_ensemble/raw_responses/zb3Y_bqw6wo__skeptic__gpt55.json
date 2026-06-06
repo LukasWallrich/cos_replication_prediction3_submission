@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is statistically strong and not a borderline p-value, which supports some real contextual relationship.",
+      "But it is observational, self-reported, likely cross-sectional multilevel work with small samples for institutional-level effects and substantial confounding risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.66,
+  "_task": {
+    "claim_id": "zb3Y_bqw6wo",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

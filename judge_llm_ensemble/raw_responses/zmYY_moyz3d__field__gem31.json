@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific time threshold (24 months) for a moderation effect, which strongly suggests exploratory data analysis.",
+      "Moderation effects and specific subgroup thresholds in observational panel data frequently fail to replicate under different model specifications."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.62,
+  "_task": {
+    "claim_id": "zmYY_moyz3d",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

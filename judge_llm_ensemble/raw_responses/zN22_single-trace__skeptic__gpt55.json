@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-N interaction effect with p=.039, a pattern especially prone to overestimation and failed replication.",
+      "The claim is central to the headline double dissociation, increasing risk of optimistic analysis/reporting in a noisy RT-bias measure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.29,
+  "_task": {
+    "claim_id": "zN22_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

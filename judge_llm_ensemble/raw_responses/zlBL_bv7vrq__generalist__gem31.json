@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=4458), providing robust statistical power for detecting hazard ratios of this magnitude.",
+      "The p-value is strong (p <= .001), indicating that the reported association is unlikely to be a mere statistical artifact."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.2,
+  "_task": {
+    "claim_id": "zlBL_bv7vrq",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is robust (t=4.09, p<.001), indicating a relatively strong statistical signal that is unlikely to be pure noise.",
+      "However, the claim involves an observational contextual effect (institutional average), which is typically sensitive to model specification and unmeasured confounders."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.83,
+  "_task": {
+    "claim_id": "zb3Y_mp3lzw",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": "Although the sample size is large and the p-value is highly significant, interaction effects in observational designs are often fragile and dependent on model specification. Furthermore, interactions between the mean and variability of bounded self-report scales are particularly susceptible to statistical artifacts like floor or ceiling effects.",
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.45,
+  "_task": {
+    "claim_id": "zlBL_9k761j",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  },
+  "_validation_error": "reasoning_top2 must be a list of exactly 2"
+}
