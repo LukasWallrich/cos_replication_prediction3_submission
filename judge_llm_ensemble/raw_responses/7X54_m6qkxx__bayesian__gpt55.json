@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Sample size is large and the reported LMR evidence is not borderline: three classes p<.001, four classes p=.762.",
+      "Latent class enumeration and LMR tests are somewhat sample-dependent, so model-selection claims are less stable than simple descriptive associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.32,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

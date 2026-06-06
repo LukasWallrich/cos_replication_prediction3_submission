@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "The headline evidence is a small interaction in n=107 with p=.05, exactly the kind of underpowered borderline effect that often fails.",
+      "It relies on subgroup/simple-effect interpretation and personality grouping, making the interaction especially vulnerable to noise and analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 2.99,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

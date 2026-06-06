@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The highlighted effect is a modest subgroup partial correlation, reported only at p<.10 amid likely multiple word-emotion and subscale tests.",
+      "The sample is moderate overall but smaller within musical conditions, making this specific correlation vulnerable to noise or selection."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.61,
+  "_task": {
+    "claim_id": "7RR2_m5jnlk",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

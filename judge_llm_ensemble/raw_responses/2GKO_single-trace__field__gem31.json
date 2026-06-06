@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect estimated from an observational panel dataset with a very small effective sample size (only 21 sectors).",
+      "Interaction terms in meso-level econometric models are notoriously sensitive to specification choices and often fail to replicate robustly."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.66,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

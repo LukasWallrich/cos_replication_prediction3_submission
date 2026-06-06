@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The very large sample size (N = 2901) provides robust statistical power for stable parameter estimation in latent class analysis.",
+      "The stark contrast in LMR test p-values (<.001 for three classes versus .762 for four classes) strongly and clearly supports the three-class solution."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.05,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

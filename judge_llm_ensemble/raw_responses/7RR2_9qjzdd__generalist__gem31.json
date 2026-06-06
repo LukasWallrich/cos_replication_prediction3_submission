@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value for the interaction effect is exactly .05, which is right at the significance threshold and represents very weak statistical evidence.",
+      "The sample size of roughly 100 participants is generally underpowered for reliably detecting a complex interaction effect of this magnitude."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.25,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

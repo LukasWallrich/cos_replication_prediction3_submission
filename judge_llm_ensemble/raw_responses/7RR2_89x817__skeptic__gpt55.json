@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim is a three-way interaction in a small behavioral sample, a class of effects that is especially fragile.",
+      "Although p=.01 is not merely threshold, follow-up effects are only p=.06 and the pattern relies on noisy subgroup comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.29,
+  "_task": {
+    "claim_id": "7RR2_89x817",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

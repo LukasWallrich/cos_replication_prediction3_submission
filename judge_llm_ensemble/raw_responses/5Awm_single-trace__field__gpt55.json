@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The positive coefficient is an adjusted suppression result, highly dependent on covariate choice and residual confounding.",
+      "The large sample and plausible language-learning mechanism make a modest positive association credible, but not strongly robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.88,
+  "_task": {
+    "claim_id": "5Awm_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

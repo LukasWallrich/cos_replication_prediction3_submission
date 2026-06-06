@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Interaction effects between personality constructs like alexithymia and complex behavioral tasks such as musical priming are historically fragile.",
+      "A sample size of 107 is relatively small for a robust between-group moderation effect, particularly if continuous variables were artificially dichotomized."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.51,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The basic malice–revenge link is psychologically plausible and likely robust in social undermining contexts.",
+      "But the claim is a borderline significant indirect effect from a modest cross-sectional mediation model, which often weakens under replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.5,
+  "_task": {
+    "claim_id": "5Xaw_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

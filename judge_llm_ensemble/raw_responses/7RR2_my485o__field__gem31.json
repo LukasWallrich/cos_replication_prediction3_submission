@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific partial correlation involving subscales and specific emotion categories, which typically involves high researcher degrees of freedom.",
+      "With a modest sample size of 107 and a p-value near 0.01, this specific condition-level correlation is highly susceptible to inflation and may not replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.72,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

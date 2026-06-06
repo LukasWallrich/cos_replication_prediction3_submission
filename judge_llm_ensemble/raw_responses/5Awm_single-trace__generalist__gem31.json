@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size of 2,835 students provides substantial statistical power and stability for estimating effects in a multiple regression framework.",
+      "However, the claim relies on an effect reversing direction after adding multiple covariates, a pattern that can sometimes be fragile in replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.57,
+  "_task": {
+    "claim_id": "5Awm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

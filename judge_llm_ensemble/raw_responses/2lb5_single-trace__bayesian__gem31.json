@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value (p < 0.0001) provides strong statistical evidence that is robust to typical noise.",
+      "The claim describes a first-order, highly plausible economic effect: that a subsidy increases access to a health product (ACT)."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.35,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a straightforward cross-sectional association between conceptually related workplace perceptions, which generally replicates better than causal or mediation claims.",
+      "Despite modest n=181, the effect is fairly large and statistically strong (β=-.40, p≈4e-8), reducing chance-noise concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.66,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

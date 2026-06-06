@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive, high-quality longitudinal dataset (HRS, N=45,434), providing enormous statistical power to detect such associations.",
+      "The dose-response relationship between cumulative early-life SES adversity and later-life functional decline is a highly robust, well-established finding in life-course epidemiology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.71,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

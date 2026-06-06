@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a mediation analysis ('indirectly related') which is historically among the least replicable types of findings when power is moderate.",
+      "The sample size of 218 is underpowered for detecting robust indirect effects, and a p-value bordering .05 suggests a fragile result."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.3,
+  "_task": {
+    "claim_id": "5Xaw_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

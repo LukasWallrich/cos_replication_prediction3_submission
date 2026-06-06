@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value (1.36e-6) from a well-implemented field study strongly suggests a robust main effect that is unlikely to be statistical noise.",
+      "The finding that subsidies increase access to health products is theoretically sound and represents one of the most consistently replicated results in development economics."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.2,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

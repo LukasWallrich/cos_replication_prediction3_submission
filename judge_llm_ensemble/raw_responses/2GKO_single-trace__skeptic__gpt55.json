@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is not merely marginal, and the longitudinal panel uses firm/sector investment measures rather than one-shot self-report.",
+      "But this is a headline observational interaction in a modest panel, making it vulnerable to specification sensitivity and confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.36,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

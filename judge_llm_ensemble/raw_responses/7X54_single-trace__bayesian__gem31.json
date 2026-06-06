@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study has a large sample size (N=1860) and reports an extremely small p-value (p < 1e-49) with a substantial effect size (d=0.75).",
+      "Descriptive differences between categorical groups on survey items tend to replicate highly reliably when backed by such strong statistical evidence."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.23,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

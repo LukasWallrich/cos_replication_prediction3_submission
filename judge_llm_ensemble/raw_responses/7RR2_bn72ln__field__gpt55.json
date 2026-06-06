@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited partial correlation is tiny and clearly nonsignificant, providing little empirical evidence for an anger-memory deficit in this cell.",
+      "This is a specific construct-by-emotion-by-music-condition association, the kind of fragile moderation/correlation that often fails to replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.55,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

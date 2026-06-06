@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a simple effect derived from a complex moderation analysis within a small sample (N=97), which typically lacks sufficient power.",
+      "Such highly specific cognitive-mechanistic findings with p-values close to 0.05 historically have very low replication rates in behavioural science."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.27,
+  "_task": {
+    "claim_id": "9J1_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

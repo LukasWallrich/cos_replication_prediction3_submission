@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a small cross-sectional self-report association with modest n=353 and only p=.018, making winner’s-curse/noise concerns substantial.",
+      "The claim is a simple predicted group difference, not a complex mediation, which keeps it from being very unlikely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.15,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

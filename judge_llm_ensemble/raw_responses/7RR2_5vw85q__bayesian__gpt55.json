@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample, condition-specific partial correlation with a marginal reported p-value, vulnerable to noise and multiple-comparisons selection.",
+      "The broader alexithymia-memory association is plausible, but this precise angry-music/joy-word/subscale effect is a narrow moderation-type claim."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.91,
+  "_task": {
+    "claim_id": "7RR2_5vw85q",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

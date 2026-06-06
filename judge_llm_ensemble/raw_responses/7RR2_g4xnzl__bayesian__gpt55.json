@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported main effect is small and just reaches significance, with p≈.049 in a modest sample of 107.",
+      "Although the basic association is plausible, alexithymia grouping and emotion-memory outcomes in a moderation study are vulnerable to noisy estimates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.59,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

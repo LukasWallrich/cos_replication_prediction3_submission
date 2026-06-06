@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small 2012 social-psych priming interaction (n=85), a design class with low replication rates and inflated effects.",
+      "The p=.01 and moderate eta-squared provide some support, with a second experiment only partially bolstering the specific effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.29,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

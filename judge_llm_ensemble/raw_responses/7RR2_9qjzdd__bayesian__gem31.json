@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect, which typically requires much larger sample sizes than the N=107 used here to be reliably detected.",
+      "The reported p-value is exactly on the threshold of significance (p = .05), strongly indicating a fragile result that is highly unlikely to replicate."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.94,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

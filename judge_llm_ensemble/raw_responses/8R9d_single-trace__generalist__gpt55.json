@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is moderately large and the reported direction fits related fluency differences between high and low openness groups.",
+      "The enormous t and d come from bootstrapped network estimates, not independent participants, so the significance is likely overconfident."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.72,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

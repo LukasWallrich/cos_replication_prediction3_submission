@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The mention of IPA-Kenya in the text strongly suggests this is a high-quality randomized controlled trial.",
+      "The very low p-value and highly significant coefficient on a direct intervention outcome make the finding highly robust and likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.39,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

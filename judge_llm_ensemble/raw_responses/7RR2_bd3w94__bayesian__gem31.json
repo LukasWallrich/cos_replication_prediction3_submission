@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 107 is underpowered to reliably estimate a partial correlation of r = -.20, resulting in a borderline p-value (p = 0.041).",
+      "Testing specific subscales against specific emotion words within specific music conditions introduces substantial researcher degrees of freedom and multiple testing risks."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.17,
+  "_task": {
+    "claim_id": "7RR2_bd3w94",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

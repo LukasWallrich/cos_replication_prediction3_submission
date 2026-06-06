@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a three-way interaction from a small sample size (N=107), a design known to be severely underpowered and prone to high false positive rates.",
+      "The follow-up two-way interactions are both marginally significant (p = .06), further indicating that the effect is fragile and unlikely to survive a well-powered direct replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.3,
+  "_task": {
+    "claim_id": "7RR2_89x817",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

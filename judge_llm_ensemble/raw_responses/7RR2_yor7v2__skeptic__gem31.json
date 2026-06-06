@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a specific correlation within a single experimental condition and a specific subscale, indicating a high risk of multiple testing and selective reporting.",
+      "An effect size of r = -.440 is suspiciously large for an individual differences measure predicting behavioral task performance, suggesting substantial overestimation."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 14.85,
+  "_task": {
+    "claim_id": "7RR2_yor7v2",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

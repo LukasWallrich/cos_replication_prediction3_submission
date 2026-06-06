@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.049 is just barely below the conventional significance threshold, a strong indicator of low replicability in historical data.",
+      "The sample size of 107 is quite small for reliably detecting modest individual differences (eta-squared = 0.039) in cognitive tasks."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.38,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

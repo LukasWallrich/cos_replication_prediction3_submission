@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The design is experimental and the p-value is strong, not a marginal .05 result, despite the very small sample.",
+      "Replication risk remains meaningful because n=14, effect size is unreported, and lab-market results can depend on protocol details."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.45,
+  "_task": {
+    "claim_id": "1VeW_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

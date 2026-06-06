@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small sample and modest partial correlation with p=.018 make the estimate fragile and vulnerable to sampling error.",
+      "The claim is a specific condition-by-word-type subscale correlation amid many likely tests, raising multiple-comparisons concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.56,
+  "_task": {
+    "claim_id": "7RR2_2kl87y",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple, plausible descriptive race difference in ethnic harassment reports, not a fragile mediation or interaction claim.",
+      "The original evidence is only modest: n=226 with a small effect and borderline p-value around .05."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.64,
+  "_task": {
+    "claim_id": "59bm_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

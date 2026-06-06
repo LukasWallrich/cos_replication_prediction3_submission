@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a highly specific subgroup analysis crossing a particular subscale, condition, and stimulus type, strongly suggesting a 'garden of forking paths'.",
+      "Complex interaction and correlation claims in small behavioural studies with trait measures are notoriously prone to false positives."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.65,
+  "_task": {
+    "claim_id": "7RR2_d5dy7d",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

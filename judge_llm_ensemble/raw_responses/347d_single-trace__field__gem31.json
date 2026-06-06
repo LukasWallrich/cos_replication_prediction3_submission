@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a direct correlation between two conceptually overlapping self-report constructs (perceived discrimination and procedural justice) which typically produces robust effects due to common method variance.",
+      "The reported effect size is large and highly significant (p < 10^-7), providing strong statistical evidence even in a relatively modest sample of 181."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.07,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small culture-by-condition interaction from a modest sample, a class of effects with poor replication records.",
+      "The p-value is not merely .049 and the behavioral outcome plus theory-consistent cross-cultural pattern make total failure less likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.05,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

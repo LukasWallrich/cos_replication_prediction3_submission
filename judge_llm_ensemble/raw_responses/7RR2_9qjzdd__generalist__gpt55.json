@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key interaction is small and borderline significant, with p=.05 and eta-squared=.038 in a modest sample of 107.",
+      "The claim rests on subgroup/simple-effect patterns in an interaction design, which are typically less stable without larger confirmatory evidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.04,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

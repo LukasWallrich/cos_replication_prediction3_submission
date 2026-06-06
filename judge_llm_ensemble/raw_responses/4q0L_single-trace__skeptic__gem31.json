@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value is strongly significant (p < .001), indicating the finding is not a marginal artifact of p-hacking.",
+      "The positive association between aggregate working hours (a proxy for economic activity) and carbon emissions is a theoretically well-established macroeconomic relationship."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.44,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

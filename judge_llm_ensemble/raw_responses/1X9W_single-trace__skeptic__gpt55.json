@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Tiny n=62 correlational study with p=.03 is exactly the fragile, underpowered pattern that commonly fails to replicate.",
+      "Menstrual-cycle effects on complex political preferences are theoretically and methodologically high-risk, with likely confounding and researcher degrees of freedom."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.75,
+  "_task": {
+    "claim_id": "1X9W_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .048 in a small sample size (N=107) investigating complex interactions strongly suggests low statistical power and fragility.",
+      "Trait-level differences in behavioral memory tasks (like alexithymia predicting emotion word recognition) frequently suffer from publication bias and evaporate on replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 29.63,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

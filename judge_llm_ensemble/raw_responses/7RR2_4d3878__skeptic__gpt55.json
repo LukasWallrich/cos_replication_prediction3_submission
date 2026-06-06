@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is fairly large and far from the p=.05 boundary in a moderate sample.",
+      "It is a condition-specific self-report predictor association among many possible correlations, so selection and shrinkage risks remain substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.29,
+  "_task": {
+    "claim_id": "7RR2_4d3878",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, borderline partial correlation from a modest sample amid many condition-by-subscale tests.",
+      "Alexithymia-related emotion processing deficits are plausible, but this specific anger-word happy-music subscale association is fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.24,
+  "_task": {
+    "claim_id": "7RR2_bd3w94",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

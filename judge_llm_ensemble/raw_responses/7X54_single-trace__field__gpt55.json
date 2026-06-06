@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Evolution acceptance is strongly and reliably patterned by religion-oriented worldview categories in U.S. samples.",
+      "The specific post-secular-versus-traditional contrast depends on latent class construction and may be sensitive to sample and period."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.14,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

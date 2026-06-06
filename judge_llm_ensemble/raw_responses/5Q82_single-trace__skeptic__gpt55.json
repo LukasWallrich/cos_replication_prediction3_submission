@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is an observational cross-level interaction, a class of findings especially vulnerable to specification sensitivity and confounding.",
+      "The nominally huge N overstates precision because the key variation is likely at the country or country-year level, not individual level."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.81,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

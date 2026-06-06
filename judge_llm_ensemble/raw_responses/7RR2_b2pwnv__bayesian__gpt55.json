@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited effect is a modest condition-specific partial correlation, apparently only marginal (p<.10) within a small subgroup and many tested correlations.",
+      "The direction is psychologically plausible and total n=107 is not tiny, so I would not push it to very unlikely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.41,
+  "_task": {
+    "claim_id": "7RR2_b2pwnv",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

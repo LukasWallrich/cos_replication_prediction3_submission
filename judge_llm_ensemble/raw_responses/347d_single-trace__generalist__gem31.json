@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a highly plausible relationship between two conceptually linked self-report measures: perceived discrimination and perceived procedural justice.",
+      "The reported effect size is large (β = -.40) with an extremely small p-value (~4e-8) in a sample of 181, indicating strong statistical robustness."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.46,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

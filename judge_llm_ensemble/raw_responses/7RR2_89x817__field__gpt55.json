@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a specific three-way interaction in a small experimental sample, a pattern that commonly shrinks or changes on replication.",
+      "The decomposed effects were only marginal and based on noisy cell means, suggesting the significant omnibus interaction may be unstable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.11,
+  "_task": {
+    "claim_id": "7RR2_89x817",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

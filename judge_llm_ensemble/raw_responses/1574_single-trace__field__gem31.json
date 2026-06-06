@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a massive reported effect size (Cramer's V = 0.57) and an extremely small p-value (p < .001).",
+      "The finding that simple majority and unanimity rules produce different outcomes without communication is a highly robust, structurally anchored result in experimental economics and political science."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 50.47,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

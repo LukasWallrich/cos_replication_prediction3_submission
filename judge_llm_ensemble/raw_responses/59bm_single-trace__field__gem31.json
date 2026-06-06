@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim aligns with a very strong structural prior that minority employees experience, and therefore report, more ethnic harassment than majority Caucasian employees.",
+      "Although the sample size is relatively small (N=226) and the p-value is marginal, the basic demographic relationship being tested is heavily supported by the broader literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 95.72,
+  "_task": {
+    "claim_id": "59bm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

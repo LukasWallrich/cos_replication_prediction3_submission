@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a highly specific moderation effect involving a subscale of a psychological trait and a specific word category within an experimental condition.",
+      "Complex conditional correlations in moderate samples (N=107) are historically prone to severe shrinkage and rarely replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.39,
+  "_task": {
+    "claim_id": "7RR2_d5dy7d",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

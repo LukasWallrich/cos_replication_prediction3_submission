@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 848 communities is reasonable for macro-level political economy data, and the reported p-value (0.001) is highly significant.",
+      "While the causal identification may face endogeneity challenges, the strong statistical association between westward migration and voting patterns is likely to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.61,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

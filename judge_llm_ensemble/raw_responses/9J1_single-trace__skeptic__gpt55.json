@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small student sample and a p=.02 simple contrast imply an inflated, fragile estimate for a likely underpowered interaction pattern.",
+      "The claim concerns expectancy-contingent cognitive associations, a noisy behavioral measure vulnerable to analytic flexibility and weaker replication than main effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.51,
+  "_task": {
+    "claim_id": "9J1_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

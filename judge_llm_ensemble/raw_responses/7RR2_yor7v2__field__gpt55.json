@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Alexithymia-related deficits in emotional word recognition are plausible and the reported partial correlation is moderately large with strong nominal evidence.",
+      "The effect is condition-specific, tied to musical priming and multiple subscale/outcome tests, which often makes such findings shrink or disappear."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.8,
+  "_task": {
+    "claim_id": "7RR2_yor7v2",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

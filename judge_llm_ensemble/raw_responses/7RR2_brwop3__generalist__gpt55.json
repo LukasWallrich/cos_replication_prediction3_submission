@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported correlation is moderate (r≈-.31) in a modest sample, and the abstract describes a broadly consistent anger-memory deficit.",
+      "But it appears to be a condition/subscale correlation among many tests, with limited design detail and possible multiple-comparison fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.58,
+  "_task": {
+    "claim_id": "7RR2_brwop3",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

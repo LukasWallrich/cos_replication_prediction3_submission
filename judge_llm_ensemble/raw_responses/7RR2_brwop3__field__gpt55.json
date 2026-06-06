@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Alexithymia-related emotion processing deficits are plausible, but this is a narrow subscale-by-emotion-by-music-condition memory correlation.",
+      "The original sample is modest and likely involved many tested correlations, making a p<.05 partial correlation vulnerable to selection noise."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.35,
+  "_task": {
+    "claim_id": "7RR2_brwop3",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The enormous effect size and near-zero p-value are statistical artifacts of using the number of bootstrap iterations as the sample size.",
+      "However, Openness reliably predicts higher verbal fluency output, which mechanically alters network structure metrics like ASPL, making the group difference likely to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 21.64,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

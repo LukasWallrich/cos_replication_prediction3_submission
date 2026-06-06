@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample, highly specific partial correlation within a condition, likely among many tested correlations.",
+      "The reported r=.343 is moderate, but the p<.05 table-level evidence is vulnerable to selection and multiple-comparisons inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.05,
+  "_task": {
+    "claim_id": "7RR2_d5dy7d",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

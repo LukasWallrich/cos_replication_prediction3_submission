@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on large-scale, high-quality Demographic and Health Surveys (DHS) data, testing a highly plausible structural relationship between health system strain and service delivery.",
+      "The use of region fixed effects with a highly significant result (t > 5) indicates a robust macro-level demographic trend that is very likely to hold up."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.05,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

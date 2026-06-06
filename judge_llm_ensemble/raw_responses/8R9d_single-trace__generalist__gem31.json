@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive effect size (d=2.94) and t-statistic are artifacts of using bootstrapped network samples rather than subject-level data, inflating statistical significance.",
+      "However, openness is robustly associated with higher verbal fluency, which reliably produces denser semantic networks with shorter path lengths, making the directional finding likely."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.73,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

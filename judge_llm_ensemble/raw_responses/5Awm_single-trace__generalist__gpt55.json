@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a fairly large sample and reports an adjusted positive association with p<.01, which is better than thin single-test evidence.",
+      "The claim is still model-dependent observational regression, with heterogeneous bilingual subgroups and a reversal after controls, making replication less certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.53,
+  "_task": {
+    "claim_id": "5Awm_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

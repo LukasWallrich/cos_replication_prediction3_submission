@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is large relative to its clustered SE, giving a strong statistical signal rather than a borderline result.",
+      "But it is an observational regional panel with only about 119 aggregate observations, leaving confounding and specification sensitivity concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.92,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

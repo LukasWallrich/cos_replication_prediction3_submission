@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 107 is relatively small for detecting robust partial correlations in an experimental incidental memory paradigm.",
+      "The specific effect cited relies on a marginally significant p-value (p < .10), which frequently fails to replicate in well-powered studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.98,
+  "_task": {
+    "claim_id": "7RR2_bolw7q",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small n=43 individual-differences mixed model testing a three-way interaction, a class of effects with poor replication reliability.",
+      "The p-value is not just under .05, but the headline moderation claim is complex and likely sensitive to modeling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 2.47,
+  "_task": {
+    "claim_id": "0qar_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

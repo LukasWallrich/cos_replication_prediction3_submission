@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is large, and the key four-class LMR p-value is far from the .05 decision boundary.",
+      "Latent-class enumeration is model-dependent and can change across samples, so “best fits” is less stable than a direct parameter estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.97,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

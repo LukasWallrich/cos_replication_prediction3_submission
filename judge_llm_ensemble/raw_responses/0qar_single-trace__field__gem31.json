@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A three-way interaction involving an individual difference measure (Need for Cognition) with only 43 participants is severely underpowered.",
+      "Complex, multi-way interactions in small-N cognitive behavioral studies typically have high false positive rates and rarely replicate."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.0,
+  "_task": {
+    "claim_id": "0qar_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

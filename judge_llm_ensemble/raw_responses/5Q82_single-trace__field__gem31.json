@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the individual sample size is very large, the claim relies on a macro-level interaction (country or regional level), which often has a much smaller effective sample size.",
+      "Interaction effects in cross-sectional comparative political economy research are notoriously fragile and sensitive to model specification and country sample."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.32,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

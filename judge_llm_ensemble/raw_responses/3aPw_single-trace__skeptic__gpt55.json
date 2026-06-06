@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large longitudinal HRS sample and a well-established childhood-SES gradient make a positive association with later functional decline plausible.",
+      "Still observational with retrospective adversity measures and multiple transition/category tests, so the exact dose-response threshold may be overstated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.51,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

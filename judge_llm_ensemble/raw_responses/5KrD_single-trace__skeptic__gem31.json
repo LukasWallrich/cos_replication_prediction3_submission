@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding relies on a cross-sectional survey testing a highly counter-intuitive theoretical mechanism, which often indicates ad-hoc hypothesizing.",
+      "The reported effect size is very small (Cohen's f^2 = 0.016) with a p-value of 0.017, suggesting the result might be fragile."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.66,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

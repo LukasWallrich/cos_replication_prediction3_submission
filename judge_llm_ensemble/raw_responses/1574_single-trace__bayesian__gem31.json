@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is exceptionally small (p < 10^-13) and the effect size is very large (Cramer's V > 0.57), providing strong statistical evidence.",
+      "The finding that unanimity rule without communication leads to more failures to reach consensus than simple majority is theoretically solid and mechanically robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 45.45,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The enormous effect size and t-statistic are statistical artifacts of comparing bootstrapped networks, which artificially inflates degrees of freedom.",
+      "Because openness is robustly correlated with verbal fluency, the underlying differences that drive this network-level finding are highly likely to replicate using the same methodology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 14.84,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

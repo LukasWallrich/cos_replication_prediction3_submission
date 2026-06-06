@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The effect relies on a covariate-driven reversal of a negative raw correlation, a pattern notoriously sensitive to how confounders are measured.",
+      "The 'bilingual advantage' has been heavily contested in recent literature, with many structural and cognitive benefits failing to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 12.05,
+  "_task": {
+    "claim_id": "5Awm_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

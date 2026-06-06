@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The effect size is small (partial r = -.200) with a p-value just below the conventional significance threshold (p = 0.041) in a modest sample (N = 107).",
+      "Findings that rely on specific subscales, isolated experimental conditions, and partial correlations are highly susceptible to analytic flexibility and often fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.12,
+  "_task": {
+    "claim_id": "7RR2_bd3w94",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

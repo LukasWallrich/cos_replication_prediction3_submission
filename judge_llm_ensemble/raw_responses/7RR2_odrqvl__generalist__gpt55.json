@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported comparison has a moderate effect size and p=.005 in a modest but not tiny sample of 107.",
+      "The effect relies on a derived facilitation index and high/low personality grouping, making it vulnerable to analytic flexibility and overestimation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.06,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

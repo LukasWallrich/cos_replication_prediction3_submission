@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 128 is severely underpowered to reliably detect a cross-cultural 2x2 interaction effect.",
+      "Interaction effects with p-values in the .01-.05 range in small-sample social psychology studies have historically shown very low replication rates."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.77,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

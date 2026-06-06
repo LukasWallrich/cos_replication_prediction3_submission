@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The within-region fixed-effects estimate is large relative to its clustered SE, making a pure sampling fluke less likely.",
+      "But the evidence is observational with only 119 aggregate observations, so time-varying confounding or specification dependence remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.95,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

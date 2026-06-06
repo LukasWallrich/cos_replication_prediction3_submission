@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is essentially zero and nonsignificant (r=-.053, p=.59), providing little evidence for a replicable negative association.",
+      "The sample is modest and the claim concerns a specific condition/subscale correlation, which has lower reliability than broad descriptive effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.63,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

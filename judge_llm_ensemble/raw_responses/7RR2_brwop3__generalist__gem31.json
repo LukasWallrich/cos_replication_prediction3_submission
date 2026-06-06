@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific partial correlation within a single experimental condition, raising the risk of analytical flexibility.",
+      "A sample size of 107 is relatively small for robustly estimating individual difference correlations across various subscales and experimental conditions."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.55,
+  "_task": {
+    "claim_id": "7RR2_brwop3",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

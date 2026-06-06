@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is moderately large in a 107-person study and appears highly statistically significant, not just marginal.",
+      "It is a specific condition-by-word-emotion finding within a broader multi-comparison design, so selective or inflated effects remain plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.86,
+  "_task": {
+    "claim_id": "7RR2_4d3878",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

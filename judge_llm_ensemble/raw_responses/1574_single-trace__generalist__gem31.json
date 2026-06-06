@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extremely small (2.14e-14) alongside a large effect size (Cramer's V = 0.57), suggesting a very robust statistical difference.",
+      "The finding aligns with well-established theoretical comparative statics in experimental economics regarding the relative inefficiency of unanimity rules compared to simple majority."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 21.71,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

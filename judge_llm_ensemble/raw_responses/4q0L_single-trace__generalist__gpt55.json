@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The result is statistically strong in a moderately sized state-year panel, and the abstract reports robustness across multiple model specifications.",
+      "Still, it is observational macro-panel evidence with likely confounding, autocorrelation, and limited independent units, so model dependence remains a concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.4,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

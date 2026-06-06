@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple between-target perception effect with a large difference, d≈0.9, and a very small p-value in n=194.",
+      "The construct is plausible and supported by the paper’s broader multi-study pattern, though social-psych vignette effects can be demand-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 27.47,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

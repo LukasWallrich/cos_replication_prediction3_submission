@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 218 is relatively small for reliably detecting complex indirect mediation effects.",
+      "The p-value is borderline (p < .05) for an indirect effect, a claim type that historically replicates poorly compared to main effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 20.02,
+  "_task": {
+    "claim_id": "5Xaw_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

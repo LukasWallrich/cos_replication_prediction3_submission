@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is relatively small (N=226) and the p-value is marginal, suggesting weak statistical evidence in the original study.",
+      "However, the directional claim—that minorities report more ethnic harassment than Caucasians—has extremely high face validity and would almost certainly replicate in a well-powered study."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 15.69,
+  "_task": {
+    "claim_id": "59bm_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

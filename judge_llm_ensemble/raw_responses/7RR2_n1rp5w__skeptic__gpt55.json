@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is small and not conventionally significant, with p=.076 in only 107 participants.",
+      "This looks like a selected table-level correlation among multiple condition/subscale tests, making chance and overinterpretation plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.76,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

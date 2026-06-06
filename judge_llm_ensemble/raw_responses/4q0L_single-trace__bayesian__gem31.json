@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The highly significant p-value (p < .001) and strong theoretical link between aggregate economic activity and energy consumption suggest this positive correlation is genuine.",
+      "Although the sample size of 350 state-years is somewhat small, panel data regressions of this type typically yield stable macroeconomic associations."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 102.18,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

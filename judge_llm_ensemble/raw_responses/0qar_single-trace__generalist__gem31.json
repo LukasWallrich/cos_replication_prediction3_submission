@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex three-way interaction involving an individual difference trait (Need for Cognition) and two experimental factors.",
+      "A sample size of N=43 is severely underpowered for reliable detection of three-way interactions, making this result highly vulnerable to being a false positive."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.99,
+  "_task": {
+    "claim_id": "0qar_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

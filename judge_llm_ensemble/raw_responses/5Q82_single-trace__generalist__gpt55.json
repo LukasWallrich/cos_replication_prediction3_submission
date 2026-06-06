@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The nominal sample is very large and the reported interaction is statistically significant around p=.009, which supports some evidential weight.",
+      "But this is a specific observational cross-level interaction, likely with much smaller effective macro-level variation and sensitivity to modeling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.86,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect size is unusually large for social psychology (partial eta squared = .19) and the p-value is extremely small (p < .001), indicating a very strong signal.",
+      "The experimental design is likely a straightforward vignette study assessing stereotypes, which generally yield highly replicable main effects when the underlying cultural association is strong."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.77,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

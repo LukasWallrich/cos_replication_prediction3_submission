@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The result is a single small interaction from a moderate sample, with p=.019 providing evidence but not especially strong evidence.",
+      "The broader abstract reports five converging studies on cultural construal of choice, which modestly supports this specific Study 3 effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.05,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

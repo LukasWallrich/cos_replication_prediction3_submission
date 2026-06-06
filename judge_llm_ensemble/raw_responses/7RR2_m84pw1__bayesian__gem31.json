@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported partial correlation is extremely small (r = -0.066) and statistically non-significant (p = 0.50) in a small sample (n=107).",
+      "Claiming a true effect based on a clearly non-significant finding strongly suggests the finding is noise, making replication highly improbable."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.91,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

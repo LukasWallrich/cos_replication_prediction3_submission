@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is large and precise for a moderate sample, with t≈4.9 and p≈1e-6.",
+      "The claim is a proximal subsidy effect on access, likely from an experimental intervention rather than a fragile mediation or moderation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.22,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

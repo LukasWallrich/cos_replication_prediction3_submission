@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 128 for a 2x2 cross-cultural interaction design leaves the study underpowered to reliably detect such an effect.",
+      "The p-value of .018 is somewhat close to the .05 threshold, which, combined with the small sample size, makes the result vulnerable to non-replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.79,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

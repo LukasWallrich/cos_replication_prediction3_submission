@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Alexithymia-related emotion processing deficits are theoretically plausible and have some broader empirical support.",
+      "This is a small, dichotomized-group effect from N=107 with a borderline p-value, making winner’s-curse or sampling noise likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.87,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

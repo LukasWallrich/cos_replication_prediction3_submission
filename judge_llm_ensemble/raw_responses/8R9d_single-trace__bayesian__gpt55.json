@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported ASPL difference is enormous with a tiny p-value in a moderately sized sample, pushing above the base rate.",
+      "However, inference uses bootstrapped network samples and median-split observational groups, so pseudo-replication and analytic dependence may inflate certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.35,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

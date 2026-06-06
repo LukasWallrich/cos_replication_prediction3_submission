@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis uses high-quality DHS data with country-region fixed effects, providing a clean and robust identification strategy over time.",
+      "The reported effect size has a very large t-statistic (around 5.2), making it highly likely to reflect a genuine structural association rather than statistical noise."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.88,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

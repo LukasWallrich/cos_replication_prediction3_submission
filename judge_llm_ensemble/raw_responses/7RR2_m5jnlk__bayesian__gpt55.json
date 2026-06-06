@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The cited cell reports only r=-.270 with p<.10, likely from a small music-condition subgroup.",
+      "This narrow correlation arises amid many emotion, condition, and subscale tests, so false-positive risk is elevated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.39,
+  "_task": {
+    "claim_id": "7RR2_m5jnlk",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

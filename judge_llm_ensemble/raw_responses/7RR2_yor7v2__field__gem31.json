@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a highly specific, complex interaction (trait alexithymia predicting joy word memory specifically under angry music) which typically suffers from high analytic flexibility.",
+      "The reported effect size (r = -.44) is unusually large for a personality-cognition correlation in a modest sample, strongly indicating effect size inflation."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 33.62,
+  "_task": {
+    "claim_id": "7RR2_yor7v2",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

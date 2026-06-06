@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported main effect is small and just crosses significance, making it vulnerable to sampling noise and winner’s-curse inflation.",
+      "The claim is theoretically plausible and based on a straightforward comparison, but the abstract suggests multiple related tests in a modest sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.56,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

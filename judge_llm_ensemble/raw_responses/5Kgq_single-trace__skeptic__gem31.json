@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The effect has a very large t-statistic (t > 5), making it highly robust to sampling variation and unlikely to be a false positive.",
+      "The use of region fixed effects on large-scale DHS data is a standard, rigorous approach for identifying within-region associations over time."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.9,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

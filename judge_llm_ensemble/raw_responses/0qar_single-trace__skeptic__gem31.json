@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A sample size of 43 participants is severely underpowered to reliably estimate a three-way interaction involving a continuous between-subjects trait like Need for Cognition.",
+      "Three-way interactions in small samples are notoriously fragile, prone to overfitting, and have very low replication rates in the behavioral sciences."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.24,
+  "_task": {
+    "claim_id": "0qar_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

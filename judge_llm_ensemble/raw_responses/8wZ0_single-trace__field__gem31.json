@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a mortality salience manipulation, a type of social priming that has notoriously failed to replicate in large-scale replication efforts.",
+      "The sample size of 85 is small for detecting a between-within interaction, increasing the likelihood that this is a false positive."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.64,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

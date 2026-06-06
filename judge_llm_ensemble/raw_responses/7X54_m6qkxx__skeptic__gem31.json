@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size of 2901 provides substantial statistical power to stably estimate latent class structures using standard fit indices.",
+      "The massive drop in LMR test significance from the 3-class (p < .001) to 4-class (p = .762) model indicates a clear, non-marginal empirical threshold."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.9,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

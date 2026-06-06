@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is tiny and nonsignificant, providing essentially no empirical support for a reliable negative association.",
+      "This is a specific subscale-by-emotion-by-music-condition claim in a modest sample, a pattern type that often fails to replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.41,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a small correlational sample with a just-significant p-value, a pattern prone to exaggeration and false positives.",
+      "The claimed fertility-cycle effect on a complex voting intention seems flexible and context-dependent, despite the abstract mentioning two related studies."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.72,
+  "_task": {
+    "claim_id": "1X9W_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

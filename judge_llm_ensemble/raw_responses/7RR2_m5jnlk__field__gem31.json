@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a relatively small sample (N=107) to test a specific cognitive-personality partial correlation, which typically yields unstable effect sizes.",
+      "The reliance on partial correlations and the mention of marginal significance (p < .10) in subsets suggests analytical flexibility, lowering replication probability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 21.18,
+  "_task": {
+    "claim_id": "7RR2_m5jnlk",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

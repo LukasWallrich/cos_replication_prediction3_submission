@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a specific personality-by-music congruency interaction from a modest convenience sample, a pattern that often proves sample-dependent.",
+      "The p-value and effect size are reasonably supportive, and alexithymia-emotion processing links are plausible, preventing a very low rating."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.01,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

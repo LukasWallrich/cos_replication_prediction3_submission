@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is strongly significant (b=.668, SE=.179, p<.001) and reported robust across state-level panel specifications.",
+      "However, n=350 over seven years is modest for observational panel data, with likely confounding and sensitivity to controls/clustering."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.34,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

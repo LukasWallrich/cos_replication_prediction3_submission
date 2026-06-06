@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported subsidy effect is large relative to its clustered standard error, making a pure sampling fluke less plausible.",
+      "But the supplied abstract gives essentially no design details, so randomization, measurement quality, and specification robustness are unclear."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.09,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

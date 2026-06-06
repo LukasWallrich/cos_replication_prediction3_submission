@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Very large HRS sample and a plausible SES-health gradient support a real association despite observational design.",
+      "The specific dose-response/three-adversity transition claim has modest p-values and multiple-comparison risks, limiting confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.51,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

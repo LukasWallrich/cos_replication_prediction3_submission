@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extracted correlation for this specific condition is practically zero (r = -.053) and highly non-significant (p = 0.59).",
+      "It is highly probable that the authors are overclaiming a general pattern that is unsupported by this specific, statistically non-significant result."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.85,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

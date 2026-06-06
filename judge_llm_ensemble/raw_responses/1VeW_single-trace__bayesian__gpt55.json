@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Despite the tiny n=14, the paired Wilcoxon result is quite strong (p≈0.001), implying consistent differences across observations.",
+      "The claim is a direct experimental comparison, but small laboratory samples and missing effect-size detail limit confidence in robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.12,
+  "_task": {
+    "claim_id": "1VeW_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

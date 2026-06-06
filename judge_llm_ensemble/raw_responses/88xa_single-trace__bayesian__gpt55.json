@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The evidence is a modest interaction from a small sample (n=128) with p=.019, a pattern prone to inflated estimates.",
+      "Interaction claims in social psychology replicate less reliably, though the experimental design and broader theory prevent a very low rating."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.07,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large sample size (N=1860) and reports an overwhelmingly small p-value (p < 10^-49), indicating a massive statistical signal.",
+      "Although based on latent categories which can be sensitive to model specification, the underlying polarization of attitudes toward evolution in the US is highly robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.79,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

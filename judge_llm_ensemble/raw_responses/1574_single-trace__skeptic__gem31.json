@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extremely small (p < 1e-13) and the effect size is large, making it highly robust against random noise.",
+      "The finding aligns with well-established theoretical expectations in experimental economics regarding the difficulty of reaching consensus under unanimity rules without communication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.31,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

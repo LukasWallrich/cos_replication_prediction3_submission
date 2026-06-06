@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The enormous reported effect is based on bootstrapped network samples, not independent participants, making the p-value and d heavily inflated.",
+      "The sample is decent and the direction is plausible, but median-split group networks are fragile and confounded by verbal-fluency differences."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.18,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

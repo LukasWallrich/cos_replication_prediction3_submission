@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, marginal demographic association with subjective work absorption, not a well-established structural health or behavior gradient.",
+      "The business-school alumni convenience sample and family-status comparison are composition-sensitive, making direction and significance vulnerable to replication changes."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.77,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

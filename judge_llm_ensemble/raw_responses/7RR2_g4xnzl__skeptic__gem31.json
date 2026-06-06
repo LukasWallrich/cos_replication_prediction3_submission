@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.049 is highly suspicious, indicating the finding barely crossed the significance threshold, a strong marker of low replicability.",
+      "The modest sample size and apparent dichotomization of a continuous trait (high vs. low alexithymia) further degrade the statistical robustness of the effect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.23,
+  "_task": {
+    "claim_id": "7RR2_g4xnzl",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

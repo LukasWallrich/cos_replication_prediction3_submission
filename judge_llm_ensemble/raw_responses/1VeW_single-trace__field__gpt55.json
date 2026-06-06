@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A direct manipulation of auction mechanism with p≈0.001 at n=14 implies a large within-design price difference.",
+      "However, small laboratory market experiments can be parameter- and sample-sensitive, and the effect size is not reported."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.24,
+  "_task": {
+    "claim_id": "1VeW_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

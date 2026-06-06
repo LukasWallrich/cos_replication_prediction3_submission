@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small sample (n=97) and p=.02 make this specific contrast vulnerable to inflated or unstable estimates.",
+      "The claim is a theory-predicted experimental simple effect, but it is narrower than a main effect and likely involved multiple contrasts."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.56,
+  "_task": {
+    "claim_id": "9J1_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

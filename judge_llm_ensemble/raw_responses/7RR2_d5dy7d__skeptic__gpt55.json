@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a subgroup partial correlation in a small condition cell, likely with p just under .05 despite the misleading full-sample metadata.",
+      "It appears secondary among many correlations and supports an interaction-style interpretation, both prone to selection and shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 41.87,
+  "_task": {
+    "claim_id": "7RR2_d5dy7d",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a moderate correlation (r ~ -.26) between a personality trait and a specific memory task in a sample of 107.",
+      "Although the overall metadata p-value is low, the claim references a marginal p < .10 for a specific subscale, indicating potential fragility in the finding."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.58,
+  "_task": {
+    "claim_id": "7RR2_b2pwnv",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

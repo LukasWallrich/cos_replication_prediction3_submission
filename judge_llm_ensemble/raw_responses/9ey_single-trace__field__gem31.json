@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "This is a straightforward main effect in a vignette-based experiment with a very large effect size and an extremely small p-value.",
+      "The finding taps into broad, well-documented cultural stereotypes linking pro-social or caregiving behaviors (like environmentalism) with femininity, increasing its robustness."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.97,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

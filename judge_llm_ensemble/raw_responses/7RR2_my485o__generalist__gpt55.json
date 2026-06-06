@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported partial correlation is small-to-moderate with n=107 and only modest significance, making sampling error and effect inflation plausible.",
+      "The claim appears embedded in many condition-by-emotion-by-subscale tests, raising concern that this specific correlation may not be robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.95,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "A moderate negative correlation around r=-.31 with n=107 and p≈.0015 is stronger than a borderline small-sample finding.",
+      "It is still a specific subscale-by-condition correlational result in a psychology study, likely among many tested correlations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.14,
+  "_task": {
+    "claim_id": "7RR2_brwop3",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

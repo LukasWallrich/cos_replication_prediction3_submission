@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a sign reversal that occurs only after adding a large set of background controls, which often indicates fragility or suppression effects that are difficult to replicate.",
+      "While the overall sample size is large (N=2835), observational estimates that depend heavily on specific covariate adjustments typically replicate at lower rates than simple main effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 19.7,
+  "_task": {
+    "claim_id": "5Awm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

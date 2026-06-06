@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claimed correlation has a p-value of 0.076, meaning it did not reach conventional statistical significance in the original study.",
+      "The finding relies on a weak correlation (r=.174) involving a specific subscale and condition, suggesting a high risk of capitalizing on chance."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.27,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

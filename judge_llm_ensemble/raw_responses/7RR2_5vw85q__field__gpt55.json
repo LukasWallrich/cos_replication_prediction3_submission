@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a condition-specific partial correlation involving a subscale, emotion word type, and music prime, making it highly multiplicity-sensitive.",
+      "The reported effect is only marginal in the table and comes from a modest sample, despite some broader plausibility for alexithymia-related emotion deficits."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.64,
+  "_task": {
+    "claim_id": "7RR2_5vw85q",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

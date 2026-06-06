@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Aggregate working hours and emissions share a plausible economic scale link, and the reported association is fairly strong with a small SE.",
+      "But it is a short state-level observational panel, so the coefficient may depend on controls, recession-era dynamics, and energy-mix confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.81,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported partial correlation (r = .174) in a small sample of N = 107 did not even reach conventional statistical significance (p = .076).",
+      "Claims based on marginal, underpowered subgroup analyses involving specific self-report trait subscales are notoriously unreliable and highly unlikely to replicate."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.98,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

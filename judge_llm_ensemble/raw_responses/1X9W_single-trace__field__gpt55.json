@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, marginally significant fertility-cycle association with a political preference, a class of effects that has replicated poorly.",
+      "The effect is culturally and temporally specific to the 2008 Obama election context, making stable replication especially doubtful."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.1,
+  "_task": {
+    "claim_id": "1X9W_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

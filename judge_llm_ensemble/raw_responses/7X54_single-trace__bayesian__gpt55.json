@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Base-rate starts near even, but n=1860 and reported d≈0.75/p≈1e-49 are strong reliability signals.",
+      "This is a descriptive group difference, not a fragile causal claim, though latent-class definitions and wording inconsistency add uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.02,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

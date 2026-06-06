@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size (n=14) strongly reduces confidence in the stability of the estimates.",
+      "However, the very low p-value (p < 0.001) for a non-parametric test implies a stark and consistent directional effect across the small number of observations."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 13.9,
+  "_task": {
+    "claim_id": "1VeW_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

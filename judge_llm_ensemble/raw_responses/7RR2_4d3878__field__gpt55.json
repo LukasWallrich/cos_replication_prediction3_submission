@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is large and highly significant for n=107, making pure sampling noise less likely.",
+      "But it is a specific condition-by-stimulus association in a convenience experimental task, where personality-cognition effects often shrink or vary."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.56,
+  "_task": {
+    "claim_id": "7RR2_4d3878",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

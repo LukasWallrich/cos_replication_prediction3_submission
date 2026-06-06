@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=107) is relatively small for reliably detecting individual differences on a behavioral task.",
+      "The claim involves a specific moderation/interaction effect based on a personality construct, which historically replicate at lower rates than simple main effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.82,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

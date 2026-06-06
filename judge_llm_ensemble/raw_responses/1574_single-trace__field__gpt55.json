@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a direct institutional consequence of unanimity versus majority rules, not a fragile latent mediation or confound-adjusted association.",
+      "The reported association is large with an extremely small p-value, though lab sample size and specific signal ranges temper certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.76,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is very small (Cohen's f^2 = 0.016) and the p-value of 0.017 suggests relatively weak statistical evidence in a sample of 353.",
+      "The theoretical premise is framed as a counter-intuitive paradox, which historically predicts lower replication success due to potential capitalization on chance."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.43,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

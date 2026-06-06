@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The specific statistical test reported has a highly non-significant p-value (~0.50) and a near-zero effect size (r = -.066), providing no evidence.",
+      "Interpreting a non-significant, tiny correlation as supportive of a hypothesis is a major analytic red flag, suggesting the effect is not real."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.27,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

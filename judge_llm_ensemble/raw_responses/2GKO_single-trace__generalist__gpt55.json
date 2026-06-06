@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The panel sample is moderate and the interaction is statistically significant (p≈0.008), supporting a real positive moderation effect.",
+      "But it is an observational sector-level model with a single interaction term, so specification sensitivity and dependence could make it fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.95,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

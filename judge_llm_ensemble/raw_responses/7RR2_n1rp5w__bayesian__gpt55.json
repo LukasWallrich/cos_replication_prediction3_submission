@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is weak: n=107, partial r=.174, and the reported two-tailed p-value is non-significant at about .076.",
+      "This is a specific condition-by-trait association likely drawn from multiple correlations, making false-positive or overestimated effects fairly plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.28,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

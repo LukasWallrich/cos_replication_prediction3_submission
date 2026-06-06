@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size (N = 45,434) from the highly rigorous, nationally representative Health and Retirement Study.",
+      "The dose-response relationship between cumulative childhood socioeconomic adversity and later-life health decline is a robust, well-established epidemiological pattern."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 5.92,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

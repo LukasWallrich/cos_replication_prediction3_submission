@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific partial correlation is modest in a small sample, with many likely condition-by-emotion-by-subscale tests increasing false-positive risk.",
+      "The association is theoretically plausible and p=.012 is not merely borderline, but exact cell-level effects in such designs often shrink."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.0,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The highly significant p-value (p < .0000001) for this main effect provides a massive buffer against typical effect size inflation.",
+      "The conceptual overlap between perceived discrimination and lack of procedural justice makes a robust negative correlation almost inevitable in self-report survey data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.62,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

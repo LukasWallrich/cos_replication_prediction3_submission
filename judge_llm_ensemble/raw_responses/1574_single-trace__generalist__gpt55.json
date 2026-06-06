@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported institutional difference is large and highly significant, with a clean experimental comparison across voting rules.",
+      "The sample is moderate and subgroup cell counts are unclear, so the detailed efficiency pattern is less certain than the main contrast."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.18,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

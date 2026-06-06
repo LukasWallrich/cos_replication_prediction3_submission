@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, condition-specific correlation in a modest sample, reported only at p<.10, with many tested word/music/subscale combinations.",
+      "Alexithymia-related emotion-processing deficits are plausible, but this exact anger-word recognition association is likely noisy and vulnerable to multiplicity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.4,
+  "_task": {
+    "claim_id": "7RR2_bolw7q",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

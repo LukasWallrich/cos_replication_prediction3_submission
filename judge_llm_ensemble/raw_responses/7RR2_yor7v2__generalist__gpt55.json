@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is moderately large and apparently based on the full sample, giving stronger evidence than a marginal result.",
+      "The claim is a specific condition-by-subscale association from a likely multi-comparison table, so effect-size inflation or selection remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.99,
+  "_task": {
+    "claim_id": "7RR2_yor7v2",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from a 40–60% prior, the small sample and borderline p=.041 for r=-.20 substantially weaken credibility.",
+      "The claim is a specific subscale-by-condition correlation amid likely multiple tests, increasing false-positive and effect-inflation risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.3,
+  "_task": {
+    "claim_id": "7RR2_bd3w94",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

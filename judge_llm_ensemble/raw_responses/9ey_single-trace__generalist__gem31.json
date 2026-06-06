@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect size is very large (partial eta squared = .19) and the p-value is extremely small, providing strong statistical evidence.",
+      "The experimental design is a simple two-group comparison with nearly 100 participants per cell, which is adequately powered to detect an effect of this magnitude."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 16.87,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

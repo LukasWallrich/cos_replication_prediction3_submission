@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported interaction effect has a p-value exactly at the .05 threshold, a classic indicator of borderline, potentially brittle results.",
+      "The study uses a relatively small sample (N=107) to test an interaction between a manipulated variable and a measured individual difference, which typically lacks statistical power."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.4,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

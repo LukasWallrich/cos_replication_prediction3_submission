@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a narrow condition-specific partial correlation involving a personality subscale, emotion-word category, and music cue, with many apparent comparisons.",
+      "The direction is somewhat plausible, but the small lab sample and p-threshold reporting suggest substantial winner’s-curse and multiple-testing risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.99,
+  "_task": {
+    "claim_id": "7RR2_d5dy7d",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

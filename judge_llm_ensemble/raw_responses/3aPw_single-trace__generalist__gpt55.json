@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a plausible longitudinal SES-health association drawn from a very large Health and Retirement Study sample.",
+      "However, effect sizes are not supplied, p-values are modest, and the specific dose-response/transition claim may involve multiple comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.85,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

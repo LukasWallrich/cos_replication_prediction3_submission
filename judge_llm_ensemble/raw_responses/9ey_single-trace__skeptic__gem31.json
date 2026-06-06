@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value and large effect size provide a massive buffer against the typical winner's curse and effect size inflation.",
+      "Vignette-based stereotype rating experiments tend to yield highly replicable directional main effects, even if the exact magnitudes vary."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 25.47,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

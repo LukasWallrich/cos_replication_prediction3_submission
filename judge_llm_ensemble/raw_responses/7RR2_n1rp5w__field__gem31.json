@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claimed effect is a complex interaction involving music type, word emotion, and a specific personality facet, backed only by a marginally significant partial correlation (p = 0.076).",
+      "Highly specific, theory-driven moderation effects with weak initial statistical evidence in small samples typically evaporate upon rigorous replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.25,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

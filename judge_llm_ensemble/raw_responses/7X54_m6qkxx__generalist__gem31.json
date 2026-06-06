@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 2,901 is quite large for Latent Class Analysis, providing stable and well-powered model fit comparisons.",
+      "The stark difference in p-values between the 3-class (p < .001) and 4-class (p = .762) models indicates a clear plateau that should replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.38,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

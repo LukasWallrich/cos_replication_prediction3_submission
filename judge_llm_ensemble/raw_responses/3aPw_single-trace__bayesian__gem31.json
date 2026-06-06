@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses an extremely large, high-quality, nationally representative dataset (n > 45,000), which provides massive statistical power and reduces the risk of sampling-related spurious findings.",
+      "The claim describes a well-established epidemiological phenomenon (a dose-response relationship between socioeconomic adversity and later-life health decline) rather than a fragile, novel interaction."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.11,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

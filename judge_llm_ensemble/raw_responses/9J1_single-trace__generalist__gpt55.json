@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a modest conditional contrast in a small psychology sample, with p=0.02 and no reported effect size.",
+      "The abstract reports a coherent two-study pattern, but this specific low-expectation comparison may reflect multiple tested simple effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.39,
+  "_task": {
+    "claim_id": "9J1_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

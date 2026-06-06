@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported effect is moderate and fairly statistically strong for n=107 (η²=.073, p=.005), moving above the base rate.",
+      "But it is a specific personality-by-music moderation/index result from a small psychology sample, a class with elevated false-positive risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.15,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

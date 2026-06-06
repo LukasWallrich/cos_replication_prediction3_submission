@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national sample and a strongly non-significant four-class LMR test support a stable three-class enumeration.",
+      "Latent class counts for culturally inflected beliefs are sample- and specification-sensitive, so exact class-number conclusions often wobble."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.3,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

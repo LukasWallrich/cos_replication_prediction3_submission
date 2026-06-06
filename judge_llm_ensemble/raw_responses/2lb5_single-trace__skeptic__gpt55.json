@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported effect is large and precisely estimated, with p far below .05 rather than a marginal significance result.",
+      "If this is a subsidy intervention, increased ACT access is a plausible near-mechanical main effect, though design details are sparse."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.32,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

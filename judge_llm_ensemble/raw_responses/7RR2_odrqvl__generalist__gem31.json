@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study tests a complex interaction between a personality trait and a behavioral priming manipulation on memory, a design type with historically low replication rates.",
+      "A sample size of 107 is relatively small for detecting between-subjects interaction effects reliably, despite the reported p-value of 0.005."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 43.39,
+  "_task": {
+    "claim_id": "7RR2_odrqvl",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

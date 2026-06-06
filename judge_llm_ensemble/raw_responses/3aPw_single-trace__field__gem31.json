@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a robust, well-established demographic and epidemiological structural fact: a dose-response relationship between cumulative SES adversity and later-life functional deterioration.",
+      "The study uses a massive, representative longitudinal dataset (Health and Retirement Study, N > 45,000), making the descriptive correlations highly reliable and likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.81,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

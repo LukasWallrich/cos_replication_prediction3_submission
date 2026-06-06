@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.59 is highly non-significant, indicating that the observed correlation is indistinguishable from noise.",
+      "The combination of a small sample size (n=107) and a negligible effect size (r=-.053) provides exceptionally weak evidence for a true negative correlation."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.9,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited partial correlation is essentially zero and clearly nonsignificant, r=-.066 with p=.50 in only 107 participants.",
+      "This is a narrow self-report/personality-by-memory association amid many condition/subscale tests, making any directional interpretation especially fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.46,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

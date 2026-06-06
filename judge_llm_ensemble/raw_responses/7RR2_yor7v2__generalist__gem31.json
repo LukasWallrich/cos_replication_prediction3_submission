@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a highly specific cross-section of data (joy words within the angry music condition), suggesting potential exploratory analysis and multiple comparisons.",
+      "While the N=107 is moderate, correlational interactions involving individual differences and specific task conditions from this era often have low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.15,
+  "_task": {
+    "claim_id": "7RR2_yor7v2",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the individual-level sample size is very large (N=146,090), the key variables (foreign-born percent and unemployment gap) are likely macro-level contextual variables with a much smaller effective sample size.",
+      "Interaction effects in observational macro-level studies are notoriously fragile and sensitive to model specification, reducing the likelihood of successful replication despite the reported p-value of 0.008."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.49,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

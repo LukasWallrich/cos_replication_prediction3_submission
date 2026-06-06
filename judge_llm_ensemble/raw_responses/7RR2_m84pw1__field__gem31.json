@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported partial correlation is extremely weak (r = -0.066) and the associated p-value is highly non-significant (p = 0.50).",
+      "Interpreting a near-zero, non-significant correlation as evidence for a hypothesis is a major analytic flaw, making it highly unlikely that a true effect exists."
+    ],
+    "bucket": "almost_certainly_not",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.49,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

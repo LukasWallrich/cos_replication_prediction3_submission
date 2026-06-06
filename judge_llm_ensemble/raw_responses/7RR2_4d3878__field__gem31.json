@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a highly specific condition-dependent correlation (angry music condition predicting joy word recognition based on alexithymia), which typically has a high risk of being a fragile, sample-specific finding.",
+      "Although the reported p-value is very small, the modest sample size and use of partial correlations introduce significant researcher degrees of freedom that commonly lead to poor replicability in moderation designs."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.72,
+  "_task": {
+    "claim_id": "7RR2_4d3878",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

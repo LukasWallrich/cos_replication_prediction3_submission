@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "While the sample size is extremely large, a p-value of ~0.009 is relatively marginal for such a massive dataset, suggesting a weak signal.",
+      "Interaction effects in observational survey data are notoriously sensitive to model specification and typically suffer from lower replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 30.48,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

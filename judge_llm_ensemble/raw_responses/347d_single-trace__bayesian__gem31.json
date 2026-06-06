@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value (p < 0.0000001) and large effect size (beta = -0.40) provide strong statistical evidence for the correlation.",
+      "Both variables are self-reported perceptions with significant conceptual overlap, making a strong correlation highly robust due to common method variance."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 6.3,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

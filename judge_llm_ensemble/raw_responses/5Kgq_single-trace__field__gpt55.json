@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Regional HIV burden plausibly strains health services, and the within-region panel estimate is large and far from statistical threshold.",
+      "Still, only 119 aggregate observations and time-varying confounding/secular health-system changes make the specific fixed-effects association fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.18,
+  "_task": {
+    "claim_id": "5Kgq_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim tests an interaction effect using a very small sample size (N=189) of sector-level panel data, which is historically prone to low power and low replicability.",
+      "Although the p-value is relatively small (p ≈ 0.008), the combination of an interaction term and small-N observational data significantly decreases the likelihood of a robust, replicable effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 20.64,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a strong paired nonparametric result despite only 14 observations, suggesting a fairly consistent mechanism difference.",
+      "The small lab sample and lack of effect-size detail leave meaningful uncertainty about robustness under independent replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.82,
+  "_task": {
+    "claim_id": "1VeW_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

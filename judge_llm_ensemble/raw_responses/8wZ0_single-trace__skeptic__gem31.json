@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on Terror Management Theory, a literature that has suffered massive, high-profile replication failures (e.g., Many Labs 4).",
+      "The sample size of 85 is severely underpowered to reliably detect a between-within interaction effect, making the finding highly vulnerable to false positives."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.54,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

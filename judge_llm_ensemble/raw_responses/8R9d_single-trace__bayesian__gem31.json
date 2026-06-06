@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis compares bootstrapped network samples, which artificially inflates the degrees of freedom and virtually guarantees statistical significance if any difference exists.",
+      "Higher openness is reliably associated with greater verbal fluency, which mechanically leads to denser semantic networks and a smaller average shortest path length."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.5,
+  "_task": {
+    "claim_id": "8R9d_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

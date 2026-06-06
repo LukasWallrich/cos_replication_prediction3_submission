@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key evidence is a modest three-way interaction in a small sample, a pattern that is often fragile in replication.",
+      "The decomposed effects are only marginal and based on noisy subgroup comparisons, weakening confidence in the specific reversed-pattern claim."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.04,
+  "_task": {
+    "claim_id": "7RR2_89x817",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

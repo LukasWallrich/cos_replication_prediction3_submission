@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key association is small and only marginal by two-tailed testing, with p≈0.076 in a modest sample of 107.",
+      "It appears drawn from a table of multiple partial correlations, making this particular positive result vulnerable to chance selection."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.3,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

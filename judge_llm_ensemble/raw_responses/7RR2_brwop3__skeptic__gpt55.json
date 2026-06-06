@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a condition-specific partial correlation from a small behavioral study, with likely roughly half the sample contributing to the reported cell.",
+      "The effect is plausible but vulnerable to multiple testing, subgroup slicing, and shrinkage relative to the original r≈.31 estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.18,
+  "_task": {
+    "claim_id": "7RR2_brwop3",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct, first-stage effect of a price subsidy on access to a health product, which is a highly robust structural finding in health economics.",
+      "The reported p-value is extremely small (p < 0.0001), suggesting a strong signal-to-noise ratio that is likely to survive replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.64,
+  "_task": {
+    "claim_id": "2lb5_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

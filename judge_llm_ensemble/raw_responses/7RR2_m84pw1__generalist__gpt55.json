@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited correlation is tiny (r=-.066) and clearly non-significant (p=.50), providing little evidence for this specific association.",
+      "The broader abstract reports anger-memory deficits, but this subscale-by-condition result looks like one weak cell among multiple tested correlations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.16,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

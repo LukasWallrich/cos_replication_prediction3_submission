@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.017 and very small effect size in a moderate sample suggest a relatively fragile statistical finding.",
+      "The theoretical mechanism—that anticipating domestic duties increases work absorption because both are goal-directed—is counterintuitive and historically vulnerable to replication failure."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.3,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

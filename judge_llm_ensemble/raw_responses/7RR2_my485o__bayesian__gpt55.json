@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a modest partial correlation in a small sample, so the estimate is unstable despite p=.012.",
+      "It appears to be one cell among many emotion, music, and subscale tests, raising multiple-comparisons and specificity concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.81,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

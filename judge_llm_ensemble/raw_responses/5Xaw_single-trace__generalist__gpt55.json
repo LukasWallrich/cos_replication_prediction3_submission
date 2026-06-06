@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is theoretically plausible and uses proximal self-report constructs, with a moderate sample for a simple attribution-emotion-behavior model.",
+      "But it is a borderline p<.05 indirect effect from one study, likely cross-sectional, so mediation-specific robustness is uncertain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.57,
+  "_task": {
+    "claim_id": "5Xaw_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

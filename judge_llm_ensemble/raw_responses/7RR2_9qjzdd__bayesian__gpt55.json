@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key interaction is small and exactly borderline significant in a modest sample, making it statistically fragile.",
+      "It is a specific moderation claim with subgroup contrasts, a pattern type that has relatively low replication reliability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.4,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Moderate-large community sample and p≈0.001 provide a clear statistical signal for the westward-migration association.",
+      "The design is observational/quasi-experimental with plausible political and economic confounding, limiting confidence in the coefficient’s durability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.63,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

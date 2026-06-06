@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small-sample social-psychological priming interaction, a class that often shrinks or disappears in direct replications.",
+      "The p=.01 and moderate reported effect provide some support, but the specific mortality-salience mechanism is theory-driven and fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.56,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

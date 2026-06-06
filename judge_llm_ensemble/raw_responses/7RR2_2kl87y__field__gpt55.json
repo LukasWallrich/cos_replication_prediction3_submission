@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a small, condition-specific partial correlation from a modest sample with substantial multiple-comparison vulnerability.",
+      "A general alexithymia–emotion-processing association is plausible, but this exact angry-music/joy-word subscale effect is likely unstable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.47,
+  "_task": {
+    "claim_id": "7RR2_2kl87y",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

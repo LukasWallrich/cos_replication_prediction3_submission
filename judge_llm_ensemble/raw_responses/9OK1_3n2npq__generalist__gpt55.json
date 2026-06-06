@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is fairly precise in a sizable community-level sample, with p≈0.001 and a large directional association.",
+      "It remains observational and vulnerable to migration-selection or political confounding despite quasi-experimental rhetoric and controls."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.95,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a highly specific interaction between a personality trait, a specific stimulus type, and a specific experimental condition in a small sample.",
+      "The focal statistical test for this specific partial correlation is only marginally significant (p < .10), strongly suggesting the effect will evaporate in a well-powered replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.69,
+  "_task": {
+    "claim_id": "7RR2_5vw85q",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large longitudinal HRS sample and direct SES-adversity to functional decline association are structurally plausible and commonly robust.",
+      "Dose-response childhood disadvantage effects on later-life disability are well established, though retrospective adversity measures and modeling choices add some fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.83,
+  "_task": {
+    "claim_id": "3aPw_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

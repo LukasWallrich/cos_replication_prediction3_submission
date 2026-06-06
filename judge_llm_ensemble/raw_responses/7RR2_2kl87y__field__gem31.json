@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a highly specific, complex interaction (alexithymia subscale x music condition x word emotion type) which typically replicates poorly.",
+      "A total sample size of 107 is underpowered for estimating specific partial correlations in subgroups, and the p-value of .018 suggests fragility."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 19.39,
+  "_task": {
+    "claim_id": "7RR2_2kl87y",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

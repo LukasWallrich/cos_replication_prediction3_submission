@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, borderline p=.05 interaction in a convenience-sized sample, a pattern that often fails under replication.",
+      "The alexithymia-by-music moderation is psychologically plausible but specific, with cell-level simple effects likely vulnerable to noise and multiple testing."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.28,
+  "_task": {
+    "claim_id": "7RR2_9qjzdd",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

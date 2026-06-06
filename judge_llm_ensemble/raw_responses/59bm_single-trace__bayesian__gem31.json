@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim that Caucasian participants report less ethnic harassment than minority participants aligns with an extremely strong sociological prior.",
+      "Although the study's p-value is borderline and the sample size is modest, the overwhelming plausibility of the directional effect suggests a well-powered replication would succeed."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.83,
+  "_task": {
+    "claim_id": "59bm_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

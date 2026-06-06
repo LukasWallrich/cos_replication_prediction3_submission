@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small p-value (1.05e-49) and large effect size (d=0.75) in a substantial sample (N=1860) indicate a massive statistical signal.",
+      "The claim describes a simple group difference on a highly polarized survey item (beliefs about evolution), a type of descriptive finding that is typically highly stable and replicable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.96,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

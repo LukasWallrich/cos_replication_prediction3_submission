@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A three-way interaction involving an individual-difference scale in a small n=43 cognitive task study is a fragile effect type.",
+      "The p-value is fairly strong, but likely inflated by winner’s curse and task/measure reliability limitations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.15,
+  "_task": {
+    "claim_id": "0qar_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

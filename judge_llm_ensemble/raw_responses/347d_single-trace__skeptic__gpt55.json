@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is large, highly significant, and not dependent on a borderline p-value or complex mediation/interaction.",
+      "Cross-sectional self-report creates common-method and conceptual-overlap concerns, but these make the observed association more likely to replicate as an association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.84,
+  "_task": {
+    "claim_id": "347d_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

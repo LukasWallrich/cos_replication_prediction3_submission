@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Three-way interactions involving individual differences in small samples (N=107) have notoriously low power and a high rate of non-replication.",
+      "The decomposition relies on marginally significant (p=.06) two-way interactions in small subgroups, strongly suggesting a fragile effect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.88,
+  "_task": {
+    "claim_id": "7RR2_89x817",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The positive association between economic activity (such as working hours) and carbon emissions is a well-established, structural macroeconomic relationship.",
+      "State-level panel data from 2007-2013 captures the Great Recession, providing substantial, highly correlated variance in both hours and emissions that stabilizes the estimate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.7,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

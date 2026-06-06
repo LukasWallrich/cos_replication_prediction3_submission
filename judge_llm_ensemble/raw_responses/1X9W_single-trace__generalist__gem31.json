@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 62 is severely underpowered for detecting complex physiological effects on voting, and the p-value of 0.03 is unconvincing.",
+      "Menstrual cycle effects on high-level social preferences are notoriously fragile and have systematically failed to replicate in larger, pre-registered studies."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 22.16,
+  "_task": {
+    "claim_id": "1X9W_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

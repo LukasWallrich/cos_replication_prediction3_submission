@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Community-level associations between migration patterns and voting behavior are anchored in structural demographic facts that typically replicate well.",
+      "The statistical signal is strong (p < 0.002) in a reasonably sized sample of communities, suggesting the basic empirical relationship is robust."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.91,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

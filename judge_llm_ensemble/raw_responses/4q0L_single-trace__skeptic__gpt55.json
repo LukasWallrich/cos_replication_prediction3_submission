@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is reasonably precise and far from the p=.05 threshold, reducing concern about pure sampling noise.",
+      "But it is an observational short state panel, and working hours are tightly confounded with economic activity and policy trends."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.42,
+  "_task": {
+    "claim_id": "4q0L_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

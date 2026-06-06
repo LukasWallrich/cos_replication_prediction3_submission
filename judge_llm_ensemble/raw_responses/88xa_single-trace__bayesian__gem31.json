@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 128 is small for a 2x2 cross-cultural interaction design, leaving only about 32 participants per cell.",
+      "A p-value of .018 for a complex interaction in an underpowered study is a weak statistical signal that often fails to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.84,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

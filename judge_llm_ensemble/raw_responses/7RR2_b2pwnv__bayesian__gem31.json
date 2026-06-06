@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=107) is relatively small for detecting stable individual difference correlations, leaving the estimate vulnerable to sampling variation.",
+      "The claim relies on specific personality subscales and emotional conditions, indicating high researcher degrees of freedom that typically inflate false positive rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.6,
+  "_task": {
+    "claim_id": "7RR2_b2pwnv",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

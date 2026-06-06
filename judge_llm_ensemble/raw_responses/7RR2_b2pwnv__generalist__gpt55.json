@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific statistic is a modest partial correlation in a condition subgroup, reported only as marginal at p<.10.",
+      "The broader pattern is plausible and echoed in the abstract, but multiple conditions/subscales make selective fragile findings a concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.59,
+  "_task": {
+    "claim_id": "7RR2_b2pwnv",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

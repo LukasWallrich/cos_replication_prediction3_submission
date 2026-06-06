@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large Cramer's V and an extremely small p-value make pure sampling error implausible, even allowing for shrinkage.",
+      "The effect is experimentally manipulated and theoretically mechanical: unanimity without communication should suppress red consensus relative to majority."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.69,
+  "_task": {
+    "claim_id": "1574_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

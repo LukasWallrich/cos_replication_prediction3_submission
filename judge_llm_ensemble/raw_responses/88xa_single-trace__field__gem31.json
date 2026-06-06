@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a 2x2 interaction between culture and a subtle experimental manipulation with a small sample size (n=128, roughly 32 per cell).",
+      "Such behavioral interactions from older psychological literature with p-values near .02 are notoriously underpowered and have very low replication rates."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.1,
+  "_task": {
+    "claim_id": "88xa_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

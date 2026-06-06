@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 97 is severely underpowered to reliably detect an interaction effect and its simple slopes between conditions and expectations.",
+      "Interaction-derived simple slopes from social psychology literature circa 2012 with p-values near .05 have an exceptionally poor track record of replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.95,
+  "_task": {
+    "claim_id": "9J1_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large sample size (N=1860) and reports an exceptionally small p-value (p < 1e-49), indicating very strong statistical evidence.",
+      "The claim relies on straightforward survey response comparisons between demographic/ideological groups, a type of descriptive finding that typically replicates well."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.92,
+  "_task": {
+    "claim_id": "7X54_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.0013 is highly significant, providing a buffer against typical p-hacking and mild publication bias.",
+      "The sample size of 848 communities is adequate, though observational causal claims about political outcomes remain somewhat vulnerable to unobserved confounding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.78,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a specific interaction effect from an observational panel with modest n=189, making it model-dependent and less reliable.",
+      "The reported estimate is reasonably precise and p≈0.008, which offsets some concern versus a merely borderline finding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.05,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

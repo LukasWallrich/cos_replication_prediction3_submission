@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a marginally significant partial correlation (p = 0.076) from a small sample (n = 107), indicating low statistical reliability.",
+      "The finding is highly specific, involving a particular subscale (DIF), a specific condition (happy music), and a specific stimulus type (Joy words), which suggests high researcher degrees of freedom."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 27.07,
+  "_task": {
+    "claim_id": "7RR2_n1rp5w",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

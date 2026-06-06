@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported interaction is statistically fairly strong (p≈0.009) in a very large survey sample, which updates above the replication base rate.",
+      "But it is an observational cross-level moderation claim, where effective macro-level sample size and model dependence likely make estimates less stable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.36,
+  "_task": {
+    "claim_id": "5Q82_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

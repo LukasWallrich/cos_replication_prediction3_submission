@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 218 is relatively small for reliably testing complex indirect mediation pathways.",
+      "The p-value is reported right at the conventional threshold (p < .05), which historically predicts lower replication success for older survey-based models."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 15.47,
+  "_task": {
+    "claim_id": "5Xaw_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

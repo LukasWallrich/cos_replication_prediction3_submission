@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The direction is highly plausible: minority employees generally face more ethnic harassment than Caucasian employees.",
+      "But the evidence is modest, with n=226, self-reported cross-sectional data, and a p-value right at .05."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "default",
+  "_elapsed_s": 97.03,
+  "_task": {
+    "claim_id": "59bm_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

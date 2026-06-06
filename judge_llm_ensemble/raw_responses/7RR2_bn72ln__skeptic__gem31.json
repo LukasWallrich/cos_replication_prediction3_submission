@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extracted correlation for this specific condition is extremely small (r = -0.053) and highly non-significant (p = 0.59) in the original study.",
+      "Basing a directional theoretical claim on a near-zero, non-significant effect strongly suggests the finding is statistical noise rather than a true effect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 51.93,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

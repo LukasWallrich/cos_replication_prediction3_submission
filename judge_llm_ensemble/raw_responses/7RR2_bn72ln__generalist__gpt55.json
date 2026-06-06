@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited partial correlation is tiny (r=-.053) and clearly nonsignificant (p=.59), providing little evidence for a replicable association.",
+      "The sample is modest and the broader claim appears to aggregate many condition/subscale correlations, raising multiplicity and selectivity concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.18,
+  "_task": {
+    "claim_id": "7RR2_bn72ln",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

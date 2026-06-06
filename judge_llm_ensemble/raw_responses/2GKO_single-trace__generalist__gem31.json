@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 189 observations is quite small for reliably detecting an interaction effect in an observational panel dataset.",
+      "Interaction effects in sector-level observational studies are frequently fragile and sensitive to model specification, lowering the probability of successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 19.04,
+  "_task": {
+    "claim_id": "2GKO_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

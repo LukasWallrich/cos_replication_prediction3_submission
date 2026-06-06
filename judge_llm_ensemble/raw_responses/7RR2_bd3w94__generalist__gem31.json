@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is a small partial correlation (r = -.200) with a p-value just under the conventional significance threshold (p = 0.041).",
+      "The claim relies on a highly specific combination of variables (one subscale, specific music condition, specific word type), suggesting potential multiple testing issues in a modest sample of 107."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.43,
+  "_task": {
+    "claim_id": "7RR2_bd3w94",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

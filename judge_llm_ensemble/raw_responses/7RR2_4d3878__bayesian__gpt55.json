@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported partial correlation is moderately large (r=-.43) with a very small p-value, which updates upward from the replication base rate.",
+      "The sample is only 107 and the claim is a specific condition-by-outcome result amid likely multiple comparisons, limiting confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.02,
+  "_task": {
+    "claim_id": "7RR2_4d3878",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

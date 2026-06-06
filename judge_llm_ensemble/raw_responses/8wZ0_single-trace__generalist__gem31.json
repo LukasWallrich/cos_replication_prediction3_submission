@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 85 is quite small for detecting a reliable between-within interaction effect, increasing the risk of a false positive.",
+      "The finding relies on mortality salience priming from 2012, a type of social priming effect that historically has very low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.26,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

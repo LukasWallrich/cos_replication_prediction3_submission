@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific reported correlation is tiny (r=-.066) and clearly non-significant (p=.50), providing little evidence beyond noise.",
+      "The sample is modest and the claim appears drawn from multiple condition/subscale correlations, increasing risk of overinterpretation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.47,
+  "_task": {
+    "claim_id": "7RR2_m84pw1",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

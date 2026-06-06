@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small effect from a convenience, observational self-report survey is vulnerable to confounding and shrinkage in replication.",
+      "The p-value is not barely significant, but this is a headline subgroup contrast with modest n and likely analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.69,
+  "_task": {
+    "claim_id": "5KrD_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

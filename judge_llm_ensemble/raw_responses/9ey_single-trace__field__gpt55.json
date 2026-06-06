@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple experimental contrast with a large reported effect, not a fragile multi-construct mediation or confound-adjusted association.",
+      "The green-feminine stereotype is culturally contingent, but the basic perception difference is plausible and supported by a strong manipulation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 27.95,
+  "_task": {
+    "claim_id": "9ey_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small 2012 social-priming experiment with n=85, a headline interaction, and hypothetical moral-judgment outcomes.",
+      "The p=.01 result is stronger than marginal, but interaction effects and mortality-salience manipulations have poor replication prospects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.62,
+  "_task": {
+    "claim_id": "8wZ0_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

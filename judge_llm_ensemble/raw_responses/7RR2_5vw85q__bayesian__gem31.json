@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a marginally significant partial correlation (p < .10) within a specific experimental condition, which is weak statistical evidence.",
+      "The analysis involves specific conditions, personality subscales, and specific word categories, suggesting high researcher flexibility and a high risk of false positives."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.77,
+  "_task": {
+    "claim_id": "7RR2_5vw85q",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

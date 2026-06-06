@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is plausible given alexithymia’s links to emotion-processing deficits, but the specific anger-word/music-condition correlation is narrow and noisy.",
+      "A modest partial correlation from n=107 amid likely multiple correlated tests has a substantial chance of being inflated or sample-specific."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.43,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

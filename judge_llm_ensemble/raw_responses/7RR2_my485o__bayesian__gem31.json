@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a relatively small sample (N=107) to test correlations between multiple personality subscales and memory for specific emotion words.",
+      "The p-value of ~0.012 combined with likely high researcher degrees of freedom (multiple subscales, emotions, and music conditions) strongly indicates a high risk of a false positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.8,
+  "_task": {
+    "claim_id": "7RR2_my485o",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

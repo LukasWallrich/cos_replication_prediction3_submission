@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a large sample and a model-comparison p-value far from the significance threshold for four classes.",
+      "Latent-class model selection and LMR tests can be unstable, so “best fits” is less secure than a simple robust association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.32,
+  "_task": {
+    "claim_id": "7X54_m6qkxx",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

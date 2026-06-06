@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, just-significant two-way interaction in a modest convenience sample, a pattern that often shrinks or vanishes.",
+      "The hypothesized consumer-psychology mechanism is plausible but specific and context-sensitive rather than a robust demographic or behavioral association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.09,
+  "_task": {
+    "claim_id": "5JE_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}
