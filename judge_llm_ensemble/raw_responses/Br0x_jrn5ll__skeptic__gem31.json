@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The baseline anti-profit belief effect is supported by a highly significant p-value (p < .001) and a reasonably well-powered per-cell sample size (N~100).",
+      "Although one condition has a fragile p-value (.041), the overarching pattern of anti-market and zero-sum bias is well-established and highly replicable in vignette experiments."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.92,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

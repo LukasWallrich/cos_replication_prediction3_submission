@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The interaction is specific and theory-laden, but it is estimated very precisely in a huge, population-based PISA sample.",
+      "Its direction is plausible within the robust BFLPE framework, though cross-level moderation effects often vary by model and sample composition."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.43,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

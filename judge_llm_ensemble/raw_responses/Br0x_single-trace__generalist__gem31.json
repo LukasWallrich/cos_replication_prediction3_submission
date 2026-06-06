@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a very small p-value (p < 0.001, specifically 1.57e-5) from a repeated measures design, suggesting a robust statistical signal.",
+      "The sample size (N=360) is reasonably large for this type of judgment task, further increasing the probability of successful replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.79,
+  "_task": {
+    "claim_id": "Br0x_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

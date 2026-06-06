@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value for this specific interaction effect is approximately 0.096, representing very weak statistical evidence that barely clears the conventional 0.10 threshold.",
+      "Observational interaction effects with borderline significance are notoriously vulnerable to specification choices and have very low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.64,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

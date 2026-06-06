@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large sample size (N=1929) and reports an extremely small p-value (p=4.4e-11) for this specific association.",
+      "The claim is strictly correlational and descriptive rather than causal, which typically replicate very well when supported by such robust statistical evidence."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.37,
+  "_task": {
+    "claim_id": "AOQj_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

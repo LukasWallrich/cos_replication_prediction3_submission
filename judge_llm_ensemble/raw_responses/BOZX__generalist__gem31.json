@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study reports a large number of Chi-square tests on a small sample (N=186), indicating a high risk of false positives from multiple testing.",
+      "The p-value of 0.019 is relatively weak evidence given the exploratory nature of the many associations tested without apparent correction."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.55,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

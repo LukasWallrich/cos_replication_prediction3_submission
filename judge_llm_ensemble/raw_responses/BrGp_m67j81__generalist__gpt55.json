@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported meta-regression is statistically strong despite only about 20 effect sizes, making a pure chance pattern less likely.",
+      "But the claim rests on observational literature-level data vulnerable to selection, dependence, and analytic choices rather than a clean preregistered test."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.68,
+  "_task": {
+    "claim_id": "BrGp_m67j81",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

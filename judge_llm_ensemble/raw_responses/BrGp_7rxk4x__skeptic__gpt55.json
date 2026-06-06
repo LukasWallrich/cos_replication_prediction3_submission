@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific binomial-test result is just significant at p=.032 and likely depends on inclusion and coding choices for p-curve inputs.",
+      "The broader money-priming literature has substantial replication problems and converging bias evidence, making some lack-of-evidential-value signal plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.61,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

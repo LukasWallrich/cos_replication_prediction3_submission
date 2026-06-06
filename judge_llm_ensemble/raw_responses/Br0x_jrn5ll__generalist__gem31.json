@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a reasonable sample size of ~100 participants per condition, providing adequate power to detect the reported medium effect sizes.",
+      "The highly significant p-values in the key conditions, coupled with a highly plausible theoretical framework of zero-sum bias, suggest a robust main effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.3,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.0013 is quite strong, suggesting a robust statistical association that is unlikely to be pure noise.",
+      "However, the observational nature of community-level migration and voting data leaves some risk of unobserved confounding, slightly dampening confidence."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.82,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

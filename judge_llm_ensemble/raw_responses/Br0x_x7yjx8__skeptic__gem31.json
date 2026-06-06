@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 198 (roughly 99 per condition) provides only modest statistical power to detect an effect size of d = 0.34, increasing the risk of effect size inflation.",
+      "The p-value of .015 for a vignette framing effect suggests a relatively borderline result, which historically have low replication rates in behavioral research."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 52.09,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

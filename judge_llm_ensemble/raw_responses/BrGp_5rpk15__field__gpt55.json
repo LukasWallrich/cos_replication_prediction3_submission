@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a meta-analytic excess-significance pattern in a money-priming literature already known for publication bias and failed preregistered replications.",
+      "The p-value is modest and the estimate depends on study inclusion and random-effects power calculations, so it is not highly robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.42,
+  "_task": {
+    "claim_id": "BrGp_5rpk15",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

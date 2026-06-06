@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a strong reanalysis result on a fixed published-study dataset, with a large test statistic rather than a borderline p-value.",
+      "Some uncertainty remains because Egger tests with few, possibly dependent effects are sensitive to effect-size extraction and inclusion choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.65,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

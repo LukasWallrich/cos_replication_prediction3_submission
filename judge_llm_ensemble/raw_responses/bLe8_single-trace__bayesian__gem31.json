@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on observational regression analysis, which is highly sensitive to model specification and omitted variable bias.",
+      "Although the sample size is decent (N=1295) and the p-value is below 0.01, the specific and potentially context-dependent nature of the relationship makes it vulnerable in a direct replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 17.89,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "BFLPE itself is highly robust, and this estimate comes from a large PISA multilevel dataset with strong nominal significance.",
+      "The claim is a specific self-regulation moderation, which is typically much less stable and could depend on measurement/model choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.81,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

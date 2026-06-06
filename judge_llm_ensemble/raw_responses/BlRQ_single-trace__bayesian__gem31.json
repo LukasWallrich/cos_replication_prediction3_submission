@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a simple, theoretically well-established correlational association evaluated in a large (N = 1020) and high-quality longitudinal dataset (ECLS-K).",
+      "The reported effect size is substantial (r = -.388) and the p-value is extremely small (p < 10^-37), making it practically certain to replicate in a similar sample."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.43,
+  "_task": {
+    "claim_id": "BlRQ_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

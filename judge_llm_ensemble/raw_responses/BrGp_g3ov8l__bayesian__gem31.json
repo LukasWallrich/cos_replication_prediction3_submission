@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a marginally significant p-value (0.072) from a small sample of studies (k=23), which usually indicates weak statistical evidence.",
+      "However, assuming a well-powered replication (i.e., a large meta-analytic sample) in the money-priming literature, the known presence of severe publication bias makes a real relationship between effect sizes and standard errors likely."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.06,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a reasonably large sample and reports a moderate prompt effect with very strong statistical evidence.",
+      "The claim is a direct self-report response to an explicit scenario manipulation, and the abstract says similar prompting effects appeared across multiple studies."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.57,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a randomized prompt effect with n=400 and strong statistics: ANOVA p<.001, eta-squared=.065, pairwise d≈0.6.",
+      "The same directional finding reportedly replicated Study 5, reducing concern that this is a single-study false positive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.57,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

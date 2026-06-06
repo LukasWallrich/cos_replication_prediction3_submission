@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from a 40–60% prior, n=848 with p≈0.001 gives meaningful evidence against a pure noise result.",
+      "The design is observational/quasi-experimental and politically contextual, so residual confounding and specification dependence prevent a stronger upward move."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.47,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

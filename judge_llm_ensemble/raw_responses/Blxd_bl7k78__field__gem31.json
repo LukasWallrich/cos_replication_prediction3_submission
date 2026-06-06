@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive international dataset (N = 265,180), which provides extreme precision for estimating small effect sizes.",
+      "The finding explicitly acknowledges the effect is tiny and negligible, reflecting a highly powered, precise estimate rather than a fragile, overestimated effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.44,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is strong and not borderline, with t(18)=3.87 and p=.001 across about 20 effect sizes.",
+      "Still, meta-regression on a small curated literature is vulnerable to outliers, dependence, heterogeneity, and analytic-selection choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.88,
+  "_task": {
+    "claim_id": "BrGp_m67j81",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

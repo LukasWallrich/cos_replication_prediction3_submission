@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 400 across 4 conditions yields ~100 per cell, providing good power for the reported medium-to-large effect sizes (d = 0.56 to 0.69).",
+      "The claim explicitly replicates a finding from an earlier study within the same paper, and the highly significant p-values indicate robust statistical evidence."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.8,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

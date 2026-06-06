@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a test of excessive significance indicating publication bias in the money-priming literature, a literature widely known for severe replication failures and publication bias.",
+      "Although the reported p-value is marginal (p = .043, one-tailed), the prior probability of publication bias in this specific subfield is extremely high."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.03,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

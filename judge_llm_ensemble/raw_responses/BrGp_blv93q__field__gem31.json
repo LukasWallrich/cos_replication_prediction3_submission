@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The money-priming literature is widely acknowledged to suffer from severe publication bias and small-study effects, driving a strong correlation between effect sizes and standard errors.",
+      "This meta-scientific claim mathematically formalizes the well-documented p-hacking and publication bias present in classic, underpowered behavioral priming studies."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.92,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

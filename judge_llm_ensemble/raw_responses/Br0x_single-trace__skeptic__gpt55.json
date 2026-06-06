@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a simple within-subject main effect with decent sample size and p far below .05, not a fragile interaction or mediation.",
+      "It is still a single vignette/self-report finding in a behavioral paper, so demand characteristics and optimistic effect size inflation remain plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.79,
+  "_task": {
+    "claim_id": "Br0x_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

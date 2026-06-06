@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The modest sample size (N=198) and p-value of 0.015 provide only weak to moderate statistical evidence for the claim.",
+      "Vignette-based psychological attenuation effects often suffer from effect size inflation and frequently fail to replicate in independent, well-powered studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.08,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

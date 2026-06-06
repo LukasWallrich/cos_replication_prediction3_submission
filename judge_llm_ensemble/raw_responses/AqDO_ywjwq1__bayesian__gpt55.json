@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A sample of 4209 and p≈0.004 provide a meaningful upward update from the usual published-study base rate.",
+      "The evidence is observational and model-dependent, so confounding or specification choices could plausibly weaken the time-preference association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.12,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

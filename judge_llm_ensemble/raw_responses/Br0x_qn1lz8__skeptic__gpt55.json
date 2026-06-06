@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a single modest-sized experimental contrast with p=.022 and d≈0.34, a profile prone to shrinkage or failure.",
+      "The outcome is self-reported expectations in a likely convenience sample, and this specific comparison appears secondary rather than the headline manipulation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.34,
+  "_task": {
+    "claim_id": "Br0x_qn1lz8",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

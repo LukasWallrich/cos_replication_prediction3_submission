@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The focal claim involves a straightforward one-sample t-test evaluating a baseline belief, which generally replicates more reliably than complex interactions.",
+      "The relatively robust effect size (d = 0.43) and highly significant p-value (p < .001) in an adequate sample size (n ~ 100) provide strong evidence for a real effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.6,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

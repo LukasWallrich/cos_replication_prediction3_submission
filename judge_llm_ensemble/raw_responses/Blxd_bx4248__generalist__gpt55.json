@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from an enormous PISA sample and a multilevel model, with a negative interaction estimated at about 3.4 standard errors from zero.",
+      "The interaction is very small and observational, so it could be sensitive to modeling choices despite statistical significance."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.61,
+  "_task": {
+    "claim_id": "Blxd_bx4248",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

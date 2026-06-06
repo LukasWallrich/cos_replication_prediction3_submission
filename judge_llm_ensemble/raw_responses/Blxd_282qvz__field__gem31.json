@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on the massive and highly representative PISA dataset (N>265,000), making the parameter estimate highly stable and immune to small-sample sampling variance.",
+      "While interaction effects can sometimes be fragile, this moderation involves well-established constructs (Big-Fish-Little-Pond effect, math anxiety) in a structurally robust educational survey."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.79,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

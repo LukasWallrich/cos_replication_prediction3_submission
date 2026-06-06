@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 1295 is reasonably large for an observational economics study, and the p-value of 0.008 provides a solid buffer against statistical noise.",
+      "The claim describes a correlational 'positive relationship' rather than a complex causal mechanism, and basic associations with this level of precision typically replicate well."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.19,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

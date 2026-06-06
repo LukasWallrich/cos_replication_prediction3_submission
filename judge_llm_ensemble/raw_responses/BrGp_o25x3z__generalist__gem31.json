@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim demonstrates excess significance (evidence of publication bias or p-hacking) in the widely-criticized money-priming literature.",
+      "Although the specific p-value is marginal (0.043), the broader phenomenon of severe publication bias in this literature is heavily established."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.66,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a descriptive reanalysis of a fixed set of published effect sizes, with a very large Egger t statistic.",
+      "Only about 14 effects and possible dependence or extraction choices limit confidence in the exact asymmetry."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.14,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

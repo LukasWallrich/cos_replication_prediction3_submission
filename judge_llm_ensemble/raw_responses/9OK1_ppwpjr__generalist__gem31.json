@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 848 communities and a strongly significant p-value (0.001) provide solid statistical footing for the reported association.",
+      "While the causal interpretation relies on quasi-experimental assumptions, the underlying empirical correlation between Western emigration and voting patterns is likely robust."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.5,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

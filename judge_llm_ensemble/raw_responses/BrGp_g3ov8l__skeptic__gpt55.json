@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The original evidence is weak and fragile: only 23 effects and an Egger-style regression with p=.072.",
+      "Still, small-study and selection-bias patterns are highly plausible in money-priming literatures with known failed preregistered replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.64,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

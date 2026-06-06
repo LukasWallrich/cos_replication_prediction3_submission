@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is precise and far from a marginal p-value in a very large PISA sample, reducing random false-positive concern.",
+      "It is still a specific moderation/interaction using self-report constructs and likely many tested moderators, so shrinkage or model-dependence remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.73,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

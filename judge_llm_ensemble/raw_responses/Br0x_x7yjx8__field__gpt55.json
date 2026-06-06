@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The manipulation has a clear, face-valid mechanism: reputation information should reduce perceived profitability of harmful practices.",
+      "But the effect is modest, vignette-specific, and only moderately significant in a convenience-sized sample, so the exact contrast may be fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.44,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

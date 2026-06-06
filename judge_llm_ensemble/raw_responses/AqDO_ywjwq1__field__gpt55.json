@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is plausible and estimated in a reasonably large sample with a modest, statistically clear marginal effect.",
+      "However, it is an adjusted cross-sectional behavioral-economics construct, vulnerable to measurement noise, confounding choices, and population-period specificity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.36,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

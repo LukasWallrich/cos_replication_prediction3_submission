@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (N > 265,000 from the PISA database) provides extremely high statistical power and highly stable parameter estimates.",
+      "The interaction effect is highly significant (p < .001) with a very small standard error, making a false positive highly improbable even for a moderation claim."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 23.86,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

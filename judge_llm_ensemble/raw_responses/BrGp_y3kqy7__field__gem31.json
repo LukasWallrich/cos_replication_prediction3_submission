@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a straightforward meta-analytic calculation comparing observed significant results to statistical power in early money-priming studies.",
+      "The discrepancy between low power and a very high success rate in this specific literature is a well-documented artifact of publication bias."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 33.71,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

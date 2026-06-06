@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=1929), providing substantial statistical power for detecting small associations in survey data.",
+      "The extremely small p-value (p < 0.001, exactly 4.4e-11) indicates a robust statistical association that is highly likely to replicate in a similar cross-sectional design."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.58,
+  "_task": {
+    "claim_id": "AOQj_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

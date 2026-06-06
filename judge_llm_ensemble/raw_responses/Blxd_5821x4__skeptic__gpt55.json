@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is tiny and comes from a moderation analysis across many constructs, so analytic flexibility and practical fragility are real concerns.",
+      "But the sample is enormous, p is far from .05, and PISA-style measurement makes a small stable interaction plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.9,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

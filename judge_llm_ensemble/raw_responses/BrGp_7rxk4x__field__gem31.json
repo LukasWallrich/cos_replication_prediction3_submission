@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct meta-analytic calculation (p-curve) on the money-priming literature, which is famously known to suffer from severe publication bias and lack of evidential value.",
+      "Meta-scientific evaluations of such extensively debated and non-replicable literatures are highly robust, making it highly probable that a replication of this analysis would yield the same flat p-curve."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.88,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is very small, but the reported omnibus test is fairly strong and the effect size is large.",
+      "The abstract describes a plausible experimental bargaining pattern, though not enough design detail to rule out fragility or analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.56,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

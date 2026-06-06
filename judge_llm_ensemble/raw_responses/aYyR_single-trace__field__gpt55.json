@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a straightforward personality–experience association, and openness plausibly predicts seeking varied developmental and leadership opportunities.",
+      "The original n is moderate and beta=.34 is sizable, though same-method retrospective reporting may inflate the association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.54,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

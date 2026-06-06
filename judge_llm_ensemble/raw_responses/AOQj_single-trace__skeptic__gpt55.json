@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is small but estimated in a fairly large sample with a p-value far from the .05 threshold.",
+      "Cross-sectional self-report and adjusted-model dependence leave confounding and shrinkage concerns, but smoking-psychological distress associations are broadly plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.22,
+  "_task": {
+    "claim_id": "AOQj_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Dominant party × Sociotropic interaction is only marginal (p≈.096) and interactions are notoriously unstable.",
+      "Observational survey vote-choice associations are plausible but vulnerable to confounding and model-specification choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.96,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

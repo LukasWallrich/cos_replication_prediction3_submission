@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Huge PISA sample and p<.001 provide evidence for a nonzero negative interaction despite the tiny coefficient.",
+      "It is a specific moderation effect in observational multilevel data, so model sensitivity and small magnitude limit confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.57,
+  "_task": {
+    "claim_id": "Blxd_bx4248",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

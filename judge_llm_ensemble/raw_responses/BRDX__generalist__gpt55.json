@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The experiment has a reasonably large sample, and the proposed pathway is plausible and described as part of a coherent pattern.",
+      "The claim rests on a specific mediation/indirect effect with a marginal p-value, which is often less stable in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.67,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

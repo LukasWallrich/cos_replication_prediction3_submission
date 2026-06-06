@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The estimate comes from an enormous PISA sample and remains statistically strong despite a very small interaction coefficient.",
+      "Specific moderation by an SES proxy is fragile and culturally/time sensitive, especially when the effect size is negligible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.02,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.014 provides only moderate statistical significance, which often indicates fragile specifications or potential publication bias in quasi-experimental designs.",
+      "While the sample size of 848 is adequate, it is not large enough to ensure reliable detection of moderate causal effects on macro-political outcomes."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 37.78,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

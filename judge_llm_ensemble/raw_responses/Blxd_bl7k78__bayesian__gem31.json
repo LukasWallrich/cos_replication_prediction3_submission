@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N > 260,000), meaning parameter estimates are highly stable and statistical power is near 100% even for very small effects.",
+      "The reported effect size is tiny but highly significant (p < .001), consistent with reliable detection of minor observational relationships or 'crud factor' in huge datasets."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.34,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

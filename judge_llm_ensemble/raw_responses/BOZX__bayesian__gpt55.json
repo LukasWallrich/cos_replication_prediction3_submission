@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study has only n=186, no effect size, and a modest p=0.019 from a cross-sectional chi-square test.",
+      "Many demographic-awareness associations were tested, so this could be a multiple-comparisons false positive despite the association being plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.68,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

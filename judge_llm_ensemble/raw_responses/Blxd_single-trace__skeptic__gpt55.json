@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large PISA sample and p<.001 make pure sampling error less likely than for typical underpowered interaction claims.",
+      "It is still a small moderation among many tested, using cross-sectional self-report constructs vulnerable to multiplicity and shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 25.68,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

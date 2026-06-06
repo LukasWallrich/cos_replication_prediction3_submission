@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.014 leaves room for specification searching to fit the theoretically neat narrative of opposing effects for East and West migration.",
+      "Observational community-level data are highly susceptible to spatial autocorrelation and unmeasured regional confounders that drive both migration destinations and voting behavior."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.76,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

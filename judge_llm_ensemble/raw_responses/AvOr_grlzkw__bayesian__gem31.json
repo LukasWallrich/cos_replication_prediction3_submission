@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .003 is below the more stringent .005 threshold, providing strong statistical evidence against the null.",
+      "The sample size of 223 is reasonably powered to detect the moderate reported effect size (phi = .20) in a simple categorical experimental design."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.13,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

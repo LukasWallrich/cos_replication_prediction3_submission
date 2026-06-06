@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported association is small and misses conventional significance despite a moderate sample, so this single result is weak evidence.",
+      "The directional pattern matches the prediction and possibly earlier experiments, making a real but modest effect plausible rather than clearly unlikely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.01,
+  "_task": {
+    "claim_id": "AvOr_b7dlq4",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

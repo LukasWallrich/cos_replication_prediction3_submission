@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 238 provides adequate statistical power to detect a moderate effect (beta = .34), and the p-value is comfortably below .01.",
+      "The positive correlation between Openness to Experience and leadership is a well-established, meta-analytically supported finding in organizational psychology, substantially raising the prior probability."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 44.12,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

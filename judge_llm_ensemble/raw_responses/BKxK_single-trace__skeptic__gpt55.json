@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key slope is based on only 30 cross-sectional observations with a t-value of 2.05 and p essentially at .05.",
+      "This is an observational asset-pricing headline result, vulnerable to specification choices, portfolio construction, and data-mining with likely out-of-sample shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.23,
+  "_task": {
+    "claim_id": "BKxK_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

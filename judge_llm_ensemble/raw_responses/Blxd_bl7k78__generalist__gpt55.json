@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from an enormous dataset with a small standard error, so the reported negative interaction is not just a noisy small-N finding.",
+      "However, it is a very tiny interaction among many tested moderators, making chance, modeling dependence, or contextual instability plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.49,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

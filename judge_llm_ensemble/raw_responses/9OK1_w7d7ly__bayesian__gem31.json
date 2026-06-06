@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The analysis controls for pre-migration election results, which strongly mitigates omitted variable bias and isolates the specific effect of migration.",
+      "The sample size of 848 communities is robust, and the highly significant p-value (p < 0.01) indicates a precise estimate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.79,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

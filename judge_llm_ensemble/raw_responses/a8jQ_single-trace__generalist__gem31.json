@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect with a p-value just below 0.05 (p=0.032) in a moderate sample size (N=586), which is generally underpowered.",
+      "Interaction effects in survey experiments with these parameters historically have low to moderate replication success rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.66,
+  "_task": {
+    "claim_id": "a8jQ_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

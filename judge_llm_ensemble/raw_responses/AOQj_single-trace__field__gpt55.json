@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Smoking’s association with psychological distress and psychotic-spectrum symptoms is a robust behavioral-health correlation with a plausible small effect size.",
+      "The fully adjusted cross-sectional internet-survey model is somewhat confounder-sensitive, so the specific independent association could shrink or attenuate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.37,
+  "_task": {
+    "claim_id": "AOQj_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

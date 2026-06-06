@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Strong experimental manipulation with n=400, p<.001, and moderate pairwise effects makes pure noise unlikely.",
+      "Outcome is self-reported and prompt-demand effects in convenience samples may shrink, but a similar prior study reportedly replicated it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.83,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.032 is weak and sits close to the 0.05 threshold, making the finding vulnerable to false positive results.",
+      "Interaction effects in survey experiments generally have a lower replication rate and often require larger sample sizes than N=586 to be robustly powered."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.86,
+  "_task": {
+    "claim_id": "a8jQ_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

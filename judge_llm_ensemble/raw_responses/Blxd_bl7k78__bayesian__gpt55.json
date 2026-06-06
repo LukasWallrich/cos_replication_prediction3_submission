@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Huge PISA sample and SE .004 yield a precisely estimated negative interaction, moving above the replication base rate.",
+      "But it is a tiny moderation effect among many tested, making specification or multiple-comparison artifacts plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.56,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

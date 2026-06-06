@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key interaction is only barely significant, making a specific moderation claim vulnerable to sampling and modeling choices.",
+      "The sample is fairly large and the theory is plausible, but the evidence provided is observational and thin for this exact coefficient."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.99,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

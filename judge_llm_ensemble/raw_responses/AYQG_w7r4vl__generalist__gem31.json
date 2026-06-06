@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect in observational survey data with a p-value of 0.024, which often indicates lower robustness to replication.",
+      "While the sample size of 2236 is decent, detecting stable subnational interaction effects cross-nationally is notoriously difficult and sensitive to model specification."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.92,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

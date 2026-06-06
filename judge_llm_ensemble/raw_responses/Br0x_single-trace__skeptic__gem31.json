@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is highly significant (p < 0.001) for a main effect, making a false positive highly unlikely.",
+      "The sample size is adequate for detecting a medium effect in a repeated measures design, and framing manipulations on moral judgments typically replicate well."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.91,
+  "_task": {
+    "claim_id": "Br0x_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

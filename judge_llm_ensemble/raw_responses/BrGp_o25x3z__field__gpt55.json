@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a borderline one-tailed excess-significance test, making it sensitive to analytic and inclusion choices.",
+      "Publication or selection bias in money-priming studies is plausible, but this specific Table 1 trend is not a robust estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.89,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

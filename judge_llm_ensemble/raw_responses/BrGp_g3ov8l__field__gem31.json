@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a test for publication bias (funnel plot asymmetry) in the money-priming literature, a literature widely known to suffer from severe publication bias.",
+      "Although the specific test is marginally significant (p = .072) due to the small number of studies (df=21), the underlying structural fact of small-study effects in this domain is highly robust."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.8,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

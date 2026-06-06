@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect with a p-value of 0.045, dangerously close to the .05 threshold and suggestive of low power or analytic flexibility.",
+      "Interaction effects derived from cross-sectional observational survey data typically replicate at very low rates due to measurement error and unmeasured confounding."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.31,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

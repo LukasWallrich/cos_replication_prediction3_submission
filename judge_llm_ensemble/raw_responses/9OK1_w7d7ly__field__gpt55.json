@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a strong aggregate demographic-political association with n=848 and a small p-value, not a fragile latent mediation model.",
+      "However, the estimate is observational, historically specific, and may depend on migration endogeneity and the chosen electoral controls."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.66,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

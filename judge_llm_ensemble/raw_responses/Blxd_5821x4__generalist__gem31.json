@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The enormous sample size (N=265,180) from a high-quality international dataset ensures extremely stable parameter estimates and high statistical power.",
+      "While the effect is statistically significant, its very small magnitude (0.041) means it could be sensitive to minor changes in model specification."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.94,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

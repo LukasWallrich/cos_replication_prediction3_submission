@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a randomized experimental contrast with a reasonably sized sample and p well below .05, not a marginal cross-sectional association.",
+      "The effect is a single-study interaction-like preference reversal and may shrink, especially if based on a convenience sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.79,
+  "_task": {
+    "claim_id": "AvOr_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

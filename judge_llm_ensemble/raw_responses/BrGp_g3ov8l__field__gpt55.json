@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small-study and reporting-bias patterns are highly plausible in the money-priming literature, which has known replication and publication-bias problems.",
+      "The specific meta-regression is small and only marginal, so the exact association could be sensitive to coding and heterogeneity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.29,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

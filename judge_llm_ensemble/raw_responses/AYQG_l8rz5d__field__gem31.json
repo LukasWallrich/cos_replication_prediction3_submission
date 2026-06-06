@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex interaction effect with a p-value just barely below the 0.05 threshold (p=0.0455), a strong indicator of low robustness.",
+      "Interaction effects in observational survey data across subnational units are typically highly sensitive to model specification and covariate choices."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.44,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

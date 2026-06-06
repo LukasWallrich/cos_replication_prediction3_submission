@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim identifies a relationship between effect sizes and standard errors in a controversial literature, a classic indicator of publication bias.",
+      "Given the highly robust p-value (.001) and the well-documented severity of p-hacking in the money-priming literature, this funnel plot asymmetry is highly credible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.35,
+  "_task": {
+    "claim_id": "BrGp_m67j81",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

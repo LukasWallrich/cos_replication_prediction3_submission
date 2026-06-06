@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of 0.060 (one-tailed) provides very weak statistical evidence for the claim.",
+      "Claims based on marginally significant meta-analytic tests of bias are highly sensitive to analytic choices and typically do not replicate well."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.04,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study reports a statistically significant effect (p = 0.008) with a reasonable sample size (N = 1295).",
+      "However, the complete lack of methodological details in the provided abstract makes it difficult to assess the risk of omitted variable bias or specification searching."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 13.69,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

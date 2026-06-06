@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported correlation is fairly large with n=106, yielding very strong statistical evidence unlikely to be pure sampling noise.",
+      "The abstract describes a single experimental correlation, so measurement choices or analytic flexibility still leave some replication uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 49.52,
+  "_task": {
+    "claim_id": "amYY_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

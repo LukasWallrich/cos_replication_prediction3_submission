@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value for the excess significance test is .060 (one-tailed), which is statistically weak and normally concerning for replicability.",
+      "However, the target literature (money priming) is notoriously susceptible to publication bias and p-hacking, making the presence of excess significance highly plausible regardless of this specific test."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.4,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

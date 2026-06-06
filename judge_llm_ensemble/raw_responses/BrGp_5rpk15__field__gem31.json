@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a meta-scientific analysis of published literature, which strongly suffers from well-documented publication bias and excess significance.",
+      "Calculations of excess success in historically fragile literatures like money priming are highly robust and easily reproducible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.67,
+  "_task": {
+    "claim_id": "BrGp_5rpk15",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

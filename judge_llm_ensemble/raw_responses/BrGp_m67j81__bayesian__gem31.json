@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim identifies funnel plot asymmetry (publication bias) in the money-priming literature, which is widely known to be severely impacted by such biases.",
+      "The meta-analytic regression shows a strong statistical signal (p = .001), providing robust evidence for the small-study effect in this literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.81,
+  "_task": {
+    "claim_id": "BrGp_m67j81",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

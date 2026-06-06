@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a straightforward behavioral correlation between risk aversion and decision errors, which often has a structural basis in standard lottery tasks.",
+      "However, the reported effect size (r = -0.46) is quite large for an N of 106, suggesting potential inflation, though the directional effect is plausible to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 20.56,
+  "_task": {
+    "claim_id": "amYY_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

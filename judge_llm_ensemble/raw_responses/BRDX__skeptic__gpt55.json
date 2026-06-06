@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a significant indirect effect from mediation, with p=.032 close to the conventional threshold.",
+      "Although the manipulation is experimental and N=584 is respectable, mediator-outcome links use self-report intentions and remain confounded."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.73,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A moderate positive beta with n=238 and p<.01 is not merely a threshold-significance result.",
+      "The association is plausible, but likely cross-sectional self-report leadership experience measures invite common-method bias and effect-size inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.92,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

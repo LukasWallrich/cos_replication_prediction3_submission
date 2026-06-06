@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific indirect effect in a complex mediation model, which is highly sensitive to the sample's specific covariance structure.",
+      "The p-value for the indirect effect is relatively high (p = .032), increasing the likelihood that this precise mediational path will evaporate upon replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 55.01,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

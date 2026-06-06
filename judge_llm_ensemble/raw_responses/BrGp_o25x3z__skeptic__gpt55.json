@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The specific test is weak and fragile: one-tailed p=.043, no clear sample size, and likely dependent on analytic choices.",
+      "But publication/selection bias in money-priming studies is highly plausible and supported by broader replication failures and meta-research context."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.59,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

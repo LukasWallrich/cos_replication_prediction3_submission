@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Large sample and p≈0.004 make this less likely to be a pure sampling fluctuation than a thin single-test result.",
+      "The claim is an observational regression coefficient, so confounding, measurement choices, and model specification could still drive the association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.0,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

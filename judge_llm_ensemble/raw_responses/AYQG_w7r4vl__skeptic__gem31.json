@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Interaction effects in cross-sectional, observational survey data are notoriously fragile and typically underpowered, even with moderate sample sizes.",
+      "The reported p-value of ~0.024 provides relatively weak statistical evidence, increasing the likelihood that the interaction effect is a false positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.12,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

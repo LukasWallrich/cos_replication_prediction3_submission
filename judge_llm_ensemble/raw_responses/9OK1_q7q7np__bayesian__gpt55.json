@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is moderately large and the estimate is statistically clear, but not overwhelming, at p≈0.014 with coefficient about 2.6 SEs from zero.",
+      "The quasi-experimental migration setting strengthens credibility, though the claim is a specific observational electoral association vulnerable to confounding and model dependence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.12,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

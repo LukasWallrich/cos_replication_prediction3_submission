@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The money-priming literature is a well-known example of a fragile phenomenon characterized by severe publication bias, making it highly probable that it lacks evidential value.",
+      "Although the specific p-value for the p-curve flatness test is marginal (.032), the overarching conclusion aligns perfectly with extensive, pre-registered replication failures of these effects."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.49,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

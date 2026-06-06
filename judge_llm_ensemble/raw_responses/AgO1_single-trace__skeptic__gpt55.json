@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is large and p=.0026 is not a marginal threshold result, reducing the chance it is pure noise.",
+      "But n=24 is very small, likely convenience-sample experimental evidence, so effect size inflation and analytic fragility remain serious concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.38,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

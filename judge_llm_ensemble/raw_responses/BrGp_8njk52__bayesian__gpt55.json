@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is marginal: p=.060 one-tailed with a liberal p<.10 threshold, so sampling error could easily explain it.",
+      "The claim is an aggregate excess-significance trend in a biased literature, which is plausible but likely based on a small, selected study set."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.06,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

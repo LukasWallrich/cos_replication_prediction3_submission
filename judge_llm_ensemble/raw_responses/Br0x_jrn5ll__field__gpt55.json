@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Default negative beliefs about profit-seeking firms are plausible and supported by moderate effects in two conditions.",
+      "The full pattern depends on a marginal small effect and a null in a prompted condition, both fragile in survey experiments."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.19,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

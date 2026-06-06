@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is an exploratory cross-sectional chi-square result from a small purposive sample with many tested associations and no effect size reported.",
+      "The p-value is below .05 but not overwhelming, while an age difference in parental counselling is substantively plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.26,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

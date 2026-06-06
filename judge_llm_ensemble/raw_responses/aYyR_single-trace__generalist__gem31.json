@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A positive correlation between openness to experience and leadership is a well-established and theoretically straightforward finding in personality psychology.",
+      "The sample size of 238 is well-powered to detect a correlation of .34, providing strong statistical evidence for the reported relationship."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.79,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

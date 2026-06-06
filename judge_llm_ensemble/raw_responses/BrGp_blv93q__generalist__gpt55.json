@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a reanalysis of published effect sizes, and the reported Egger test is very strong despite only 14 data points.",
+      "However, funnel-asymmetry claims can be sensitive to effect-size extraction, dependence, and small meta-analytic samples."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.73,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

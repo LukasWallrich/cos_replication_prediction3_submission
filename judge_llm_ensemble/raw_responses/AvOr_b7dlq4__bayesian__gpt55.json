@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key association is small and missed conventional significance in a modest sample, giving weak evidence beyond the 40–60% base rate.",
+      "The predicted pattern is directionally coherent, but the 65/39 versus 52/52 split is not strong enough to support high confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.4,
+  "_task": {
+    "claim_id": "AvOr_b7dlq4",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

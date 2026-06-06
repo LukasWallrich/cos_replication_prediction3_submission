@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is fairly precise and statistically strong in a moderate-sized community sample, with t≈3.5 after controlling for pre-migration election results.",
+      "However, this is an observational/quasi-experimental political-economy regression, so residual confounding or specification dependence remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.84,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

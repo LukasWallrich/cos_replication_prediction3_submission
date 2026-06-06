@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is moderately precise with n=848 and p=.014, not merely a threshold-significant result.",
+      "However, eastward migration patterns and Communist voting plausibly share geographic, linguistic, and economic confounders despite the quasi-experimental framing."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.18,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

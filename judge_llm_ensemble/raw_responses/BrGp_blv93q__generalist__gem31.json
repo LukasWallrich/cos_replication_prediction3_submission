@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a straightforward statistical test of publication bias in the money-priming literature, which is widely known to suffer from severe replication failures.",
+      "The highly significant p-value (p < .001) from Egger's test indicates a robust, easily verifiable mathematical pattern of asymmetry in the reported studies."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.3,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

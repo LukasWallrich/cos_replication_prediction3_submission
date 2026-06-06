@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The no-prompt and weak-constraint one-sample effects are moderate with p<.001 and roughly 100 participants per cell.",
+      "The unspecified-constraints result is marginal and the strong-constraints conclusion relies on interpreting a nonsignificant self-report effect as absence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.53,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a moderately precise positive regression coefficient in a reasonably sized sample, with p≈0.008 and robust standard errors.",
+      "However, the supplied abstract gives no substantive design details, and this is an observational association from a single reported table."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.51,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

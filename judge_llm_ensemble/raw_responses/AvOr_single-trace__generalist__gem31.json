@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a robust p-value (p < .001) and a meaningful effect size (phi = .24) from a decent sample size (N=210).",
+      "The experimental paradigm relies on standard cognitive-ecological learning effects, which are typically highly controlled and tend to replicate well."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.02,
+  "_task": {
+    "claim_id": "AvOr_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a meta-analytic calculation of excess significance using a fixed set of already-published studies (Vohs 2015).",
+      "Because the data is fixed and the calculation is mathematical, an independent reproduction of this analysis is very likely to yield the same trend."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 52.92,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

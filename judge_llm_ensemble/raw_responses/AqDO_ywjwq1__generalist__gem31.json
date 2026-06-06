@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=4209) and the reported p-value (p < 0.005) is comfortably below standard significance thresholds.",
+      "However, this is an observational study using survey proxies for time preference, and the abstract's emphasis on subgroup differences suggests possible specification searching."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.7,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

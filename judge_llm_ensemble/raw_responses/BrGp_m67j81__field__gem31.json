@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a meta-analytic test for publication bias in the money-priming literature, a literature widely known to suffer from severe small-study effects and publication bias.",
+      "Given the structural reality of publication bias in this classic literature, the correlation between reported effect sizes and standard errors is highly robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.37,
+  "_task": {
+    "claim_id": "BrGp_m67j81",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

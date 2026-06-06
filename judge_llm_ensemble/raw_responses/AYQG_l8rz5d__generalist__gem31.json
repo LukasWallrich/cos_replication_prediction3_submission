@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of the critical interaction effect is 0.0455, sitting just below the significance threshold, which often indicates lower replicability.",
+      "Interaction effects in observational cross-sectional survey data are notoriously difficult to replicate, despite the relatively large sample size of 4648."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.3,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

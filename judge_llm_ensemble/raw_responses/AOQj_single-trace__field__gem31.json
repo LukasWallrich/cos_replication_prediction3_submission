@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 1929 provides substantial power to detect modest structural correlations, and the extremely small p-value (p < 0.001) suggests the finding is not a statistical artifact.",
+      "The association between cigarette smoking and mental health distress, including psychotic-like experiences, is a well-established empirical regularity in public health literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.07,
+  "_task": {
+    "claim_id": "AOQj_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

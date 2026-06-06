@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features an adequate sample size of 400 participants (~100 per condition) and reports a highly significant p-value (< .001).",
+      "The claim explicitly notes that this result replicates an earlier study within the same paper, demonstrating internal robustness."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 33.85,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

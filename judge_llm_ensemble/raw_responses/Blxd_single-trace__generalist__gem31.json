@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study leverages a very large, high-quality international dataset (PISA) yielding a sample size of over 10,000, which provides massive statistical power.",
+      "However, this is an interaction effect drawn from testing 16 different moderators, increasing the risk of false positives or small, unstable effects."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 25.78,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

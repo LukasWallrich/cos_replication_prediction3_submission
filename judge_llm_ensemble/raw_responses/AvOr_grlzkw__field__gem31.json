@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a straightforward experimental manipulation testing a cognitive learning paradigm with an adequate sample size (N=223).",
+      "The p-value (.003) is robust and the effect size (phi = -.20) is realistic for this type of impression formation task."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.81,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

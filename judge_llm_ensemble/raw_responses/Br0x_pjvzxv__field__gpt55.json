@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct prompt effect on an immediately related belief, a class of effects that often replicates better than latent mechanisms.",
+      "The effect is moderate, highly significant in N=400, and reportedly repeats an earlier study, though demand characteristics may inflate it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.79,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

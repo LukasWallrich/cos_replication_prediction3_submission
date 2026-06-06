@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Money-priming is a classic example of a literature with severe replication issues, making a flat p-curve highly plausible.",
+      "Although the specific p-value for extreme flatness (p = 0.032) is close to the threshold, the broader conclusion of no evidential value is strongly supported by subsequent large-scale replication failures."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.5,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

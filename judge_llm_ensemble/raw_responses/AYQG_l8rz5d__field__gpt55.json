@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a specific contextual moderation effect from observational survey data, the kind that often shifts with measurement and confound structure.",
+      "The interaction is small and barely significant, despite a large sample, making sign and magnitude fragile in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.01,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

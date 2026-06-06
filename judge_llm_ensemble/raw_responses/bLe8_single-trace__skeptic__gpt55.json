@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is not merely marginal: n=1295 and p≈0.008 provide moderate evidence for a positive association.",
+      "It is still observational and likely clustered by village, so unmodeled dependence or specification choices could materially weaken the result."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.3,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

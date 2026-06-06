@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized experimental contrast with N=210 and p<.001 reduces concern that the reported contingency is pure sampling noise.",
+      "The effect is a modest, paradigm-specific social-cognitive preference shift in artificial groups, so contextual fragility remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.68,
+  "_task": {
+    "claim_id": "AvOr_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a solid sample size of roughly 100 participants per cell, providing high statistical power for the reported effect sizes.",
+      "The highly significant p-values (p < .001) and large effect sizes (d = 0.56 to 0.69) strongly suggest a robust and reliable main effect of the experimental manipulation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.44,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

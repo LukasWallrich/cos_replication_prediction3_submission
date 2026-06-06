@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The estimate comes from a very large PISA multilevel sample and aligns with the robust big-fish-little-pond pattern.",
+      "However, this is a tiny specific interaction/moderation effect, which is the kind of finding that often proves sample-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.24,
+  "_task": {
+    "claim_id": "Blxd_bx4248",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

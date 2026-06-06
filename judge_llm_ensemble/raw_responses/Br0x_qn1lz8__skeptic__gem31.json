@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .022 from a modest sample size (n=196) suggests a potentially underpowered design for a stable, generalizable effect of d=0.34.",
+      "The claim relies on a subtle cognitive prompt to shift abstract survey beliefs, a type of finding that frequently fails to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 43.28,
+  "_task": {
+    "claim_id": "Br0x_qn1lz8",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

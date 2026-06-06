@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key association is small and not conventionally significant, with p=.069 and phi=.13 in a modest single experiment.",
+      "The experimental manipulation and preregistered-sounding prediction help, but social-cognitive effects of this size often shrink in direct replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.99,
+  "_task": {
+    "claim_id": "AvOr_b7dlq4",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

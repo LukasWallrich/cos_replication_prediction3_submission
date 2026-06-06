@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses an enormous, highly representative international dataset (N > 265,000), making the parameter estimates highly stable.",
+      "While the interaction effect is extremely small, a well-powered replication on a similar population is highly likely to detect this same structural regularity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.75,
+  "_task": {
+    "claim_id": "Blxd_bx4248",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is fairly precise and not a marginal p=.05 result, with a decent community-level sample and stability across controls.",
+      "Still, this is an observational headline association where migration destinations may reflect pre-existing political and socioeconomic differences."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.05,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

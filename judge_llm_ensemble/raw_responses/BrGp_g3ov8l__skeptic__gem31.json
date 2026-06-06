@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a meta-regression testing for publication bias in the money-priming literature, a domain notoriously plagued by small-study effects and non-replicability.",
+      "Although this specific test was underpowered (n=23) and yielded a marginally significant p-value of .072, strong priors suggest the presence of publication bias is genuinely real."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.13,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

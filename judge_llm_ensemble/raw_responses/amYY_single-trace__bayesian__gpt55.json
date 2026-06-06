@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported correlation is moderately large (r≈-.46) with n=106, yielding a very small p-value rather than a borderline result.",
+      "The claim is a simple correlation in an experiment, but the sample is modest and risk-preference measures may be context-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 25.47,
+  "_task": {
+    "claim_id": "amYY_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

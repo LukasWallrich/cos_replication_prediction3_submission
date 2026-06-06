@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is sizable and p=.009, not merely a threshold result, with an objective-ish behavioral outcome.",
+      "But it comes from only 47 participants and a self-report individual-difference split, likely vulnerable to noise and analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.91,
+  "_task": {
+    "claim_id": "9R9X_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

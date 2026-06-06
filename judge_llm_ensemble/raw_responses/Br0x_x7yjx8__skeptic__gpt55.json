@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized vignette manipulation makes the causal direction fairly credible, and the reputational-information mechanism is straightforward and plausible.",
+      "The effect is modest in a self-report convenience sample, with a p-value not razor-thin but still vulnerable to shrinkage and multiple contrasts."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.76,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

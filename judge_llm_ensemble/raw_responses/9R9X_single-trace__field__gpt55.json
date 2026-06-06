@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is plausible and fairly strong statistically, but it comes from a small convenience sample and likely dichotomized self-report predictor.",
+      "This is a specific theory-driven cognitive mechanism in one portion condition, a pattern that often shrinks or becomes unstable on replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.29,
+  "_task": {
+    "claim_id": "9R9X_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

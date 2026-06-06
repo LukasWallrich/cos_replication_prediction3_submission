@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a specific cross-level moderation claim, and such interaction effects are often sensitive to model specification and sample composition.",
+      "The evidence is weak: the reported interaction is small and only marginally significant at p≈0.096."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.07,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

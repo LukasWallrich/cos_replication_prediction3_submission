@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Objective electoral outcomes and a community sample of 848 with p=.001 give stronger evidence than a borderline self-report finding.",
+      "It is still an observational headline result, so destination-specific migration may reflect unmeasured political or economic selection."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.28,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

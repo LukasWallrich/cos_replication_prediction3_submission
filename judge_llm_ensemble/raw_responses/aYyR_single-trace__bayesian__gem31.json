@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The correlation between Openness to Experience and leadership is well-established in the personality literature, supported by robust meta-analyses.",
+      "The claim involves a simple, theoretically sound correlation with a plausible effect size and an adequate p-value (p < .01)."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 47.11,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

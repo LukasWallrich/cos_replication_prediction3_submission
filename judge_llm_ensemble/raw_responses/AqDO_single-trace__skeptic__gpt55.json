@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a single observational subgroup coefficient with p=0.039, making it vulnerable to sampling error and multiple-model selection.",
+      "The causal interpretation about opportunity costs is weakly supported because education and care-seeking are heavily confounded in cross-sectional health data."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.62,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is moderately sized and reports a moderate positive association, making a pure false positive less likely.",
+      "The claim is a simple correlational finding, but the abstract provides limited design detail and likely relies on self-report observational data."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 4.28,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

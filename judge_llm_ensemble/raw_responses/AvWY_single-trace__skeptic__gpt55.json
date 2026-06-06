@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Randomized manipulation helps causal interpretation, but n=48 is small for a group-by-dilemma interaction and the effect is likely inflated.",
+      "The p-value is not merely .049, yet interaction effects in behavioral experiments are among the least reliable findings."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.66,
+  "_task": {
+    "claim_id": "AvWY_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

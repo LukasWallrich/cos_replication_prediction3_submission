@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between openness to experience and leadership is a well-established and robust finding in personality and organizational psychology.",
+      "The reported effect size (beta = 0.34) and sample size (N=238) are highly plausible and sufficient to reliably detect this standard personality-behavior correlation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.93,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

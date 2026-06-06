@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Age is fundamentally and structurally linked to receiving parental counselling, making this simple demographic association highly theoretically plausible.",
+      "However, the small sample size (n=186) and the presence of uncorrected multiple comparisons (many Chi-square tests) reduce the reliability of the p=0.019 result."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.81,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

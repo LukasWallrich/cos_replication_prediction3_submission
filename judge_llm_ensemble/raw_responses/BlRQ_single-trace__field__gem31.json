@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a straightforward bivariate correlation between two well-established constructs (social-emotional problems and academic achievement) using a large, nationally representative dataset.",
+      "Such direct descriptive associations in large-scale structural data are highly robust and routinely replicate in educational and developmental psychology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.66,
+  "_task": {
+    "claim_id": "BlRQ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

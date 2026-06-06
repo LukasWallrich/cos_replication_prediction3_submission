@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large sample size (N=4209) and low p-value (p < 0.01) provide a solid statistical foundation for this observational correlation.",
+      "The finding aligns with a well-established empirical regularity in health economics: higher time discounting (impatience) predicts lower investment in preventative health behaviors."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.51,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

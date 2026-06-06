@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A moderate positive association (beta=.34) with n=238 and p<.01 is more credible than a borderline small-sample finding.",
+      "The claim is correlational and psychologically plausible, though self-report leadership-experience measures and modest sample size limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.68,
+  "_task": {
+    "claim_id": "aYyR_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

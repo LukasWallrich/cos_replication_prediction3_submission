@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key evidence is a small interaction effect with p=0.045, exactly the kind of result that often proves fragile.",
+      "The observational, self-report vote-choice design is plausible but vulnerable to specification choices, endogeneity, and contextual confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.63,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

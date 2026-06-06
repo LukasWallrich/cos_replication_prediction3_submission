@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key positive lambda estimate is only barely significant, with t=2.05 and p≈0.05 in a 30-observation cross-sectional regression.",
+      "The high R-squared is in-sample and the design is observational with portfolio/model choices, making overfitting or fragility plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.95,
+  "_task": {
+    "claim_id": "BKxK_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is fairly large with p=0.009, which is stronger than a merely borderline small-sample finding.",
+      "But n=47 and a measured/dichotomized individual-difference claim make effect-size inflation and selective reporting substantial concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.08,
+  "_task": {
+    "claim_id": "9R9X_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

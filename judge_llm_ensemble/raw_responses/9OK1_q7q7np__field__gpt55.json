@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The direction is politically plausible: eastward migration to Russia could correlate with stronger Communist voting in Moldovan communities.",
+      "But the estimate is observational, context-specific, and vulnerable to settlement-history or pro-Russian confounding despite a moderately significant p-value."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.85,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

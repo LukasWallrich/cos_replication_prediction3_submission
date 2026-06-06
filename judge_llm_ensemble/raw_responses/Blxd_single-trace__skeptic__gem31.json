@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 10,000 provides excellent statistical power, making the highly significant (p < .001) finding statistically stable.",
+      "Although cross-sectional survey interactions can be fragile, the highly standardized PISA methodology and huge N suggest this small effect is a reliable feature of the population data."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 20.75,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

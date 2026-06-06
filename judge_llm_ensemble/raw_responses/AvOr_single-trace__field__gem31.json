@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a simple reversal in preferences driven by the valence of shared versus unique traits, grounded in well-established cognitive learning principles.",
+      "The sample size (N=210) is relatively robust for a simple categorical choice experiment, and the p-value (p < .001) provides a strong statistical signal."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 31.14,
+  "_task": {
+    "claim_id": "AvOr_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

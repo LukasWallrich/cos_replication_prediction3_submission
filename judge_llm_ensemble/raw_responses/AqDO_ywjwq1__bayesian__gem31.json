@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is quite large (N=4209), which provides good statistical power to detect the reported marginal effect and yields a relatively tight p-value (p=0.004).",
+      "Although the theoretical mechanism is plausible, this is an observational survey study relying on self-reported time preferences, which can be noisy and vulnerable to omitted variable bias."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 38.32,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

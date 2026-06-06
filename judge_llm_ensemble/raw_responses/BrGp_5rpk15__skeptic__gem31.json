@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The money-priming literature is a classic example of severe publication bias, making the presence of excess significance highly credible.",
+      "The claim relies on a straightforward comparison between the reported hit rate and expected statistical power, a robust meta-analytic technique."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.69,
+  "_task": {
+    "claim_id": "BrGp_5rpk15",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

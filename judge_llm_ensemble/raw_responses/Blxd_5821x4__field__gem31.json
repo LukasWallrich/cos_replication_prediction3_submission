@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The enormous sample size from a highly representative international dataset means estimates of even small effects are highly precise and stable.",
+      "The reported effect size is tiny and acknowledged as practically insignificant, making it highly probable to just be a minor, robust structural correlation rather than an inflated estimate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.28,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

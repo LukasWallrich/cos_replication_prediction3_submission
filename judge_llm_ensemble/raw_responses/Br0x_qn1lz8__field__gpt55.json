@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The manipulation effect is plausible and directionally tied to the vignette, but it is a small social-cognition contrast.",
+      "The evidence is borderline significant with modest sample size and likely multiple condition comparisons, so shrinkage or disappearance is realistic."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.42,
+  "_task": {
+    "claim_id": "Br0x_qn1lz8",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

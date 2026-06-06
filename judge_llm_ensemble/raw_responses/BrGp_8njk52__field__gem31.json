@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a meta-analytic excess significance test assessing publication bias in the money-priming literature, which is widely acknowledged to suffer from such biases.",
+      "Since this is an analysis of an existing, fixed set of published studies, a direct reproduction of the analysis would reliably yield the same pattern of excess significance."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.63,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

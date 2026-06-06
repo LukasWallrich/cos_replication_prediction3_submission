@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from an extremely large sample with a small standard error and p<.001, strongly reducing pure sampling-error concern.",
+      "It is a tiny observational moderation effect, so practical fragility and model dependence keep it below near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.61,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

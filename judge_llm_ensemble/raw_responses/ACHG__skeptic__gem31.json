@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The predictor (perceiving breastfeeding as unnatural) and outcome (negative attitude toward public breastfeeding) conceptually overlap heavily, making a positive association essentially tautological.",
+      "Although the specific adjusted odds ratio is massive and the confidence intervals suggest sparse data or modeling issues, the directional claim will reliably replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 17.17,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

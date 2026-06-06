@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific set of controls in a cross-sectional dataset to establish a relationship between caste composition and agricultural income.",
+      "While the sample size is reasonable, such observational correlations are often fragile and sensitive to the exact specification or region sampled."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.49,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Two key positive effects have n≈100 per cell with moderate ds and very small p-values, making them more credible than thin evidence.",
+      "The marginal unspecified-constraints effect and interpretation of a null strong-constraints condition make the full condition-specific pattern less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.77,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The negative correlation between Western migration and Communist voting is a structural demographic and political pattern in this specific historical context.",
+      "The result is highly significant (p < .002) in a community-level sample, and adjusting for baseline political geography typically stabilizes such macro-level associations."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.03,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

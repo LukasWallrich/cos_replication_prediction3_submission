@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a very large PISA sample and multilevel modeling, making a small reported interaction less likely to be pure sampling noise.",
+      "But this is a specific moderation among many tested constructs, and small interaction effects often prove less stable across replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.52,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

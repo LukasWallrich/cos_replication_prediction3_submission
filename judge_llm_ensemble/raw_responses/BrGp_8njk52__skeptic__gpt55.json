@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific evidence is marginal and one-tailed, with an excess-significance test likely based on few heterogeneous studies.",
+      "The broader money-priming literature has strong independent reasons to expect publication bias and inflated significant-result rates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.83,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

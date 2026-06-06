@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a test for publication bias (funnel plot asymmetry) in the famously unreliable money-priming literature.",
+      "Given the known severity of publication bias in this specific subfield, a well-powered meta-analytic replication is highly likely to detect a genuine relationship between effect sizes and standard errors."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.99,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

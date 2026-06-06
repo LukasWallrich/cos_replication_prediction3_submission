@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported effect is fairly large and statistically stronger than a marginal finding despite the small sample.",
+      "Still, it comes from one small behavioral study with likely noisy self-report/dichotomized predictor and limited replication safeguards."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.63,
+  "_task": {
+    "claim_id": "9R9X_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

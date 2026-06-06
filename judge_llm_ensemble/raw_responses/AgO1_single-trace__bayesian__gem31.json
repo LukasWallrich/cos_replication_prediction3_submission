@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small sample size of N=24 makes the large reported effect size highly susceptible to the winner's curse and publication bias.",
+      "Complex, context-dependent behavioral claims from this era of experimental economics/psychology with such small samples have historically very low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.33,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

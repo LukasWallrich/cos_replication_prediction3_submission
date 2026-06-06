@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is only marginal, p=.072 with about 23 effect sizes, so the direct evidence is weak.",
+      "Publication bias and small-study effects in this literature are plausible, but this specific regression is observational and dataset-limited."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.33,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

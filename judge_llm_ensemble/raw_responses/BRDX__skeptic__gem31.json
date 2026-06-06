@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific indirect (mediation) effect with a p-value close to the .05 threshold (p = .032), which historically replicates poorly.",
+      "Distinguishing between closely related mediators like 'freedom threat' and 'reactance' suggests high researcher degrees of freedom and potential model overfitting."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.55,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

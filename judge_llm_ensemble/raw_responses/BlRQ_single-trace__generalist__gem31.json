@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large sample (N = 1020) from a well-known, high-quality dataset (ECLS-K).",
+      "The negative association between social-emotional problems and academic achievement is a well-established, straightforward relationship that typically replicates easily."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.77,
+  "_task": {
+    "claim_id": "BlRQ_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

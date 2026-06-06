@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a tiny moderation effect, a class of findings that is often model-dependent and less robust than main effects.",
+      "However, it was estimated very precisely in a huge PISA sample, making pure sampling noise an unlikely explanation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.84,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

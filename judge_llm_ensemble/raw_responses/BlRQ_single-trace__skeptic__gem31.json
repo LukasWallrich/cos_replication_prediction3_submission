@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a large sample (N=1020) from a high-quality, nationally representative dataset (ECLS-K), which minimizes sampling bias and provides high statistical power.",
+      "The effect size is substantial and the p-value is infinitesimally small for a simple bivariate correlation that aligns with well-established literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.7,
+  "_task": {
+    "claim_id": "BlRQ_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

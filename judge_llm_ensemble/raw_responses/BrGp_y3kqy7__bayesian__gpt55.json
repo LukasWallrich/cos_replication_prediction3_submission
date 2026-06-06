@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a mostly mechanical meta-analytic comparison in a fixed literature, not a noisy participant-level behavioral effect.",
+      "The evidence is only moderately strong: a small study set, assumption-dependent fixed-effect power estimate, and one-tailed p=.017."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.37,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

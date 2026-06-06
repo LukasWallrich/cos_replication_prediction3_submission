@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from an extremely large PISA sample with a small standard error and a strongly significant negative interaction.",
+      "It is still an observational moderation finding among many tested moderators, and interaction effects can be less stable than main effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.75,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

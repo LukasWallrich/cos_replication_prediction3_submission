@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A sizable, precisely estimated community-level association in 848 Moldovan communities is plausible given political exposure through Western migration.",
+      "The claim still relies on observational controls in a historically specific setting, so unmeasured confounding or specification changes could weaken it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.25,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

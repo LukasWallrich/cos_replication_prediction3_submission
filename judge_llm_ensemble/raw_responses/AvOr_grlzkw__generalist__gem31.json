@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a moderate-to-large sample size (N = 223) for a simple categorical comparison.",
+      "The reported p-value of .003 is reasonably strong and provides a buffer against standard publication bias and noise."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 23.56,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

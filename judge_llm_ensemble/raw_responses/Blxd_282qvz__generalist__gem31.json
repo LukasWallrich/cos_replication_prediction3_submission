@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N = 265,180) and drawn from a standardized international database (PISA), providing enormous statistical power.",
+      "The highly significant p-value (p < .001) in such a large dataset suggests the interaction effect is robust and would reliably replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.9,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

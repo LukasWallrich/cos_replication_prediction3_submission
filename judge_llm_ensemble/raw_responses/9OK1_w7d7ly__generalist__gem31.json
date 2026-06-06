@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a highly significant p-value (p < 0.002) and a decent sample size (N=848), indicating strong statistical precision within the sample.",
+      "The design compares distinct migration destinations (West vs. East) and controls for pre-migration voting, addressing key confounders often problematic in observational macro-political studies."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.71,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

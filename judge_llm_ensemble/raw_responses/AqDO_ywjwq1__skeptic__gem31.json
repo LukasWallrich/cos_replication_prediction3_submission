@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a reasonably large sample size (N=4209) and a robust p-value (p < 0.01), providing a clear statistical signal.",
+      "While the cross-sectional design and self-reported measures limit causal inference, the observational association is likely to successfully replicate in the same target population."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 45.36,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

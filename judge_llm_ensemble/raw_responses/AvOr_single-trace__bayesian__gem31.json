@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value (p < .001) is highly significant, providing strong statistical evidence against the null hypothesis for this moderate effect size.",
+      "The sample size (N = 210) is sufficiently large for a straightforward categorical choice experimental design, making a false positive less likely."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.72,
+  "_task": {
+    "claim_id": "AvOr_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

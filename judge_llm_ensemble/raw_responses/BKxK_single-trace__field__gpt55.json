@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is barely significant with only 30 portfolio observations, making sampling error and specification sensitivity serious concerns.",
+      "Cross-sectional asset-pricing risk premia based on constructed betas often weaken or disappear out of sample, despite plausible theory."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.99,
+  "_task": {
+    "claim_id": "BKxK_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

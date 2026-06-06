@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a straightforward experimental vignette effect with a moderate-to-large effect size (d = 0.56 to 0.69) and a highly significant p-value (p < .001).",
+      "With a sample size of 400 across four conditions, the study is adequately powered to detect an effect of this magnitude, and it represents an internal replication of a previous study in the same paper."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.83,
+  "_task": {
+    "claim_id": "Br0x_pjvzxv",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

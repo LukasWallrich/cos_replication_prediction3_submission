@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is statistically significant with a moderate sample and a design described as quasi-experimental rather than purely cross-sectional.",
+      "Still, it is a weaker secondary-looking observational association with modest p-value, so confounding or specification sensitivity remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.3,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

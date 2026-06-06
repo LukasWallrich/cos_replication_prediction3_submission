@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of N=265,180 yields highly precise estimates and extremely small standard errors.",
+      "While the interaction effect is practically negligible, its statistical significance in such a large sample likely reflects a true, albeit tiny, population parameter."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.71,
+  "_task": {
+    "claim_id": "Blxd_bl7k78",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extremely low (p < .0001), indicating a robust statistical signal despite the relatively small sample size of 106.",
+      "While the effect size (r = -0.46) might be somewhat inflated by the small sample, this strong directional behavioral pattern is likely a genuine effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 19.49,
+  "_task": {
+    "claim_id": "amYY_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

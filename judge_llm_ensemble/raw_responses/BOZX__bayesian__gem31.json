@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study tests many associations without correcting for multiple comparisons, making the weak p-value of 0.019 highly susceptible to being a false positive.",
+      "The small sample size of 186 coupled with purposive sampling further reduces the reliability of this specific statistical association."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 14.07,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

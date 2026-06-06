@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a specific indirect-effect mediation result, which has lower replication base rates than simple experimental or correlational effects.",
+      "The evidence is borderline significant at p=.032 with only moderate sample size, so sampling error could plausibly explain it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.51,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

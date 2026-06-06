@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value for the interaction effect is 0.096, providing very weak statistical evidence that is highly susceptible to failing replication.",
+      "Interaction effects in observational cross-national survey data are notoriously fragile and often do not hold up under independent replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 26.21,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

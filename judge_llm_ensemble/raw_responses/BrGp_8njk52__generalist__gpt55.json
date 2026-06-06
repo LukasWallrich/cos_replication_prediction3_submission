@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The specific evidence is marginal, with a one-tailed p=.060 and no reported sample size or effect size for this table-level test.",
+      "The broader abstract reports converging meta-analytic irregularities, but this particular “similar trend” claim rests on a thin vote-count/power comparison."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.79,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

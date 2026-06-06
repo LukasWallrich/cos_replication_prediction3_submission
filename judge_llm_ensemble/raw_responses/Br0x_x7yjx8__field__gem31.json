@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves an explicit informational manipulation in a vignette, which generally tends to successfully alter participants' subsequent judgments in a predictable way.",
+      "However, the modest sample size (n=198) and a p-value of .015 suggest the effect size might be smaller than reported, making the replication somewhat vulnerable to typical noise."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 48.1,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

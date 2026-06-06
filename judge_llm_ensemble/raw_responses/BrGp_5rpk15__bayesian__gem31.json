@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a meta-scientific analysis of published summary statistics, demonstrating excess significance in the money priming literature.",
+      "Given the well-documented history of publication bias and low power in this specific literature, this statistical observation is highly robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.47,
+  "_task": {
+    "claim_id": "BrGp_5rpk15",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

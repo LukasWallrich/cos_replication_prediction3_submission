@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction effect with a p-value just below 0.05 in a moderately sized survey experiment, which often indicates low power for interactions.",
+      "While positive projection is theoretically plausible, experimentally manipulated affective interactions typically yield fragile effects that often shrink or disappear on replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.54,
+  "_task": {
+    "claim_id": "a8jQ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

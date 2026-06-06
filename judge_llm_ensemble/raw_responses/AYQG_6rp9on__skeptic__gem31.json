@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value for this interaction effect is ~0.10, failing even the conventional .05 threshold for statistical significance.",
+      "Interaction effects in observational survey data are notoriously difficult to replicate, especially when initial results are this statistically weak."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.08,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

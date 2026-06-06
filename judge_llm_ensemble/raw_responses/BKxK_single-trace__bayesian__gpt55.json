@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is weak: only 30 cross-sectional portfolios and a borderline t=2.05/p≈0.05 estimate.",
+      "Asset-pricing cross-sectional predictors face substantial data-mining and specification risk, despite the direction being economically plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.68,
+  "_task": {
+    "claim_id": "BKxK_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

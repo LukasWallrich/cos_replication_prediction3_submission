@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is enormous and the interaction estimate is far from zero relative to its standard error, making sampling error unlikely.",
+      "This is a specific moderation effect from observational multilevel modeling, so model dependence and construct/context variation keep it below near-certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.53,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

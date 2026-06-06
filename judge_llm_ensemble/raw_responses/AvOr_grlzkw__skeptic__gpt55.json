@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple experimental condition-by-choice association with decent N and p=.003, not a borderline significance result.",
+      "Still, it is a single social-psychology study with a modest phi=.20 effect likely to shrink in replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.79,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

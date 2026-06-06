@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The key evidence is a small cross-sectional interaction with p=.024, a pattern classically prone to shrinkage and non-replication.",
+      "Self-reported evaluations and vote choice invite common-method bias and confounding, though the sample size and theoretical direction prevent a lower bucket."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.36,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

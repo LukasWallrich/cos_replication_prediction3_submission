@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Publication and reporting bias in the money-priming/social-priming literature is independently plausible and supported by failed preregistered replications.",
+      "This particular excess-significance result is marginal, one-tailed, and method-dependent, so the exact trend could weaken under reanalysis."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.38,
+  "_task": {
+    "claim_id": "BrGp_8njk52",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

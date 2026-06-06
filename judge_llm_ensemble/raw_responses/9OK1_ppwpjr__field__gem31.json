@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding describes a macro-level correlation between regional migration patterns and voting outcomes, which typically reflects stable structural and demographic differences.",
+      "Although the causal identification may be debatable, the raw association is strong (p < .005) and highly plausible given the context of Western vs. Russian migration in Moldova."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.87,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The specific evidence is weak: no sample size is given and the reported test is marginal, one-tailed p=.043.",
+      "The broader abstract reports converging meta-analytic irregularities and failed preregistered replications, supporting a real selection-bias pattern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.09,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value for this cross-level interaction is highly marginal (p ≈ 0.096), providing very weak initial statistical evidence.",
+      "Observational interaction effects dependent on specific subnational classifications and covariate structures typically shrink or disappear upon replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 15.78,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

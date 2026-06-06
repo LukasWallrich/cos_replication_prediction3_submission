@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study has a reasonably large sample and the interaction aligns with the paper’s broader accountability theory.",
+      "But this is a small, model-dependent observational interaction with only modest significance, which often proves fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.53,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

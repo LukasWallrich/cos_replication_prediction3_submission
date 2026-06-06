@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 48 is drastically underpowered to reliably detect a between-within interaction effect in a behavioral experiment.",
+      "Interaction effects in small-sample social psychology studies historically have extremely low replication rates, making this finding highly suspect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.25,
+  "_task": {
+    "claim_id": "AvWY_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported education effect is only barely significant and appears to come from a subgroup/discrete-choice specification, raising fragility and multiple-testing concerns.",
+      "The sample is moderately large and the association is plausible, but the causal opportunity-cost interpretation is not directly established by the abstract."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.93,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a barely significant p-value (p=0.039) from a subsample analysis, which often indicates lower replicability in observational survey data.",
+      "The theoretical interpretation (opportunity costs driving the behavior) adds conceptual fragility, even if the underlying correlation is being tested."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 33.85,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

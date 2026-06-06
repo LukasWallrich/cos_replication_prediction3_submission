@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is conceptually plausible and likely partly tautological: viewing breastfeeding as unnatural should correlate with negative attitudes toward public breastfeeding.",
+      "However, the cross-sectional self-report web design and oddly imprecise/possibly erroneous confidence interval make the huge adjusted odds ratio suspect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.31,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

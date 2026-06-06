@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=24 is extremely small for a behavioral experiment, making the results highly vulnerable to noise and the winner's curse.",
+      "Although the reported p-value is < .01, the enormous reported effect size is likely inflated, decreasing confidence in successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.06,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

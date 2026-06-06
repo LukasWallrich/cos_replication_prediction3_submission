@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The predictor and outcome variables are conceptually very similar (beliefs about breastfeeding being natural vs. attitudes toward it in public), making a directional association almost guaranteed.",
+      "Although the extremely wide confidence interval suggests unstable estimates due to sparse data, a well-powered replication is highly likely to detect the basic directional correlation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 16.98,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 265,000 students provides immense statistical power, making it highly improbable that this finding is a mere sampling artifact.",
+      "While interaction effects in cross-sectional data can be sensitive to model specification, the standardized PISA measures and well-established nature of the BFLPE bolster the claim."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.44,
+  "_task": {
+    "claim_id": "Blxd_282qvz",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

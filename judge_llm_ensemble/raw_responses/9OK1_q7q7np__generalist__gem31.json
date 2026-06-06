@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding relies on observational data with a moderate sample size of 848 and a p-value of 0.014, leaving it vulnerable to model specification choices.",
+      "The authors themselves describe this as a 'weaker association,' making it less likely to survive a rigorous, independent replication without the original degrees of freedom."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.7,
+  "_task": {
+    "claim_id": "9OK1_q7q7np",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

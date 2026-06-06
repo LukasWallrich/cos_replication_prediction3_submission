@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported test is only modestly significant, so the specific extreme-flatness result could be fragile to coding or corpus changes.",
+      "The abstract cites converging meta-analytic irregularities and failed preregistered replications, supporting a real lack of evidential value."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.64,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

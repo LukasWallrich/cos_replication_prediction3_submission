@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Education-healthcare-seeking associations are structurally plausible and often replicate, especially for access and diagnosis behaviours.",
+      "This is a subgroup, adjusted observational marginal effect with borderline p-value, so the exact conditional finding is fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.42,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

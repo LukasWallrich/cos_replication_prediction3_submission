@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Age-related differences in parental sexual-health counselling are developmentally plausible and demographic-behaviour associations often replicate.",
+      "The small purposive sample, multiple chi-square tests, and modest p-value make this particular significant association vulnerable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.08,
+  "_task": {
+    "claim_id": "BOZX",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

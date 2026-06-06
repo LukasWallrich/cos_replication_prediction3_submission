@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding aligns with well-documented cognitive biases regarding zero-sum thinking and anti-market bias, making the theoretical foundation very robust.",
+      "The sample size of 360 is well-powered for a repeated-measures design, yielding a highly significant p-value (< 0.001) that is likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 8.42,
+  "_task": {
+    "claim_id": "Br0x_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

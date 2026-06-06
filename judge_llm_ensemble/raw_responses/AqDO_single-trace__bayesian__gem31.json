@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect relies on a p-value very close to the 0.05 threshold (p ~ 0.039), which historically signals a low replication probability.",
+      "The finding involves a subgroup effect within an observational dataset, further increasing the risk of false positives from researcher degrees of freedom."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.98,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

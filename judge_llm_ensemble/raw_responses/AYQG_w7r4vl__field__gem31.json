@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a cross-level interaction (provincial party system moderating individual voting behavior), which is notoriously fragile and sensitive to model specification.",
+      "The p-value is just below 0.05 and the effect size is very small, indicating low power for detecting this specific moderation effect despite the moderate overall sample size."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.25,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

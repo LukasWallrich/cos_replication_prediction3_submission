@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific moderation effect in cross-sectional data, which tends to be fragile and sensitive to model specification.",
+      "However, the use of highly standardized, large-scale international data (PISA) increases the likelihood that the exact covariance structure would replicate in the same population."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 26.1,
+  "_task": {
+    "claim_id": "Blxd_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

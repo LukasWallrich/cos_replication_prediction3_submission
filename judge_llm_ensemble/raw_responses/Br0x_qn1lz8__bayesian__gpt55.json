@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The evidence is a modest experimental contrast with n=196, p=.022, and d≈0.34, making it vulnerable to publication bias and winner’s curse.",
+      "The causal design and plausible mechanism update upward somewhat, but this specific secondary comparison is less robust than the broader multi-study theme."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.07,
+  "_task": {
+    "claim_id": "Br0x_qn1lz8",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is 0.0498, sitting exactly on the significance threshold, which is a strong statistical red flag for fragility.",
+      "The analysis relies on a very small sample size of 30 portfolios, making the cross-sectional regression highly susceptible to idiosyncratic noise and outlier effects."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.64,
+  "_task": {
+    "claim_id": "BKxK_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

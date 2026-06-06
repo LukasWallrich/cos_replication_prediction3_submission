@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex mediation path distinguishing between highly related constructs (freedom threat vs. reactance), which is often fragile.",
+      "The p-value of .032 is relatively close to the .05 threshold, reducing confidence that this specific indirect effect would consistently replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 30.09,
+  "_task": {
+    "claim_id": "BRDX",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

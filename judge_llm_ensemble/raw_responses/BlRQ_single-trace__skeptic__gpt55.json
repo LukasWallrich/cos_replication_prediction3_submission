@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and very small p-value make a negative zero-order association unlikely to be sampling noise.",
+      "The direction is theoretically and empirically plausible, though cross-sectional self/teacher-report social-emotional measures may inflate the magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.36,
+  "_task": {
+    "claim_id": "BlRQ_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

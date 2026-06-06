@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding relies on community-level administrative data with a large sample size (n=848) and reports a highly significant p-value (p < .005).",
+      "The reported coefficient remains stable across multiple specifications with expanding controls, increasing confidence that the association is not an artifact of a specific ad-hoc model."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.93,
+  "_task": {
+    "claim_id": "9OK1_ppwpjr",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

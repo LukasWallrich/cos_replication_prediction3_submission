@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is statistically strong in a moderately large community sample and remains similar after controlling for pre-migration election results.",
+      "However, it is still an observational quasi-experimental regression in a specific historical setting, so unobserved confounding remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.11,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is reasonably large and the reported association is not merely p≈.05, reducing pure noise concerns.",
+      "It remains a single observational probit result with likely self-reported time preference and substantial confounding/common-method risks."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.82,
+  "_task": {
+    "claim_id": "AqDO_ywjwq1",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

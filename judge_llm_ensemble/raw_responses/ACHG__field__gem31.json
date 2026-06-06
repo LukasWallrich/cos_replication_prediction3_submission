@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The predictor (perceiving breastfeeding as not natural) and the outcome (negative attitude toward public breastfeeding) are conceptually highly overlapping, making a strong association almost tautological.",
+      "Direct correlations between closely related attitude measures in cross-sectional surveys are highly robust and consistently replicate as true positive associations."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.57,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

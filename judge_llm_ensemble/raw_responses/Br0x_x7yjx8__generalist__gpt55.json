@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The contrast is experimentally manipulated and psychologically plausible: explicit reputational information should reduce perceived profitability of harmful business practices.",
+      "Evidence is only a modest single contrast with n=198, d=0.34, and p=.015, so sampling error or multiplicity remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.04,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

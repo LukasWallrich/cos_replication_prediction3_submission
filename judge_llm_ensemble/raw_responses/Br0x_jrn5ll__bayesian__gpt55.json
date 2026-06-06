@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Two positive one-sample effects are moderate and statistically strong with about 100 participants each, supporting real anti-profit beliefs in those conditions.",
+      "The combined pattern includes a borderline small effect and a null claim from modest samples, which substantially limits confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.55,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

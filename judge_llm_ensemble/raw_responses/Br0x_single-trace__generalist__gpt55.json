@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a clear omnibus effect with n=360, repeated measures, a moderate-small effect size, and p far below .001.",
+      "The claim is a direct attitude-rating effect of motive labels, which is plausibly robust, though vignette demand and limited details temper certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.75,
+  "_task": {
+    "claim_id": "Br0x_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

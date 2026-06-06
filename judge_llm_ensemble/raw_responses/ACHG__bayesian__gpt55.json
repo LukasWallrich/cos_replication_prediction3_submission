@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is conceptually strong: viewing breastfeeding as unnatural should correlate with negative attitudes toward breastfeeding in public.",
+      "However, the study is cross-sectional with moderate web-survey sample size and a suspiciously wide/inconsistent confidence interval."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.42,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

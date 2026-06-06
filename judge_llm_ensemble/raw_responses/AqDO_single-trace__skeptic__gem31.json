@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a subgroup analysis with a p-value just below the 0.05 threshold (p=0.039), which often indicates a false positive.",
+      "The data is cross-sectional, making the complex post-hoc causal explanation highly speculative and vulnerable to unmeasured confounding."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.36,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

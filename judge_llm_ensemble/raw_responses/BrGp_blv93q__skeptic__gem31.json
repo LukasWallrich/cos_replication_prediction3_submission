@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a straightforward calculation (Egger's test) on a fixed set of published effect sizes, yielding a highly significant p-value.",
+      "The severe publication bias and funnel plot asymmetry in the early money-priming literature is an overwhelmingly established fact."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.88,
+  "_task": {
+    "claim_id": "BrGp_blv93q",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

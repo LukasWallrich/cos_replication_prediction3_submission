@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=47 is severely underpowered to reliably detect an association between an individual difference measure and a noisy behavioral outcome.",
+      "Although the p-value is 0.009, the large reported effect size in such a small sample strongly suggests an overestimated, fragile effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 31.42,
+  "_task": {
+    "claim_id": "9R9X_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

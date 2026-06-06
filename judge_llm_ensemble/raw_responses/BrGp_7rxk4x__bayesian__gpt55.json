@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Money-priming effects have multiple preregistered failures, so a low-evidential-value p-curve is substantively plausible.",
+      "But the specific binomial result is borderline and sensitive to study inclusion and p-value extraction choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.78,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

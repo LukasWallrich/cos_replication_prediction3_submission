@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from a 40–60% prior, n=1295 and p=0.008 provide a meaningful but not overwhelming upward update.",
+      "The claim is an observational association, not causal, so specification sensitivity and confounding prevent moving beyond likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.4,
+  "_task": {
+    "claim_id": "bLe8_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

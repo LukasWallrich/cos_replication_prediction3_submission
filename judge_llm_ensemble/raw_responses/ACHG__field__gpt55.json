@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Believing breastfeeding is not natural is conceptually close to having negative attitudes toward public breastfeeding, so direction should replicate.",
+      "The enormous adjusted OR and suspicious wide/asymmetric CI suggest sparse data and model instability, so the magnitude likely shrinks."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.43,
+  "_task": {
+    "claim_id": "ACHG",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

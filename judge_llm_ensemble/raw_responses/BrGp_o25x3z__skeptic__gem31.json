@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The statistical evidence for excess significance is quite weak, relying on a marginal one-tailed p-value (p = .043).",
+      "However, the prior probability of publication bias and p-hacking in the money priming literature is extremely high, making the underlying phenomenon highly probable despite the weak statistical test."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.15,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

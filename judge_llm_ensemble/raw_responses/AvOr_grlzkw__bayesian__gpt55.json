@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "A randomized between-condition contrast with N=223 and p=.003 provides a clearer signal than many borderline social-psych effects.",
+      "The effect is modest (phi=.20) in a specific artificial preference paradigm, so sampling/design sensitivity remains plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.15,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

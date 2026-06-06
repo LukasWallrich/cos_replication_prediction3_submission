@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is based on a moderately sized sample with clear cell counts and a fairly small p-value (p=.003).",
+      "The effect is modest (phi=.20) and the abstract gives limited design details, so replication is plausible but not assured."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.8,
+  "_task": {
+    "claim_id": "AvOr_grlzkw",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a specific observational interaction/moderation claim, a class that tends to replicate worse than main correlational effects.",
+      "The sample is decent, but the effect is small and only modestly significant at p≈.024, leaving substantial fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.66,
+  "_task": {
+    "claim_id": "AYQG_w7r4vl",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

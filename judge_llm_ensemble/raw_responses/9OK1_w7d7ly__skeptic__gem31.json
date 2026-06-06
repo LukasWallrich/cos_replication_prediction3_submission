@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.0013 provides a strong buffer against sampling variation, indicating a robust statistical association.",
+      "The use of objective community-level electoral data and the stability of the effect when controlling for historical voting patterns reduce confounding risks."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.5,
+  "_task": {
+    "claim_id": "9OK1_w7d7ly",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

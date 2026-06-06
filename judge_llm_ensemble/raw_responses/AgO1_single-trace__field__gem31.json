@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N=24 is exceptionally small for an experimental game involving contextual moderation of behavior.",
+      "The reported effect size is implausibly large for a behavioral economics experiment, suggesting substantial winner's curse and a high risk of non-replication."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.18,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

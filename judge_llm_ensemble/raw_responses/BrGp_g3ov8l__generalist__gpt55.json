@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The specific regression evidence is weak and imprecise: only about 23 effect sizes and a marginal p-value of .072.",
+      "The broader abstract reports converging meta-analytic irregularities, but this particular Table 2 association rests on a thin secondary analysis."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.54,
+  "_task": {
+    "claim_id": "BrGp_g3ov8l",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Self-serving fairness in dictator-game contexts is a plausible, repeatedly observed behavioral regularity, and the reported omnibus effect is large.",
+      "The original sample is very small, so the magnitude is likely inflated and the specific justice-principle contrast may be context-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.2,
+  "_task": {
+    "claim_id": "AgO1_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

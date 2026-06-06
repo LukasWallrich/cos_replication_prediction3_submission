@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is fairly precise in a reasonably large community-level sample and is not a marginal p≈.05 result.",
+      "But migration destinations are observational and politically or economically endogenous, leaving substantial risk of unobserved community confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.02,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

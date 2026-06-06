@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Huge PISA sample and precise estimate make a pure sampling-fluke explanation unlikely despite the tiny interaction.",
+      "But the effect is very small and model-dependent, so cohort or measurement differences could erase it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.67,
+  "_task": {
+    "claim_id": "Blxd_5821x4",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

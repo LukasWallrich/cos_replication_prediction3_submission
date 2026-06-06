@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key interaction is only marginally significant (p≈0.096) with a small estimate relative to its standard error.",
+      "It is an observational moderation claim, which has a lower replication base rate despite the moderately large sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.07,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

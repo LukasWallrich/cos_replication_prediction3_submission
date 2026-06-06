@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim comes from a randomized vignette contrast with a psychologically plausible mechanism: reputational information should reduce perceived profitability of bad practices.",
+      "Evidence is only modest: n=198, d=0.34, p=.015, and the claim is a specific condition comparison likely vulnerable to sampling noise."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.44,
+  "_task": {
+    "claim_id": "Br0x_x7yjx8",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

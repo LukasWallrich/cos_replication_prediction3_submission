@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim concerns a meta-analytic excess-significance pattern, with a sizable gap between observed significant results (.86) and estimated power (.55).",
+      "However, the evidence is only moderately strong: p=.017 one-tailed and depends on power/meta-analytic assumptions for a limited literature set."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.44,
+  "_task": {
+    "claim_id": "BrGp_5rpk15",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

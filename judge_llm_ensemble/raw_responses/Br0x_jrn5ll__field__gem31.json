@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The baseline finding that people hold anti-profit beliefs (responses > 0) is a descriptive phenomenon that aligns with general attitudes toward corporations and is well-powered with N~100 per cell.",
+      "While the specific moderation effect (strong reputational constraints eliminating the effect) might be somewhat sensitive to experimental context, the primary effect sizes are robust (d = 0.43 to 0.58) and p-values are very small."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.71,
+  "_task": {
+    "claim_id": "Br0x_jrn5ll",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

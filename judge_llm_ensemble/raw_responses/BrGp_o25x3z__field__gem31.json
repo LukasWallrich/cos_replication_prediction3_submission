@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Money-priming is widely recognized as a classic example of an effect inflated by publication bias, making excess significance highly plausible.",
+      "Meta-scientific tests demonstrating that the proportion of published significant findings exceeds expected power are consistently robust in literatures known to have low replicability."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 15.61,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

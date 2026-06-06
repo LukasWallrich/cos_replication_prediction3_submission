@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (N = 265,180) from a standardized international dataset ensures that even very small effects are estimated with high precision.",
+      "Because the standard errors are extremely small, the specific directional statistical significance of this tiny effect is highly likely to reproduce in a similarly powered sample."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 21.17,
+  "_task": {
+    "claim_id": "Blxd_bx4248",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

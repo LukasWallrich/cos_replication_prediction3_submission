@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very small sample size (N=48) to test a complex mixed-design interaction, meaning it is likely underpowered.",
+      "Theory-driven, context-dependent interaction effects in social psychology (like observation effects on specific moral dilemmas) historically have low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 12.01,
+  "_task": {
+    "claim_id": "AvWY_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

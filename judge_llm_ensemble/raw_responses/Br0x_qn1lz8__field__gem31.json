@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a subtle psychological prompting manipulation, which historically shows high rates of replication failure.",
+      "The p-value is relatively close to the threshold (0.022) and the sample size is moderate (~98 per condition), increasing the risk of a false positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.16,
+  "_task": {
+    "claim_id": "Br0x_qn1lz8",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

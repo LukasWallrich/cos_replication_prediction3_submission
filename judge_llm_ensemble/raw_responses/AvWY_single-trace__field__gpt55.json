@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Small convenience sample and a modest p-value make this interaction especially vulnerable to effect-size inflation and analytic flexibility.",
+      "Specific group-by-dilemma moderation in moral judgment is theory-driven and context-sensitive, less robust than simple demographic or behavioral associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.68,
+  "_task": {
+    "claim_id": "AvWY_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The evidence is a borderline one-tailed meta-analytic test, so the specific excess-significance claim is statistically fragile.",
+      "Publication and selection bias in money-priming studies is plausible, but the claim depends on a small, selected literature and analytic assumptions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.35,
+  "_task": {
+    "claim_id": "BrGp_o25x3z",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

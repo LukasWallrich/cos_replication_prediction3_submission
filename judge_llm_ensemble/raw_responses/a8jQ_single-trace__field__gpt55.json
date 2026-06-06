@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The interaction is theoretically plausible and comes from an experiment with a moderate sample, not only a cross-sectional adjusted association.",
+      "But it is a small, barely significant psychology interaction, a class of effects that often shrinks or disappears on replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.41,
+  "_task": {
+    "claim_id": "a8jQ_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a complex, conditional moderation effect (education matters only for those in poor health) derived from observational survey data.",
+      "The reported p-value is just below the 0.05 threshold (p=0.039), which combined with the specific sub-group analysis strongly suggests fragility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.98,
+  "_task": {
+    "claim_id": "AqDO_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

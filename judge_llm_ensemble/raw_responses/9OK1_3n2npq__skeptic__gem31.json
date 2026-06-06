@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value (p = 0.001) is low enough to suggest the statistical association is robust and not merely a sampling fluke.",
+      "While unobserved regional or historical confounders could affect causal claims, the direct associative finding in a sample of 848 communities is well-powered."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.13,
+  "_task": {
+    "claim_id": "9OK1_3n2npq",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 48 is extremely small for detecting a reliable between-within interaction effect, severely limiting statistical power.",
+      "The claim involves a complex interaction in a social observation paradigm with a borderline p-value (0.014), a combination associated with low replication rates."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.35,
+  "_task": {
+    "claim_id": "AvWY_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

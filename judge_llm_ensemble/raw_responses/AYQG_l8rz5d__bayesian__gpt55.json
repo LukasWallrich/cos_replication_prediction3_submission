@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key interaction is borderline significant (p≈.046) with a small coefficient, making sign and magnitude sensitive to specification.",
+      "Although the sample is fairly large, this is an observational moderation claim, which generally replicates less reliably than simple associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.08,
+  "_task": {
+    "claim_id": "AYQG_l8rz5d",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

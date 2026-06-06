@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim assesses publication bias and lack of evidential value in the money-priming literature, which is widely recognized as suffering from severe replicability issues.",
+      "Although the reported p-value of .032 is relatively close to the threshold, the strong prior evidence against money-priming effects makes the extreme flatness of its p-curve highly plausible."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.99,
+  "_task": {
+    "claim_id": "BrGp_7rxk4x",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

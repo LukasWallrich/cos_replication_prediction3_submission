@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The key interaction is only marginally significant (p≈.096) with a small estimate relative to its standard error.",
+      "The sample is reasonably sized and the theory is plausible, but this is an observational subgroup/context interaction likely to be fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.41,
+  "_task": {
+    "claim_id": "AYQG_6rp9on",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}
