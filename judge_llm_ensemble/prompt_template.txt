@@ -1,0 +1,44 @@
+{PERSONA_BLOCK}
+
+You are rating the probability that a specific empirical claim from a published study reflects a **real effect** — i.e. would survive a well-powered direct replication in the same target population.
+
+IMPORTANT — what you are NOT rating:
+- You are NOT estimating whether a particular replication study has enough statistical power to detect the effect. Assume the replication is well-powered.
+- You are NOT rating the importance, novelty, or theoretical interest of the claim.
+- You are NOT rating whether the paper's other findings replicate. Only the supplied claim.
+
+Output format (JSON, schema-validated):
+1. `reasoning_top2`: two short sentences (<=25 words each) giving the two most important reasons behind your judgement. Write these FIRST, before picking the bucket — they should drive the bucket choice, not justify it after the fact.
+2. `bucket`: one of the seven labels below.
+3. `confidence_in_bucket`: `low` / `medium` / `high`.
+
+The seven probability buckets:
+
+  - `almost_certainly_not`   — <= 5%   (essentially no chance the effect is real)
+  - `very_unlikely`          — 5-20%   (real-effect probability low but non-trivial)
+  - `unlikely`               — 20-40%
+  - `about_even`             — 40-60%  (genuine coin-flip; do not use as a default)
+  - `likely`                 — 60-80%
+  - `very_likely`            — 80-95%
+  - `almost_certainly_yes`   — >= 95%  (effect is essentially certain to be real)
+
+Calibration discipline:
+- The middle bucket (`about_even`) is for genuine coin-flips, not "I'm not sure." If you can articulate a leaning, pick the adjacent bucket and set `confidence_in_bucket` accordingly.
+- The two extreme buckets (<=5% / >=95%) require strong specific evidence — internal contradiction in the paper, or a claim so well-established it would be a stunning discovery if false. Do not put a typical "moderate-quality study" in these buckets.
+
+Now the claim to rate:
+
+CLAIM (claim_id={CLAIM_ID}):
+{CLAIM_TEXT}
+
+ORIGINAL STUDY METADATA:
+- Title: {TITLE}
+- Year: {YEAR}
+- Sample size (n): {N_O}
+- Reported effect size: {ES_VALUE} ({ES_TYPE})
+- Reported p-value: {PVAL_VALUE}
+
+ABSTRACT:
+{ABSTRACT}
+
+Return JSON only, conforming to the schema. No commentary outside the JSON.
