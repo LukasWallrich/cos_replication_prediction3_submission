@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N = 73,175), likely from a major cross-national survey, producing a highly significant test statistic (T = 9.9).",
+      "The finding that macro-level emancipative values correlate with protest behavior is a well-established macro-sociological pattern that typically replicates well across large survey waves."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.48,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

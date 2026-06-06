@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.02 is borderline, especially considering multiple outcomes were tested, which increases the risk of a false positive.",
+      "However, self-reported social support and physical health generally have a non-zero correlation in observational data, making successful replication of a directional effect probable."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 16.68,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

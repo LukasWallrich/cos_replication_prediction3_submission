@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The cited association is estimated in a very large survey sample with a tiny p-value, making a positive coefficient unlikely to be sampling noise.",
+      "It is observational and cross-sectional, so the causal rhetoric is weaker than the evidence for a replicable association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.02,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

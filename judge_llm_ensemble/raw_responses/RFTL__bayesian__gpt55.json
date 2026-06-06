@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The randomized experiment and strong simple-slope estimate (-0.98, SE .25, p<.001) update upward from the replication base rate.",
+      "But it is a specific pick-a-point moderation result from a modest N=251 study, so fragility and multiplicity temper confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.65,
+  "_task": {
+    "claim_id": "RFTL",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

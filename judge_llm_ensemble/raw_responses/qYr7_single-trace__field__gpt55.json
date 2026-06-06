@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a plausible descriptive pattern: ideological opponents often receive lower valence ratings, especially as policy distance increases.",
+      "The reported interaction is very strong statistically and appears across many surveys, though interaction estimates in observational models remain specification-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.46,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

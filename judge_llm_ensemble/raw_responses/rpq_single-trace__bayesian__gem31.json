@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 48 is quite small, which in the context of a complex 2009 social psychology interaction design strongly suggests an inflated effect size.",
+      "Although the reported t-statistic is strong (t > 4) for a within-subjects comparison, the claim represents a specific simple effect from a highly flexible age-by-race interaction paradigm."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 16.78,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

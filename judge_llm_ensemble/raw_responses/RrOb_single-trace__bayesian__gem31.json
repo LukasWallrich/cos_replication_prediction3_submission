@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The theoretical relationship between market volatility (VIX) and widened bid-ask spreads is a foundational and near-mechanical principle of market microstructure.",
+      "The reported t-statistic of 68.32 is extraordinarily large, indicating a massive signal-to-noise ratio that is highly robust to replication."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.49,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

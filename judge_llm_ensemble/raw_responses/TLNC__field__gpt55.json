@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Family type is a plausible structural demographic correlate, and the reported OR is large with a reasonably tight confidence interval.",
+      "But this is a culturally specific, adjusted cross-sectional association in a convenience student sample, making confounding and sample-composition fragility substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 27.85,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

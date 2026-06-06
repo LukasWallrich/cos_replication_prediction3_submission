@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a robust, well-established demographic association between chronological age and sexual inactivity in older adults.",
+      "The finding uses a large, nationally representative dataset (NSHAP) and reports a highly significant, conceptually plausible effect that is unlikely to be a statistical artifact."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.55,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

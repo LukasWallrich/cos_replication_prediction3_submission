@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a reasonably large, nationally representative older-adult sample and reports a strong age association with very small p-value.",
+      "The claim is a straightforward observational association, not a fragile mechanism, though model dependence and sparse abstract details add uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.82,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N=5659), resulting in a massive and highly significant effect (p < 10^-56) for the claim.",
+      "The finding that voters give higher valence ratings to politically closer parties is theoretically foundational and highly robust in political science."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.21,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

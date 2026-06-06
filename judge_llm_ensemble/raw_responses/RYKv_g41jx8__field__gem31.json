@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a very large sample size (N=38,102) from a well-established survey (LAPOP), yielding extremely high statistical precision.",
+      "Basic demographic and behavioural correlations in large representative surveys tend to be highly robust and replicate well in the same populations."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.56,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

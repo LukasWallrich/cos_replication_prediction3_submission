@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very large survey sample with a tiny p-value, making sampling error an unlikely explanation.",
+      "The claim is mainly an observational association, not a causal mechanism, though survey/model artifacts could still weaken replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.47,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

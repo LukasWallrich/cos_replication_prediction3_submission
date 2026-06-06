@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "People reliably evaluate politically closer parties more positively; this is a strong, conceptually direct attitude association.",
+      "The Finland estimate is precise in a large sample with an extremely small p-value, leaving little room for sampling fluke."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.06,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

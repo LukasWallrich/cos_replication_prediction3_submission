@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is based on a very large survey sample and is far from the significance threshold, making a chance-only finding unlikely.",
+      "The claim is an observational association, not clean causal evidence, so replication of the positive coefficient is more credible than the paper’s causal rhetoric."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.55,
+  "_task": {
+    "claim_id": "RYKv_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

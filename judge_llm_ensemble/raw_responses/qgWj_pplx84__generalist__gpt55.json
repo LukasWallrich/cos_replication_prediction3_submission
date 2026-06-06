@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a very large sample and a strong test statistic for the ecological values effect, which favors replication.",
+      "However, the claim is observational and country-level, so unmeasured societal confounding and limited effective clusters could reduce robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.27,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

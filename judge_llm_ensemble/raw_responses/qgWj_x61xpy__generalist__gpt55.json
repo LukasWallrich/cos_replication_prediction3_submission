@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is statistically strong in a very large sample, and it survives mutual controls in the combined model.",
+      "Still, the key ecological effect may rest on fewer country-level units and observational multilevel modeling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.79,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

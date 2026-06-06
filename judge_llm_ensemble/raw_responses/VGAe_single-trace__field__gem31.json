@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a small sample size (N=94) to test a subtle cross-modal sensory effect, a design highly susceptible to false positives.",
+      "Cross-modal and embodied cognition effects in consumer psychology have historically poor replication rates, making this finding fragile."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.15,
+  "_task": {
+    "claim_id": "VGAe_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

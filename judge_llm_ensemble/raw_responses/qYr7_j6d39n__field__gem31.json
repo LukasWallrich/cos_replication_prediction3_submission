@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The negative relationship between ideological distance and positive party evaluation is a fundamental, widely replicated structural fact in political science.",
+      "The use of a large, high-quality representative sample combined with an extremely strong statistical signal (p < 1e-20) strongly supports replicability."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.93,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

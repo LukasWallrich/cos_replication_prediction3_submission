@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction term, which notoriously requires much larger sample sizes than N=198 to achieve adequate statistical power.",
+      "The test statistic (point estimate 0.19, SE 0.09) yields a p-value just below the .05 threshold, a classic indicator of low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.14,
+  "_task": {
+    "claim_id": "QYNq_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

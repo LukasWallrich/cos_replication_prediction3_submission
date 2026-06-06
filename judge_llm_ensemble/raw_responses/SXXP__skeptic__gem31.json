@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a simple descriptive difference derived from a massive, high-quality, nationally representative survey (NHANES, N=25,524).",
+      "The reported p-value is extremely small (<.0001), making this basic demographic cross-tabulation highly robust to sampling variance and almost certain to replicate."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.79,
+  "_task": {
+    "claim_id": "SXXP",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

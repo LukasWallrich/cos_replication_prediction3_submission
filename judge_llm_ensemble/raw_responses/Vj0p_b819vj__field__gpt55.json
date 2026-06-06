@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Age and sexual inactivity is a direct demographic-behavioral association with strong biological and social plausibility in older married adults.",
+      "The nationally representative sample and very small p-value support robustness, though independence from health controls is somewhat model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.44,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

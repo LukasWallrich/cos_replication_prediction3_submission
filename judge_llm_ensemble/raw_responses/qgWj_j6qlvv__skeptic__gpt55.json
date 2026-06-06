@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is not marginal, with a very large individual-level sample and t=4.6 for the reported interaction.",
+      "But it is a headline cross-level interaction from observational self-report data, likely sensitive to country-level confounding and modelling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.28,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

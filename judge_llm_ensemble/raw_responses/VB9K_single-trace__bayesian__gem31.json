@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 60 is extremely small for detecting treatment effects on job preference, resulting in very low statistical power.",
+      "The p-value of 0.030 is marginally significant, which combined with the small sample strongly suggests a high risk of a false positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.52,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a basic demographic regularity derived from NHANES, a massive and highly rigorous nationally representative dataset.",
+      "Descriptive correlations between education and dietary behaviors in samples of this size (n > 25,000) are essentially population parameters and replicate extremely well."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.44,
+  "_task": {
+    "claim_id": "SXXP",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

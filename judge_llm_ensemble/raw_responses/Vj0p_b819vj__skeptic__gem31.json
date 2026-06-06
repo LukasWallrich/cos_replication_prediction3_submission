@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The association between advancing age and decreased sexual activity among older adults is a robust, well-established demographic and biological reality.",
+      "The study uses a large, nationally representative sample (N=1502) and reports a highly significant, well-powered effect (p < .001) that strongly aligns with prior knowledge."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.68,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

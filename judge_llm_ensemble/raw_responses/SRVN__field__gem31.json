@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The healthy immigrant effect is a highly robust and well-documented structural regularity in demographic and public health research.",
+      "This finding is based on a large, nationally representative dataset (NHIS) over a decade, making descriptive demographic correlations very likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.87,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

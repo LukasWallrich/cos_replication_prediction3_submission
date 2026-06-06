@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study leverages a massive sample size of over 38,000 respondents, providing immense statistical power for detecting survey-based associations.",
+      "The reported p-value is extremely small (p < 2.8e-15), making it highly probable that this specific observational association will reliably replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.37,
+  "_task": {
+    "claim_id": "RYKv_wzn69v",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

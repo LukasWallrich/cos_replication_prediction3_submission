@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Macroeconomic hardship lowering positive EU framing is substantively plausible and aligns with robust economic-voting and EU-attitude regularities.",
+      "But the claim rests on a small macro-context crisis-period model, where country/time confounding and framing measures may be fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.99,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

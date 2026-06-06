@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a descriptive unadjusted association in a large national sample, with n=10080 and a roughly 3.3-SE coefficient.",
+      "Evidence is stronger than baseline, but observational demographics and multiple related comparisons keep it short of very likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.45,
+  "_task": {
+    "claim_id": "RZdL_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

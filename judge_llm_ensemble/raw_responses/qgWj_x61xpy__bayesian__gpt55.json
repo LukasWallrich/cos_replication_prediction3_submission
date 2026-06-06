@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is statistically strong (t=4.6) in a very large individual-level dataset, supporting an upward update from base rates.",
+      "But the ecological predictor’s effective sample is the number of countries, and cross-national observational models are vulnerable to model dependence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.59,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

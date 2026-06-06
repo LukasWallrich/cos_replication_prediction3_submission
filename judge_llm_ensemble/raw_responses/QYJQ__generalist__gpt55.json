@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a decent sample and a strong reported moderation test using within-subject variation across multiple behaviors.",
+      "The evidence is correlational and behavior-category comparisons may be confounded by the specific behaviors chosen, limiting certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "default",
+  "_elapsed_s": 28.13,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

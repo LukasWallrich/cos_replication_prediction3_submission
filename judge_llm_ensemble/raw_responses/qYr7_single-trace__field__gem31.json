@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding aligns well with robust, well-documented phenomena in political science regarding affective polarization and outgroup penalization.",
+      "The highly significant p-value (p < .001) from a standardized, large-scale cross-national dataset (CSES) provides strong evidence for a replicable effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 6.5,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

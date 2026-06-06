@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large sample size (N=10,080) from a national survey, providing high statistical power.",
+      "The specific claim refers to an unadjusted difference between groups, essentially a basic correlation that is highly likely to replicate in similar representative samples."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.27,
+  "_task": {
+    "claim_id": "RZdL_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

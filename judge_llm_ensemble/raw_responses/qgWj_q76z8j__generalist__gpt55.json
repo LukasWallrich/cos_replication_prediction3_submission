@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a very large survey and a strong cross-level interaction statistic, raising replication odds beyond a marginal finding.",
+      "The claim is observational and model-dependent, with country-level ecological variation likely much smaller than the individual N suggests."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.37,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

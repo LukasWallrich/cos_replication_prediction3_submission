@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The specific interaction is large relative to its SE and far from a marginal p-value, reducing chance of pure noise.",
+      "It is still an observational survey interaction using self-reported perceptions, so model dependence and common-method bias could shrink or alter it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.13,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The individual sample is huge and the reported contextual coefficient is fairly strong, with t=4.6 rather than borderline significance.",
+      "However, the societal-level effect’s effective sample is countries, and the observational cross-national design leaves substantial confounding/model-specification risk."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.33,
+  "_task": {
+    "claim_id": "qgWj_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

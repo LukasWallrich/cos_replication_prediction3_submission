@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Survey methodology research consistently shows that scale label wording systematically alters response distributions, providing a strong basis for this finding.",
+      "The moderate effect size and solid p-value (p = .002) in a reasonable sample size (n = 218) suggest the basic difference is robust."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.34,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

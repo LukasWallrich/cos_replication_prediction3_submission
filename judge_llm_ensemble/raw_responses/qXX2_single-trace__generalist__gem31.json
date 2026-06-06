@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The underlying individual-level data comes from pooled Eurobarometer surveys, providing a massive sample, though the macro-level analysis likely relies on only 27 countries.",
+      "The directional relationship between poor macroeconomic performance and negative institutional framing is a well-established and highly theoretically plausible finding in political science."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.77,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

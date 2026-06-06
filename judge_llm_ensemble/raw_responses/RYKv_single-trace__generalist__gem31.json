@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of over 38,000 respondents provides immense statistical power, leading to a highly precise estimate and an extremely small p-value.",
+      "The claim specifies a simple, directional regression coefficient (positive association between victimization and participation), which is highly likely to replicate in similar survey data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.88,
+  "_task": {
+    "claim_id": "RYKv_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size (N = 38,102) from survey data, providing exceptional statistical power for the regression analysis.",
+      "The reported p-value is astronomically small (p < 4e-25), meaning this observational association is highly robust and very likely to replicate in a similar sample."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 25.22,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

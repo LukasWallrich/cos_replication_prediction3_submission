@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by an extremely large sample size (N=7554) and an overwhelmingly strong statistical signal (p < 10^-100).",
+      "The finding reflects a fundamental and universally established premise in political science—that voters evaluate ideologically proximate parties more favorably."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.96,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

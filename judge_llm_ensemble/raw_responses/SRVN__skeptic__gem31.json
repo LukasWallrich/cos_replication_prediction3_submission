@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a decade of data from the National Health Interview Survey, which provides a massive, nationally representative sample size.",
+      "The reported odds ratio of 0.65 is substantial and aligns with the robust, well-established 'healthy immigrant effect' literature."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.02,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

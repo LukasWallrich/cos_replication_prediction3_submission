@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very large (N=5659), resulting in a highly precise estimate with a practically zero p-value (p < 1e-50).",
+      "The claim describes a straightforward and theoretically robust correlation in political science (that voters prefer parties closer to their own policy positions)."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.5,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N=7554) and the p-value is practically zero, providing overwhelming statistical evidence for the effect.",
+      "The finding that voters evaluate ideologically closer parties more favorably is a highly established, theoretically foundational relationship in political science."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.85,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

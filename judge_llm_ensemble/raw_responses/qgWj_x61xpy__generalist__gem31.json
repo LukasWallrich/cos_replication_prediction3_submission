@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a massive sample size of over 70,000 individuals, providing excellent statistical power for detecting individual and ecological effects.",
+      "The reported t-value of 4.6 for the ecological effect is robust and comfortably exceeds conventional significance thresholds, suggesting a reliable association in this observational context."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.0,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

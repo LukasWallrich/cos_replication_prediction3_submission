@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive overall sample size and strong t-statistic (4.6) provide a solid statistical buffer against random noise.",
+      "However, cross-level interactions in older observational survey data are notoriously sensitive to macro-level controls and often suffer from inflated precision if random slopes were misspecified."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.49,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

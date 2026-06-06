@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "The reported t-statistic is enormous, making a positive VIX-spread association unlikely to be a sampling artifact despite possible dependence issues.",
+      "The claim is observational rather than causal, but higher market uncertainty increasing quoted spreads is strongly plausible and well-established."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.22,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between macroeconomic indicators like unemployment and political attitudes towards the EU is a robust, well-established structural finding in political science.",
+      "Although the macro-level sample of countries is small (N=27), the use of pooled panel data (2004-2013) and the strong statistical significance (t = -4.03) support the reliability of the effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.2,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

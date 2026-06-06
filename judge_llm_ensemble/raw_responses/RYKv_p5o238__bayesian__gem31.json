@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study utilizes a massive sample size (N > 37,000) and reports an extremely small p-value, making it highly unlikely that the association is mere statistical noise.",
+      "The claim describes a straightforward, theoretically plausible correlational relationship, which typically replicates at much higher rates than complex causal or mediation claims."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.7,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

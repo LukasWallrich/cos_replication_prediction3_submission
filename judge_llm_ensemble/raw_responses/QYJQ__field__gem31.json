@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding aligns with classic social psychology theory where uncertainty increases reliance on descriptive norms, increasing theoretical plausibility.",
+      "While the highly significant p-value (p < .001) in a well-powered within-subjects design suggests a robust statistical signal, cross-sectional moderation effects can still be somewhat fragile."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.19,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

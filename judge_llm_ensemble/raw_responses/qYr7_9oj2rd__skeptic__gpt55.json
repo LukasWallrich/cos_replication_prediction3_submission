@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is extremely precise in a large survey, with p far from .05, making sampling error an implausible explanation.",
+      "Cross-sectional self-reports leave causal direction and common-method bias concerns, but the negative association itself is theoretically plausible and likely robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.51,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

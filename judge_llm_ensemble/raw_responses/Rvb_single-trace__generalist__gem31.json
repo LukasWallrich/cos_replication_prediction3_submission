@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study tests a straightforward survey methodology effect with a reasonable sample size (N=218) and a solid p-value (0.0024).",
+      "Wording effects on scale anchors are a well-established phenomenon, adding plausibility to the moderate effect size observed (Cohen's d = 0.42)."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.12,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct, highly plausible association between experiencing crime and supporting harsh policing, which is a well-documented empirical regularity in political science.",
+      "The enormous sample size (N > 37,000) and highly significant p-value strongly suggest this descriptive relationship is robust and will easily replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.76,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

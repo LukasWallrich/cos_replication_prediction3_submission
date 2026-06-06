@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is highly significant (p < 0.001, t = -4.03), suggesting a statistically robust relationship despite the small macro-level sample size of countries.",
+      "The finding aligns with a large body of established literature demonstrating that adverse macroeconomic conditions reliably decrease positive attitudes toward the EU."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.82,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

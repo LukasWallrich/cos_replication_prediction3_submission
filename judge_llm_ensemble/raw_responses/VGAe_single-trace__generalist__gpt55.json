@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a moderate mean difference with n=94 and p=.013, not merely a borderline significance result.",
+      "The abstract describes six converging studies on the pitch-size effect, though this specific consumer-psych experiment is still modest-sized."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.28,
+  "_task": {
+    "claim_id": "VGAe_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

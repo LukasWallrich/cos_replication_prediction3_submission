@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The experiment is randomized, but N=248 with ηp²=.02 and p just under .05 gives weak evidence for a tiny effect.",
+      "The claim sits among multiple related persuasion tests and moderation claims, increasing risk that this main effect is sample-specific."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.2,
+  "_task": {
+    "claim_id": "SAFN",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

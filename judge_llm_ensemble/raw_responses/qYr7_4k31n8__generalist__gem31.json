@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is supported by an extremely large sample size (n=7554) and an overwhelmingly small p-value.",
+      "The theoretical relationship—that individuals evaluate politically proximate parties more favorably—is highly intuitive and well-established in political science."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.83,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

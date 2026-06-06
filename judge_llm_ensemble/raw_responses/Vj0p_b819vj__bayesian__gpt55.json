@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large, nationally representative sample and the age association is highly significant despite adjustment for health measures.",
+      "The claim is a plausible descriptive association, not a fragile causal or mediation claim, though observational modeling leaves some uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.03,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

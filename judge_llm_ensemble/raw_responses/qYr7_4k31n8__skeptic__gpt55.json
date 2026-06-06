@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is extremely precisely estimated in a large survey, with p far from threshold and a theoretically expected direction.",
+      "However, both distance and valence are self-reports, so common-method bias and reverse causality limit causal interpretation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.12,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

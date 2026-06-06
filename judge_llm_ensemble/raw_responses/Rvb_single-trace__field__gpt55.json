@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct experimental wording effect with a moderate effect size and reasonably strong original evidence, not a complex mediation claim.",
+      "Scale-label familiarity and extremity are language- and sample-sensitive, so the specific interpretation could weaken in a direct replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.88,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (N > 70,000) and high T-value (4.6) provide strong statistical evidence for the effect.",
+      "Although cross-level interactions in observational data can sometimes be fragile, the robust significance under mutual controls makes a successful replication likely."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.91,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

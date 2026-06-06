@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is large relative to its SE, with a huge sample and p far from the significance threshold.",
+      "The association is theoretically expected, though cross-sectional self-report measures may inflate it through projection and common-method bias."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.41,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

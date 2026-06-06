@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Very large cross-national survey and p<.001 support a replicable association, at least directionally.",
+      "But it is observational, subgroup-specific, and effect size is unavailable, so “strongly” may be overstated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.01,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

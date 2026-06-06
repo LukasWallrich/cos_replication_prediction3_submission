@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a large-sample, direct attitudinal association: people rate ideologically closer parties more positively, a highly established political-behavior regularity.",
+      "The effect is large relative to its standard error and not dependent on a delicate mediation or intervention model."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.35,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The main effect is very small (ηp2 = .02) and the F-statistic of 4.57 corresponds to a p-value very close to the .05 threshold.",
+      "Brief online narrative exposures designed to shift behavioral intentions generally yield fragile effects that tend to evaporate in replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.0,
+  "_task": {
+    "claim_id": "SAFN",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

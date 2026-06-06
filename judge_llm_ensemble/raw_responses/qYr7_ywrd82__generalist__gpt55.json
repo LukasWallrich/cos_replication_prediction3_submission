@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported negative association is large relative to its standard error in a sizable survey, with an extremely small p-value.",
+      "The claim is a straightforward within-survey association between perceived distance and valence, though observational measurement and modeling details limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.25,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

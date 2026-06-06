@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of N = 60 is extremely small for estimating behavioral treatment effects, leading to low statistical power and inflated effect sizes.",
+      "The p-value of 0.030 sits relatively close to the .05 threshold, a combination with small N that strongly predicts poor replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.26,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

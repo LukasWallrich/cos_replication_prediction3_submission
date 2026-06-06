@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on probing an interaction effect at a specific point (-1 SD) in a modestly sized sample (N=251), which is typically underpowered.",
+      "Despite the strong p-value for the simple slope, interaction effects and their probes in behavioral research are notoriously fragile and frequently fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.5,
+  "_task": {
+    "claim_id": "RFTL",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

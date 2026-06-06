@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 114 is quite small for reliably estimating differences in regression slopes across experimental conditions.",
+      "A reported p-value right at the significance threshold (p=0.05) in a 2014 experimental psychology paper is strongly indicative of a fragile effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.32,
+  "_task": {
+    "claim_id": "RJb_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

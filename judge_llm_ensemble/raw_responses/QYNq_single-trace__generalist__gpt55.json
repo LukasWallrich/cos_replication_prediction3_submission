@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a single marginal interaction estimate with n=198 and p just below .05, a pattern often fragile in replication.",
+      "The abstract gives a plausible treatment effect but little evidence of preregistration, multiple-comparison control, or independent confirmation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.96,
+  "_task": {
+    "claim_id": "QYNq_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from a very large survey sample with a highly significant reported association, making a directional replication plausible.",
+      "It is observational survey evidence without an effect size here, and the “strongly associated” wording may overstate a modest relationship."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.86,
+  "_task": {
+    "claim_id": "RYKv_6xnk65",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

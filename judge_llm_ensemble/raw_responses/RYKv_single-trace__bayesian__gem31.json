@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is exceptionally large (n = 38,102), making the estimation of the correlation highly precise and reliable.",
+      "The reported p-value is extremely small (p < 0.001, specifically ~10^-25), providing overwhelming statistical evidence for a non-zero effect that will reliably replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.54,
+  "_task": {
+    "claim_id": "RYKv_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

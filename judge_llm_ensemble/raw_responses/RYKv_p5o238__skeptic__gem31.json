@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The correlational claim is supported by a massive sample size and an extremely small p-value, ensuring very high statistical power.",
+      "The association between crime victimization and support for harsh policing is theoretically highly plausible and a well-established pattern in Latin American survey research."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.1,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

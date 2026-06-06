@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The large odds ratio (3.29) for a demographic variable predicting a specific health behavior suggests potential winner's curse or overfitting in a moderate sample.",
+      "Findings from multivariable cross-sectional models with many predictors are often fragile and highly dependent on the specific set of covariates included."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.71,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

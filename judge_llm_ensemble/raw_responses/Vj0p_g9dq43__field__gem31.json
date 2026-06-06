@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "This is a basic demographic correlation drawn from a large, nationally representative dataset (NSHAP), which typically yields highly replicable descriptive findings.",
+      "The association between relationship duration and sexual inactivity in older adults is biologically and socially highly plausible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 16.5,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

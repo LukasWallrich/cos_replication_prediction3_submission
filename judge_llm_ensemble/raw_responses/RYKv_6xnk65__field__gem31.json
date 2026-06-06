@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive survey sample size (N > 35,000) where the relationship between victimization and democratic dissatisfaction is well-documented in Latin America.",
+      "This is a straightforward, structural correlation that typically replicates well, especially with such a highly significant p-value (p < .001)."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.42,
+  "_task": {
+    "claim_id": "RYKv_6xnk65",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

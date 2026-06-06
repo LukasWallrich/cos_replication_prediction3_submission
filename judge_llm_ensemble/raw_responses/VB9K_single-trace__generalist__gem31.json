@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 60 is quite small for detecting treatment effects on self-reported outcomes, indicating very low statistical power.",
+      "The p-value of 0.030 is relatively close to the 0.05 significance threshold, making the finding fragile and susceptible to false positivity."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.14,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

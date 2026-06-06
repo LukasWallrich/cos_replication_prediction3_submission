@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N = 73,175), providing high statistical power for multi-level models.",
+      "The reported T-value for the interaction effect is large (5.8), suggesting the finding is robust within the analyzed dataset."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.08,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

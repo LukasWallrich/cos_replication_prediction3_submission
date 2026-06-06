@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a massive cross-national dataset (N=73,175), where macro-level structural differences in values and political behaviours tend to be highly persistent.",
+      "Although the specific multi-level point estimate might shift slightly with different covariates, the core ecological association is robust and strongly powered (t=4.6)."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.59,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

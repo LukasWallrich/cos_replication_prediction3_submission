@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a single marginally significant coefficient from a very small sample of 60, with no abstract or design details provided.",
+      "If randomized, the comparison could be meaningful, but the sparse reporting and p≈0.03 leave substantial risk of sampling noise or selective emphasis."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.09,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

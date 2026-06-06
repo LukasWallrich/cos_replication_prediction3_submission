@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N=35,963) and the p-value is highly significant (p < .001), indicating a very stable statistical association.",
+      "While the design is cross-sectional and prone to confounding, simple observational associations from large survey datasets generally replicate reliably in similar samples."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.63,
+  "_task": {
+    "claim_id": "RYKv_6xnk65",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

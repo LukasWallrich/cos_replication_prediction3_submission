@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large cross-national sample (N > 70,000), providing high statistical power and stability for the estimated multilevel models.",
+      "While cross-level interactions can sometimes be sensitive to model specification, the reported t-value of 5.8 indicates a robust statistical signal that is likely to replicate in similar cross-national survey waves."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.66,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

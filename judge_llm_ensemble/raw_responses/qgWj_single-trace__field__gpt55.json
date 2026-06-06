@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large cross-national sample and strong t-value make a positive macro-level association between emancipative climate and protest plausible.",
+      "But ecological cultural effects in cross-sectional multilevel models depend heavily on country composition and macro controls."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.43,
+  "_task": {
+    "claim_id": "qgWj_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large prospective national sample with 1,046 incident CVD cases and an interaction p=.002 are meaningful upward signals from the base rate.",
+      "This is an observational moderation claim with a modest OR contrast and self-reported measures, so interaction instability limits confidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.83,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

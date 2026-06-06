@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Urban-rural differences in leisure reading in China are a strong structural demographic pattern likely to replicate.",
+      "The very large sample and large odds ratio reduce chance this is a sampling artifact, though magnitude is model- and period-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.61,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

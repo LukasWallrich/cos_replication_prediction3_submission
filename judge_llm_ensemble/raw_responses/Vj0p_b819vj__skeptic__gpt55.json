@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Age-related sexual inactivity in older married adults is biologically and socially plausible, with a strong p-value in a national sample.",
+      "The design is observational and self-reported, but this is a simple demographic association rather than a fragile mediation or interaction."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.26,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

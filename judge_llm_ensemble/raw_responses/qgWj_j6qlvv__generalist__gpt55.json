@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported interaction is statistically strong in a very large survey sample, which supports survival under direct replication.",
+      "However, it is an observational multilevel cross-national interaction, likely dependent on country-level structure and modeling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.5,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

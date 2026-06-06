@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very large (N=5841) and the reported p-value is exceedingly small, indicating a highly precise and statistically reliable estimate.",
+      "The claim describes a fundamental and universally established dynamic in political science: voters prefer and attribute higher valence to parties closer to their own policy positions."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.1,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

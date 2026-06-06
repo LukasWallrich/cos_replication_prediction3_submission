@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large prospective national sample with over 1,000 incident CVD cases and a fairly strong interaction p-value supports a nonrandom signal.",
+      "However, risk-factor-by-depression interactions are more fragile than main effects and can depend on confounding, measurement, and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.54,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

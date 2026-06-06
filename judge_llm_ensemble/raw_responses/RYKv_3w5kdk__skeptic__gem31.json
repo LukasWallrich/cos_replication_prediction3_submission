@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size and highly significant p-value provide strong statistical evidence for a reliable, non-zero association.",
+      "Basic correlational claims from large, cross-national survey datasets typically replicate well when tested in the same target populations with similar measures."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.18,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

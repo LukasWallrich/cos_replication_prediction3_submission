@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The unemployment coefficient is not a borderline result, with t=-4.03 and p<.001 in the expected direction.",
+      "Still, the evidence comes from a small observational macro sample and a headline multi-outcome analysis vulnerable to confounding and model choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.45,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

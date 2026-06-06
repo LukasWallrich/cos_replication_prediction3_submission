@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size of over 73,000 respondents provides massive statistical power, leading to a highly stable estimate with a huge T-value of 9.9.",
+      "The claim describes a macro-micro contextual correlation that is well-established in political sociology, and such large-scale observational associations are highly likely to replicate in similar cross-national survey data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.36,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

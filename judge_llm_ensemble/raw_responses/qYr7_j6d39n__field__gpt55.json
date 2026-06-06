@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a direct, large-sample attitudinal correlation: people reliably evaluate ideologically closer parties more positively.",
+      "The effect is large and highly significant, and the same pattern reportedly appears across multiple surveys."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.09,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

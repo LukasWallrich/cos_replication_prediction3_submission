@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between social support and health-related quality of life is a well-established, robust structural correlation in chronic disease epidemiology.",
+      "Although the p-value (0.02) is somewhat marginal, the use of a large, population-based health survey dataset increases confidence that the association is not a sample-specific artifact."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.03,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

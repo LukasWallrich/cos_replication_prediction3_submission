@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The focal coefficient is strongly negative with a small SE in a reasonably large survey sample.",
+      "The abstract reports the same pattern across many surveys and after DIF correction, though observational modeling and dependence details remain unclear."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.77,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

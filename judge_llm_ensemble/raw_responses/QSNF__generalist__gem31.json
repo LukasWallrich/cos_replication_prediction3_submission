@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses an exceptionally large sample size of 9,757 participants, providing robust statistical power for demographic comparisons.",
+      "The reported p-value is highly significant (p < 0.001), making it very unlikely that this observed demographic difference is a false positive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.38,
+  "_task": {
+    "claim_id": "QSNF",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

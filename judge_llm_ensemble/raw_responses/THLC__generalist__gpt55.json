@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study uses propensity-score matching on population survey data, giving a cleaner comparison than a simple unadjusted association.",
+      "The physical HRQoL effect is modest and borderline significant, with dichotomized self-reports and multiple related outcomes raising fragility concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.8,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

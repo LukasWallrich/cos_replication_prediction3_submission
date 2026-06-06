@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study leverages a very large, nationally representative sample (N=26,840) with over 1,000 incident cases, providing substantial statistical power.",
+      "The interaction effect has a robust p-value (p=0.002), which typically indicates a high likelihood of replicating in similar large-scale epidemiological cohorts."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.71,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

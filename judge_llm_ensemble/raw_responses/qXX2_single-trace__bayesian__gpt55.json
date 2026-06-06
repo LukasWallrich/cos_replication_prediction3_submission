@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from the 40–60% base rate, the unemployment coefficient is strongly significant and in a theoretically plausible direction.",
+      "The effective macro sample is small and observational, so confounding, specification choices, and country-level dependence remain substantial risks."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.43,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

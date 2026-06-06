@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate sample and reports a large adjusted association with a non-borderline p-value and reasonably bounded confidence interval.",
+      "However, it is cross-sectional self-report with possible residual confounding and subgroup instability for a specific demographic predictor."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.7,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Marital status and BMI are concrete demographic/health variables with prior evidence for modest marriage-related weight differences.",
+      "The adjusted effect is borderline significant and confound-sensitive, so the exact main effect could shrink or disappear."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.41,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

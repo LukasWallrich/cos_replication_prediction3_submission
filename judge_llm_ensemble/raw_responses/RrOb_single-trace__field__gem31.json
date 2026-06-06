@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between market volatility (VIX) and wider bid-ask spreads is a fundamental, structurally anchored regularity in financial market microstructure.",
+      "The exceptionally large t-statistic (68.32) indicates an overwhelmingly strong signal that is highly unlikely to be a false positive."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.53,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

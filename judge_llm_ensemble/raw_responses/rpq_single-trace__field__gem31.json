@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific moderation effect (age by race on emotion perception) in a small laboratory sample (N=48), which typically indicates a fragile finding.",
+      "Small-N interaction studies from this era of social psychology frequently suffer from low power and high researcher degrees of freedom, leading to poor replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.49,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Age-related declines in sexual activity among older married adults are a robust demographic and health-behaviour pattern.",
+      "The exact adjusted per-year OR is large and vulnerable to collinearity with marriage duration and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.36,
+  "_task": {
+    "claim_id": "Vj0p_g27k3q",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

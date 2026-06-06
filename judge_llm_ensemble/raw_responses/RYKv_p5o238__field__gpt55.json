@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The victimization–punitive-attitudes link is a plausible, repeatedly observed direct association, especially in high-crime Latin American contexts.",
+      "The large survey and very small p-value help, but the claimed strength may be inflated by confounding and context-specific attitudes."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.92,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The sample is large and representative, and the claim is a descriptive association with plausible support from prior marriage/BMI literature.",
+      "The reported marital-status effect is only barely significant, p=.048, amid multiple regression tests, making the exact finding fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.88,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

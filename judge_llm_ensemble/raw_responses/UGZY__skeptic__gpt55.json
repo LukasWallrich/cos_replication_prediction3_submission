@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large prospective national sample with 1,046 incident CVD cases and p=.002 makes this more credible than a marginal interaction.",
+      "Still, it is an interaction from self-reported observational data, with modest OR separation and vulnerability to modeling and measurement choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.51,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

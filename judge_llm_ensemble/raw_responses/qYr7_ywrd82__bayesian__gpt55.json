@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample descriptive association with a strong estimate and extremely small p-value, not a fragile borderline result.",
+      "The relationship is theoretically plausible and reportedly consistent across surveys, though observational same-survey measures leave some dependence and modeling concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.4,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

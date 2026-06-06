@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses pooled data from the 2004-2013 National Health Interview Survey, which guarantees a massive, nationally representative sample size.",
+      "The 'healthy immigrant effect' is a well-documented phenomenon, and a descriptive odds ratio of 0.65 from such a large dataset is highly stable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.82,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

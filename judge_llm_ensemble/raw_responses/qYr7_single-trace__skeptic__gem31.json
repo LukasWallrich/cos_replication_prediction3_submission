@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is extremely small (p < .001) with a large t-statistic (~7.35), which provides strong evidence against a simple false positive.",
+      "The interaction effect was found consistently across many regressions in the study, suggesting a highly robust observational pattern in this type of survey data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.82,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=2673) and the p-value is exceptionally small, indicating a massive signal-to-noise ratio.",
+      "The finding that voters assign higher valence to parties closer to their own policy preferences is a highly robust, theoretically expected phenomenon in political science."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 44.25,
+  "_task": {
+    "claim_id": "qYr7_1rzq75",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

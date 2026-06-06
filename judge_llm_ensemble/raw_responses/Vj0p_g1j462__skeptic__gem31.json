@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extreme collinearity between respondent age and marriage duration strongly suggests the dramatic change in effect size is a statistical artifact.",
+      "An odds ratio of 1.22 per additional year of marriage implies an exponentially implausible effect size over long marriages, raising doubts about model stability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.97,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

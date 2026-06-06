@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national survey sample and very small p-value make a simple urban-rural reading participation association unlikely to be sampling noise.",
+      "The association is plausible and demographically grounded, though cross-sectional self-report and model dependence may shrink the reported OR."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.26,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

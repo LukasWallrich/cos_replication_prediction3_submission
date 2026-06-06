@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very large national survey sample, with a large urban-rural odds ratio and p < .001.",
+      "Urban residence plausibly predicts leisure reading in China, though observational modeling and period-specific survey data leave some uncertainty about the exact effect size."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.1,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

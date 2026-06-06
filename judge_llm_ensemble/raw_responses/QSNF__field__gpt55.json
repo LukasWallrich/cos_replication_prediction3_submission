@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct demographic association in a large adult sample, and gender differences in nutrition awareness/health appraisal often replicate.",
+      "The missing effect size matters: with n=9757, P<.001 could reflect a small association sensitive to measurement definitions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.25,
+  "_task": {
+    "claim_id": "QSNF",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

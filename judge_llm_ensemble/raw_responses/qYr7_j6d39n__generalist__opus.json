@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Large sample (n=3388) with extremely small p-value (~10^-24) makes statistical fluke essentially impossible for this directional claim.",
+      "Finding aligns with well-established proximity voting literature; people rating closer parties more favorably is a robust, intuitive pattern replicated across many contexts."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 10.03,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "generalist",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

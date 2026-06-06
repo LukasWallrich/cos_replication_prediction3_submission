@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct demographic correlation tested in a very large sample (N = 9,757), a study design that typically yields highly robust results.",
+      "The finding aligns with well-established patterns showing that women generally exhibit higher dietary awareness and health engagement, increasing its plausibility."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.63,
+  "_task": {
+    "claim_id": "QSNF",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

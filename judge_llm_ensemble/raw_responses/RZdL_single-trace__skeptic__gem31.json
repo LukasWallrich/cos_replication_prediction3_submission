@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a simple unadjusted descriptive association derived from a large national sample (N=10,080), which typically yields highly stable estimates.",
+      "The reported effect is highly significant (t > 3.3) and not subject to the instability often seen in complex, heavily covariate-adjusted models."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.76,
+  "_task": {
+    "claim_id": "RZdL_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

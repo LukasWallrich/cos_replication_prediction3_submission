@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The Austria estimate is large relative to its standard error in a sizable survey, making a null association unlikely.",
+      "The association is observational and self-reported, but perceived closeness and party valence are plausibly and robustly linked."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.26,
+  "_task": {
+    "claim_id": "qYr7_1rzq75",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

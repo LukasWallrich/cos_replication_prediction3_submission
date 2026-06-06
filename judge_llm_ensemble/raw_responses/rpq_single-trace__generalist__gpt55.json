@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Within-subject comparison has n=48 and a fairly strong t=4.18/p=.001, which is better than a marginal single test.",
+      "Still, it is a small 2009 social-perception study with many condition-specific contrasts, so stimulus and analytic flexibility are concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.57,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A positive country-level association between emancipative values and protest is plausible and estimated with a very large individual sample.",
+      "However, the contextual effect depends on cross-national controls and effective country-level sample size, making it more specification-sensitive than simple demographics."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.67,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

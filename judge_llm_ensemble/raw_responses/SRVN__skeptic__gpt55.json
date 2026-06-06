@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from pooled NHIS data, likely giving a reasonably large nationally sampled subgroup and a moderate odds ratio.",
+      "It is still an observational self-rated-health comparison with possible cultural reporting differences, confounding, and no reported p-value or subgroup size."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.64,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

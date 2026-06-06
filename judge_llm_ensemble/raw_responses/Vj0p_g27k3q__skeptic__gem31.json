@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The positive association between advanced chronological age (57-85 years) and sexual inactivity is biologically plausible and an exceptionally well-established demographic finding.",
+      "The analysis relies on a large, nationally representative sample with a highly significant p-value (<.001), making a false positive for this main effect highly improbable."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.66,
+  "_task": {
+    "claim_id": "Vj0p_g27k3q",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

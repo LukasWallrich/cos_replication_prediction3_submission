@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 114 is underpowered for reliably detecting differences in regression slopes across experimental conditions.",
+      "The reported p-value sits right at the .05 threshold for an interaction effect, which is a classic marker of low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.21,
+  "_task": {
+    "claim_id": "RJb_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

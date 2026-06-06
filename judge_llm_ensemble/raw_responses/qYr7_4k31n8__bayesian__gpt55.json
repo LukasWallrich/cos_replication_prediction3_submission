@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "This is a descriptive association with very large sample size, tiny p-value, and a precise coefficient in Denmark 2007.",
+      "The same negative subjective-distance pattern is reported across every survey, reducing concern that this is a single noisy finding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.68,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

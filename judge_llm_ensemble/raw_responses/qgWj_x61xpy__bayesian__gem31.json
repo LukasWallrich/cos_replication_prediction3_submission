@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of over 73,000 provides very high statistical power for detecting observational associations, reducing the risk of a false positive.",
+      "The t-value of 4.6 indicates a strong statistical signal, though the cross-sectional, multi-level nature of the data warrants some caution regarding clustering effects."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.61,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

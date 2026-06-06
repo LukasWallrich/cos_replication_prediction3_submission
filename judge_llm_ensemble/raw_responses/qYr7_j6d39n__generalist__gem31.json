@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large survey sample (N=3388) yielding an extremely small p-value, which provides strong statistical evidence.",
+      "The finding that voters assign higher valence to parties that are ideologically closer to them is highly intuitive and well-established theoretically."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.86,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

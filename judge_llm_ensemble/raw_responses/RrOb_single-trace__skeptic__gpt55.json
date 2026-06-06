@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The VIX-liquidity association is theoretically and empirically well-established, and the reported t-statistic is enormous rather than marginal.",
+      "Observational market data may have autocorrelation, regime dependence, and overstated causal language, but the positive coefficient should replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.59,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=48) is small for a study testing complex crossover interactions across multiple emotion, race, and age categories.",
+      "Multiple dependent variables and conditions (onset/offset, happiness/anger) provide immense analytic flexibility, increasing the likelihood that this specific simple effect is inflated."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 29.4,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

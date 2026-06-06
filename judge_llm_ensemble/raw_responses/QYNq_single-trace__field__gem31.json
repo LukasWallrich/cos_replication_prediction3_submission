@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a marginally significant interaction effect (p ~ 0.035) in a relatively small sample (N=198), which strongly suggests low statistical power.",
+      "Effects of cognitive manipulations like time pressure on newly developed metrics are notoriously fragile and tend to evaporate in replication attempts."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.89,
+  "_task": {
+    "claim_id": "QYNq_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

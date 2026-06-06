@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a large nationally representative sample and reports a moderate adjusted association with a tight confidence interval and very small p-value.",
+      "Because this is observational and cross-sectional, residual confounding or measurement artifacts could affect the adjusted association despite statistical robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.01,
+  "_task": {
+    "claim_id": "R9dv_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

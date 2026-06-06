@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a highly significant (p < .001) association in a large, nationally representative sample (N=1,502) of older adults.",
+      "The finding that older age is associated with sexual inactivity, independent of basic health measures, is a robust and highly plausible demographic regularity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.94,
+  "_task": {
+    "claim_id": "Vj0p_b819vj",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

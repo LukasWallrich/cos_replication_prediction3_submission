@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large population-based sample with a precise adjusted OR and p far from .05 makes a chance finding unlikely.",
+      "Cross-sectional self-report exposure and outcome leave substantial common-method bias and residual confounding concerns, especially for claims of covariate independence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.3,
+  "_task": {
+    "claim_id": "R9dv_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

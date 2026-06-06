@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is an interaction-like slope contrast from a modest experiment, with the reported p-value sitting right at 0.05.",
+      "The experimental design and apparent convergence across three studies make a real directional effect plausible despite likely inflation of the estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.58,
+  "_task": {
+    "claim_id": "RJb_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

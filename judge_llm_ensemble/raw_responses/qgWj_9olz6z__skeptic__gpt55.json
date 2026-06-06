@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is very strong, with t=9.4 and a p-value far from the significance threshold.",
+      "Still, this is an observational ecological panel using survey-derived measures, so common trends, measurement artifacts, or model dependence could inflate it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.66,
+  "_task": {
+    "claim_id": "qgWj_9olz6z",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

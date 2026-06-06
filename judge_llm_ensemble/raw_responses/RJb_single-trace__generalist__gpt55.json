@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported contrast is from a modest sample and sits right at the p<0.05 threshold, making it statistically fragile.",
+      "The broader abstract reports three experiments with a coherent pattern, which gives some support beyond a lone isolated finding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.99,
+  "_task": {
+    "claim_id": "RJb_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

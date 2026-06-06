@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is moderately large and the reported association is highly significant, which updates upward from the 40–60% base rate.",
+      "However, duration and age are mechanically correlated, making this adjusted coefficient model-sensitive and less reliable than a simple descriptive association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.7,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

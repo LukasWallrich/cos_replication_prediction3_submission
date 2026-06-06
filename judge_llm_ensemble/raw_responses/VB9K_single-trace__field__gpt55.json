@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very small sample with a borderline p-value, a pattern that often overstates or fails in replication.",
+      "A treatment effect on self-reported job preferences and skills is context-sensitive and less structurally anchored than demographic or behavioral correlations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.96,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

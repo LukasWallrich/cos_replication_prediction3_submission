@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (N=60) for detecting treatment effects on self-reported preferences, making the estimate highly prone to noise.",
+      "A p-value of 0.030 in a small-sample intervention study is a classic indicator of a fragile finding that frequently fails to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.12,
+  "_task": {
+    "claim_id": "VB9K_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

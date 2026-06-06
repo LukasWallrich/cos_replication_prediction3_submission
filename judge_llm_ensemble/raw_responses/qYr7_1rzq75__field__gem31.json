@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a fundamental and widely documented regularity in political psychology: individuals hold more favorable views of political parties that are ideologically closer to them.",
+      "The finding is supported by a very large sample size (N=2673) and an overwhelmingly strong statistical signal (p < .001), making a replication failure highly improbable."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.59,
+  "_task": {
+    "claim_id": "qYr7_1rzq75",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

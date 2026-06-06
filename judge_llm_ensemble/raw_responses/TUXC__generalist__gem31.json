@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a very large sample size (N=34,171) from a well-established, nationally representative survey (Chinese General Social Survey).",
+      "An odds ratio of 3.8 for urban-rural differences in reading participation is a large, highly significant (p<0.001), and theoretically plausible demographic effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.28,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

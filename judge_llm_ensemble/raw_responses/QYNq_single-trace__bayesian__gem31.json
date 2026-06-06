@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a borderline-significant interaction term (p < 0.05, t ~ 2.11) from an experiment with a relatively small sample (N=198).",
+      "Complex interaction effects in behavioral experiments with barely significant p-values have historically low replication rates, pushing the probability below the base rate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.0,
+  "_task": {
+    "claim_id": "QYNq_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

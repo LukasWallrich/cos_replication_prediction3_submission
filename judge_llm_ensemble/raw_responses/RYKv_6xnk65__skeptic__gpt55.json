@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large multinational sample and p=.00013 make a nonzero association more credible than typical marginal survey findings.",
+      "But the result is cross-sectional self-report, likely confounded by insecurity, dissatisfaction, country context, and not central to the headline participation claim."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.15,
+  "_task": {
+    "claim_id": "RYKv_6xnk65",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

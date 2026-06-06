@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The association between marriage and higher BMI is a well-established, robust demographic correlation anchored in large population studies.",
+      "Although the specific p-value of .048 is marginal, the large representative sample (N=4555) and the structural nature of the relationship suggest the underlying effect is real."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.01,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from a very large survey sample with a highly significant association, making a positive association likely to reappear.",
+      "It is observational and effect size is unspecified, so the 'strongly/far more likely' wording may overstate a confounded or small association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.05,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

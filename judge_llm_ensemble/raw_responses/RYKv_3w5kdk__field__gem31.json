@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a very large survey sample (N=36,962), making the estimate highly stable and the extremely low p-value reliable.",
+      "The link between crime victimization and support for authoritarianism or 'mano dura' policies is a well-documented, robust structural regularity in Latin American political behaviour."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 18.43,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

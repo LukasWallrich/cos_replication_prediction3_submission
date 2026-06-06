@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported interaction is large and statistically strong in a very large cross-national sample, making pure sampling error less plausible.",
+      "But cross-level interactions involving cultural value climates are confound-sensitive and often less stable than simple individual-level value–protest associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.73,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "While the sample size is massive and the t-statistic of 5.8 is highly significant, cross-level interactions in observational survey data are notoriously sensitive to model specification.",
+      "The reliance on cross-sectional self-reports across countries introduces significant risk of confounding, though the core relationship between emancipative values and protest is theoretically well-established."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 43.8,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

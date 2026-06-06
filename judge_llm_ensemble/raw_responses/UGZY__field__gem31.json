@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large, nationally representative sample (n = 26,840), providing substantial statistical power to detect moderation effects.",
+      "Although interaction effects are often fragile, the p-value is robust (p = .002) and the synergistic clinical relationship between depression, smoking, and cardiovascular risk is highly plausible."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.85,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

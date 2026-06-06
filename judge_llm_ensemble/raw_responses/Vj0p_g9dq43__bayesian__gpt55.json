@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A nationally representative sample of 1,502 and p<.001 provide a meaningful upward update from the replication base rate.",
+      "The claim is a plausible descriptive association, though observational design and age-duration confounding keep it from being very likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.03,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Randomized time-pressure manipulation helps causal identification, but the relevant estimate is an interaction from a modest sample.",
+      "The p-value is just below .05, and behavioral interaction effects often shrink or disappear under replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.51,
+  "_task": {
+    "claim_id": "QYNq_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The coefficient is fairly strong and not marginal, with a very large individual sample supporting stable estimation.",
+      "But the ecological predictor is cross-sectional and country-level, so confounding and small effective cluster count remain serious concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.49,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

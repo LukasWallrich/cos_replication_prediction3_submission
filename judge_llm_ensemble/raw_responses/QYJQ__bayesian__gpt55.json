@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study had a decent sample and a strong moderation test, t(3176)=5.75, p<.001, making pure sampling noise less likely.",
+      "The claim is a specific cross-sectional moderation across selected behaviors, so construct and behavior-selection dependence temper reliability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.0,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

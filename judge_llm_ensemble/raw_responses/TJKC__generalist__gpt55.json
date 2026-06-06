@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a sizable representative multi-country sample and an adjusted regression, which supports a real association.",
+      "The specific marital-status effect is very marginal, p=.048, and appears amid multiple modeled effects, making replication uncertain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.07,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

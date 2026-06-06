@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value for the main effect is very close to the 0.05 threshold (F=4.57, p~0.033), suggesting weak statistical evidence.",
+      "The reported effect size is small (eta-squared = .02) and derived from a relatively modest sample size for detecting subtle persuasion effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.82,
+  "_task": {
+    "claim_id": "SAFN",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

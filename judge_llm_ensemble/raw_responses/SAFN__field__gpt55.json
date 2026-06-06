@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a small, just-significant experimental effect in a convenience online sample, so sampling error and winner’s curse are substantial.",
+      "A celebrity-versus-layperson persuasion advantage is plausible, but health narrative effects are stimulus- and context-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 25.08,
+  "_task": {
+    "claim_id": "SAFN",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

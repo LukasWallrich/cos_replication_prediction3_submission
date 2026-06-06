@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A broad link between longer marriages and later-life sexual inactivity is plausible and based on a decent nationally representative sample.",
+      "The specific age-adjusted per-year OR is implausibly large and vulnerable to collinearity/confounder specification between age and marriage duration."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.76,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "IPV, especially recent emotional abuse, has a robust and plausible association with common mental distress across population studies.",
+      "The effect is modest, precisely estimated in a large representative sample, though adjusted cross-sectional associations can shift with confounder specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.85,
+  "_task": {
+    "claim_id": "R9dv_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

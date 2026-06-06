@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a very large survey with a tiny p-value, so sampling error is unlikely to explain the positive association.",
+      "Cross-sectional self-report data and possible confounding weaken causal interpretation, but they are less threatening to replicating the association itself."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.65,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

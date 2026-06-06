@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value of .048 sits suspiciously close to the .05 threshold, a classic indicator of potential p-hacking or fragile model specification.",
+      "The claim relies on a conditional main effect in a cross-sectional regression with interaction terms, which are notoriously sensitive to specific covariate choices."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.45,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is backed by a massive sample size (N=5659) and an overwhelmingly small p-value (p < 10^-50), far beyond the .05 threshold.",
+      "The finding that voters give higher valence scores to political parties they perceive as ideologically closer is a highly established, fundamental phenomenon."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.38,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

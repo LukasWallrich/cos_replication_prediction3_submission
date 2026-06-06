@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a specific model contrast from a small consumer-psych experiment with a borderline p-value, a pattern often unstable on replication.",
+      "The underlying learning effect is plausible, but the exact 33% slope increase depends on a nuanced heteroscedasticity manipulation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.55,
+  "_task": {
+    "claim_id": "RJb_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

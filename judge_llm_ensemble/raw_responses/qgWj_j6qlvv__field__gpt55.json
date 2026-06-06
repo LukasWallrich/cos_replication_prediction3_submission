@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The values–protest association is plausible and estimated in a very large cross-national sample with a strong reported t-value.",
+      "However, cross-level cultural interaction effects and “holds under mutual controls” claims are sensitive to country composition and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.9,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

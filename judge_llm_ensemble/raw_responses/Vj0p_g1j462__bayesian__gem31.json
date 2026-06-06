@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on a large, high-quality, nationally representative sample (N=1502), which provides substantial power for logistic regression.",
+      "The reported p-value is highly significant (p < .001), and the descriptive, correlational nature of the claim makes it highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.78,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

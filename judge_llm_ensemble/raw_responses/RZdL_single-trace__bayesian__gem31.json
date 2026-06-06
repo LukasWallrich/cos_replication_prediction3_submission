@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is a simple unadjusted descriptive association estimated on a very large sample (n = 10,080), which typically yields highly stable estimates.",
+      "Raw demographic correlations with solid statistical significance (t > 3.3) are extremely likely to replicate in similar target populations."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 17.79,
+  "_task": {
+    "claim_id": "RZdL_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

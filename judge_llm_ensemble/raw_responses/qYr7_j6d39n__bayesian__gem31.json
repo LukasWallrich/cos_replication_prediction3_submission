@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 3,388 is very large and yields an overwhelmingly small p-value, indicating highly robust statistical evidence.",
+      "The substantive claim—that voters evaluate ideologically closer parties more favorably—is a foundational premise of political science that would be stunning if false."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.59,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

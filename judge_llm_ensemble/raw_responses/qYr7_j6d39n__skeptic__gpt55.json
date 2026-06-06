@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is large relative to its SE, with n=3388 and p far from the significance threshold.",
+      "Common-method self-report and cross-sectional design limit causal interpretation, but the directional association is theoretically expected and replicated across surveys."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.12,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (N=73,175) from what is likely a multi-national survey (e.g., World Values Survey) provides massive statistical power, reducing the risk of a false positive.",
+      "However, cross-level interactions (ecological climate moderating individual traits) in observational data can be sensitive to country inclusion and model specification, tempering expectations of exact replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.21,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

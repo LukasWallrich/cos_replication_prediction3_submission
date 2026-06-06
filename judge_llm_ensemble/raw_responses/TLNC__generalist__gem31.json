@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a very low p-value (p < 0.001) in a reasonably sized sample (N=448), suggesting a strong statistical signal.",
+      "However, the cross-sectional, observational nature of the survey makes the specific predictor vulnerable to sample-specific quirks and confounding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 11.4,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

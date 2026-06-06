@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a descriptive group difference using pooled NHIS data, likely a large representative sample despite missing subgroup n.",
+      "The OR of 0.65 is moderate, but no p-value or subgroup size is given and multiple region comparisons add uncertainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.72,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

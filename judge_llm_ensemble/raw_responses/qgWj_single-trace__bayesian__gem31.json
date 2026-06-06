@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size (n > 70,000) and high t-statistic (t=4.6) provide strong statistical evidence that this association is not a random artifact.",
+      "Descriptive multi-level associations using broad cross-national survey data typically replicate well across similar datasets or subsequent survey waves."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.09,
+  "_task": {
+    "claim_id": "qgWj_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

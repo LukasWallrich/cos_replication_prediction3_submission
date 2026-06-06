@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large CSES sample and very small p-value suggest a robust negative association, not a marginal single-test result.",
+      "The relationship is observational and self-report/common-method, so wording or model choices could affect magnitude, but direction should replicate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.78,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

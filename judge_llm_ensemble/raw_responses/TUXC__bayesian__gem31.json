@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N = 34,171) and comes from a high-quality national probability survey, ensuring very precise estimates.",
+      "The effect size is exceptionally large (OR = 3.8) and highly significant (p < 0.001) for a simple, well-established demographic disparity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.32,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

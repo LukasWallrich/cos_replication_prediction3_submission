@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The exceptionally large odds ratio (3.29) for a simple demographic predictor suggests severe effect size inflation or overfitting in the multivariable model.",
+      "The cross-sectional web-based survey design with a convenience sample makes secondary demographic findings highly susceptible to sample-specific confounding and poor replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 15.95,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

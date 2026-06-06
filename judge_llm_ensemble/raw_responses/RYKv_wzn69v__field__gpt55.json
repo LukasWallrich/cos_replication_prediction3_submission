@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a large-sample, direct cross-sectional association between personal victimization and punitive/vigilante attitudes, not a fragile latent mediation model.",
+      "The direction is highly plausible in high-crime Latin American contexts, though attitude measures and cultural period effects may affect magnitude."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.0,
+  "_task": {
+    "claim_id": "RYKv_wzn69v",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

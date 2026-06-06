@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large Latin America survey and very small p-value support a robust victimization–authoritarian-attitudes association.",
+      "The cross-sectional design and culturally/time-sensitive political context make magnitude and persistence somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.65,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

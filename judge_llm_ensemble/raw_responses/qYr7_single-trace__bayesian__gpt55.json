@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The Australia estimate is precise and highly significant, with coefficient about seven standard errors from zero in a moderately large survey.",
+      "The claim is an associational regression pattern embedded in many similar negative results, though interaction terms in observational survey models can be model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.87,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

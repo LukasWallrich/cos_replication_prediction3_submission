@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive cross-national sample (N > 70,000) where macro-level structural correlations, like societal values predicting protest, are generally robust across survey waves.",
+      "Although multi-level contextual effects can sometimes be sensitive to the specific set of mutual controls, the large t-value and established empirical link between emancipative values and protest suggest a real effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.53,
+  "_task": {
+    "claim_id": "qgWj_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (n > 36,000) provides immense statistical power, making the reported p-value highly robust against sampling variation.",
+      "The claim describes a straightforward observational association in survey data, which has a much higher replication rate than complex causal or interactive claims."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.04,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

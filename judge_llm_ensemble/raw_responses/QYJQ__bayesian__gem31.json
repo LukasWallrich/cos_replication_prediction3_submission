@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a very strong p-value (p < .001, t = 5.75) and a large number of observations via a within-subjects design.",
+      "Although moderation claims in cross-sectional data generally replicate less reliably, the robust statistical significance suggests the correlational pattern is a stable feature of this population."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.44,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

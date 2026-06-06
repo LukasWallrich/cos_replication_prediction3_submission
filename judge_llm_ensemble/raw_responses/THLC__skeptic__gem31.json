@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on cross-sectional self-report data with a p-value (0.02) relatively close to the .05 threshold.",
+      "Other physical outcomes like general health and disability showed no significant differences, suggesting this specific physical HRQoL effect might be statistical noise."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.13,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

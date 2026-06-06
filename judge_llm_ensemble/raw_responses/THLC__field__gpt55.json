@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Social support and poorer physical quality of life are plausibly correlated in COPD, reflecting robust social-health gradients.",
+      "The specific adjusted matched OR is modest and borderline, with residual confounding and dichotomization making exact replication less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.71,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

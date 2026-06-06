@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large individual sample and a t=4.6 contextual coefficient make this less likely to be a mere sampling fluctuation.",
+      "But the country-level effect is cross-sectional, headline ecological finding vulnerable to confounding and model specification choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.18,
+  "_task": {
+    "claim_id": "qgWj_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

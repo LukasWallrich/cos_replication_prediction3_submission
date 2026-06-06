@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Moderate within-subject effect with p=.001 updates upward from the 40–60% base rate despite n=48.",
+      "But it is a specific social-perception simple effect from an interaction, with multiple-testing and stimulus-sampling concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.64,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

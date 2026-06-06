@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is experimental and the simple effect is fairly strong, with p<.001 rather than a marginal significance result.",
+      "However, it is a pick-a-point moderation finding on a self-report attitude outcome, likely vulnerable to multiplicity and shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.35,
+  "_task": {
+    "claim_id": "RFTL",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

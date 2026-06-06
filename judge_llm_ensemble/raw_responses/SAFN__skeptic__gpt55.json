@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a randomized experiment with a simple main effect, which helps causal interpretation compared with observational self-report studies.",
+      "The effect is very small, based on N=248, and the p-value is just below .05, making shrinkage or nonreplication plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.82,
+  "_task": {
+    "claim_id": "SAFN",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

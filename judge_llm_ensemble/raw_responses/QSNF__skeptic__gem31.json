@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of nearly 10,000 participants provides massive statistical power, making the reported p < .001 highly robust to sampling variation.",
+      "This is a straightforward descriptive demographic difference rather than a complex, underpowered interaction, which strongly increases its replicability."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.13,
+  "_task": {
+    "claim_id": "QSNF",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

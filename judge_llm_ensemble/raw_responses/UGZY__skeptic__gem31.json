@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N=26,840 with over 1,000 incident cases) and the reported p-value of .002 provides a comfortable cushion against statistical noise.",
+      "However, the reliance on self-reported measures for both the predictors and incident outcomes introduces potential reporting bias that can sometimes distort interaction effects in observational designs."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 47.82,
+  "_task": {
+    "claim_id": "UGZY",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

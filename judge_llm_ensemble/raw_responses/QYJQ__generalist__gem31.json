@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study leverages a reasonably large sample (n=601) and within-subjects variation across six behaviors, yielding a highly significant p-value (p < .001) for the interaction.",
+      "Interaction effects in survey data are typically less susceptible to simple common method bias than main effects, increasing the credibility of the finding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 7.82,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

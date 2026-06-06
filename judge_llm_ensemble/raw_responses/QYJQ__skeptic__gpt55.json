@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The slope difference is large and reported with a strong test statistic, not a marginal p-value vulnerable to small perturbations.",
+      "However it is a headline moderation from cross-sectional self-reports, with behavior type confounded with many uncontrolled differences."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 23.02,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

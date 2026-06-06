@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is large with a reasonably tight confidence interval and p<0.001 in a moderate sample of 448 students.",
+      "It is still a single cross-sectional self-report study, and demographic predictors in multivariable models can be sample-specific or selected after testing."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 26.23,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

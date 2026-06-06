@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The positive link between market volatility/uncertainty and bid-ask spreads is a well-established structural market-liquidity relationship.",
+      "The reported t-statistic is enormous, though exact elasticity may vary with specification, market period, and serial-dependence adjustments."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.96,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

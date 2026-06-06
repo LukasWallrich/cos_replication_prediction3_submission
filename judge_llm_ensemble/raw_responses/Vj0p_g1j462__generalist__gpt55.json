@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a moderately large nationally representative sample, and the duration association is reported as highly significant in the adjusted model.",
+      "However, age and marriage duration are highly collinear, and the very large per-year OR makes the exact magnitude less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.7,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

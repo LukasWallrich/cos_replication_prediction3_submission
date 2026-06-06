@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a descriptive association in a very large survey sample, with an extremely small reported p-value.",
+      "Observational self-reported victimization and attitudes may contain confounding or context sensitivity, but a well-powered direct replication should still detect association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.28,
+  "_task": {
+    "claim_id": "RYKv_wzn69v",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a direct correlation in a massive sample (N=38,031), supported by an extremely small p-value.",
+      "The association between crime victimization and support for extrajudicial justice is highly plausible and represents a robust demographic/attitudinal pattern."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.94,
+  "_task": {
+    "claim_id": "RYKv_wzn69v",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

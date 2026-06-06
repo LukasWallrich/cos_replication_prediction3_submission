@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The effect is a straightforward mean difference with decent sample size and p=.002, not a marginal significance finding.",
+      "It is still a single behavioral study with likely convenience sampling and a theory-linked interpretation that may overstate the simple contrast."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.26,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported contextual association is very strong statistically, with a large sample and t=9.9, moving above the replication base rate.",
+      "But the society-level predictor has a much smaller effective N and is observational/cross-sectional, so confounding and model dependence remain substantial."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.32,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

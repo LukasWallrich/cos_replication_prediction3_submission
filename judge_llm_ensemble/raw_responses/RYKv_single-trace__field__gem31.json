@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive sample size (N=38,102) and yields an extremely small p-value, indicating a highly precise and robust statistical association.",
+      "Direct behavioral correlations in large survey datasets typically replicate very well, even if the underlying causal mechanisms or confounder structures remain debatable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.09,
+  "_task": {
+    "claim_id": "RYKv_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

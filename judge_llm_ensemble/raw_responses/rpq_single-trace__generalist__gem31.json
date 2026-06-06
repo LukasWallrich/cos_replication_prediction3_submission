@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a small sample (N=48) from 2009 to detect a complex interaction between race, age, and emotion perception.",
+      "Although the reported p-value is .001, the small sample size makes the finding highly vulnerable to inflated effect sizes and low replicability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.69,
+  "_task": {
+    "claim_id": "rpq_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

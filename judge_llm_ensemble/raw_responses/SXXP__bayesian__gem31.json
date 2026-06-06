@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive sample size (N=25,524) from a high-quality, nationally representative dataset (NHANES) and reports a highly significant p-value (p < 0.0001).",
+      "It is a straightforward descriptive claim about demographic differences in consumption prevalence, which are highly stable and reliable to replicate in similar large samples."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.91,
+  "_task": {
+    "claim_id": "SXXP",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

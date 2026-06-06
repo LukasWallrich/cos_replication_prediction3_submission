@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-value of 9.9 is exceptionally large, indicating a highly statistically significant association that is unlikely to be a false positive.",
+      "Although cross-sectional survey data carries risks of confounding, the sheer magnitude of this macro-level association in a massive dataset suggests the statistical effect will readily replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.7,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

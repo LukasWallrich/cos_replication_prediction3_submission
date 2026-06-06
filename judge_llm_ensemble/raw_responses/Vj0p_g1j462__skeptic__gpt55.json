@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is highly significant in a fairly large, nationally representative sample, so it is not a marginal convenience-sample finding.",
+      "But a 22% per-year duration effect after adding age is implausibly large and vulnerable to collinearity, specification, and cross-sectional confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.78,
+  "_task": {
+    "claim_id": "Vj0p_g1j462",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

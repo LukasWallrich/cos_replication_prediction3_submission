@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Pitch-size crossmodal correspondence is a well-established perceptual association, making the directional effect more robust than many consumer-psych mechanisms.",
+      "The original study is small, but the manipulation is simple and the reported effect is moderate rather than implausibly large."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.0,
+  "_task": {
+    "claim_id": "VGAe_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

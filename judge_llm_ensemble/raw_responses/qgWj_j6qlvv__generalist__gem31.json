@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N=73,175), providing high statistical power for multi-level models, and the reported t-statistic (4.6) indicates a highly significant result.",
+      "However, cross-level interactions in observational data can be sensitive to model specification and the specific level-2 units (e.g., countries) included."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.74,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The interaction is a headline cross-level finding from observational self-report data, so confounding and model-dependence are serious concerns.",
+      "However, the sample is very large and the reported t-value is strong, not a marginal p≈.05 signal."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.96,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

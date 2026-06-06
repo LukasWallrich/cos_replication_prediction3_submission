@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses pooled 2004–2013 NHIS data and logistic regression, likely giving a large, fairly representative basis for this descriptive comparison.",
+      "The claim is a moderate subgroup association with no p-value or sample size supplied, and may be vulnerable to multiple comparisons or reporting heterogeneity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.74,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

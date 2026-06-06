@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Very large survey sample and extremely small p-value make the basic victimization–vigilantism association likely to reproduce.",
+      "However, no effect size is given and “strongly/far more likely” may overstate a potentially modest observational association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.85,
+  "_task": {
+    "claim_id": "RYKv_wzn69v",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

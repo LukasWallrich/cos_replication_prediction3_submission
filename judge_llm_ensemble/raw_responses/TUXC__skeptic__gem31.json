@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 34,000 from a nationally representative survey provides immense statistical power, making false positives highly unlikely.",
+      "The massive structural inequality between rural and urban areas in China makes a strong effect for leisure reading highly plausible and deeply established."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.85,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

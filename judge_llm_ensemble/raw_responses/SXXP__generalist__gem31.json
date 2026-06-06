@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large, nationally representative dataset (NHANES) with over 25,000 participants, yielding highly stable estimates.",
+      "The finding is a straightforward descriptive statistic about demographic variation with a very small p-value, making it highly robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 43.23,
+  "_task": {
+    "claim_id": "SXXP",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

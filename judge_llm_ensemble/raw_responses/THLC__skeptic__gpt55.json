@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Population-based matching and a plausible association help, but the design is cross-sectional with self-reported exposure and outcome.",
+      "The physical-HRQoL result is modest and marginal, with p=.02 and a CI barely excluding null in only 307 matched pairs."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.74,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

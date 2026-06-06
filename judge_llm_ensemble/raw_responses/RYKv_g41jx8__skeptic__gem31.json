@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is essentially zero based on an enormous sample size of over 38,000 respondents, making a statistical false positive highly improbable.",
+      "While the broader causal claim is vulnerable to cross-sectional confounding, the specific claim of a positive, statistically significant association is very robust."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.64,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

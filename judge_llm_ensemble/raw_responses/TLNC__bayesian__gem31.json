@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the p-value is strong (p < 0.001), the claim relies on a specific demographic predictor in a cross-sectional convenience sample.",
+      "Such observational findings in samples of this size (n=448) often suffer from multiple testing and yield inflated effect sizes that do not replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 12.15,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

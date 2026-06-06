@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size of over 38,000 observations and a p-value of 4e-25 indicate an extremely strong statistical association that is not a fluke.",
+      "Although the cross-sectional design limits causal claims, the purely observational association described in the claim is highly robust and easily replicable."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.91,
+  "_task": {
+    "claim_id": "RYKv_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

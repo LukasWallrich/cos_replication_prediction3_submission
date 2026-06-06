@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic of 68.32 is extraordinarily large, providing overwhelming statistical evidence for the finding.",
+      "The theoretical link between market volatility (VIX) and increased quoted spreads is a fundamental, well-established mechanism in financial market microstructure."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 23.18,
+  "_task": {
+    "claim_id": "RrOb_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a massive sample size (N = 36,962) from cross-national survey data, reducing the likelihood of a false positive.",
+      "The reported effect is a straightforward observational association with a highly significant p-value (p < .001), which typically replicates well."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.16,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

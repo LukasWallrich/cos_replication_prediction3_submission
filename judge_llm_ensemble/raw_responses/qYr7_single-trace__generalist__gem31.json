@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The specific claim relies on a robust sample size of 933 and yields a highly significant interaction term with a t-statistic around -7.35.",
+      "The abstract indicates this finding is part of a broader, consistent pattern across multiple surveys, reducing the likelihood of it being an isolated fluke."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.21,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

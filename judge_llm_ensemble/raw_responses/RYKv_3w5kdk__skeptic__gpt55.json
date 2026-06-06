@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large multi-country survey sample and p=8.5e-6 make a nonzero association more credible than typical marginal findings.",
+      "Cross-sectional self-reports and likely secondary subgroup/outcome analysis leave substantial risk of confounding, multiple testing, and overstated strength."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.17,
+  "_task": {
+    "claim_id": "RYKv_3w5kdk",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

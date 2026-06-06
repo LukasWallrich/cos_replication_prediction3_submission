@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific interaction effect and simple slope analysis in a relatively small sample (N=251 across multiple conditions).",
+      "Complex moderation effects regarding message framing and prior beliefs often fail to replicate due to low power and sample-specific idiosyncrasies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.27,
+  "_task": {
+    "claim_id": "RFTL",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

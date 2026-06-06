@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The association between intimate partner violence and poor mental health is a highly robust, well-established structural finding across diverse populations.",
+      "The large, nationally representative sample size and extremely small p-value provide strong statistical support for this direct epidemiological link."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 45.9,
+  "_task": {
+    "claim_id": "R9dv_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

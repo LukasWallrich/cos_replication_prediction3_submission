@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is large (N=4555), but the reported p-value of 0.048 is right at the significance threshold.",
+      "Such a borderline p-value in a large observational study often indicates a fragile effect or analytical flexibility, reducing the likelihood of replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.88,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The nominal evidence is strong: a very large survey sample and cross-level interaction t=4.6 make pure sampling error less plausible.",
+      "But it is an observational multilevel interaction, with effective information limited by country-level variation and likely sensitivity to controls/specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.64,
+  "_task": {
+    "claim_id": "qgWj_j6qlvv",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A moderate effect with n=218 and p=.002 provides stronger-than-borderline evidence from around the base-rate prior.",
+      "The claim is a specific survey-wording contrast, likely experimental, but interpretation about familiarity adds some fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.04,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

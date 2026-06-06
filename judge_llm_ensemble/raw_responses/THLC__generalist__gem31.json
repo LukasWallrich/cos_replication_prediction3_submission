@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study tested at least six outcomes, and the p-value of 0.02 for physical HRQoL would not survive standard multiple testing corrections.",
+      "Other directly related physical outcomes like general health, disability, and activity limitations were not significant, suggesting the physical HRQoL finding may be a false positive."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.95,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

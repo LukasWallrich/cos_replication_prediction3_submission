@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Macro-economic hardship plausibly affects EU framing, and the reported unemployment effect is statistically strong despite a small macro sample.",
+      "But the evidence appears observational with only 27 country units and many related outcomes, so confounding and model dependence remain serious concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.43,
+  "_task": {
+    "claim_id": "qXX2_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

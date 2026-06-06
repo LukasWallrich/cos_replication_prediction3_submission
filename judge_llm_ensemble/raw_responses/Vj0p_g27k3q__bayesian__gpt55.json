@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a plausible descriptive association in a nationally representative older-adult sample with adequate size and p<.001.",
+      "Observational modeling and possible age-marriage-duration collinearity temper confidence in the exact independent 22% per-year estimate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.92,
+  "_task": {
+    "claim_id": "Vj0p_g27k3q",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

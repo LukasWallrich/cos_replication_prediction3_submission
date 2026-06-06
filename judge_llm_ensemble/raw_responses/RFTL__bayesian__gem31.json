@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value for this simple effect is highly significant (p < .001), which generally provides strong statistical evidence against the null.",
+      "However, this is a specific simple slope derived from an interaction in a modest sample size (N=251 across multiple conditions), which typically reduces replication reliability."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 39.99,
+  "_task": {
+    "claim_id": "RFTL",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

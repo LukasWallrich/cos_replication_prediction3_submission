@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive (N = 38,102) and the reported p-value is extremely small (p < 1e-24), making sampling error an highly unlikely explanation for the association.",
+      "The claim evaluates a basic correlational association using standard cross-sectional survey data, which generally replicates very well when statistically powered to this degree."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 24.03,
+  "_task": {
+    "claim_id": "RYKv_g41jx8",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

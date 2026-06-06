@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A stronger norm-intention link for novel or scientifically uncertain behaviors is theoretically plausible and the reported interaction is reasonably large and precise.",
+      "Still, the comparison is cross-sectional and behavior-confounded, with culturally time-sensitive examples like BPA plastics and mobile phone headsets."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 18.8,
+  "_task": {
+    "claim_id": "QYJQ",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

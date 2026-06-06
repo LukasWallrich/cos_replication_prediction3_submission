@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and extremely small p-value make the negative association unlikely to be sampling noise.",
+      "The claim is a plausible correlational pattern, though observational subjective measures and possible respondent-party dependence limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.09,
+  "_task": {
+    "claim_id": "qYr7_9oj2rd",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

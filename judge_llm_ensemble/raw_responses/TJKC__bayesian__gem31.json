@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value is exactly 0.048 (z=2.0), which is highly marginal and a strong indicator of potential analytical flexibility in a complex regression model.",
+      "Although the sample size is large, the combination of a marginal p-value and multiple covariates/interactions significantly reduces the probability of successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.89,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

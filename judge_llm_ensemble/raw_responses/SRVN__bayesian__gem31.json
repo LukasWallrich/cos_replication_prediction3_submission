@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on pooled data from a decade of the National Health Interview Survey, which provides a massive and highly reliable sample size.",
+      "Descriptive demographic differences using standard variables like self-rated health in very large, nationally representative datasets have an exceptionally high replication rate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 57.65,
+  "_task": {
+    "claim_id": "SRVN",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is large and representative, and a positive marriage-BMI association is plausible and previously observed.",
+      "But the headline main effect is tiny and just significant at p=.048 after covariate adjustment, making shrinkage or null replication plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.58,
+  "_task": {
+    "claim_id": "TJKC",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

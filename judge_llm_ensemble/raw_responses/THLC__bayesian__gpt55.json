@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is plausible and descriptive, but the matched observational design and self-report measures leave residual confounding concerns.",
+      "The physical HRQoL result is modest and borderline significant with only 307 pairs, making it less reliable than the stronger mental-health findings."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.03,
+  "_task": {
+    "claim_id": "THLC",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

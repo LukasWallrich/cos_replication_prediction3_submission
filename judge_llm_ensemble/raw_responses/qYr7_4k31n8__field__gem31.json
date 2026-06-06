@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a fundamental and widely documented regularity in political psychology: individuals positively evaluate political parties that are ideologically closer to them.",
+      "The effect is supported by a very large sample size (N=7554) and a highly robust p-value, making it essentially certain to replicate."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 19.02,
+  "_task": {
+    "claim_id": "qYr7_4k31n8",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

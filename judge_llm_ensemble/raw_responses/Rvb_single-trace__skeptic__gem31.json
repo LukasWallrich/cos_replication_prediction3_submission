@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 218 provides adequate power to detect the moderate effect size (d = 0.42), and the p-value (.002) is comfortably robust.",
+      "The finding tests a straightforward methodological question about scale labels using a simple mean difference, reducing the risk of analytical p-hacking."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.14,
+  "_task": {
+    "claim_id": "Rvb_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

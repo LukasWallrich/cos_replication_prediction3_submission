@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is very strong statistically in a very large cross-national dataset, not a marginal p≈.05 result.",
+      "However, the ecological claim is observational and likely country-level-confounded, with effective sample size far smaller than 73,175 individuals."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.66,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The individual sample is huge and the reported cross-level interaction is strong (t=5.8), which updates upward from the base rate.",
+      "But this is an observational multilevel moderation with effective country-level N and modeling-dependence, making the amplifier claim less robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.2,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

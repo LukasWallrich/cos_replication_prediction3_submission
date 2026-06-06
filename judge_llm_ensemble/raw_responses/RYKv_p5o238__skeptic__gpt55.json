@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large regional survey and very small p-value make a nonzero association less likely to be pure sampling noise.",
+      "But cross-sectional self-reports and no effect size leave confounding and exaggeration of 'strongly' a serious concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.34,
+  "_task": {
+    "claim_id": "RYKv_p5o238",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

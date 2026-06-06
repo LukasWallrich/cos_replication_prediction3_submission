@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high",
+    "reasoning_top2": [
+      "Ideological or perceived proximity strongly and consistently predicts party evaluations, a robust descriptive regularity in political-behaviour surveys.",
+      "The Austria estimate is large relative to its standard error, making sampling error an unlikely explanation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.11,
+  "_task": {
+    "claim_id": "qYr7_1rzq75",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

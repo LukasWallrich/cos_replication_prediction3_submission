@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a large, high-quality sample (N = 3388) resulting in an extremely small p-value, which strongly guards against false positives.",
+      "The claim that voters attribute higher valence to ideologically proximate parties is a highly established and theoretically robust finding in political science."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.62,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

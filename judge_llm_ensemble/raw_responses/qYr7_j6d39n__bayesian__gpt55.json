@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and very small p-value imply the negative association is estimated precisely, far above a borderline finding.",
+      "The claim is correlational and highly plausible in party-evaluation data, with reported consistency across surveys, though same-source attitudes limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.31,
+  "_task": {
+    "claim_id": "qYr7_j6d39n",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

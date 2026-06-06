@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a very large t-statistic (t ~ 7.35), making the finding highly robust to sampling variation.",
+      "The data comes from a high-quality, standardized multi-national survey (CSES), and the claim notes this effect is consistent across many regressions, increasing credibility."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.33,
+  "_task": {
+    "claim_id": "qYr7_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

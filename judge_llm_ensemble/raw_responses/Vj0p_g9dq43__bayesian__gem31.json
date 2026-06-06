@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a nationally representative sample with a substantial sample size (n=1,502), increasing the reliability of the descriptive estimate.",
+      "The finding is a straightforward correlational claim with a highly significant p-value (p < .001) that aligns with well-established patterns of aging and relationship duration."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.42,
+  "_task": {
+    "claim_id": "Vj0p_g9dq43",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

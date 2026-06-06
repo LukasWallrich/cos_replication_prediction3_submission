@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is quite small (N=94) and the p-value (p = 0.013) is weak, suggesting low statistical power and a higher risk of a false positive.",
+      "The claim involves cross-modal sensory inference (pitch influencing perceived size), a type of social priming effect that historically has a poor replication record."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.08,
+  "_task": {
+    "claim_id": "VGAe_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

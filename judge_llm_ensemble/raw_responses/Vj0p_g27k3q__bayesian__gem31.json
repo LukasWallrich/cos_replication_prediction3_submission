@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is reasonably large (n=1502) from a nationally representative dataset, and the reported p-value is highly significant (p<.001).",
+      "The positive association between age and sexual inactivity in later life is a highly plausible, well-established descriptive phenomenon."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.44,
+  "_task": {
+    "claim_id": "Vj0p_g27k3q",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

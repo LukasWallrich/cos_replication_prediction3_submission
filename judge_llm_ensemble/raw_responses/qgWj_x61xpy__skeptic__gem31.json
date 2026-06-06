@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N > 70,000), providing massive statistical power and precision for the estimation.",
+      "The reported t-value of 4.6 indicates a highly significant statistical association that is very unlikely to be a false positive, even if causal claims remain vulnerable to cross-sectional confounding."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.38,
+  "_task": {
+    "claim_id": "qgWj_x61xpy",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

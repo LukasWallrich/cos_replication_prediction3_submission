@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported association is large with a reasonably tight CI and p<.001, not a borderline significance result.",
+      "However, it comes from a cross-sectional convenience sample and likely exploratory multivariable modeling, making confounding and selection of significant predictors concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 28.59,
+  "_task": {
+    "claim_id": "TLNC",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

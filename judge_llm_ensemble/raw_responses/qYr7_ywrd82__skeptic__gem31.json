@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is massive and the reported p-value is infinitesimally small, making false positives due to sampling error highly improbable.",
+      "The theoretical mechanism—that voters assign higher valence to parties they perceive as ideologically closer—is a well-established and repeatedly confirmed finding in political psychology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 29.02,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely large sample size of nearly 10,000 participants provides massive statistical power to detect true demographic differences.",
+      "A simple correlational claim about gender differences with a highly significant p-value (<.001) in such a large sample is very robust and likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.5,
+  "_task": {
+    "claim_id": "QSNF",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

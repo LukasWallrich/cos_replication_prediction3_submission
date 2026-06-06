@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 5841 is very large, reducing the likelihood of a false positive driven by sampling noise.",
+      "The reported p-value is extremely small (p < .001, exactly 5.46e-17), providing strong statistical evidence for the negative effect of subjective distance on valence."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.37,
+  "_task": {
+    "claim_id": "qYr7_ywrd82",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The massive sample size (N=73,175) and highly significant t-statistic (t=5.8) provide strong statistical evidence for the reported interaction effect.",
+      "However, cross-level interactions in observational multi-level models are notoriously sensitive to model specification and country-level confounders, dampening the otherwise strong signal."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 41.23,
+  "_task": {
+    "claim_id": "qgWj_q76z8j",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

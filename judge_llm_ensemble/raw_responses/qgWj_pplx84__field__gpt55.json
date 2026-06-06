@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is large and precisely estimated in a very large cross-national sample, and value climates plausibly track protest-permissive contexts.",
+      "However, ecological culture effects in cross-sectional multilevel models are sensitive to country composition and controls for democracy, development, and institutions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.55,
+  "_task": {
+    "claim_id": "qgWj_pplx84",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

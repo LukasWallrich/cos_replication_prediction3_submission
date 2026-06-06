@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive, nationally representative survey sample (N > 34,000) measuring a fundamental demographic divide.",
+      "The large urban-rural gap in educational attainment and access to resources in China makes a substantial difference in reading habits structurally virtually certain."
+    ],
+    "bucket": "almost_certainly_yes",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.4,
+  "_task": {
+    "claim_id": "TUXC",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}
