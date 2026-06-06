@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is modest but statistically strong in a reasonably sized sample, not a borderline p=.05 finding.",
+      "Cross-sectional self-report data, very low response rates, and site heterogeneity make confounding and common-method bias substantial concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.96,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

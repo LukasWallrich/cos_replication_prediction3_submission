@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The result is not a marginal p=.05 finding: n=41 still produced t=4.28 and a moderate within-participant effect.",
+      "However, it is a small-sample headline behavioral result using selected stimuli, so stimulus-specific cues or analytic flexibility could inflate it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.93,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

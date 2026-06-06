@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The evidence is a single observational country-election analysis with a modest sample, and quadratic inverted-U claims are often specification-sensitive.",
+      "The squared term is statistically stronger, but the linear term is only marginal and the fraud measure is an indirect forensic proxy."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.85,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

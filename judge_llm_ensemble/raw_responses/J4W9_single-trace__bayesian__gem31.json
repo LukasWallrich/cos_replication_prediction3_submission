@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size of 68 across multiple treatment arms results in very small cell sizes, indicating low statistical power and higher risk of false positives.",
+      "The reported p-value of 0.023 is borderline, which, combined with the small sample size, makes this behavioral framing effect less likely to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.21,
+  "_task": {
+    "claim_id": "J4W9_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

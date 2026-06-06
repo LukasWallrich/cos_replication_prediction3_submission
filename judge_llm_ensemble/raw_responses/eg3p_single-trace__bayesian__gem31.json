@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a three-way interaction, which are historically difficult to replicate and require very large sample sizes to be adequately powered.",
+      "The sample size of 138 is extremely small for detecting a reliable three-way interaction, particularly in social psychology threat-manipulation paradigms."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.67,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

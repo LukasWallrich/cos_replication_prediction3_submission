@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A three-way interaction in logistic regression with n=138 is a fragile, model-dependent social-consumer psychology finding.",
+      "The directional theory is plausible, but specific threat-by-confidence-by-brand-choice patterns often shrink or change in well-powered replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.96,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

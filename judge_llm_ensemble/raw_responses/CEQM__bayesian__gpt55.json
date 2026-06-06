@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Moderate sample and tight confidence interval around a positive OR provide stronger-than-borderline evidence for this association.",
+      "The claim is observational and cross-sectional, so confounding and measurement biases limit confidence despite the plausible correlational pattern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.48,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

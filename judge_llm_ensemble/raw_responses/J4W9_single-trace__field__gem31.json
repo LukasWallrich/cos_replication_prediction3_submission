@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 68 is very small for detecting framing effects in laboratory economic games, leading to low statistical power and likely inflated effect sizes.",
+      "The p-value of 0.023 in a small-n behavioral economics study makes the finding highly susceptible to evaporating upon a well-powered replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.02,
+  "_task": {
+    "claim_id": "J4W9_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A modest positive association between perceived leadership support and self-reported health behaviors is plausible and consistent with workplace wellness climate correlations.",
+      "However, cross-sectional convenience worksites, low response rates, shared self-report, and organization-specific significance make the adjusted predictor somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.24,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

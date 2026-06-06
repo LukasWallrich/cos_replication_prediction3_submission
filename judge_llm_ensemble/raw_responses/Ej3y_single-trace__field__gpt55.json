@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a theory-driven two-way moderation on intended loyalty, the kind of consumer/behavioral effect that often shrinks or disappears.",
+      "The original p-value is reasonably strong, but n=192 and small f² leave substantial room for sampling and demand-characteristic inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.77,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

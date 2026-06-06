@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Huge census sample and p<.001 for a moderate odds ratio make sampling error an unlikely explanation.",
+      "The claim is observational/descriptive rather than causal, but migrant selectivity makes the direction plausible and likely robust."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.88,
+  "_task": {
+    "claim_id": "dxQp_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple, plausible framing contrast on willingness-to-pay, with a moderately large reported effect and strong p-value.",
+      "However, WTP data are noisy and skewed, and framing effects from modest convenience samples often shrink on replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.25,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

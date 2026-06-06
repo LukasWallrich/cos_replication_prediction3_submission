@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The result comes from a small single experiment, but p=.004 and a moderate effect are stronger than a marginal finding.",
+      "The abstract describes a coherent multi-study pattern, though not a direct replication of this Stroop interference effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.19,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

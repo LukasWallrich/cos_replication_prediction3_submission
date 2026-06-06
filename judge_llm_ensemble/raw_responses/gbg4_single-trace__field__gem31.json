@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Theory-driven mediation models involving multiple self-reported psychological constructs tend to have high false-positive rates and replicate poorly.",
+      "The relatively small sample size, especially for a dyadic study, limits statistical power to robustly estimate complex indirect effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.63,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

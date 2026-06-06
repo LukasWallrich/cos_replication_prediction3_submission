@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a theoretically foundational main effect (intrinsic motivation predicting creativity) supported by a very large sample size and an extremely small p-value.",
+      "As part of a comprehensive meta-analytic examination, the finding aggregates substantial evidence, minimizing the impact of single-study idiosyncratic noise."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.81,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

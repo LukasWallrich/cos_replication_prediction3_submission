@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a two-way interaction in an experimental design with a relatively small sample size (N=192), which typically indicates low statistical power.",
+      "Counterintuitive interaction effects in consumer psychology often fail to replicate, as they are highly sensitive to specific experimental contexts and stimuli."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.82,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

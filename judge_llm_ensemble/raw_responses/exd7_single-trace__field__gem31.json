@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The proposed mechanism—that top-level music judges are influenced by visual cues like stage presence, making silent video predictive of their decisions—is highly plausible.",
+      "Although the sample size for this specific test is small (N=41), the very low p-value and the fact it is part of a multi-study paper increase the probability of it being a real effect."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.21,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

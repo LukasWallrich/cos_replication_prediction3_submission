@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Social norms and screening are plausibly linked, and this is a straightforward behavioral association with a precise modest OR in n=877.",
+      "However, it is cross-sectional, culturally specific, and adjusted-model dependent, so magnitude and significance may vary with sampling and covariates."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.31,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

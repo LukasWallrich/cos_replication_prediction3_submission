@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Three-way interactions from small-sample (N=138) experimental studies circa 2011 have an extremely high rate of failing to replicate.",
+      "The claim relies on a highly specific, complex moderation involving a psychological manipulation, a self-reported trait, and a behavioural choice, which is notoriously fragile."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 41.55,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

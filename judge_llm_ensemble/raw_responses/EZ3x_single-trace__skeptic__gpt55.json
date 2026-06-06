@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large sample and very small p-value make a positive SR–GPA association more credible than a borderline single-study result.",
+      "The standardized beta of .96 is implausibly large, and cross-sectional SEM pathways with overlapping ratings are prone to inflation."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.08,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very large sample size (N=7,838) from a well-established longitudinal survey, providing high statistical power.",
+      "The reported p-value is extremely small (p < .000001), making it highly probable that this observational association would replicate in a similar sample."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.56,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

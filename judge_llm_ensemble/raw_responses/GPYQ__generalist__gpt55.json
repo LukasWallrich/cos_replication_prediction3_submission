@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is statistically strong and directionally plausible, but the sample is small and the adjusted estimate is imprecise.",
+      "This appears observational with possible multiple predictors, so confounding or model instability could inflate a single significant result."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.12,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

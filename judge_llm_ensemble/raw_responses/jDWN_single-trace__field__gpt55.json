@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Intrinsic motivation and creativity have a well-established positive association across many employee and organizational studies, including meta-analytic evidence.",
+      "The claim is a simple direct association with large sample support, though self-report/common-method and contextual heterogeneity limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.74,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Prior is near 50%, but this is a specific observational mediation in a modest dyadic sample, a lower-replicating claim type.",
+      "The reported indirect-effect CI excludes zero fairly cleanly, so evidence is not merely borderline and the direction is theoretically plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.37,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

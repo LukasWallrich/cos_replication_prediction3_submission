@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The borderline p-value (p < 0.05) in a 2010 social psychology study strongly suggests low statistical power and a higher risk of false positives.",
+      "The claim involves complex associations between cultural orientation scales and subjective episodic memory characteristics, a domain with historically low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.14,
+  "_task": {
+    "claim_id": "gbAY_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

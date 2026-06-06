@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study is large, and the indirect estimate is statistically nonzero with a CI not solely infinitesimal.",
+      "But this is a small cross-sectional self-report SEM mediation effect, a class of findings that often shrinks or disappears."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.02,
+  "_task": {
+    "claim_id": "DJSH",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim is a specific three-way interaction in a logistic choice model, which is inherently fragile with n=138.",
+      "The reported test is statistically notable, but the abstract gives little design detail or independent confirmation for this exact effect."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.75,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

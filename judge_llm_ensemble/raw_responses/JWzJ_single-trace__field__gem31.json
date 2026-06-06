@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding reflects the growing educational divergence in family formation patterns, a well-established macro-demographic trend in the US.",
+      "Although interaction effects can sometimes be fragile, this one is anchored in high-quality national survey data and aligns strongly with known structural realities."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.77,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

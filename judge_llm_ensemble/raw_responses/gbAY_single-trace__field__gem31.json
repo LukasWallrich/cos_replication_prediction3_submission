@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a highly specific, theory-driven relationship between cultural orientation and episodic memory vividness, a type of effect that historically replicates very poorly.",
+      "The finding is from 2010 with a p-value just below the 0.05 threshold, suggesting low statistical power and a high risk of publication bias."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.05,
+  "_task": {
+    "claim_id": "gbAY_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

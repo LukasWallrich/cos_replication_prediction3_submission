@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The interaction tests a highly biologically and sociologically plausible phenomenon: pregnancy disrupts college persistence much more for women than for their male partners.",
+      "Although the specific interaction p-value is modest and pregnancy events are rare, the underlying gender difference in this effect is robustly supported by strong priors."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.8,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

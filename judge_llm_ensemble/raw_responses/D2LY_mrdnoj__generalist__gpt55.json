@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "National longitudinal sample and a p≈.012 interaction give more evidence than a thin small-sample significance test.",
+      "The tested interaction concerns rare pregnancy events and observational dropout models, making the estimate vulnerable to instability and confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.18,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

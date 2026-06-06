@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely small (n=62) for a cross-country macroeconomic regression, making the estimates highly susceptible to noise and outliers.",
+      "The reported p-value is exactly on the borderline of significance (p = 0.0501), which in observational macro-studies often points to fragile effects or analytical flexibility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.89,
+  "_task": {
+    "claim_id": "E5qr_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

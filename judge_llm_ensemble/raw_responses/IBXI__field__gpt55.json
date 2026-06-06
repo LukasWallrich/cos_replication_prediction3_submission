@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple descriptive association between obesity severity and reported physical activity, which is plausible and commonly observed.",
+      "The sample is moderate and p=.002, but self-reported activity and a specific rural African American female sample limit robustness."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.92,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

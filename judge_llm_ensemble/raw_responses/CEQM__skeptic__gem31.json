@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The 95% confidence interval (1.09-1.17) is narrow and securely excludes the null, indicating a robust p-value that is unlikely to be a mere statistical fluke.",
+      "Self-reported descriptive norms and self-reported behaviors reliably correlate in cross-sectional surveys, making this association highly likely to replicate, even if partly driven by projection bias."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 23.64,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

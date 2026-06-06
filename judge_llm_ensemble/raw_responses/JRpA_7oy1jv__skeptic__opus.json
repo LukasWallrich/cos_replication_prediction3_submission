@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Inverted-U/quadratic findings are notoriously fragile, the linear term is only marginally significant (p<0.1), and n=375 is modest for a nonlinear specification.",
+      "However, the squared term itself is robustly significant (p<0.01) and the paper reports the pattern holds across two distinct fraud measures, providing some internal triangulation."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 16.71,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "skeptic",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

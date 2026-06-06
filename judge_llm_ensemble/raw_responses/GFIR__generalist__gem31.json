@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a quadratic (inverted-U) effect from cross-sectional survey data, which is notoriously sensitive to outliers and scaling.",
+      "A sample size of ~400 is generally underpowered to reliably detect and estimate nonlinear quadratic effects without a high risk of false positives."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.33,
+  "_task": {
+    "claim_id": "GFIR",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

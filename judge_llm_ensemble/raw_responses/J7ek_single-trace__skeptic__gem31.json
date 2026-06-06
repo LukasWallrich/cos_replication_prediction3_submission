@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The highly significant p-value (p < .001) indicates a robust signal despite the small sample size, which is typical for repeated-measures cognitive psychology designs.",
+      "The claim describes a fundamental and highly plausible main effect—that human estimates are sensitive to the amount of observed data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.37,
+  "_task": {
+    "claim_id": "J7ek_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

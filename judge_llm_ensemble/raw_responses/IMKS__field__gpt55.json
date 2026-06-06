@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct within-study stimulus comparison, not a fragile mediation or confound-adjusted observational claim.",
+      "Graphic cigarette warnings reliably elicit stronger perceived informational and emotional responses than text-only warnings, though the specific small effect could shrink."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 21.1,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

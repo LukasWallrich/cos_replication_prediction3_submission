@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a very small sample size (N=63) to investigate complex social-cognitive phenomena like stereotype threat and cognitive depletion, which have famously poor replication records.",
+      "Although the p-value is .004, the reported effect size is unrealistically large for such subtle behavioral manipulations, suggesting severe inflation."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.85,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

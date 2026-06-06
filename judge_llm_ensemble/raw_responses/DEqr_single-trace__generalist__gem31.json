@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study features a large sample size (N=764) for an experimental design, providing robust statistical power to detect small-to-medium effects.",
+      "The highly significant p-value (p < 0.01 for the specific contrast, p < 1e-6 overall) combined with a well-established theoretical paradigm strongly supports the reliability of the claim."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.11,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

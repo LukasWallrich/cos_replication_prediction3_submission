@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported difference is moderately large and statistically strong in a simple two-condition comparison with about 100 participants.",
+      "The abstract describes converging experiments on related framing effects, though this specific estimate comes from a modest sample and WTP data can be noisy."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 4.14,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

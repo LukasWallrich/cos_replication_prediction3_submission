@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 136 is critically small for a multivariable logistic regression, increasing the risk of overfitting and inflated effect sizes.",
+      "While the theoretical link between social influence and smoking cessation is strong, the specific measure of progressing through stages of change with such low power reduces replication confidence."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.18,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

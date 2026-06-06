@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Interaction effects in behavioral research often suffer from lower replication rates compared to main effects, especially those proposing paradoxical mechanisms.",
+      "A sample size of 192 (around 48 per cell in a 2x2 design) is relatively small for reliably detecting moderate interaction effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.76,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

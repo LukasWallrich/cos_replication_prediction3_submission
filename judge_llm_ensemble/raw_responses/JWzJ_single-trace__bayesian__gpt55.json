@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Moderate sample and p=.007 for a sizable odds-ratio interaction provide some evidence beyond the 40-60% prior.",
+      "But it is a specific interaction/subgroup trend from observational survey data, so replication risk remains meaningful."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.35,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

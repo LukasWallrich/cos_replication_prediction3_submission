@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The directional claim that peer or family e-cigarette use hinders an adolescent's progress in quitting is highly plausible and aligns with broad substance use literature.",
+      "Although the sample size is small (N=136) and the confidence interval wide, the study uses a high-quality national dataset and reaches a p-value < 0.01."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.84,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

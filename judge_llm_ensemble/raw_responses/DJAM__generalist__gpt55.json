@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderately large sample and a strong adjusted association (β=.19, t=4.39), which is more reliable than marginal findings.",
+      "But it is cross-sectional, self-reported, low-response survey data from four worksites, and organization-specific analyses suggest heterogeneity."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.55,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

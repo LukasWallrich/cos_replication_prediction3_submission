@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The total sample size (N=76) is severely underpowered for detecting individual difference moderation effects, meaning the large reported effect size is likely inflated.",
+      "Counter-intuitive interaction effects derived from small-N social psychology studies from this era have a notoriously poor replication record."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 15.89,
+  "_task": {
+    "claim_id": "jLr_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

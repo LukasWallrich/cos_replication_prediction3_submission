@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim aligns with a strong physiological prior that severe (Class 3) obesity is associated with lower physical activity than lower-class obesity.",
+      "The reported p-value of 0.002 in a moderate sample size of 289 provides solid statistical backing for this highly plausible main effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.22,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

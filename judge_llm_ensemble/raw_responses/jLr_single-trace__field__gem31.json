@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a very small sample size (N=76) to test a complex moderation effect, suggesting low power and high risk of sample-specific noise.",
+      "The counter-intuitive finding that positive communications predict increased prejudice for a specific personality subgroup is exactly the kind of fragile result that rarely replicates."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.3,
+  "_task": {
+    "claim_id": "jLr_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

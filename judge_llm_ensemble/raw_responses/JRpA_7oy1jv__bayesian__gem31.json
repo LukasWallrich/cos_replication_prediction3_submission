@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim tests a complex quadratic (inverted U-shaped) relationship using a relatively small observational sample (n=375) with likely noisy measurement.",
+      "Quadratic models in small observational datasets are notoriously sensitive to outliers, and the linear term is only marginally significant (p < 0.1)."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 16.47,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is an interaction from only 34 participants, with a just-significant p value, so the direct evidence is fairly fragile.",
+      "The abstract reports related converging findings across experiments, making the directional pattern more plausible than a lone marginal result."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.45,
+  "_task": {
+    "claim_id": "GXEW_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "This is a randomized experimental contrast with a moderate reported effect and p=.016, not merely a borderline significance result.",
+      "The sample is still modest and the outcome is subjective enjoyment in an older consumer-psychology study, so the effect likely shrinks."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.52,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

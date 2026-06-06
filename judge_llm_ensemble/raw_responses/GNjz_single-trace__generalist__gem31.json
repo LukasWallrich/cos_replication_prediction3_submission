@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a simple visual perception choice task using explicitly transformed stimuli, a design that typically produces reliable results.",
+      "The sample size of 102 is adequately powered to detect the modest but highly significant (p < .001) effect of 58.3% versus chance."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.82,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

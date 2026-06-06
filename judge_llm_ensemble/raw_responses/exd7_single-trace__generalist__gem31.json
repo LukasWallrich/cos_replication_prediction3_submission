@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a very small sample size (N=41), which typically yields noisy estimates and increases the risk of false positives.",
+      "While the p-value is small, the counterintuitive nature of the finding (judging music better by sight than sound) warrants skepticism."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.95,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

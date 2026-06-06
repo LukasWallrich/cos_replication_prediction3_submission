@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is highly counterintuitive and stems from the late 2000s era of consumer psychology, a domain known for low replication rates of surprising findings.",
+      "A small sample size (N=102, or ~51 per condition) combined with a modest p-value (p=0.016) strongly suggests the effect might be a false positive or heavily inflated."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.28,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

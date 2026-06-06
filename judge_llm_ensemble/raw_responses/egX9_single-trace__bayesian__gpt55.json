@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from a 40–60% prior, the reported direct–indirect coefficient difference is large and highly significant, with direct care CI far from zero.",
+      "The multilevel observational design and moderate nurse sample limit certainty, but repeated daily data and a simple association support replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.52,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

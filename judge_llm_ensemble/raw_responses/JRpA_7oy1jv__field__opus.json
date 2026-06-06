@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Inverted U-shape claims with a marginally significant linear term (p<0.1) and one context (2009 Afghanistan election, n=375) are typically fragile.",
+      "Forensic last-digit fraud measures are noisy, and curvilinear specifications often fail direct replication even when squared terms reach p<0.01."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 27.7,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "field",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round2"
+  }
+}

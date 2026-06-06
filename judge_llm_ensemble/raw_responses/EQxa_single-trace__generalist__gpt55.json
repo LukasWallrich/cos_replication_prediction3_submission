@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a clean 2x2 interaction with a fairly large sample and a strong p-value/effect size for this literature.",
+      "Mood-induction and moral-framing effects in social psychology can be fragile, and the abstract gives limited detail on procedures or preregistration."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.58,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

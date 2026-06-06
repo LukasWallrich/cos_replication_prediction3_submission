@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study is observational with a very small cross-country sample, so specification choices and confounding can easily drive the association.",
+      "The reported evidence is borderline (estimate 0.18, SE 0.09, p≈0.05), offering weak support beyond the base rate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.47,
+  "_task": {
+    "claim_id": "E5qr_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

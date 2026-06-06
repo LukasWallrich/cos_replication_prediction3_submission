@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A specific inverted-U observational claim is highly model-dependent, especially with squared terms and a modest single-election sample.",
+      "The negative quadratic is statistically strong, but the forensic last-digit fraud measure and Afghanistan context are fragile and sample-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.7,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

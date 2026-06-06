@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national longitudinal sample and a non-borderline p-value make a pure sampling-fluke explanation relatively unlikely.",
+      "The effect is modest and observational, with fertility expectations self-reported and likely confounded by socioeconomic and educational aspirations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.91,
+  "_task": {
+    "claim_id": "D2LY_mn5k2x",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

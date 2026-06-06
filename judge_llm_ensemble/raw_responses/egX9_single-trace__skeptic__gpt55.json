@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The coefficient contrast is large with a very small p-value, not a borderline single-study result.",
+      "Still, it is a self-report multilevel observational finding and a headline theoretical contrast, so shrinkage/common-method bias remain plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 26.62,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim represents a highly counter-intuitive finding from the late 2000s consumer behavior literature, a genre with notoriously low replication rates.",
+      "The sample size is relatively small (n=102, ~51 per cell) and the p-value (0.016) provides only modest evidence, suggesting potential fragility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.62,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

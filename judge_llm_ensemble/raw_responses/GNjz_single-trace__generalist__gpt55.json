@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a straightforward forced-choice comparison with n=102, a moderate effect size, and p<.001, making pure noise less likely.",
+      "The effect is modest and stimulus-dependent, and the supplied information does not show independent replication of this exact single-trace result."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.13,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

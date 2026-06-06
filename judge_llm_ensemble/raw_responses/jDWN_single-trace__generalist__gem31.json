@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is derived from a large-scale meta-analysis, which aggregates data across many independent samples and provides robust statistical power.",
+      "The relationship between intrinsic motivation and creativity is theoretically well-established, and the extremely small p-value strongly suggests a reliable positive association."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.04,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

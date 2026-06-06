@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study uses a large, nationally representative sample with covariate controls, which supports reliability for a modest association.",
+      "The reported effect is small and only borderline significant, and cross-sectional observational designs leave confounding and multiple-testing concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.44,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

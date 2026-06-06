@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Moderate sample and p<.01 provide some evidence, but it is a single cross-sectional self-report association.",
+      "Quadratic turning-point claims are analysis-sensitive and can be driven by outliers, covariates, or scaling choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.47,
+  "_task": {
+    "claim_id": "GFIR",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

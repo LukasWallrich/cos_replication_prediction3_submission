@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Quadratic effects in cross-sectional psychological surveys with modest sample sizes are historically very fragile and often driven by outliers.",
+      "The finding relies on a specific covariate model in a convenience sample, significantly increasing the risk of overfitting and non-robustness."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 48.77,
+  "_task": {
+    "claim_id": "GFIR",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

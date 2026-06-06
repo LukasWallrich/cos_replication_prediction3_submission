@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive, highly representative sample (N=160,274) from the U.S. Census, minimizing sampling error and increasing robustness.",
+      "The finding aligns with well-established demographic theories of migrant selectivity, where those who migrate typically possess unobserved advantages that benefit their children's education."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.93,
+  "_task": {
+    "claim_id": "dxQp_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

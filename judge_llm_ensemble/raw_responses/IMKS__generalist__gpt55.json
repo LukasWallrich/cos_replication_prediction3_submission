@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a reasonably large sample and reports a clear, statistically strong within-material comparison for a simple subjective rating.",
+      "The effect for this specific label is modest, and the abstract gives limited detail about sampling, multiplicity, or procedural safeguards."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.36,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

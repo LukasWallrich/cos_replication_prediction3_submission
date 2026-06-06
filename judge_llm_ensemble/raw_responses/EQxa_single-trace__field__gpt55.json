@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported interaction is fairly large and precisely estimated in a 400-person experiment, making pure sampling noise less plausible.",
+      "Mood-induction by framing interactions in moral psychology are theoretically specific and historically fragile, so substantial shrinkage or boundary dependence remains likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.55,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

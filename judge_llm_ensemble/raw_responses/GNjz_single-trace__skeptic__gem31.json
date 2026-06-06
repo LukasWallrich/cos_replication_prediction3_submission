@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a within-subjects perceptual forced-choice paradigm with a highly significant p-value (< .001), a design that typically yields highly replicable main effects.",
+      "The sample size of 102 provides excellent statistical power to detect a moderate effect (d = 0.40) against chance, and the perceptual bias linking fWHR to aggression is widely established."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.95,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

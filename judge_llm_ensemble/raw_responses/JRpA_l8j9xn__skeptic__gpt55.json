@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The squared violence term is strong (p≈0.00015) in a moderately sized sample and reportedly robust across fraud measures.",
+      "But this is an observational single-election polynomial relationship, vulnerable to spatial confounding, model specification, and headline-finding optimism."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.52,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

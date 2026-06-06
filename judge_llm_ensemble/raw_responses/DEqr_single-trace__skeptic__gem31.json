@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The experimental design is well-powered with a sample size of 764, yielding highly precise estimates and a p-value far below the conventional threshold.",
+      "The finding aligns with well-established cognitive psychology literature on the continued influence effect, which demonstrates that causal replacements outperform simple denials."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.47,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

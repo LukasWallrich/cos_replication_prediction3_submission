@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size of 5,868 males from a prospective cohort, providing excellent statistical power.",
+      "The reported effect is associated with a very small p-value (p < .0001) and a clear, tight confidence interval, strongly suggesting a reliable finding."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.61,
+  "_task": {
+    "claim_id": "gRWz_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

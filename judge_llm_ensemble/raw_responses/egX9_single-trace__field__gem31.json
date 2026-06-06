@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Multilevel daily diary studies with over 300 participants typically have excellent statistical power for detecting Level 1 main effects.",
+      "The large discrepancy between the two coefficients and their widely separated confidence intervals strongly suggests a robust difference that will replicate reliably."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.17,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

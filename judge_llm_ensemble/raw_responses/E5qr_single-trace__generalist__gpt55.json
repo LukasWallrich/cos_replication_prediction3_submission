@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The estimate is based on a small observational sample and is essentially at the significance threshold, making it statistically fragile.",
+      "The directional association is plausible, but macro-level growth results can be sensitive to controls, measurement, and country selection."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.3,
+  "_task": {
+    "claim_id": "E5qr_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

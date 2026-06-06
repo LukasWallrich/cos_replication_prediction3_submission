@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a direct demographic association regarding body image in a very large, well-known cohort (N > 5,800), which typically replicates well.",
+      "The finding aligns strongly with established structural regularities indicating distinct body image pressures among sexual minority males."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.47,
+  "_task": {
+    "claim_id": "gRWz_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

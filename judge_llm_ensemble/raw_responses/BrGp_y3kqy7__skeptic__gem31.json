@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a mathematical test of excess significance on a fixed set of published papers, which is an objective analytic calculation.",
+      "The presence of severe publication bias and excess significance in the early money-priming literature is extremely well-documented and widely accepted."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.31,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

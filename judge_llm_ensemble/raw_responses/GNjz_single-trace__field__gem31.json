@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding concerns a basic perceptual bias (judging wider faces as more aggressive), which is a robust and widely replicated phenomenon in the face perception literature.",
+      "The sample size (N=102) is well-powered for detecting a moderate perceptual effect (d=0.40), and the effect magnitude is highly plausible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 7.28,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

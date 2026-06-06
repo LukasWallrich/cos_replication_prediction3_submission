@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large N=7,838 and p≈7e-6 provide strong evidence for a small negative association with 4-year college attendance.",
+      "The causal/design strength is observational, and the gender-similarity conclusion rests on a non-significant interaction rather than equivalence evidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.95,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

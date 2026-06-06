@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim tests for publication bias by comparing the proportion of significant findings to expected power in a literature historically known for massive reporting biases.",
+      "Because it relies on straightforward meta-analytic calculations of existing published statistics rather than a novel behavioral experiment, the finding is highly reproducible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.48,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

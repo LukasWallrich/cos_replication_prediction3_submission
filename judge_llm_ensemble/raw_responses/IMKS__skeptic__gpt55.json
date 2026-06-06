@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple within-study label comparison with a decent sample and p well below .05, not a fragile mediation or interaction.",
+      "The outcome is subjective perceived learning and the effect is small, so demand/novelty effects and shrinkage remain plausible."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.82,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value is very small (p < .001) for a large effect size, indicating a strong signal despite the small sample size.",
+      "The claim describes a highly plausible main effect (sensitivity of estimates to the number of observations), which typically replicates well."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.83,
+  "_task": {
+    "claim_id": "J7ek_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

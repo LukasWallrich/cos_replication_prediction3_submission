@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The claim is a plausible correlational mediation among closely related relationship perception and satisfaction measures, with a confidence interval clearly above zero.",
+      "Evidence is limited by a moderate sample and nonexperimental mediation, though the abstract reports similar broader patterns across two couple studies."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.21,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

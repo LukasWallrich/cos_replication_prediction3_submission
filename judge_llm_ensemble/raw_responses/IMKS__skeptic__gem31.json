@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a solid sample size (N=412) to detect a main effect of d=0.29, resulting in a highly significant p-value (<0.001).",
+      "The claim involves a straightforward comparison of subjective ratings, which aligns with well-established literature on graphic versus text warnings."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 164.4,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

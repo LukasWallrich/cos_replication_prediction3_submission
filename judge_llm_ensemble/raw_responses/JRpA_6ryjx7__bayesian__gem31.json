@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is quite small (n=375) for reliably estimating a curvilinear effect in noisy observational data from a conflict zone.",
+      "Curvilinear effects in observational studies historically replicate at lower rates because they are highly sensitive to outliers and model specification choices."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.85,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

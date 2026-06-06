@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence is a small-sample interaction, n=34, with a borderline p-value around .044, making false positives and overestimation plausible.",
+      "The effect is theoretically motivated and directionally consistent with related experiments, but that only modestly offsets the fragile primary statistic."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.94,
+  "_task": {
+    "claim_id": "GXEW_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

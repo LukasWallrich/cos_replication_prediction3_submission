@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding relies on a p-value just below .05 for a complex multilevel slope, a classic warning sign of low replicability.",
+      "The use of subjective self-report measures for both cultural orientation and recall vividness introduces high risks of common-method bias and analytical flexibility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.18,
+  "_task": {
+    "claim_id": "gbAY_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

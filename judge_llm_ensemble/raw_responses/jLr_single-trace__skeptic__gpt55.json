@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The p-value is fairly strong and not a marginal .05 result, with a medium-large reported regression effect.",
+      "But it is a small single-study social-psychology moderation/subgroup claim, likely using convenience-sample self-report measures and vulnerable to shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.54,
+  "_task": {
+    "claim_id": "jLr_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

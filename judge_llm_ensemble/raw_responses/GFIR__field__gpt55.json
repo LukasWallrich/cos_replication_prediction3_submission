@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Quadratic cross-sectional effects with covariates are sensitive to scaling, outliers, ceiling effects, and the chosen adjustment set.",
+      "The convenience college sample is moderate-sized, and climate anxiety–intention links are plausible but nonlinear reversal claims often shrink or vanish."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.09,
+  "_task": {
+    "claim_id": "GFIR",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

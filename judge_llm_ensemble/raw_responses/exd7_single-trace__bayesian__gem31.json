@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value is strongly significant (p < .001) with a moderate-to-large effect size, providing robust statistical evidence despite the small sample size (n=41).",
+      "The broader paper includes six studies with over 1,000 participants total, suggesting this specific finding is part of a consistent, internally replicated pattern."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 49.33,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

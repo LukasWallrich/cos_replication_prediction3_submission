@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on high-quality, nationally representative demographic data (NSFG) and aligns with well-documented macro-sociological trends regarding educational polarization in marriage.",
+      "Although interaction effects can be fragile, the p-value is comfortably below .01 and the focus on education over time is the core theoretical motivation of the paper, reducing the likelihood of p-hacking."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.96,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

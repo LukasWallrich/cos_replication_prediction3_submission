@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a reanalysis of published study results, so the high significant-result proportion is relatively verifiable.",
+      "The inference rests on small-study meta-analytic assumptions and a one-tailed p=.017, making it sensitive to inclusion and coding choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.85,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a massive sample size (N > 160,000) from U.S. Census data, ensuring extremely high statistical power for demographic associations.",
+      "The highly significant p-value (p < .001) for this descriptive association indicates the finding is highly robust and would reliably replicate in similar population-level data."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.9,
+  "_task": {
+    "claim_id": "dxQp_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

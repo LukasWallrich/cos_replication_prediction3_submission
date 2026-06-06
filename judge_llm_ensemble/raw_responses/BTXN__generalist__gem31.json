@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim aligns with strong prior knowledge that people are less willing to share or interact with sensitive health information on public social networks like Facebook.",
+      "The sample size (N=325) and the reported t-statistic (t=8.087) indicate a highly robust, medium-sized effect that is extremely unlikely to be a statistical artifact."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 20.76,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

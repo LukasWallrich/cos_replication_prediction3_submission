@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported quadratic term is statistically strong in a moderate sample, and the abstract reports robustness across fraud and violence measures.",
+      "This is an observational, model-dependent curvilinear claim from one election context, making specification sensitivity and confounding substantial concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.19,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

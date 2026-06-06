@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on the NSFG, a high-quality, nationally representative dataset that typically yields robust demographic estimates.",
+      "The reported interaction is the central finding, supported by a substantial effect size and a conventionally solid p-value (p < .01)."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.08,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on an interaction term (education by period), which typically requires very large sample sizes to estimate reliably and often suffers from poor replicability.",
+      "Although the p-value is < 0.01 and the data source (NSFG) is high-quality, the relatively modest sample size (n=1142) for an interaction effect suggests the estimate may be fragile."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 19.43,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

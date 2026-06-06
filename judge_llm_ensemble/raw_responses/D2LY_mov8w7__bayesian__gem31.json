@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is exceptionally large (N = 7,838) drawn from a nationally representative longitudinal dataset, which provides highly precise estimates and makes it unlikely that a non-significant interaction obscures a large true effect.",
+      "The robustly significant main effect combined with a null interaction in such a large sample strongly suggests the gender difference is genuinely small or zero, making a replication very likely to yield similar results."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 26.5,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The violence–fraud link is plausible in conflict elections, and the reported terms are strong with a robustness check using prior violence.",
+      "However, a specific inverted-U from observational logit and forensic last-digit fraud is model-, measurement-, and context-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.93,
+  "_task": {
+    "claim_id": "JRpA_zxz13n",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

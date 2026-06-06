@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The superior subjective impact of graphic over text-only cigarette warnings is a highly consistent, robust finding in tobacco control research.",
+      "The reported effect size (d=0.29) is realistic for a subjective rating task, and the p-value (<0.001) in a decent sample (n=412) suggests strong evidence."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 55.33,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

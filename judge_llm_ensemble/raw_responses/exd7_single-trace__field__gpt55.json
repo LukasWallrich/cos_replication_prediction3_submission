@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The above-chance video judgment is a simple behavioral accuracy effect with plausible visual-performance cues and a strong reported t statistic.",
+      "The sample is small, and the result may depend on idiosyncratic competition clips rather than a broad visual heuristic."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.29,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

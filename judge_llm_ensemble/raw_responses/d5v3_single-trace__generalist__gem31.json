@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported effect is small (beta = 0.12) with a marginal p-value (p < .05), typical of findings that struggle to replicate.",
+      "Study 1 in the same paper found no cross-sectional association in a larger sample, raising doubts about the robustness of the longitudinal effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.79,
+  "_task": {
+    "claim_id": "d5v3_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

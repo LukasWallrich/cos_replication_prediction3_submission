@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of 0.002 provides strong statistical evidence against the null, remaining significant even under stricter thresholds.",
+      "The claim describes a highly plausible and well-established descriptive pattern linking severe obesity to lower levels of self-reported physical activity."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.2,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

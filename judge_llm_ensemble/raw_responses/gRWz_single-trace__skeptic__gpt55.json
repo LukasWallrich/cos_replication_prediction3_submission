@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate comes from a large cohort with a narrow confidence interval and p-value far from the significance threshold.",
+      "The outcome is self-reported and observational, but the claim is a descriptive group difference that is plausible and commonly observed."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.97,
+  "_task": {
+    "claim_id": "gRWz_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

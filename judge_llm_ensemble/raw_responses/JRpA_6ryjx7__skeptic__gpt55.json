@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The coefficients are not borderline and use relatively objective election-violence data with a moderate sample size.",
+      "But this is a headline observational quadratic result, vulnerable to specification choices, spatial confounding, and leverage from Afghanistan-specific cases."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.86,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The quadratic term is fairly strong in a moderately sized local-election dataset and reportedly persists across fraud measures.",
+      "But the inverted-U is an observational, model-dependent functional-form claim vulnerable to confounding, outliers, and Afghanistan-specific context."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.15,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

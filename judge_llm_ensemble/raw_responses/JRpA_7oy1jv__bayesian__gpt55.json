@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The specific inverted-U claim is model-dependent observational evidence, with the linear term only marginally significant in a moderate sample.",
+      "The negative squared term is statistically stronger, and reported robustness helps, but not enough to overcome specification fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.04,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

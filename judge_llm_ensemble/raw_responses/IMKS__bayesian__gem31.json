@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A sample size of 412 and a p-value of <0.001 provide strong statistical evidence for a reliable, modest effect (d = 0.29).",
+      "The finding that participants self-report learning more from perceptually rich graphic warnings compared to text alone is a theoretically straightforward, highly plausible main effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.53,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

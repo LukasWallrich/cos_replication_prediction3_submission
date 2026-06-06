@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Randomized comparison with n=102 found a moderate effect and statistically significant difference, not just a marginal result.",
+      "The broader six-study pattern supports the mechanism, though 2009 consumer-psych effects and a single modest sample warrant caution."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.19,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

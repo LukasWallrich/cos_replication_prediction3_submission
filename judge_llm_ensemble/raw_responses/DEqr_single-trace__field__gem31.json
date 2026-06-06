@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim tests a well-established mechanism in the misinformation literature (the continued influence effect), where causal replacements reliably outperform simple retractions.",
+      "The study features a solid sample size (N=764) for an experimental vignette design and reports a highly significant p-value, increasing confidence in the reliability of the effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.71,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

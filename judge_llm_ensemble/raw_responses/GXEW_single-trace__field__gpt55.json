@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a small n=34 between-group interaction with p=.044, a pattern that often overestimates or vanishes.",
+      "Space-time congruency is theoretically plausible and supported by related experiments, but this specific familiarity-rating interaction is narrow."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.77,
+  "_task": {
+    "claim_id": "GXEW_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The coefficients are statistically strong for a modest n=375, with both linear and quadratic terms far from zero.",
+      "But it is an observational, single-election, nonlinear claim using a debatable forensic fraud measure, limiting replicability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.29,
+  "_task": {
+    "claim_id": "JRpA_zxz13n",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

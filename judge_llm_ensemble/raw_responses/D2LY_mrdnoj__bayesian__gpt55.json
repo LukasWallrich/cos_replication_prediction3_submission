@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate-large sample and a non-borderline interaction estimate, but the effective pregnancy-event subgroup is likely much smaller.",
+      "This is an observational moderation claim with multivariate adjustment, a class that replicates less reliably than main descriptive associations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.09,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

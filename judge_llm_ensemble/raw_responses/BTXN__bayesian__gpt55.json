@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a large within-subject difference with n=325 and t=8.087, far from a borderline result.",
+      "The claim is a plausible descriptive preference about sensitive topics, though self-reported intentions and convenience sampling limit certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.26,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

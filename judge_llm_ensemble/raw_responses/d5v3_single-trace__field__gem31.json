@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The effect size is small (beta = 0.12) with a borderline p-value (p < .05), which is a common signature of fragile findings.",
+      "Predicting longitudinal changes in depressive symptoms from a personality trait in a convenience student sample is often highly sample-dependent and less likely to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.82,
+  "_task": {
+    "claim_id": "d5v3_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a simple perceptual discrimination effect, which typically replicate at higher rates than complex behavioral or interaction effects.",
+      "The finding is supported by a robust p-value (p < .001) and aligns with a very well-established literature showing that people reliably perceive higher fWHR as more aggressive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.83,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

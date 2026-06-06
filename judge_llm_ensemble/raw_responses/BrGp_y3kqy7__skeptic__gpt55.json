@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The large excess of significant findings is plausible in a small, publication-biased priming literature with known replication problems.",
+      "Still, the p-value is one-tailed and the test depends on fixed-effect power estimates and study-selection assumptions."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 13.63,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

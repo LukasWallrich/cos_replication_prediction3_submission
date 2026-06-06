@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a large sample size (n=3062) from the high-quality NLSY97 dataset, ensuring precise estimation and reducing sampling error.",
+      "The highly significant p-value (p < 0.001) supports a highly plausible correlational association that is very likely to replicate in similar observational contexts."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.86,
+  "_task": {
+    "claim_id": "D2LY_mn5k2x",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

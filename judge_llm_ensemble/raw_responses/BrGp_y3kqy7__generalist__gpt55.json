@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a straightforward excess-significance comparison, with a fairly large gap between observed significant results (.86) and estimated power (.55).",
+      "However, the evidence relies on meta-analytic estimates from selected published studies and a modest one-tailed p-value, so robustness is not certain."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.92,
+  "_task": {
+    "claim_id": "BrGp_y3kqy7",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

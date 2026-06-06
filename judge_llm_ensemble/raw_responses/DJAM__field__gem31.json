@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is a typical cross-sectional association between two self-reported survey measures, which is likely bolstered by common method variance and general employee engagement.",
+      "Despite very low response rates, the sample size of 618 and the highly significant p-value (p < .001) provide a solid statistical cushion for the effect to replicate in similar conditions."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 12.44,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

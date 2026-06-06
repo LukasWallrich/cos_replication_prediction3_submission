@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Despite small n=136, the association is large and not merely borderline (AOR .18, p=.009).",
+      "The social-environment predictor is plausible, but observational adjusted models and likely multiple predictors make overestimation or instability a concern."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.79,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

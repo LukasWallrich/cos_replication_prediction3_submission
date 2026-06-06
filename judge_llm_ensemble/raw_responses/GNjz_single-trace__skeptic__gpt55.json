@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple within-subject perceptual forced-choice effect with n=102, d≈0.40, and p far below .05.",
+      "The effect is theoretically plausible and consistent with prior fWHR/masculinity perception work, though the 58.3% preference is modest and stimulus-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.44,
+  "_task": {
+    "claim_id": "GNjz_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

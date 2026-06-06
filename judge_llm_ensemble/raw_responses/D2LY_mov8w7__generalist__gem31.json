@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large, nationally representative sample (N = 7,838) from a high-quality longitudinal survey (NLSY97).",
+      "The reported main effect of fertility expectations on college attendance is highly significant (p < .001), indicating a robust observational association."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 40.5,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

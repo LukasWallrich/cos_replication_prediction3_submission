@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim combines two notoriously fragile social psychology constructs: stereotype threat and cognitive depletion, both of which have poor replication records.",
+      "The sample size is very small (N=63), making the large reported effect size likely an artifact of sampling variation and publication bias rather than a true effect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 12.89,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

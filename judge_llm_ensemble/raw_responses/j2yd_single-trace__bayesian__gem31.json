@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is supported by a relatively strong p-value (p = 0.0026), which provides a good signal against the null hypothesis compared to borderline p-values.",
+      "Although the sample size of 85 is moderate, within-subjects memory experiments with moderate effect sizes typically replicate better than between-subjects social priming studies."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 53.01,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

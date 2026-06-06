@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Starting from 40–60%, n=618 and t=4.39 for a modest beta provide a real signal beyond borderline significance.",
+      "Cross-sectional self-report design and very low response rates limit causal interpretation and increase selection/common-method concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.61,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

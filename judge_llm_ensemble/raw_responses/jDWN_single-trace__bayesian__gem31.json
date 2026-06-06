@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is derived from a highly powered meta-analysis synthesizing many independent samples, ensuring tight standard errors and a robustly small p-value.",
+      "The positive correlation between intrinsic motivation and creativity is a well-established theoretical relationship with high prior plausibility in organizational psychology."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.1,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

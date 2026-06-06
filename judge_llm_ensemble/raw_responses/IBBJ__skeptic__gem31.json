@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Despite a massive sample size of over 10,000, the p-value sits exactly at the .05 threshold, strongly suggesting a fragile, model-dependent effect.",
+      "The cross-sectional design and use of subjective self-reports for both variables make the small effect highly vulnerable to unmeasured confounding and common-method bias."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.23,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Quadratic effects (inverted U-shapes) in small-N observational studies (n=375) are notoriously fragile and often driven by a few influential outliers.",
+      "The linear term is only marginally significant (p<0.1), and using noisy forensic measures of fraud in a conflict setting further destabilizes complex functional forms."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.58,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a mood by framing interaction on a complex moral judgment, a type of social-cognitive effect that historically replicates poorly.",
+      "Although the sample size (N=400) and p-value are relatively strong for the era, the highly specific mechanism and fragility of mood inductions suggest a low likelihood of successful replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 22.68,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

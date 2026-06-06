@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The abstract reports that the effect (enhanced source memory for cheater faces) was consistently found across four distinct experiments.",
+      "A moderate effect size with a low p-value (p < 0.01) in a cognitive task with a reasonable sample size (N=85) suggests a robust finding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.42,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

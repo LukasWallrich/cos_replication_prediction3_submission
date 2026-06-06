@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Two-way interactions in consumer behavior experiments with N<200 are notoriously underpowered and historically have poor replication rates.",
+      "Although the p-value (.004) is reasonably small, the counterintuitive claim regarding self-reported intended loyalty suggests potential fragility."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.31,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

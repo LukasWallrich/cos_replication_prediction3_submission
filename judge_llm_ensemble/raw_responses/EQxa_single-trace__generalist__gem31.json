@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 400 is unusually large for a 2012 social psychology experiment, providing adequate power for testing a 2x2 interaction.",
+      "Although the highly significant p-value (p < .001) is strong statistical evidence, the mood-priming paradigm itself has historically low replication rates."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.81,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

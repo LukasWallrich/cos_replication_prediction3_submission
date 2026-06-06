@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 375 is relatively small for reliably detecting complex non-linear relationships like an inverted U-shape using quadratic terms in observational data.",
+      "The linear term is only marginally significant (p < 0.1), and quadratic models in observational data are often sensitive to outliers or functional form assumptions."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 23.0,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very large (n = 10,292), making a marginal p-value of 0.05 indicative of an extremely weak and potentially fragile partial correlation.",
+      "Findings relying on heavy covariate adjustment to achieve marginal significance often fail to replicate when the specific confounder set or population changes."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low"
+  },
+  "_elapsed_s": 39.73,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

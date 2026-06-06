@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study reports a randomized experimental comparison with a decent sample and a strong statistical contrast between correction types.",
+      "It is still a single study of a context-dependent psychological/political effect, so magnitude and exact coefficients may be less stable."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.5,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

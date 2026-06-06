@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific mediation pathway in dyadic data with a moderate sample size (n=197), which often suffers from low power.",
+      "Mediation analyses from 2013 are known to be fragile and sensitive to analytical flexibility, making this specific indirect effect less likely to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 9.19,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

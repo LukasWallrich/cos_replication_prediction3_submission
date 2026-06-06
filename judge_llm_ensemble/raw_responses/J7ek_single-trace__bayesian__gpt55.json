@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Despite a very small sample, the reported effect is large with a fairly strong p-value in a simple experimental ANOVA.",
+      "The claim is broad and plausible—estimates vary with observations—rather than a fragile mediation or complex interaction."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.13,
+  "_task": {
+    "claim_id": "J7ek_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

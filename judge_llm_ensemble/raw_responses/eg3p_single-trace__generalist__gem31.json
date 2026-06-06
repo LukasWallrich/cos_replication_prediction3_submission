@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a complex three-way interaction from a 2011 consumer behavior study with a very small sample size (N=138).",
+      "Three-way interactions in social psychology with small sample sizes are notoriously underpowered and have historically low replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.45,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

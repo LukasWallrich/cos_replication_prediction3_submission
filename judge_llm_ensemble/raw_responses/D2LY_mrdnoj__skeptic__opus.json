@@ -1,0 +1,41 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Interaction effects (gender × pregnancy) are notoriously fragile and less replicable, and p ≈ .012 with n=2605 gives only moderate evidential strength for a cross-product term.",
+      "Offsetting factors: high-quality NLSY97 longitudinal data, plausible mechanism (pregnancy burden falls disproportionately on women), and the direction matches well-established sociological patterns."
+    ]
+  },
+  "_envelope_keys": [
+    "type",
+    "subtype",
+    "is_error",
+    "api_error_status",
+    "duration_ms",
+    "duration_api_ms",
+    "ttft_ms",
+    "num_turns",
+    "result",
+    "stop_reason",
+    "session_id",
+    "total_cost_usd",
+    "usage",
+    "modelUsage",
+    "permission_denials",
+    "structured_output",
+    "terminal_reason",
+    "fast_mode_state",
+    "uuid"
+  ],
+  "_elapsed_s": 13.89,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "skeptic",
+    "vendor": "anthropic",
+    "model_id": "opus",
+    "model_key": "opus",
+    "dataset": "round1"
+  }
+}

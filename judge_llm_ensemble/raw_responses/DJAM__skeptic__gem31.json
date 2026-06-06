@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (N=618) is reasonably large and the reported p-value (p < .001) provides a strong buffer against pure sampling error.",
+      "Although the cross-sectional, self-report design suffers from common-method bias and very low response rates, these structural artifacts typically replicate highly in direct replication."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.59,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

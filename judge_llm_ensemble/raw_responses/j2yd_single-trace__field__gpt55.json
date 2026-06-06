@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A moderate face-memory/source-memory contrast with p=.003 in n=85 is plausible but still a small lab cognitive effect.",
+      "The abstract reports the same qualitative cheater-memory pattern across four experiments, which meaningfully raises replication odds."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.47,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

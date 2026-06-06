@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is robustly small (p < .001) with a large effect size (d = 0.67), providing strong statistical evidence against the null.",
+      "The finding is part of a multi-study paper demonstrating a consistent pattern of visual dominance in performance evaluation, increasing confidence in the basic effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 20.24,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

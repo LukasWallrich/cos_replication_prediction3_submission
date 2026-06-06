@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Same-day task satisfaction and negative affect are proximal self-report constructs, so a negative association should replicate in nurses.",
+      "The direct-versus-indirect care contrast is theoretically plausible and large, but model-specific covariates and convenience sampling make exact magnitude less secure."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 22.66,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

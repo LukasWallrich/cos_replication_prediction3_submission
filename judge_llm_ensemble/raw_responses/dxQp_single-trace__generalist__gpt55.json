@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a straightforward observational association from a very large census sample, with a modest but highly significant odds-ratio difference.",
+      "It could be sensitive to covariate specification or migration/dropout definitions, but the abstract describes a consistent pattern across related comparisons."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.45,
+  "_task": {
+    "claim_id": "dxQp_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on an evolutionary psychology framework predicting enhanced memory for cheaters, a literature with famously mixed and context-dependent replication results.",
+      "Although the authors report consistent internal replications across four experiments, specific source memory enhancements for social threat often diminish in independent, well-powered replications."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 49.01,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

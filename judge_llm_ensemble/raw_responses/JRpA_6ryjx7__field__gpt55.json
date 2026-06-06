@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The effect is statistically strong in a moderate-sized administrative dataset and reportedly robust across fraud measures.",
+      "But a quadratic observational relationship in a conflict setting is highly model- and context-dependent, especially with likely spatial confounding."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.16,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

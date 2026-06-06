@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The finding is based on a very large, nationally representative longitudinal dataset (NLSY97, N=7838), which provides high statistical power and stability.",
+      "The relationship between early fertility expectations and lower college attendance is a robust demographic regularity, making both the main effect and lack of gender interaction highly plausible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.37,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific nonlinear functional form (inverted U-shape) derived from noisy observational data with a relatively small sample size (n=375).",
+      "Such complex relationships in conflict settings are typically fragile and highly sensitive to model specification, control variables, and outliers."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 44.08,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

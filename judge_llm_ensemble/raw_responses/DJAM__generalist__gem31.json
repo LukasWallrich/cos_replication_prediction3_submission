@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a reasonably large sample (N = 618) to test a simple cross-sectional correlation, yielding a highly significant p-value.",
+      "Although the low response rate and self-report measures introduce bias, these same factors generally produce consistent, replicable correlations in direct replications."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 34.82,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

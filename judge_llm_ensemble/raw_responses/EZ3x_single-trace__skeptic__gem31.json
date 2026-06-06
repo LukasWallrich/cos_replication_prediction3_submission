@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The relationship between self-regulation and academic achievement is one of the most robust and well-replicated correlations in educational psychology.",
+      "The original sample size is adequate (N=507) and the p-value is extremely small, providing a massive buffer against effect size shrinkage in a replication."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 11.85,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

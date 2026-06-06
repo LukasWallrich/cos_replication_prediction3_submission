@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The inverse association between severe obesity and moderate physical activity is plausible and supported by a p=.002 result in a moderate sample.",
+      "The cross-sectional design, self-reported activity, age-only adjustment, and likely multiple table comparisons leave meaningful risk of bias or shrinkage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.7,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

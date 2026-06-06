@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The design seems like a fairly clean frame comparison, and the abstract reports converging behavioral and norm differences.",
+      "But n=68 is small, and this specific coefficient rests on a modest p=.023 result likely to be noisy."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.61,
+  "_task": {
+    "claim_id": "J4W9_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

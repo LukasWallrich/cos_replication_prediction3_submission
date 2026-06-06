@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported quadratic term is fairly precise and statistically strong in a moderate sample, with both linear and squared terms significant.",
+      "However, the claim rests on observational, context-specific modeling where curvilinear effects can be sensitive to controls, functional form, and leverage."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.47,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

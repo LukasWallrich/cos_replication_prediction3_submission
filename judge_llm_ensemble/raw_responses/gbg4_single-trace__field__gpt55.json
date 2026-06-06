@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The component links are plausible: warmth/trustworthiness discrepancies and perceived partner evaluations should relate to relationship satisfaction.",
+      "But the claim is a specific dyadic mediation from a modest convenience sample, a pattern that often weakens under replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.75,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

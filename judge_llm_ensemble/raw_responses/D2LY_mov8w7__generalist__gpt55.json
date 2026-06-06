@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The association is estimated in a large national longitudinal sample with a small standard error and very low p-value.",
+      "The effect is modest and observational, and the “similar for men and women” inference rests on a nonsignificant interaction."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.83,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

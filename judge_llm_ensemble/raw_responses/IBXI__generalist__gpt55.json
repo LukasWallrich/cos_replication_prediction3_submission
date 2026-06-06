@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim rests on a simple age-adjusted group difference with a moderate sample and fairly strong p-value (0.002).",
+      "Self-reported physical activity and a cross-sectional single-population design add noise and limit certainty about exact replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.84,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

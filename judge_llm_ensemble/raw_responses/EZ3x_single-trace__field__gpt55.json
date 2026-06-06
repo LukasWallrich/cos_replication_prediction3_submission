@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Self-regulation predicting GPA is a well-established, direct behavioural-academic association likely to reproduce in a similar student population.",
+      "The latent SEM path and implausibly huge beta suggest model-specific inflation, especially with correlated self-discipline included."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.24,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

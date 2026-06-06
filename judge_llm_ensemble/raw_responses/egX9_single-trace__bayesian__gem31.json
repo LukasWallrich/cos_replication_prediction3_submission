@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The extremely small reported p-value and large difference in standardized coefficients make a statistical false positive highly improbable.",
+      "The use of a within-person multilevel design with widely separated, non-overlapping confidence intervals provides strong evidence for a robust effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 13.01,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

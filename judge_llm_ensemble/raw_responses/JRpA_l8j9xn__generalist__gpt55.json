@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The squared violence term is statistically strong in a moderate-sized sample, and the abstract reports robustness across fraud and violence measures.",
+      "Still, this is an observational single-election study where curvilinear specifications and controls could be model-sensitive or confounded."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.31,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

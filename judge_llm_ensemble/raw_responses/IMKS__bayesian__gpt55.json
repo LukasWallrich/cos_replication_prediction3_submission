@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a moderate sample and reports a small but clearly significant within-stimulus rating difference, reducing chance of pure noise.",
+      "The effect is plausible and consistent with broader evidence that graphic warnings elicit stronger perceived responses than text-only warnings."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 19.37,
+  "_task": {
+    "claim_id": "IMKS",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

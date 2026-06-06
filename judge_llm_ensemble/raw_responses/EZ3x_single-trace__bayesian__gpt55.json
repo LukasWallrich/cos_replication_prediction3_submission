@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Base replication rates are middling, but n=507 and p≈6e-7 provide strong evidence beyond a borderline finding.",
+      "Self-regulation predicting GPA is plausible and correlational, though the SEM beta=.96 looks unusually large and potentially model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.91,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

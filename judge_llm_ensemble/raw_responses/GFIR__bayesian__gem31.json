@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Quadratic and non-linear effects in cross-sectional survey data with modest sample sizes (n=398) are notoriously susceptible to false positives and outliers.",
+      "While the p-value is < .01, specific interaction and polynomial terms in observational designs have systematically lower replication rates than main effects."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.91,
+  "_task": {
+    "claim_id": "GFIR",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

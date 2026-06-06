@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The longitudinal design with baseline change prediction and a similar finding in another sample make a real small effect plausible.",
+      "The reported beta is small and only just significant, with self-report student data vulnerable to noise and analytic flexibility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.42,
+  "_task": {
+    "claim_id": "d5v3_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

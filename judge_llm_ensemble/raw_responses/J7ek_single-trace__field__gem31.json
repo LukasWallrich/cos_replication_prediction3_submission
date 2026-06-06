@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a fundamental cognitive effect where estimates are sensitive to the number of observations, which aligns with robust findings in Bayesian cognitive modeling.",
+      "Although the sample size is small, the reported p-value is highly significant and the effect size is large, suggesting a strong signal that is likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 9.42,
+  "_task": {
+    "claim_id": "J7ek_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

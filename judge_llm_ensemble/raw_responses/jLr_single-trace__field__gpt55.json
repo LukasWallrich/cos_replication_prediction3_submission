@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a conditional subgroup regression in a small social-psychology sample, exactly the kind of moderation finding that often proves unstable.",
+      "The strong p-value and moderate effect size help, but the race-attitude mechanism is culturally sensitive and likely inflated by selection/modeling."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.44,
+  "_task": {
+    "claim_id": "jLr_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

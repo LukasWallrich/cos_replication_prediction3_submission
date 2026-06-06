@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The reported p=.004 and moderate effect provide more evidential weight than many small social-psychology findings.",
+      "Stereotype-threat effects on executive-control tasks are context-sensitive, theoretically loaded, and often shrink or fail in replications."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 14.63,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

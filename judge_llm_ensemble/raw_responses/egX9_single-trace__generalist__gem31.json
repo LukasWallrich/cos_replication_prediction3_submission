@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The 95% confidence intervals for the two predictors are widely separated, indicating a substantial and reliable difference in their effects.",
+      "The sample size of 342 in a daily multilevel design provides strong statistical power, and the reported p-value for the difference is extremely small."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 11.62,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

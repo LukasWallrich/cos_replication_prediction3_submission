@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim describes a highly intuitive behavior consistent with well-established privacy concerns about sharing sensitive information on social media.",
+      "The statistical evidence is extremely strong (t > 8.0) in a decently sized sample (N = 325), leaving very little room for a false positive."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.08,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

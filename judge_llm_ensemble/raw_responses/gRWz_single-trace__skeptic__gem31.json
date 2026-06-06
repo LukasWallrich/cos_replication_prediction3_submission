@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is extremely large (N=5867) and the associated p-value is very small, providing strong statistical evidence against the null.",
+      "The finding aligns with a well-established body of literature demonstrating elevated body image concerns and drive for muscularity among sexual minority men."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 35.94,
+  "_task": {
+    "claim_id": "gRWz_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

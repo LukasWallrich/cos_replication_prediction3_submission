@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is tiny and reported at exactly p=.05, a classic pattern for borderline findings that often disappear or shrink.",
+      "Nationally representative large sample helps, but cross-sectional self-report neighborhood trust and health are vulnerable to confounding and common-method bias."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.52,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

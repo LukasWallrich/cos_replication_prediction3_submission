@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study relies on a small sample (N=63) to detect a theory-driven effect involving stereotype threat and executive function.",
+      "The literature combining stereotype threat, regulatory focus, and cognitive depletion is notoriously fragile and has historically yielded poor replication rates."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.09,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

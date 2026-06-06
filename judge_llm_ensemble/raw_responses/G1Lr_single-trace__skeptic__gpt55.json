@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a randomized framing contrast with a sizable effect and p well below .05, not a marginal underpowered result.",
+      "WTP measures are noisy and skewed, and semantic framing effects in consumer tasks may shrink under stricter replication."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.99,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

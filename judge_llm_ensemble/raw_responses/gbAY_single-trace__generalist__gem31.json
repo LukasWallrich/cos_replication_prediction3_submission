@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a complex, abstract psychological construct with a p-value just under 0.05, typical of fragile findings from the 2010 era.",
+      "The reported sample size of 3 either reflects a severe parsing error or an extremely underpowered group-level analysis, heavily undermining statistical reliability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 10.89,
+  "_task": {
+    "claim_id": "gbAY_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

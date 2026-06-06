@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "This claim tests a direct demographic correlation using a large, nationally representative panel dataset (NLSY97), a design that typically yields robust and replicable results.",
+      "The sample size is large (N=3062), the p-value is robustly small (p < .001), and the negative association between early fertility expectations and college enrollment is theoretically and empirically plausible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.07,
+  "_task": {
+    "claim_id": "D2LY_mn5k2x",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim tests a direct semantic framing effect (lottery vs. gift card) on valuation, a type of main effect that typically demonstrates moderate to high replicability.",
+      "The reported p-value is highly significant (p < .001) in a reasonably straightforward two-condition design, which strongly predicts successful replication despite the moderate sample size."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.7,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value for the squared violence term is very small (~0.00015), indicating a strong statistical signal within this dataset.",
+      "Given that the N=375 likely represents a random sample of ballot boxes, another random sample from the same election would likely yield similar results."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 25.82,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large (N = 7,838), high-quality nationally representative dataset (NLSY97), making the estimates highly stable.",
+      "The reported p-value for the main effect is extremely small (p < 0.000001), strongly suggesting this correlational finding is robust and will replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.22,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

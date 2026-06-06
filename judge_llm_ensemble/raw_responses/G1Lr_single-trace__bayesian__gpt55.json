@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Simple experimental mean difference with randomized framing and a moderately large effect updates above the 40–60% base rate.",
+      "Sample size is modest around 50 per cell, but p=.0009 and consistent median difference reduce concern about pure noise."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 4.07,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

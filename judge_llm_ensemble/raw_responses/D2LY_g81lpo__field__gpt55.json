@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a plausible direct behavioural association in a large national longitudinal sample with a very small p-value.",
+      "The effect is small and adjusted expectation-based associations, plus the gender-interaction null, are sensitive to model and sample composition."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.81,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

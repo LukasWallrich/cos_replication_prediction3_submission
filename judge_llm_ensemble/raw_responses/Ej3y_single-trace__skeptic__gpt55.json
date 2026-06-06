@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The interaction is a fragile effect type, using self-reported intended loyalty in a likely convenience-sample marketing experiment.",
+      "Still, it was hypothesized, moderately powered for the reported effect, and the p-value is not merely just below .05."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 27.15,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

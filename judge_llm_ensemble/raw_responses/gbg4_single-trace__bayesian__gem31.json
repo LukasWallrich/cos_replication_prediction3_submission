@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Specific mediation claims generally replicate at lower rates than main effects because they require multiple statistical paths to hold simultaneously.",
+      "The modest sample size (N=197) and an indirect effect CI with a lower bound close to zero suggest this effect may not reliably replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 8.6,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

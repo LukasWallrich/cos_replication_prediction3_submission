@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The p-value of .0026 is robustly below the .05 threshold, reducing the likelihood that this is a marginal, underpowered statistical fluke.",
+      "The abstract indicates that this core finding—enhanced source memory for cheaters—was consistently replicated across four distinct experiments within the paper."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 41.52,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

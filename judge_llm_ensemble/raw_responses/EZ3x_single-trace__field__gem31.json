@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The positive relationship between self-regulation and academic achievement (GPA) is a robust, well-established empirical regularity in educational psychology.",
+      "However, the reported standardized beta of .96 is unusually high and likely reflects multicollinearity in the SEM with self-discipline, which could introduce instability."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 18.01,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

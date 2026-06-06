@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported t-statistic is extremely large (t > 8) with a highly significant p-value (<.001) in an adequately sized sample (n=325).",
+      "The claim is highly intuitive and aligns with established theory on privacy and self-disclosure, giving it a very high prior probability of being a real effect."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.04,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

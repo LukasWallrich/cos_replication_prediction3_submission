@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Three-way interactions in behavioral experiments with small sample sizes (N=138) are notoriously fragile and have very low replication rates.",
+      "The study comes from the pre-registration era (2011) where researcher degrees of freedom often led to over-specified, non-replicable models."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.59,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

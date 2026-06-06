@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "A gender difference in college persistence effects of pregnancy is substantively plausible and anchored in strong social/biological asymmetries.",
+      "But this is an interaction from multivariate models with a relatively rare event, making magnitude and significance somewhat fragile."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.94,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported effect is moderately large and statistically strong despite n=41, testing a straightforward above-chance directional claim.",
+      "The abstract reports similar video-only findings across six studies, though this particular estimate rests on a small single sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.9,
+  "_task": {
+    "claim_id": "exd7_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

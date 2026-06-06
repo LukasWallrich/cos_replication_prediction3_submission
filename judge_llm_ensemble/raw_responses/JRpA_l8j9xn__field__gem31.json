@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a specific quadratic functional form (curvilinear effect) estimated from observational data with a relatively small sample size (N=375).",
+      "Such theory-driven, non-linear specifications in cross-sectional models are often highly sensitive to outliers and confounder selection, making them fragile in replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.19,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

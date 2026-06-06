@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 375 is relatively small for reliably estimating a quadratic (curvilinear) relationship in noisy observational field data.",
+      "Complex polynomial effects in cross-sectional observational studies are often highly sensitive to model specification and outliers, increasing the risk of non-replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.73,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

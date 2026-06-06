@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The inverse relationship between severe (Class 3) obesity and physical activity levels is a well-established and physiologically grounded association.",
+      "A p-value of 0.002 indicates strong statistical evidence for this main effect, even accounting for the moderate sample size and potential self-report bias."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 42.76,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

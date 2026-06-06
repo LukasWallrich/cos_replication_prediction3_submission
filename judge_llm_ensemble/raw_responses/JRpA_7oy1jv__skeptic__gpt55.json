@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The inverted-U inference relies on a weak p<.10 linear term in an observational, single-election logit with possible specification flexibility.",
+      "Fraud and violence measures are noisy and confounded, though the quadratic term is stronger and sample size is moderate."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 12.12,
+  "_task": {
+    "claim_id": "JRpA_7oy1jv",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

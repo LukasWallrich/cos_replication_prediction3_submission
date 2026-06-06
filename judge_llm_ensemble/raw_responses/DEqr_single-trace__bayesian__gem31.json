@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 764 provides adequate statistical power for the experimental design, and the extremely small p-value indicates a strong signal.",
+      "The finding aligns with the heavily replicated 'continued influence effect' literature, which consistently shows that causal replacements are more effective than simple denials."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.54,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

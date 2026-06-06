@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Social influence from peers and family is a highly robust and well-established barrier to adolescent substance use cessation.",
+      "Although the small sample size (n=136) likely inflates the reported effect magnitude, the underlying directional effect is structurally solid and likely to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.97,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

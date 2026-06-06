@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is exceptionally large (N > 5000), which provides highly reliable estimates and reduces the risk of false positives.",
+      "The extremely small p-value combined with a robust theoretical basis for body image differences among sexual minority males makes this finding highly credible."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 37.56,
+  "_task": {
+    "claim_id": "gRWz_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

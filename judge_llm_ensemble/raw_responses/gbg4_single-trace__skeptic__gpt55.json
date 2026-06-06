@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The indirect effect is a mediation from a modest dyadic sample, and such models are vulnerable to specification choices and shrinkage.",
+      "The underlying relationship-satisfaction associations are theoretically plausible, predicted, and the reported CI is not merely grazing zero."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 28.67,
+  "_task": {
+    "claim_id": "gbg4_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

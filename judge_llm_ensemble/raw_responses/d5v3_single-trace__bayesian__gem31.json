@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is exactly at the conventional threshold of .05, which strongly suggests borderline significance and potential publication bias.",
+      "The small effect size (beta = .12) in a 2011 psychological study makes the finding highly vulnerable to non-replication."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 25.32,
+  "_task": {
+    "claim_id": "d5v3_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

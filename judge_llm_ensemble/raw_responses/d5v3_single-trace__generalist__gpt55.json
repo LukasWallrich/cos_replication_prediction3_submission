@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The focal longitudinal result has a moderate sample but a small, borderline effect, making the single estimate somewhat fragile.",
+      "A third longitudinal sample reportedly found the same risk-factor pattern, which meaningfully supports the direction despite limited detail."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.64,
+  "_task": {
+    "claim_id": "d5v3_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The evidence comes from a moderate-sized national survey comparison with a fairly strong interaction estimate and p=.007.",
+      "Still, it is a single subgroup-by-period interaction, vulnerable to sampling variation, model specification, and multiple-comparison concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.13,
+  "_task": {
+    "claim_id": "JWzJ_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

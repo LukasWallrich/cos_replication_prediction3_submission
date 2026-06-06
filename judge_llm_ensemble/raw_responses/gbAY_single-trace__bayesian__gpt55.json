@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported sample size is only n=3, making the slope estimate extremely unstable despite nominal significance.",
+      "The p-value is borderline and the claim is a specific predictor of vivid episodic recall, a lower-reliability social-psychology association."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.25,
+  "_task": {
+    "claim_id": "gbAY_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

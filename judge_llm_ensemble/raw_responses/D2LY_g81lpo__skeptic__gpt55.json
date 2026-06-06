@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Large national longitudinal sample and a p-value far from .05 make the negative association unlikely to be pure sampling noise.",
+      "The effect is small and observational/self-reported, so magnitude and gender-similarity claims remain vulnerable to confounding and model specification."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.08,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

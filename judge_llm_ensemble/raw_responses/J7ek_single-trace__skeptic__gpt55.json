@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a simple manipulated main effect with a large F statistic and p far below .05, not a fragile mediation or interaction.",
+      "The small/inconsistent sample information and possible dependence in repeated judgments temper confidence, but a well-powered direct replication should usually detect it."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 16.8,
+  "_task": {
+    "claim_id": "J7ek_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

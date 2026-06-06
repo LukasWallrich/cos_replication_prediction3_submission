@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim involves a direct association between descriptive norms and self-reported health behavior, a correlation that is notoriously robust in cross-sectional surveys.",
+      "The large sample size (N=877) and the modest, realistic effect size (OR=1.13) with a tight confidence interval strongly suggest the basic association will replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.16,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very large (N=7838) from a high-quality longitudinal dataset (NLSY97), making the highly significant main effect very reliable.",
+      "Interaction effects are often small and difficult to detect, so a non-significant interaction is a highly plausible and replicable null finding."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.99,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

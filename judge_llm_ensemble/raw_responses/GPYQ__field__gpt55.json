@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Social exposure to e-cigarette use is a plausible, commonly replicated barrier to adolescent cessation motivation and behavior change.",
+      "The adjusted odds ratio comes from only 136 adolescents, with a wide CI and SOC-transition outcome vulnerable to model instability."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.06,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

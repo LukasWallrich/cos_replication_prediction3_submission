@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The claim is a modest positive association with a large reported sample and very small p-value, not a fragile marginal result.",
+      "The abstract describes a broad meta-analysis supporting this relationship, though moderators and publication/method factors temper certainty."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.68,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

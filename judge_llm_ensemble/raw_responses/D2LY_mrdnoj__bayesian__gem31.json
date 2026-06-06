@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The interaction effect involves a rare event (college pregnancy), which means the effective sample size for this specific estimate is very small despite the overall N=2605.",
+      "Interaction effects in observational models with p-values near 0.01 generally have poor replication rates due to low statistical power and high model dependency."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.64,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

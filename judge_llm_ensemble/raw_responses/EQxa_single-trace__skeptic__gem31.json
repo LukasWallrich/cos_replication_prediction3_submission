@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "Although the sample size is relatively large (N=400) and the p-value is highly significant, mood induction effects on complex moral judgments rarely replicate.",
+      "The abstract mentions a neutral mood condition, but the reported F-test only compares positive and negative moods, suggesting potential ad hoc analytical choices."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 42.73,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The reported contrast is strong in a moderate sample, and the directional claim is broad rather than a precise magnitude.",
+      "The effect is psychologically plausible, though based on self-reported intentions from a likely convenience survey sample."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.26,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

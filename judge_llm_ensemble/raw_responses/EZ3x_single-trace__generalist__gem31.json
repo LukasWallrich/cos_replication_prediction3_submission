@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 507 provides strong statistical power to detect the conceptually well-established relationship between self-regulation and academic achievement.",
+      "The reported p-value is extremely small, suggesting the directional claim of a significant association is robust and highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 14.43,
+  "_task": {
+    "claim_id": "EZ3x_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

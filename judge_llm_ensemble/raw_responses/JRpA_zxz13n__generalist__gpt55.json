@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Moderate sample with strongly significant quadratic terms and claimed robustness across violence windows/fraud measures gives more support than a single thin test.",
+      "But it is observational, context-specific, and relies partly on forensic last-digit fraud measures, making the inverted-U shape model-dependent."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.13,
+  "_task": {
+    "claim_id": "JRpA_zxz13n",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

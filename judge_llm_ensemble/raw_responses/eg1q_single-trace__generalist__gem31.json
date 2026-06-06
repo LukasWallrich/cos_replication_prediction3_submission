@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is highly counterintuitive and stems from a 2009 literature era known for high rates of false positives in consumer behavior.",
+      "The small sample size (N=102) and moderate p-value (p=0.016) combined with a multi-study package strongly suggest publication bias or flexible analysis."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 17.43,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

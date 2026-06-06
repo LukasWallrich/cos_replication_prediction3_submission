@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The reported p-value is quite strong (p < .001), indicating a statistically robust result despite the modest sample size.",
+      "However, the small sample size (n=101, or ~50 per cell) and the nature of behavioral framing effects suggest the reported effect size may be inflated."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.39,
+  "_task": {
+    "claim_id": "G1Lr_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

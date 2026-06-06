@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Small experimental sample in stereotype-threat social psychology raises publication-bias and effect-inflation concerns.",
+      "The reported effect is fairly strong and not borderline, with p=.004 and partial eta squared=.13."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 15.01,
+  "_task": {
+    "claim_id": "gbl9_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

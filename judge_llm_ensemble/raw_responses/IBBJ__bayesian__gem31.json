@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "A borderline p-value of 0.05 in a massive sample (n > 10,000) indicates an extremely weak statistical signal that is highly vulnerable to specification choices.",
+      "Observational cross-sectional findings with such borderline significance often fail to replicate, as tiny associations can easily disappear with slight changes in covariate adjustment."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.17,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

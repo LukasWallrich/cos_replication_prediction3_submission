@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 68 is severely underpowered for detecting behavioral framing effects across multiple experimental treatment arms.",
+      "The p-value of .023 in such a small sample suggests a high risk of effect size inflation and low replication probability."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.42,
+  "_task": {
+    "claim_id": "J4W9_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Moderate n=375 and a tight squared term p≈0.00015 support a nonzero nonlinear association.",
+      "The observational single-election setting and marginal linear term make the precise inverted-U vulnerable to confounding and specification choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 11.69,
+  "_task": {
+    "claim_id": "JRpA_l8j9xn",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

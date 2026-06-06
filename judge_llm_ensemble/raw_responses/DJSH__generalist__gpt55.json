@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The study has a large multisite student sample and reports a specific indirect path with a confidence interval excluding zero.",
+      "The effect is small and comes from cross-sectional self-report SEM mediation, so model dependence and replication fragility remain concerns."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.0,
+  "_task": {
+    "claim_id": "DJSH",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

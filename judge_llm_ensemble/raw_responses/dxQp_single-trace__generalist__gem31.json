@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses an enormous sample size (N > 160,000) from the 2000 U.S. census, meaning the reported association is estimated with extreme precision.",
+      "Given the large sample and the straightforward demographic variables involved, this observational finding is highly likely to reflect a true pattern in the target population."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 15.85,
+  "_task": {
+    "claim_id": "dxQp_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

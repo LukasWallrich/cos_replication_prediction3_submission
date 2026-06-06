@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a decent sample, experimental design, and a strong interaction signal, F(1,396)=29, p≈3e-7.",
+      "This is a specific mood-by-frame moderation in moral-psychology context, where effects can be context-sensitive and inflated."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.71,
+  "_task": {
+    "claim_id": "EQxa_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

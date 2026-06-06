@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The coefficients are large and far from the p=.05 threshold, with the predicted quadratic pattern also reported under an alternative violence window.",
+      "However, this is observational conflict-election data using a contested forensic fraud proxy, and quadratic headline findings are vulnerable to specification dependence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.95,
+  "_task": {
+    "claim_id": "JRpA_zxz13n",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

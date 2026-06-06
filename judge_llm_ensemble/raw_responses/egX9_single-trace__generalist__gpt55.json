@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study has a reasonably large nurse sample and reports a large, precise difference between direct and indirect task satisfaction coefficients.",
+      "The finding is observational and self-reported within one study, so design and multiplicity concerns temper confidence despite the tiny p-value."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 20.0,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

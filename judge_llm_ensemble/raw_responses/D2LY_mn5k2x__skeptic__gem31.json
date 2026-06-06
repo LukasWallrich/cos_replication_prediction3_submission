@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 3062 is very large, and the reported p-value of ~0.0002 is far below the conventional .05 threshold.",
+      "The dataset (NLSY97) is a high-quality, representative longitudinal survey, making this straightforward negative association highly likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 36.15,
+  "_task": {
+    "claim_id": "D2LY_mn5k2x",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

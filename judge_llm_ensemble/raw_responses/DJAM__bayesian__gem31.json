@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size (n=618) and statistical evidence (t=4.39, p < .001) are strong enough to reliably detect a moderate correlational effect.",
+      "The reliance on cross-sectional self-report data introduces common method variance, which typically ensures that simple descriptive correlations replicate well in similar survey designs."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.81,
+  "_task": {
+    "claim_id": "DJAM",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

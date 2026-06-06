@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 1,640 is quite large, which generally yields stable correlation matrices and reliable structural equation modeling estimates.",
+      "Although the reported indirect effect is small (β = -0.040) and cross-sectional mediation is causally limited, the statistical association is likely to replicate."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.77,
+  "_task": {
+    "claim_id": "DJSH",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

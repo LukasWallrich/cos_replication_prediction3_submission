@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is very small (n=34) for testing a complex interaction in a mixed-design ANOVA, indicating low statistical power.",
+      "The reported p-value is very close to the significance threshold (p = .044), which often signals a higher risk of non-replication in underpowered studies."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 45.13,
+  "_task": {
+    "claim_id": "GXEW_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

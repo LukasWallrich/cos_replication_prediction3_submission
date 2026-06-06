@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size is adequate (N=877) and the tight confidence interval (1.09 to 1.17) indicates a highly statistically significant finding.",
+      "The claim describes a straightforward observational association, which generally replicates more reliably than complex causal or interactive claims."
+    ],
+    "bucket": "likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 35.68,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

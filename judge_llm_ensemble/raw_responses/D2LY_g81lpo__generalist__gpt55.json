@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The study uses a large national longitudinal sample, and the reported negative association is precise with a very small p-value.",
+      "The effect is small and observational, and the no-interaction conclusion rests on a nonsignificant test rather than strong equivalence evidence."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.65,
+  "_task": {
+    "claim_id": "D2LY_g81lpo",
+    "persona": "generalist",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

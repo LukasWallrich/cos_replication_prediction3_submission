@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is highly plausible theoretically, as peer and family substance use strongly influences adolescent quitting behaviors.",
+      "However, the small sample size (n=136) and very large effect size (AOR=0.18) strongly suggest estimate inflation, limiting reliability."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.15,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

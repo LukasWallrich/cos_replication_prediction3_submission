@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "The association is theoretically plausible and p=.009 is not merely a threshold-hugging result.",
+      "But n=136 with adjusted logistic modeling gives a wide CI and high risk of overfitting or inflated effect size."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 8.15,
+  "_task": {
+    "claim_id": "GPYQ",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

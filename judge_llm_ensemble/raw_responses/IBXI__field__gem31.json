@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The inverse relationship between severe (Class 3) obesity and physical activity is a highly robust, well-established behavioral regularity.",
+      "The reported effect is a straightforward age-adjusted mean difference with a strong p-value (0.002), making it very likely to replicate."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 34.72,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The sample size of 76 is severely underpowered for reliable estimation of moderation effects, making the finding highly vulnerable to noise or outliers.",
+      "While the p-value is strong (p < .001), 2012-era social psychology studies with complex interactions and small samples have very low historical replication rates."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 13.43,
+  "_task": {
+    "claim_id": "jLr_single-trace",
+    "persona": "bayesian",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

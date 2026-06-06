@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "low",
+    "reasoning_top2": [
+      "Starting from a 40–60% base rate, this is a small n=138 study testing a fragile three-way interaction in logistic regression.",
+      "The reported p-value is fairly strong and design includes experimental threat manipulation, but complex moderation in social psychology often overestimates effects."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.81,
+  "_task": {
+    "claim_id": "eg3p_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

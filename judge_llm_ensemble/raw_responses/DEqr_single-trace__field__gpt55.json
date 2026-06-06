@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a direct randomized message contrast with a strong test statistic and a plausible effect size, not a fragile mediation model.",
+      "The causal-correction advantage is theoretically and empirically plausible, though misinformation correction effects can be context- and stimulus-sensitive."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.23,
+  "_task": {
+    "claim_id": "DEqr_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

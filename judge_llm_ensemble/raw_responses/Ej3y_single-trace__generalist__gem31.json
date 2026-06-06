@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim rests on a two-way interaction for a 'paradoxical' behavioral effect, which typically have low replication rates in consumer psychology.",
+      "Although the p-value is relatively strong (p = 0.004), the sample size (N=192) provides modest power for detecting a stable interaction effect."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 99.51,
+  "_task": {
+    "claim_id": "Ej3y_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

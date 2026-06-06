@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The study uses a very large sample size (N=10,292), which typically provides stable estimates for small observational associations.",
+      "However, the reported p-value of 0.05 is right on the threshold of significance, suggesting the result may be fragile."
+    ],
+    "bucket": "about_even",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 37.72,
+  "_task": {
+    "claim_id": "IBBJ",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

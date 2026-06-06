@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "N=877 with a narrow CI far from null supports a stable descriptive-norm association, not a marginal p=.05 result.",
+      "However, cross-sectional self-report survey in a regional Asian American sample leaves confounding and common-method bias likely."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 7.41,
+  "_task": {
+    "claim_id": "CEQM",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a quadratic (inverted U-shaped) term in an observational dataset with a relatively small sample size (N=375), which is notoriously sensitive to outliers and model specification.",
+      "Although the reported p-value is highly significant (p < 0.001), complex non-linear relationships in observational macro-political data frequently fail to replicate when subjected to alternative specifications or tested in new samples."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 39.36,
+  "_task": {
+    "claim_id": "JRpA_zxz13n",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

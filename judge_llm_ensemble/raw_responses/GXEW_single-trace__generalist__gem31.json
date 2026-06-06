@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a group-by-novelty interaction effect with a very small sample size (N=34) and a p-value just barely below .05.",
+      "Interaction effects in small, underpowered samples with borderline significance are highly susceptible to false positives and frequently fail to replicate."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 39.84,
+  "_task": {
+    "claim_id": "GXEW_single-trace",
+    "persona": "generalist",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

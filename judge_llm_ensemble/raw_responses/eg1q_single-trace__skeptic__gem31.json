@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim represents a highly counter-intuitive consumer behavior finding from 2009, an era characterized by flexible analysis and small sample sizes.",
+      "The sample size is modest (n=51 per condition) and the p-value (0.016) is not robust enough to confidently overcome the low prior probability of the effect."
+    ],
+    "bucket": "very_unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 38.87,
+  "_task": {
+    "claim_id": "eg1q_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

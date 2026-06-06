@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The sample is modest at n=85, so a single chi-square contrast in social-memory psychology remains fairly noisy.",
+      "The reported effect is moderate with p=.0026, and the abstract suggests a related pattern across multiple experiments."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 24.92,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

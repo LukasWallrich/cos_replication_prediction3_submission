@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim relies on a curvilinear (quadratic) effect derived from a small observational sample (N=375), a notoriously brittle analytic approach.",
+      "Although the p-value is robust (p=0.002) and an objective fraud measure is used, quadratic terms in small cross-sectional datasets are highly susceptible to outliers and model misspecification."
+    ],
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 36.01,
+  "_task": {
+    "claim_id": "JRpA_6ryjx7",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

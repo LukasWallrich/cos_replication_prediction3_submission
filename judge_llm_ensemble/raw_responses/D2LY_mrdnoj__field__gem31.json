@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The data source is a high-quality, nationally representative longitudinal survey (NLSY97), which reduces issues of convenience sampling.",
+      "The finding describes a highly plausible structural demographic effect, as pregnancy physically and socially impacts women's educational trajectories much more than men's."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium"
+  },
+  "_elapsed_s": 40.17,
+  "_task": {
+    "claim_id": "D2LY_mrdnoj",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round1"
+  }
+}

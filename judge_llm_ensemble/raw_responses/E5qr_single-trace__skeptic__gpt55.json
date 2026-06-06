@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The result is based on only 62 observations and sits essentially exactly at the p=.05 threshold.",
+      "This is an observational cross-country association with substantial confounding, reverse-causality, and measurement-risk despite controlling for democracy."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 6.48,
+  "_task": {
+    "claim_id": "E5qr_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

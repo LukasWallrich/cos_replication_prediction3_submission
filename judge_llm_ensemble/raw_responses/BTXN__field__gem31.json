@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim that college students are less willing to engage with sensitive health topics on a semi-public platform like Facebook is highly intuitive and aligns with established structural facts about privacy and self-presentation.",
+      "The reported test statistic (t = 8.087) in a sample of N = 325 indicates a very robust main effect that is unlikely to be a statistical artifact."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 38.48,
+  "_task": {
+    "claim_id": "BTXN",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round3"
+  }
+}

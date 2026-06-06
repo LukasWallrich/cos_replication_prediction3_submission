@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "very_likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a plausible, direct longitudinal association between adolescent life-course expectations and later college enrollment in a large national cohort.",
+      "The effect is modest but statistically strong, though covariate dependence and cohort-specific expectation measures leave some fragility."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.35,
+  "_task": {
+    "claim_id": "D2LY_mn5k2x",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

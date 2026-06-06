@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The statistical evidence for the difference in predictive strength is exceptionally strong, with widely separated confidence intervals and a p-value far below .05.",
+      "While common-method bias affects self-report diary studies, it typically inflates all correlations rather than creating the stark, theoretically expected divergence observed here."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 12.0,
+  "_task": {
+    "claim_id": "egX9_single-trace",
+    "persona": "skeptic",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

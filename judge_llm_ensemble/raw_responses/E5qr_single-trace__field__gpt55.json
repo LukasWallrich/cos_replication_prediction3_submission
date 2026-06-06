@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "unlikely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The estimate is borderline in a small cross-country sample, with p essentially at 0.05 and substantial macroeconomic noise.",
+      "This observational governance-growth association is plausible, but likely sensitive to confounders, period definitions, and measurement of impartiality."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 9.03,
+  "_task": {
+    "claim_id": "E5qr_single-trace",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

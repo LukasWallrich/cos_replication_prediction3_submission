@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "This is a plausible, structural longitudinal association in a large national cohort, with a small but precisely estimated negative coefficient.",
+      "The exact adjusted effect and null gender interaction are more model-dependent, so robustness is not as high as for simple descriptive correlations."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 10.7,
+  "_task": {
+    "claim_id": "D2LY_mov8w7",
+    "persona": "field",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round2"
+  }
+}

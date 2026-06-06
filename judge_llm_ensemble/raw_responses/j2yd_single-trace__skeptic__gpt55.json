@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "The result is reasonably strong statistically, with p=.0026 and a moderate phi, not a marginal threshold finding.",
+      "It is still a small behavioral convenience-sample study using model-based memory parameters, and such effects often shrink or depend on analytic choices."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 17.79,
+  "_task": {
+    "claim_id": "j2yd_single-trace",
+    "persona": "skeptic",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round1"
+  }
+}

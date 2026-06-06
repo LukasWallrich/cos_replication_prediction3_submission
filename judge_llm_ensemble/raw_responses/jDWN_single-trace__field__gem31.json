@@ -1,0 +1,20 @@
+{
+  "_ok": true,
+  "judgement": {
+    "reasoning_top2": [
+      "The claim is based on a well-powered meta-analysis, which drastically increases the reliability and replicability of the main effect.",
+      "The positive relationship between intrinsic motivation and creativity is a highly established empirical regularity with a theoretically robust foundation."
+    ],
+    "bucket": "very_likely",
+    "confidence_in_bucket": "high"
+  },
+  "_elapsed_s": 10.26,
+  "_task": {
+    "claim_id": "jDWN_single-trace",
+    "persona": "field",
+    "vendor": "gemini",
+    "model_id": "gemini-3.1-pro-preview",
+    "model_key": "gem31",
+    "dataset": "round2"
+  }
+}

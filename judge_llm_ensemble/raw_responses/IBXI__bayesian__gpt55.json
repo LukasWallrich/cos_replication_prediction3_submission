@@ -1,0 +1,22 @@
+{
+  "_ok": true,
+  "judgement": {
+    "bucket": "likely",
+    "confidence_in_bucket": "medium",
+    "reasoning_top2": [
+      "Age-adjusted descriptive association with p=.002 in n=289 is a solid but not overwhelming signal.",
+      "Self-reported PA and subgroup/multiple-comparison cross-sectional context limit reliability of the exact difference."
+    ]
+  },
+  "_finish_reason": "stop",
+  "_service_tier": "flex",
+  "_elapsed_s": 5.91,
+  "_task": {
+    "claim_id": "IBXI",
+    "persona": "bayesian",
+    "vendor": "openai",
+    "model_id": "gpt-5.5",
+    "model_key": "gpt55",
+    "dataset": "round3"
+  }
+}
