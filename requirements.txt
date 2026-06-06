@@ -1,0 +1,12 @@
+# Python dependencies for the LLM synthetic-crowd ensemble (judge_llm_ensemble/).
+# Tested with Python 3.10+. The core scripts use only the standard library;
+# these two SDKs are needed to call the OpenAI and Google models.
+#
+#   python -m pip install -r requirements.txt
+#
+# The Anthropic / Claude model is called via the local `claude` CLI (Claude
+# Code), not a Python SDK, so it needs no package here — but the CLI must be
+# installed and authenticated if you re-run that vendor.
+
+openai>=1.40
+google-genai>=0.3

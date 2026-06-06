@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Can a feature model predict HEALTH replication? — COS Round 3</title>
+<style>
+  :root{ --ink:#1a1d21; --muted:#5c6670; --line:#e2e6ea; --accent:#2b6cb0;
+         --good:#d6efd6; --ok:#eaf6e2; --mid:#fcf2d4; --bad:#f7dada; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); line-height:1.62; max-width:940px; margin:0 auto; padding:48px 28px 96px; background:#fff;}
+  h1{font-size:1.85rem; line-height:1.2; margin:0 0 6px;}
+  h2{font-size:1.32rem; margin:2.6em 0 .5em; padding-bottom:.25em; border-bottom:2px solid var(--line);}
+  h3{font-size:1.06rem; margin:1.8em 0 .4em; color:#243b53;}
+  .sub{color:var(--muted); font-size:.95rem; margin:0 0 4px;}
+  p,li{font-size:.98rem;}
+  code{background:#f1f3f5; padding:.1em .35em; border-radius:4px; font-size:.86em;}
+  table{border-collapse:collapse; width:100%; margin:1em 0; font-size:.88rem;}
+  th,td{border:1px solid var(--line); padding:7px 10px; text-align:left; vertical-align:top;}
+  th{background:#f4f6f8; font-weight:600;}
+  tbody tr:nth-child(even){background:#fbfcfd;}
+  td.num{text-align:right; font-variant-numeric:tabular-nums;}
+  .good{background:var(--good)!important;} .ok{background:var(--ok)!important;}
+  .mid{background:var(--mid)!important;} .bad{background:var(--bad)!important;}
+  .ref td{background:#eef1f4; font-weight:600; color:#374151;}
+  .box{border-left:4px solid var(--accent); background:#f3f8fd; padding:14px 18px; margin:1.4em 0; border-radius:0 6px 6px 0;}
+  .box.key{border-color:#2f855a; background:#f0faf2;}
+  .box.warn{border-color:#c05621; background:#fff6ef;}
+  .box.caveat{border-color:#718096; background:#f6f7f9;}
+  .box h4{margin:0 0 .4em; font-size:1rem;}
+  .tag{display:inline-block; font-size:.72rem; font-weight:700; padding:1px 7px; border-radius:10px; vertical-align:middle;}
+  .t-flip{background:#f7dada; color:#9b2c2c;} .t-ok{background:#d6efd6; color:#22543d;} .t-weak{background:#fcf2d4; color:#7b5e1a;}
+  .small{font-size:.85rem; color:var(--muted);}
+  .lead{font-size:1.05rem; color:#243b53;}
+  hr{border:0; border-top:1px solid var(--line); margin:2.4em 0;}
+  ul{padding-left:1.25em;} li{margin:.25em 0;}
+  .files code{display:block; padding:6px 10px; margin:3px 0; background:#f1f3f5;}
+</style>
+</head>
+<body>
+
+<h1>Can a feature model predict <em>health</em> replication?</h1>
+<p class="sub">COS Prediction Challenge — Round 3 · investigation into the feature slot (m1)</p>
+<p class="sub">Analysis run 2026-05-29 · reproduce with <code>Rscript pipeline/19_health_transfer_model.R</code> and the <code>scratch_*</code> diagnostics referenced below.</p>
+
+<div class="box key">
+<h4>Bottom line</h4>
+<p style="margin:.2em 0 .6em"><strong>No tabular feature model reliably beats the base rate on <u>challenge-round health</u> — the kind of data Round&nbsp;3 actually is.</strong> Across every design the challenge-health Brier sits at the base rate (~0.25); the best curated feature set only edges just below (0.244), while the LLM ensemble reaches <strong>0.217</strong>. The one lever that helps is curating features for transferability (drop the sign-flipping <code>r_harmonized</code>, add design type); re-weighting training rows — up or down — does not. This is a structural ceiling, not a tuning problem.</p>
+<ul style="margin:.3em 0 0">
+<li>The "feature model is fine on health" belief was an artifact of mixing two different populations: easy in-distribution <strong>FORRT</strong> health rows (small studies) with the <strong>challenge-round</strong> rows that actually resemble R3 (large studies).</li>
+<li>A core feature of the deployed model — <code>r_harmonized</code> (effect magnitude) — <strong>flips sign</strong> between psychology and health, so the model applies it backwards on R3.</li>
+<li>The feature slot's real value in best-of-3 is <strong>decorrelation</strong>, not accuracy. A health-aware / design-feature model is the most decorrelated from the LLM we found (R3 corr <strong>0.34</strong> vs the deployed 0.59) — that is what it's good for.</li>
+</ul>
+</div>
+
+<h2>1 · Why the feature slot matters</h2>
+<p>Round 3 is scored on the <strong>best of three</strong> prediction columns, so the goal is three <em>decorrelated</em> bets. Two of the three current slots are LLM-derived. The feature slot is the only signal orthogonal to the LLM — it protects the floor if the LLM is systematically wrong on health. So we want it (a) as decorrelated from the LLM as possible and (b) as good as it can honestly be on health.</p>
+<p>The hard constraint: <strong>R3 is 100% health</strong>, but the labelled training data (FORRT + R1 + R2) is ~1% health and mostly psychology. The feature model must therefore extrapolate into a regime it barely saw.</p>
+
+<h2>2 · Why the deployed model struggles on health</h2>
+
+<h3>2.1 &nbsp;Random forest can't extrapolate</h3>
+<p>The deployed m1 is a fair-meta stack on the 32-feature <code>enriched</code> set, ~0.82 random forest. An RF prediction is the <em>mean outcome of the training rows in the same leaves</em>; past the largest split it ever learned, every point drops into the same terminal leaf and gets one flat value. Health <code>n_o</code> reaches ~55,000 vs mostly small-n psychology training, so RF flattens across the whole large-n health regime. Empirically its health discrimination is stuck at Spearman&nbsp;≈&nbsp;0.25 <em>regardless of how many features it is given</em>. A linear/GAM term in <code>log(n)</code> can <em>project</em> a relationship into the unseen range — but only helps if the relationship is real and transferable (a GAM on the full <code>enriched</code> set extrapolated psychology-specific relationships and blew up to <strong>0.308</strong> on the health holdout).</p>
+
+<h3>2.2 &nbsp;It is <em>not</em> a "too many / too few features" problem</h3>
+<p>Of 437 evaluable features, <strong>152 have |Spearman| &gt; 0.15 with the health outcome</strong> — health signal is widespread. But of those 152, ~100 point the <em>same</em> way in psychology and health (transferable) and <strong>~52 point the opposite way</strong> (anti-transfer). Those 52 poison any parametric learner trained on psychology and applied to health.</p>
+<p>Sweeping the feature-set size confirms the lever is transferability, not count. On the leave-all-health-out holdout (n=102, base-rate Brier 0.2496):</p>
+<table>
+<thead><tr><th>feature pool</th><th class="num">k</th><th class="num">best health Brier</th><th class="num">discrimination ρ(p,y)</th><th class="num">psych LORO</th></tr></thead>
+<tbody>
+<tr><td>stable_top</td><td class="num">8</td><td class="num good">0.2238</td><td class="num">0.34</td><td class="num">0.2398</td></tr>
+<tr><td>stable_mid</td><td class="num">25</td><td class="num ok">0.2293</td><td class="num">0.31</td><td class="num">0.2333</td></tr>
+<tr><td>enriched <span class="small">(deployed)</span></td><td class="num">32</td><td class="num mid">0.2350</td><td class="num">0.27</td><td class="num">~0.221</td></tr>
+<tr><td>stable_filtered</td><td class="num">136</td><td class="num mid">0.2359</td><td class="num">0.24</td><td class="num">better</td></tr>
+<tr><td>full_numeric</td><td class="num">486</td><td class="num mid">0.2333</td><td class="num">0.26</td><td class="num">best</td></tr>
+</tbody>
+</table>
+<p class="small">More features → worse on health, better on psychology. Discrimination falls monotonically (0.34 → 0.24). The stability filter (|SMD|&lt;0.5) only controls the marginal <em>distribution</em> shift, not whether a feature's <em>relationship</em> to the outcome transfers — so big pools still admit anti-transfer features.</p>
+
+<h3>2.3 &nbsp;The decisive split: FORRT-health vs challenge-health are different populations</h3>
+<p>The 102 labelled health rows are <strong>not interchangeable</strong>. 55 come from the FORRT replication database; 47 are challenge-round claims (R1/R2). R3 matches the challenge rows on every measurable axis:</p>
+<table>
+<thead><tr><th>axis</th><th>FORRT-health</th><th>challenge-health (R1/R2)</th><th>R3 (test)</th></tr></thead>
+<tbody>
+<tr><td><strong><code>n_o</code> median</strong> (IQR)</td><td>81 &nbsp;(39–197)</td><td>1,929 &nbsp;(420–4,458)</td><td class="ok">618 &nbsp;(325–4,555)</td></tr>
+<tr><td><code>n_o</code> max</td><td>2,428</td><td>~8,000,000</td><td>54,916</td></tr>
+<tr><td>year median (range)</td><td>2010 (1946–2022)</td><td>2013 (2009–2018)</td><td class="ok">2019 (2015–2024)</td></tr>
+<tr><td>native <code>r_o</code> present</td><td>30%</td><td>85%</td><td>69%</td></tr>
+<tr><td>effect synthesised from p+n</td><td>1%</td><td>2%</td><td class="mid">27%</td></tr>
+<tr><td>base rate (replication success)</td><td>0.49</td><td>0.47</td><td>(~0.5)</td></tr>
+</tbody>
+</table>
+<div class="box">
+<p style="margin:0">The driver is <strong>sample size</strong>: FORRT-health is small lab-scale studies (median n=81); challenge-health and R3 are large epidemiological/survey studies (median n≈600–1,900). Training is dominated by small-n studies, so the model learns the small-n regime and extrapolates poorly into the large-n regime R3 occupies. Both populations have ~0.49 base rate — so this is <em>not</em> "FORRT is easier to call," it is a genuine <strong>sample-size covariate shift</strong>, and R3 is on the challenge side of it.</p>
+</div>
+
+<h2>3 · Which features actually carry transferable health signal</h2>
+<p>Splitting each feature's correlation with the outcome <em>within</em> challenge-health vs <em>within</em> FORRT-health (n=47 / n=55) shows what survives into the R3 regime:</p>
+<table>
+<thead><tr><th>feature</th><th class="num">challenge ρ</th><th class="num">FORRT ρ</th><th class="num">R3 coverage</th><th>verdict</th></tr></thead>
+<tbody>
+<tr><td><code>n_o_log</code> (sample size)</td><td class="num good">+0.37</td><td class="num">+0.37</td><td class="num">91%</td><td><span class="tag t-ok">transfers — strongest</span></td></tr>
+<tr><td><code>r_harmonized</code> (effect size)</td><td class="num bad">−0.35</td><td class="num">+0.38</td><td class="num">98%</td><td><span class="tag t-flip">SIGN FLIPS</span></td></tr>
+<tr><td><code>evidence_strength_score</code></td><td class="num">−0.05</td><td class="num">+0.49</td><td class="num">80%</td><td><span class="tag t-flip">dead on health</span></td></tr>
+<tr><td><code>pval_z</code> (significance)</td><td class="num mid">+0.13</td><td class="num">+0.54</td><td class="num">87%</td><td><span class="tag t-weak">weak at large n</span></td></tr>
+<tr><td><code>power_proxy_h</code></td><td class="num">+0.17</td><td class="num">+0.57</td><td class="num">80%</td><td><span class="tag t-weak">weak on health</span></td></tr>
+<tr><td><code>llm_perceived_surprisingness</code></td><td class="num good">−0.38</td><td class="num">−0.23</td><td class="num">100%</td><td><span class="tag t-ok">transfers — strongest</span></td></tr>
+<tr><td><code>llm_sample_adequacy</code></td><td class="num">+0.33</td><td class="num">+0.27</td><td class="num">100%</td><td><span class="tag t-ok">transfers</span></td></tr>
+<tr><td><code>llm_observational</code> / <code>experimental</code></td><td class="num">±0.32</td><td class="num">±0.23</td><td class="num">100%</td><td><span class="tag t-ok">transfers (design)</span></td></tr>
+<tr><td><code>llm_is_intervention</code></td><td class="num">−0.28</td><td class="num">−0.44</td><td class="num">100%</td><td><span class="tag t-ok">transfers (design)</span></td></tr>
+<tr><td><code>llm_design_type</code></td><td class="num">−0.30</td><td class="num">−0.40</td><td class="num">100%</td><td><span class="tag t-ok">transfers (design)</span></td></tr>
+<tr><td><code>llm_within_paper_rep</code></td><td class="num">−0.32</td><td class="num">−0.45</td><td class="num">100%</td><td><span class="tag t-ok">transfers</span></td></tr>
+</tbody>
+</table>
+<div class="box warn">
+<h4>Two findings that change the picture</h4>
+<ul style="margin:.2em 0 0">
+<li><strong><code>n_o</code> transfers cleanly</strong> (+0.37 in <em>both</em> regimes) — sample size does <em>not</em> lose power at large n; it's the strongest stable predictor. What loses power at large n is the significance statistic (<code>pval_z</code>: +0.54 → +0.13), exactly as expected when "everything is significant."</li>
+<li><strong><code>r_harmonized</code> anti-transfers</strong>: in small-n psychology a bigger effect → more replicable (+0.38, winner's-curse-free); in large-n health a bigger reported effect → <em>less</em> replicable (−0.35) — it's the surprising/inflated ones (note <code>surprisingness</code> is the single strongest health predictor at −0.38). The deployed model, trained mostly on psychology, applies this <strong>backwards</strong> on R3. <code>evidence_strength_score</code> (which multiplies in <code>|r_harmonized|</code>) goes dead for the same reason.</li>
+</ul>
+<p style="margin:.5em 0 0"><strong>Design type is the most transferable health signal</strong> (observational vs experimental/intervention, surprisingness, sample adequacy) — all ~100% covered on R3, all same-sign in FORRT — and <em>none of it is in the deployed <code>enriched</code> / <code>stable_top</code> sets.</p>
+</div>
+
+<h2>4 · What we tried, and what happened</h2>
+
+<h3>4.1 &nbsp;Per-source breakdown exposes the mirage</h3>
+<p>Repeated grouped 5-fold CV (health in training, the realistic deploy), Brier on the out-of-fold health rows, split by source:</p>
+<table>
+<thead><tr><th>model</th><th class="num">all health (102)</th><th class="num">FORRT (55)</th><th class="num">challenge (47)<br><span class="small">= R3 analog</span></th><th class="num">challenge 80% CI</th><th class="num">leave-health-out</th></tr></thead>
+<tbody>
+<tr><td>screen_EQ <span class="small">(transferability screen)</span></td><td class="num">0.2249</td><td class="num good">0.2041</td><td class="num mid">0.2493</td><td class="num">0.220–0.280</td><td class="num">0.2323</td></tr>
+<tr><td>enriched_RF <span class="small">(deployed)</span></td><td class="num">0.2298</td><td class="num good">0.2022</td><td class="num bad">0.2620</td><td class="num">0.237–0.288</td><td class="num">0.2350</td></tr>
+<tr><td>stabletop_EQ <span class="small">(lean)</span></td><td class="num">0.2247</td><td class="num good">0.1926</td><td class="num bad">0.2623</td><td class="num">0.236–0.289</td><td class="num">0.2269</td></tr>
+<tr><td>screen_Mono <span class="small">(monotone)</span></td><td class="num">0.2345</td><td class="num ok">0.2123</td><td class="num bad">0.2605</td><td class="num">0.225–0.297</td><td class="num">0.2460</td></tr>
+<tr class="ref"><td>raw LLM</td><td class="num">—</td><td class="num">—</td><td class="num good">0.2173</td><td class="num">—</td><td class="num">—</td></tr>
+<tr class="ref"><td>base rate (~0.48)</td><td class="num">0.2496</td><td class="num">0.2499</td><td class="num">0.2490</td><td class="num">—</td><td class="num">—</td></tr>
+</tbody>
+</table>
+<p class="small">Every feature model is strong on FORRT-health (in-distribution, ~0.19–0.20) and only base-rate on challenge-health (~0.25–0.26). Averaging the two yields the misleading "~0.225 beats base rate on health" headline. <strong>R3 is challenge-round health.</strong> This also corrects the <code>18_health_gate.R</code> "m1 passes deploy-faithful at 0.230 on n=102" result — it averages in the easy FORRT rows; the gate should score on challenge-round health (n=47).</p>
+
+<h3>4.2 &nbsp;Every design lands at the base rate — but feature <em>choice</em> moves it</h3>
+<p>Challenge-round health Brier across every feature-set / learner design tried. The one lever that helps is curating features for <em>transferability</em> — dropping the sign-flipping <code>r_harmonized</code> and adding design type / surprisingness:</p>
+<table>
+<thead><tr><th>feature-model design</th><th class="num">challenge-health Brier</th></tr></thead>
+<tbody>
+<tr><td><strong>curated transferable set</strong> <span class="small">(n_o, surprisingness, sample adequacy, design type, n_f_tests; <em>no</em> r_harmonized)</span></td><td class="num ok">0.244</td></tr>
+<tr><td>transferability screen / EQ <span class="small">(automated)</span></td><td class="num mid">0.249</td></tr>
+<tr><td>health-aware screen / EQ</td><td class="num mid">0.252</td></tr>
+<tr><td>enriched / RF <span class="small">(deployed)</span></td><td class="num bad">0.260</td></tr>
+<tr><td>monotone-constrained booster</td><td class="num bad">0.261</td></tr>
+<tr><td>stable_top / EQ <span class="small">(lean)</span></td><td class="num bad">0.262</td></tr>
+<tr class="ref"><td>raw LLM</td><td class="num good">0.217</td></tr>
+<tr class="ref"><td>base rate</td><td class="num">0.249</td></tr>
+</tbody>
+</table>
+<p>The curated set is the best feature model — it finally edges <em>below</em> the base rate — yet it is still within the (wide) n=47 noise band and well behind the LLM. It beats the <em>automated</em> screens because, at ~80 training-health rows, they miss the psych-weak / health-strong design features and admit some noise. It is also the most <strong>decorrelated</strong> from the LLM (R3 corr ≈ 0.34–0.51 vs the deployed 0.59) — which, under best-of-3, is its real value.</p>
+
+<h3>4.3 &nbsp;Re-weighting the training rows — up or down — does not help</h3>
+<p>Given that the lever is feature choice, does re-weighting <em>rows</em> add anything? On the curated set, neither direction helps on challenge-health:</p>
+<table>
+<thead><tr><th>training-row weighting (curated set)</th><th class="num">challenge Brier</th><th class="num">80% CI</th></tr></thead>
+<tbody>
+<tr><td>uniform</td><td class="num ok">0.2435</td><td class="num">0.218–0.269</td></tr>
+<tr><td>downweight off-distribution <span class="small">(small-n / old)</span></td><td class="num mid">0.2466</td><td class="num">0.212–0.283</td></tr>
+<tr><td>downweight² &nbsp;(sharper)</td><td class="num bad">0.2503</td><td class="num">0.212–0.291</td></tr>
+<tr><td>hard filter (train n_o ≥ 300 only)</td><td class="num ok">0.2435</td><td class="num">0.217–0.270</td></tr>
+<tr><td>upweight health ×4</td><td class="num bad">0.265</td><td class="num">0.238–0.291</td></tr>
+</tbody>
+</table>
+<div class="box">
+<p style="margin:0">Re-weighting would help only if the off-distribution rows carried a <em>different</em> feature→outcome relationship that contaminates the fit — but that contamination lived in the anti-transfer <em>features</em> (chiefly <code>r_harmonized</code>), which the curated set already drops. Once every feature transfers, small-n and large-n rows estimate the <em>same</em> relationships, so downweighting the small-n rows just discards effective sample size (710 → 190) for nothing. <strong>Selecting transferable features and re-weighting rows attack the same covariate shift — and feature selection wins, because it removes the bias without costing sample size.</strong> We stopped here; pushing further on 47 rows would be overfitting the holdout.</p>
+</div>
+
+<h2>5 · Methodology &amp; design questions</h2>
+
+<h3>5.1 &nbsp;Why the numbers are trustworthy (no circular selection)</h3>
+<p>The transferability screen needs the health outcomes, so naïvely "select on all 102 health rows then score on them" would be circular. Two leakage-free evaluations avoid this: <strong>(A)</strong> repeated grouped 5-fold CV with feature selection <em>inside</em> each fold (out-of-fold health rows never seen during selection or fitting); <strong>(B)</strong> leave-all-health-out, with selection on psychology only. R3 outcomes are never used (they don't exist). The screen uses only train outcomes (allowed), test <em>feature</em> distributions (allowed), and training-fold health sign-agreement.</p>
+
+<h3>5.2 &nbsp;Sample size, significance, and the "replication = significance in the same direction" rule</h3>
+<p>Because the outcome is the <em>replication</em> achieving significance in the same direction, a large <em>original</em> n is good signal — a precise, less winner's-cursed estimate that is more likely to be real and replicate (consistent with <code>n_o</code>'s +0.37 in both regimes). What degrades at large n is the original study's <em>significance statistic</em>: when everything is significant, <code>pval_z</code> loses variance and discriminative power (+0.54 → +0.13).</p>
+
+<h3>5.3 &nbsp;The SE / precision conversion — worth it for linear models?</h3>
+<p>Yes, with a caveat. Two distinct things:</p>
+<ul>
+<li><strong>SE on its own</strong> ≈ 1/√n (for a correlation, on the Fisher-z scale literally 1/√(n−3)) → redundant with n. A standalone SE or CI-width feature adds little.</li>
+<li><strong>The precision-weighted effect</strong> = effect ÷ SE = the test statistic (z/t) = the <em>effect × √n interaction</em>. A linear model <em>cannot</em> form this from {effect, n} (it can only add them); a tree can build it by splitting. So handing a linear learner the precision conversion explicitly <em>does</em> add representational power. <strong>This is the case for keeping it.</strong></li>
+</ul>
+<p>Practically: we already include these conversions — <code>pval_z</code>, <code>t_proxy_from_r_h</code>, <code>snr_proxy_h</code>, <code>evidence_strength_score</code> — and they clearly earn their place in the <strong>psychology regime</strong> (FORRT-health: <code>power_proxy</code> +0.57, <code>pval_z</code> +0.54, <code>evidence_strength</code> +0.49). But on <strong>health</strong> they largely collapse: the z-statistic saturates at large n, and the r-derived versions inherit <code>r_harmonized</code>'s sign-flip (<code>evidence_strength</code> → −0.05). <strong>Recommendation:</strong> keep a precision term for the linear learners (it's cheap and already present); for the <em>health</em> slot prefer the p-value-based one (<code>pval_z</code>, right sign) and drop the r-magnitude-based conversions, which can mislead. None of it breaks the base-rate ceiling, so it is a second-order tuning point.</p>
+
+<h3>5.4 &nbsp;Weighting the feature-slot ensemble — and an open design choice for the team</h3>
+<p>The feature slot (m1) is an equal-weight ensemble of RF / GAM / ElNet / XGB over the curated
+set, fit <strong>unweighted</strong>. Two different "weighting" questions came up; they have
+different answers, and the second is an open decision worth discussing.</p>
+
+<p><strong>(a) Sample-weighting (IPW) — tested, doesn't help once features transfer.</strong> The
+previous design up-weighted training rows resembling R3 (large-n, recent) via a 14-covariate
+inverse-propensity weight, applied to the parametric learners. Re-run on the curated set, the
+<em>real</em> IPW is neutral-to-harmful for <em>every</em> learner (ΔBrier vs unweighted,
+challenge-health): RF +0.003, GAM +0.007, ElNet +0.005, XGB +0.002; the blend goes 0.238
+(unweighted) → 0.241 (parametric-IPW) → 0.242 (all-IPW). This <em>reconciles</em> with the earlier
+finding that IPW helped the parametric learners on the <code>enriched</code> set: IPW corrects
+<em>covariate shift</em> by re-focusing a mis-specified model on the target region, and
+<code>enriched</code> contains features whose relationship to the outcome shifts between the
+psychology-train region and the R3-like region. The curated set was chosen for
+<em>transferability</em> — its relationships are invariant across the distribution by construction —
+so there is no shift for IPW to correct, and it only spends effective sample size. <strong>IPW and
+feature-transferability are substitutes; once the features transfer, sample-weighting is not the
+lever.</strong></p>
+
+<p><strong>(b) Learner-weighting — the open suggestion.</strong> The per-learner numbers expose
+something more useful. On challenge-round health the <em>extrapolating</em> learners clearly beat
+the <em>tree</em> learners:</p>
+<table>
+<thead><tr><th>learner</th><th class="num">challenge-health Brier</th><th>extrapolates to large-n?</th></tr></thead>
+<tbody>
+<tr><td>ElNet</td><td class="num good">0.224</td><td>yes — linear in log-n</td></tr>
+<tr><td>GAM</td><td class="num ok">0.236</td><td>yes — smooth in log-n</td></tr>
+<tr><td>XGB</td><td class="num bad">0.257</td><td>no — flattens past last split</td></tr>
+<tr><td>RF</td><td class="num bad">0.263</td><td>no — flattens past last split</td></tr>
+<tr><td><strong>equal-weight blend (deployed m1)</strong></td><td class="num mid">0.238</td><td>—</td></tr>
+<tr class="ref"><td>base rate</td><td class="num">0.249</td><td>—</td></tr>
+</tbody>
+</table>
+<p>This is the §2.1 extrapolation point showing up <em>inside</em> the ensemble. The tree learners
+(RF, XGB) can only average nearby training rows, so in R3's large-n regime they flatten and sit at
+the base rate; the linear/additive learners (ElNet, GAM) project the sample-size relationship into
+that regime and do better. The equal-weight blend is dragged up by the two trees.
+<strong>Tilting the blend toward ElNet/GAM</strong> (e.g. RF and XGB at half weight, or ElNet+GAM
+only) would likely move the feature slot from ~0.238 toward ~0.230 on challenge-health — and it is
+<em>mechanistically</em> motivated (the same extrapolation argument that runs through this whole
+analysis), not curve-fitting.</p>
+
+<div class="box caveat">
+<h4>Open decision for the team — how to weight the feature-slot ensemble</h4>
+<ul style="margin:.2em 0 0">
+<li><strong>Keep equal-weight (as deployed):</strong> most robust, no tuning — but knowingly
+includes two learners (RF, XGB) that can't handle R3's large-n regime.</li>
+<li><strong>Fixed tilt toward ElNet/GAM</strong> (e.g. RF/XGB at half weight): mechanistically
+justified by the extrapolation diagnosis; ~0.008 better on challenge-health in-sample.</li>
+<li><strong>ElNet + GAM only:</strong> the cleanest expression of "use only the learners that can
+extrapolate," but drops the trees' diversification and leans on two correlated linear models.</li>
+</ul>
+<p style="margin:.5em 0 0"><strong>Caveat:</strong> n = 47, so the ~0.008 gap is within the noise
+band — treat this as a judgment call, and use a <em>fixed</em> rule rather than a learned weight to
+avoid overfitting the holdout. The best-of-3 E[min] barely moves either way (the raw LLM carries
+~93% of the win-share regardless); this choice is about making the training-data slot as good as it
+honestly can be, not about the headline number. Sample-weighting (IPW) is settled — it doesn't help
+the curated set; learner-weighting is the live question.</p>
+</div>
+
+<h2>6 · Conclusions</h2>
+<ul>
+<li><strong>The feature model's ceiling on R3-like (large-n, challenge-round) health is the base rate</strong> — robust across every design tried. At large n, significance is uninformative and the replication signal lives in effect magnitude/precision, design, and bias — which tabular features capture weakly (and R3's effect sizes are 27% synthesised, i.e. noisy). The LLM wins because it integrates these holistically; a 47-row-validated tabular model cannot.</li>
+<li><strong>Feature transferability is the only lever that moved the number</strong> — the curated transferable set (drop <code>r_harmonized</code>, add design type) is the best feature model (0.244, just below the base rate). Re-weighting the training <em>rows</em> — upweighting health or downweighting off-distribution data — does <em>not</em> help: once the features transfer, all rows estimate the same relationships, so reweighting only trades away sample size.</li>
+<li><strong>The deployed model has a concrete defect on health:</strong> <code>r_harmonized</code> / <code>evidence_strength_score</code> anti-transfer, so it applies effect-size in the wrong direction on R3 — likely why m1 sits below the base rate on the n=44 health gate.</li>
+<li><strong>The feature slot's job is decorrelation, not accuracy.</strong> The health-aware / design-feature model is the most decorrelated from the LLM we found (R3 corr 0.34 vs deployed 0.59) — that is its real value in best-of-3.</li>
+<li><strong>Design type (and surprisingness, sample adequacy) is worth adding</strong> — it is the most transferable health signal and improves decorrelation — even though it does not lift the slot past the base rate.</li>
+</ul>
+
+<h2>7 · Recommendations</h2>
+<ul>
+<li><strong>Feature slot:</strong> use the curated transferable set (n_o, surprisingness, sample adequacy, design type, n_f_tests) — best feature model and most decorrelated from the LLM (corr 0.34–0.51) — and at minimum <strong>drop or sign-correct <code>r_harmonized</code> / <code>evidence_strength_score</code></strong> on the health slot. Don't expect it to beat the base rate on R3.</li>
+<li><strong>Gate &amp; report on challenge-round health (R1/R2, n=47)</strong>, not all 102 — update <code>18_health_gate.R</code>, which currently flatters m1 via the FORRT rows.</li>
+<li><strong>Portfolio:</strong> the LLM is the only signal that beats the base rate on R3-like health, so it should carry the health bet; the feature slot is the orthogonal hedge. (This reinforces the separate recommendation that the dominated <code>bridge</code> m2 slot become a second LLM bet.)</li>
+<li><strong>If pursuing further feature gains:</strong> the ceiling says they won't come from new learners — only from new <em>signal</em> aimed at the large-n regime (richer LLM-extracted study descriptors), and even that is data-starved at n=47.</li>
+</ul>
+
+<div class="box caveat">
+<h4>Caveats</h4>
+<ul style="margin:.2em 0 0">
+<li><strong>n = 47</strong> challenge-health rows. CIs are wide (~±0.03); differences between feature models are within noise. Treat them as clustered at the base rate.</li>
+<li>Challenge-health is the best available R3 analog (matches on sample size, era, ES quality) but still imperfect — different rounds, journals, and sampling seed.</li>
+<li>The automated screens are permissive at ~80 training-health rows, so they still admit some non-mechanism features. A hand-curated mechanism set performs within noise and is more defensible.</li>
+</ul>
+</div>
+
+<h2>8 · Files &amp; reproduce</h2>
+<div class="files">
+<code>pipeline/19_health_transfer_model.R</code> — main analysis: transferability screen, EQ + monotone learners, nested-CV + leave-health-out evals (writes the two CSVs below)
+<code>output/health_transfer_results.csv</code> — per-model Brier by eval &amp; source
+<code>output/health_transfer_features.csv</code> — selected features with per-feature psych-vs-health signs
+<code>scratch_feat_relevance.R</code> — 152-features / transfer-vs-anti-transfer counts
+<code>scratch_health_aware.R</code> — health-aware screen + within-regime correlations
+<code>scratch_relevance_weight.R</code> — curated transferable set + train-row re-weighting test
+<code>scratch_ipw_curated.R</code> — real 14-covariate IPW, per-learner, on the curated set (§5.4)
+<code>scratch_pool_size.R</code> — feature-pool size spectrum
+<code>HEALTH_FEATURE_MODEL.md</code> — the same content in Markdown
+</div>
+<p class="small" style="margin-top:1.4em">All Brier figures are mean squared error of the predicted probability against the 0/1 replication outcome (lower is better; the ~0.48 base rate gives ~0.249). Colour key: <span class="tag t-ok">green</span> clearly beats base rate · <span class="tag t-weak">amber</span> ≈ base rate · <span class="tag t-flip">red</span> at/above base rate or problematic.</p>
+
+</body>
+</html>

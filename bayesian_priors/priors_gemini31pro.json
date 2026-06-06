@@ -1,0 +1,84 @@
+{
+  "priors": [
+    {
+      "predictor": "n_o_log",
+      "direction": "uncertain",
+      "central_log_odds": 0.0,
+      "ci90_low": -0.40,
+      "ci90_high": 0.40,
+      "rationale": "Larger sample sizes reduce sampling error, which should improve replicability; however, because this is a partial effect holding the initial p-value constant, a larger sample implies a smaller true effect size, which in observational epidemiology is highly susceptible to residual confounding.",
+      "sources": "Methodological literature on the 'p-value paradox' and the vulnerability of very small epidemiological effect sizes to unmeasured confounding in large cohorts.",
+      "confidence": 0.6
+    },
+    {
+      "predictor": "pval_z",
+      "direction": "positive",
+      "central_log_odds": 0.50,
+      "ci90_low": 0.15,
+      "ci90_high": 0.85,
+      "rationale": "The strength of initial statistical evidence is consistently one of the most reliable predictors of replicability across empirical disciplines, directly reflecting a lower probability of Type I errors.",
+      "sources": "Broad meta-science and reproducibility studies across behavioral, medical, and social sciences demonstrating that smaller initial p-values strongly predict successful independent replication.",
+      "confidence": 0.85
+    },
+    {
+      "predictor": "llm_perceived_surprisingness",
+      "direction": "negative",
+      "central_log_odds": -0.25,
+      "ci90_low": -0.65,
+      "ci90_high": 0.15,
+      "rationale": "Counterintuitive findings inherently carry lower prior probabilities of being true; by Bayes' theorem, holding statistical evidence constant, a lower prior odds ratio results in a higher false discovery rate. The interval is widened due to LLM measurement noise.",
+      "sources": "Bayesian perspectives on replication and false positive rates in observational and behavioral health research.",
+      "confidence": 0.7
+    },
+    {
+      "predictor": "llm_sample_adequacy",
+      "direction": "positive",
+      "central_log_odds": 0.20,
+      "ci90_low": -0.20,
+      "ci90_high": 0.60,
+      "rationale": "Explicit power analyses and adequate a priori sample planning signal methodological rigor and typically reduce researcher degrees of freedom, though LLM coding noise attenuates the expected effect.",
+      "sources": "Meta-research on the protective effects of statistical power, pre-study planning, and formal sample size justifications against publication bias in clinical and public health research.",
+      "confidence": 0.65
+    },
+    {
+      "predictor": "llm_within_paper_rep",
+      "direction": "positive",
+      "central_log_odds": 0.25,
+      "ci90_low": -0.15,
+      "ci90_high": 0.65,
+      "rationale": "Demonstrating an effect multiple times in independent samples within the original paper usually indicates a more robust finding, though publication bias can sometimes lead to the suppression of failed internal replications.",
+      "sources": "Methodological discussions on multi-study papers, internal replication practices, and evidence robustness in behavioral health and psychology.",
+      "confidence": 0.6
+    },
+    {
+      "predictor": "llm_is_intervention",
+      "direction": "uncertain",
+      "central_log_odds": -0.15,
+      "ci90_low": -0.60,
+      "ci90_high": 0.30,
+      "rationale": "Behavioral health interventions often involve complex contextual factors and localized implementations that may fail to generalize compared to broad epidemiological observations, though their causal designs limit some confounding.",
+      "sources": "Methodological reviews comparing the reproducibility of experimental behavioral public health interventions with large-scale observational epidemiological cohorts.",
+      "confidence": 0.5
+    },
+    {
+      "predictor": "es_directional",
+      "direction": "positive",
+      "central_log_odds": 0.15,
+      "ci90_low": -0.25,
+      "ci90_high": 0.55,
+      "rationale": "Directional effect sizes generally correspond to specific, targeted hypotheses, whereas omnibus tests are more prone to exploratory fishing or masking specific, weaker underlying contrasts.",
+      "sources": "Meta-epidemiological literature on hypothesis testing specificity and the replicability of exploratory versus confirmatory research designs.",
+      "confidence": 0.6
+    },
+    {
+      "predictor": "n_f_tests_tei_log1p",
+      "direction": "negative",
+      "central_log_odds": -0.20,
+      "ci90_low": -0.60,
+      "ci90_high": 0.20,
+      "rationale": "A high density of F-tests in the text often signals complex analytical multiplicity, high researcher degrees of freedom, and potential p-hacking via multiple comparisons.",
+      "sources": "Meta-science literature on analytic flexibility, multiplicity, and vibration of effects in health, epidemiological, and social sciences.",
+      "confidence": 0.7
+    }
+  ]
+}

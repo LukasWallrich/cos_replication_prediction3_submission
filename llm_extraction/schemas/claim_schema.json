@@ -1,0 +1,422 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "claim_input",
+    "is_focal_claim",
+    "corresponding_hypothesis",
+    "claim_specificity",
+    "theoretical_complexity",
+    "n_o_llm",
+    "es_o_llm",
+    "p_o_llm",
+    "alpha_thresh_llm",
+    "llm_power_guess",
+    "strength_of_evidence",
+    "plausibility_of_successful_replication",
+    "sample_size_classified_by_llm",
+    "effect_magnitude_classified_by_llm",
+    "intuitive_prediction",
+    "structured_hypothesis",
+    "perceived_surprisingness",
+    "construct_complexity_of_hypothesis",
+    "hypothesis_on_main_effect",
+    "hypothesis_on_mediation",
+    "hypothesis_on_moderation",
+    "directional_hypothesis",
+    "contradicting_evidence_abstract",
+    "contradicting_evidence_theory",
+    "contradicting_evidence_discussion",
+    "theory_based_hypothesis",
+    "exploratory_finding",
+    "within_paper_replication_claim",
+    "RCT_study",
+    "cross_sectional_study",
+    "longitudinal_study",
+    "observational_study",
+    "experimental_study",
+    "student_sample",
+    "paid_sample",
+    "online_paid_sample",
+    "online_study",
+    "WEIRD_sample",
+    "self_report",
+    "validated_scale",
+    "multi_item",
+    "apriori_power",
+    "posthoc_power",
+    "power_section",
+    "has_robustness_check",
+    "secondary_data",
+    "preregistration",
+    "exploratory_study",
+    "outcome_robustness_check",
+    "intervention_study_post_measure"
+  ],
+  "properties": {
+
+    "claim_input": {
+      "type": "string",
+      "description": "Copy the specific claim provided as context for this extraction task verbatim into this field. This ensures traceability between the claim and all subsequent claim-specific extractions."
+    },
+
+    "is_focal_claim": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the supplied claim the paper's main finding (headline result, abstract-level conclusion), as opposed to an ancillary or robustness result? A claim can be focal even if the result is null, weak, or contradicts the authors' hypothesis — focal status is about prominence in the paper's framing (abstract, conclusions, headline statistic), not about whether the finding came out as predicted. Set 'status' to 'yes' if it is the focal claim, 'no' if it is a secondary / ancillary / robustness result, 'unclear' if ambiguous. In 'evidence', quote the passage (abstract, conclusion, or headline statistic) that justifies the judgement."
+    },
+
+    "corresponding_hypothesis": {
+      "$ref": "#/$defs/extraction",
+      "description": "Identify which hypothesis stated in the paper best corresponds to what the supplied claim is testing — i.e., which stated hypothesis was empirically tested by the result described in the claim. Draw the hypothesis ONLY from the Introduction / Hypotheses / Theory section, not from the Results, Abstract, or Discussion. Copy the full text of the matching hypothesis into 'value'. In 'evidence', explain in 1-2 sentences why this hypothesis matches the claim. If multiple hypotheses are plausibly relevant, select the single most central one and note the others in 'evidence'. If no hypothesis clearly matches (e.g., the claim tests an exploratory or unannounced analysis), set 'value' to 'none identified' and explain in 'evidence'."
+    },
+
+    "claim_specificity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "description": "Specificity of the supplied claim. 1=directional/signed (an effect with a stated direction, e.g., 'X positively predicts Y' or 'Group A scores higher than Group B'); 2=signed with magnitude (direction plus a stated effect-size range or qualitative magnitude); 3=point estimate with confidence interval (specific numeric estimate and CI); 4=mechanism with mediator/moderator (named pathway / interaction). In 'value', provide the integer; in 'evidence', quote the part of the claim that justifies the level.",
+      "properties": {
+        "value": {"type": "integer", "minimum": 1, "maximum": 4},
+        "evidence": {"type": "string"}
+      }
+    },
+
+    "theoretical_complexity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "description": "Theoretical complexity of the paper's framework around the supplied claim. 1=descriptive; 2=single hypothesis; 3=multiple linked hypotheses; 4=mediation/moderation; 5=structural model with mediators+moderators. In 'value', the integer; in 'evidence', cite the relevant theoretical framing in the paper.",
+      "properties": {
+        "value": {"type": "integer", "minimum": 1, "maximum": 5},
+        "evidence": {"type": "string"}
+      }
+    },
+
+    "n_o_llm": {
+      "$ref": "#/$defs/extraction",
+      "description": "Extract the sample size (n) specifically used for the statistical test described in the supplied claim. This may differ from the total study N — for example, if only a subsample was analyzed, or if listwise deletion occurred. If the test uses multiple groups or arms (e.g., a between-subjects t-test, ANOVA with several cells), report the TOTAL analyzed n (sum across all groups) in 'value' and note the per-group ns in 'evidence' (e.g., value: '298', evidence: 'two-group t-test, n₁=150 vs n₂=148'). Check the relevant table, the results paragraph corresponding to the claim, or any footnote nearby. Report only the integer total in 'value' (e.g., '312'). Set 'value' to 'not reported' if the test-specific n cannot be determined, and explain what was looked for in 'evidence'."
+    },
+    "es_o_llm": {
+      "$ref": "#/$defs/extraction",
+      "description": "Extract the effect size statistic reported for the statistical test described in the supplied claim. Include both the measure type and the numeric value in 'value' (e.g., 'Cohen d = 0.45', 'OR = 1.9 (95% CI: 1.3-2.8)', 'r = .32', 'eta-squared = .06', 'beta = 0.23', 'Risk Ratio = 1.4'). If the claim reports a percentage difference or raw mean difference that functions as an effect indicator, include that as well. If multiple effect sizes are reported for the same test, list all in 'value'. In 'evidence', cite the specific location in the paper. Set 'value' to 'not reported' if no effect size of any kind is given."
+    },
+    "p_o_llm": {
+      "$ref": "#/$defs/extraction",
+      "description": "Extract the exact p-value reported for the primary statistical test described in the supplied claim. Report in 'value' exactly as it appears in the paper — do not round or reformat (e.g., 'p = .002', 'p < .001', 'p = .03'). If the claim itself contains the p-value, use that directly. If multiple p-values appear for the same test (e.g., for different contrasts), report the one most directly corresponding to the claim's main result. In 'evidence', quote the relevant passage. Set 'value' to 'not reported' if absent."
+    },
+    "alpha_thresh_llm": {
+      "$ref": "#/$defs/extraction",
+      "description": "Identify the alpha threshold (significance level) the authors used to declare a result as statistically significant. Check the statistical analysis section and any notes accompanying tables. If multiple corrections were applied (e.g., Bonferroni, FDR), report the corrected threshold relevant to the specific test in the supplied claim. Report the threshold as a decimal in 'value' (e.g., '0.05', '0.017'). If not explicitly stated but clearly implied by the use of standard significance stars without correction, report '0.05 (implied)'. Report 'not stated' only if truly absent. In 'evidence', quote or reference where this threshold was stated or inferred from."
+    },
+
+    "llm_power_guess": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Based on the research field and the content of the claim-matching hypothesis (from 'corresponding_hypothesis') — but WITHOUT using the actual sample size, p-value, or effect size extracted from this study — estimate the statistical power that a well-designed study testing this type of hypothesis in this field would typically be planned for or achieve. Consider: (1) typical effect sizes in this research area for this hypothesis type, (2) conventional sample sizes in the field, (3) the complexity of the statistical model (e.g., interaction effects typically require larger n than main effects). 'rating' is the estimated power as a proportion in [0, 1]. In 'reasoning', explain step by step how you arrived at this estimate, referencing field-specific conventions.",
+      "properties": {
+        "rating": {"type": "number", "minimum": 0, "maximum": 1},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "strength_of_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Evaluate the overall strength of the statistical evidence for the claim, using all extracted information: sample size ('n_o_llm'), effect size ('es_o_llm'), p-value ('p_o_llm'), confidence intervals (if reported), and any additional statistical details in the paper. 'rating' is an integer from 1 to 5: 1 = very weak (marginal p-value near alpha, very small or unreported effect, small n, no pre-registration); 3 = moderate; 5 = very strong (p well below alpha, large effect, large n, pre-registered, replication of prior results). In 'reasoning', cite the specific numerical values and explain how they jointly justify the rating.",
+      "properties": {
+        "rating": {"type": "integer", "minimum": 1, "maximum": 5},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "plausibility_of_successful_replication": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Estimate the likelihood that a direct, independent replication of the claim would succeed (i.e., yield a statistically significant result in the same direction). Base your assessment on all available information: (1) distance of the p-value from alpha, (2) effect size magnitude relative to field norms, (3) sample size adequacy, (4) sample representativeness and specificity, (5) number of hypotheses tested in the paper (multiple testing risk), (6) pre-registration status, (7) complexity of the statistical model, (8) whether the finding aligns with prior literature or contradicts it. 'rating' is exactly one of the listed labels ('High' = >70% replication probability, 'Medium' = 40-70%, 'Low' = <40%). In 'reasoning', explicitly name and weigh each factor that influenced your estimate.",
+      "properties": {
+        "rating": {"type": "string", "enum": ["High", "Medium", "Low"]},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "sample_size_classified_by_llm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Classify the test-specific sample size ('n_o_llm') relative to what is typical in the research field for this type of study design. 'rating' is exactly one of the listed labels. In 'reasoning', explicitly state: (1) the n used for this specific test, (2) what you consider a typical or normal sample size range for this type of research in this field, and (3) your classification with justification.",
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": ["very small", "small", "medium", "large", "very large"]
+        },
+        "reasoning": {"type": "string"}
+      }
+    },
+    "effect_magnitude_classified_by_llm": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Classify the magnitude of the reported effect size ('es_o_llm') relative to conventions in the research field. 'rating' is exactly one of the listed labels (or 'not reported' if no effect size was extractable). In 'reasoning', explicitly state: (1) the reported effect size and its type, (2) the benchmark criteria you apply for this specific field and effect size type (e.g., for Cohen's d: small = 0.2, medium = 0.5, large = 0.8; for odds ratios: small = 1.5, medium = 2.5, large = 4.0, adjusted for field-specific norms where they deviate from Cohen's conventions), and (3) your classification. If no effect size was reported, still attempt an estimate from other available statistics (e.g., z-score, t-value, chi-square with n) and note the derivation.",
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": ["negligible", "small", "medium", "large", "very large", "not reported"]
+        },
+        "reasoning": {"type": "string"}
+      }
+    },
+    "intuitive_prediction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Adopt strictly the perspective of an average layperson with no scientific or academic background. Rate how intuitive the claim-matching hypothesis would be to such a person — i.e., how easily they would have predicted this relationship from everyday life experience alone. 'rating' is an integer from 1 to 10: 1 = highly counter-intuitive (most people would spontaneously predict the opposite); 10 = completely obvious (aligns perfectly with common sense or everyday experience). In 'reasoning', explain from a layperson's perspective — without using scientific terminology — why the hypothesis seems intuitive or surprising. Do not draw on scientific literature or expert knowledge in this assessment.",
+      "properties": {
+        "rating": {"type": "integer", "minimum": 1, "maximum": 10},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "structured_hypothesis": {
+      "$ref": "#/$defs/yesno",
+      "description": "Does the hypothesis corresponding to the supplied claim (see `corresponding_hypothesis`) specifically define both a predictor variable and an outcome variable? Set 'status' to 'yes' if both predictor and outcome are explicitly named (e.g., 'social media use will predict depression', 'cognitive load will reduce recall accuracy'). Set 'status' to 'no' if either is missing, only vaguely implied, or stated as a generic 'differences exist' / 'X and Y are associated' without identifying distinct predictor and outcome variables. Set 'status' to 'unclear' only if a hypothesis is stated but the predictor/outcome structure is genuinely ambiguous. In 'evidence', name the specific predictor and outcome (or identify what is missing)."
+    },
+    "perceived_surprisingness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Rate how surprising the claim-matching hypothesis is from the perspective of a knowledgeable scientist working in the relevant research field, based on the theoretical background and prior literature as presented in the paper. 'rating' is an integer from 1 to 10: 1 = completely expected (well-established, highly replicated finding with strong prior consensus that any expert would predict); 10 = highly unexpected (directly contradicts established theory or prior empirical consensus, would be considered paradigm-shifting). In 'reasoning', reference specific prior theories, cited studies, or established knowledge mentioned in the paper to justify the score. Do not conflate this with the layperson perspective in 'intuitive_prediction'.",
+      "properties": {
+        "rating": {"type": "integer", "minimum": 1, "maximum": 10},
+        "reasoning": {"type": "string"}
+      }
+    },
+    "construct_complexity_of_hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Assess the conceptual complexity of the construct(s) examined in the claim-matching hypothesis. Consider: (1) the number of distinct constructs involved, (2) the degree of abstraction (directly observable vs. latent/unobservable), (3) the degree of scientific consensus about the construct's definition and measurement, (4) the difficulty of valid operationalization. 'rating' is exactly one of the listed labels ('low' = 1-2 well-defined, directly observable, uncontested constructs with straightforward measurement; 'high' = multiple abstract, contested, or multidimensional constructs with measurement challenges). In 'reasoning', name the specific constructs and justify the rating.",
+      "properties": {
+        "rating": {"type": "string", "enum": ["low", "moderate", "high"]},
+        "reasoning": {"type": "string"}
+      }
+    },
+
+    "hypothesis_on_main_effect": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the claim-matching hypothesis predicts a main (direct) effect — i.e., a direct relationship between a predictor variable and an outcome variable, without conditioning on the level of a third variable. Set 'status' to 'yes' if it is a main effect hypothesis. Set 'status' to 'no' if the hypothesis is exclusively about an interaction, moderation, or mediation (with no simultaneous main effect claim). Set 'status' to 'unclear' only if a hypothesis is stated but its main-effect status is genuinely ambiguous. Note: a hypothesis can be coded 'yes' here AND 'yes' in hypothesis_on_moderation if it predicts both a main effect and an interaction. In 'evidence', quote the relevant part of the hypothesis."
+    },
+    "hypothesis_on_mediation": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the claim-matching hypothesis involves a mediation pathway — i.e., it is hypothesized that an intermediate variable M transmits (fully or partially) the effect of predictor X on outcome Y. Set 'status' to 'yes' if mediation is part of the hypothesis. Set 'status' to 'no' if not. Set 'status' to 'unclear' only if a hypothesis is stated but its mediation structure is genuinely ambiguous. In 'evidence', identify the proposed mediator(s) and quote or paraphrase the relevant hypothesis text."
+    },
+    "hypothesis_on_moderation": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the claim-matching hypothesis involves a moderation or interaction effect — i.e., the relationship between X and Y is expected to differ significantly depending on the level of a third variable Z. Set 'status' to 'yes' if moderation or interaction is hypothesized. Set 'status' to 'no' if not. Set 'status' to 'unclear' only if a hypothesis is stated but its moderation structure is genuinely ambiguous. In 'evidence', identify the proposed moderator(s) and quote or paraphrase the relevant hypothesis text."
+    },
+    "directional_hypothesis": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the claim-matching hypothesis (the one identified in `corresponding_hypothesis`, which must be drawn from the Introduction / Hypotheses / Theory section) explicitly predicts the direction of the expected relationship (e.g., 'X will positively predict Y', 'Group A will score higher than Group B on Z', 'the effect of X on Y will be stronger for high levels of Z than low levels'). Do NOT treat a sentence from the Results, Abstract, or Discussion that happens to describe an observed direction as a directional hypothesis — only ex-ante directional predictions stated as hypotheses count. Set 'status' to 'yes' if a specific direction was predicted ex ante, 'no' if only an unspecified relationship was predicted (e.g., 'X and Y will be associated', 'the groups will differ') or if no hypothesis is stated, 'unclear' if the directionality is genuinely ambiguous. In 'evidence', quote the directional language from the Introduction / Hypotheses section (or note its absence)."
+    },
+    "contradicting_evidence_abstract": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the abstract frames the study's findings or motivation as novel, surprising, or in contrast to established knowledge or prior research. Look for language such as 'contrary to', 'surprisingly', 'unlike prior studies', 'challenges the assumption', 'breaks with', 'unexpectedly'. Set 'status' to 'yes' if such framing appears in the abstract, 'no' if the study is framed as confirmatory, replicating, or extending prior work, 'unclear' if the framing is mixed. In 'evidence', quote the relevant phrase from the abstract."
+    },
+    "contradicting_evidence_theory": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the theoretical background presented for the claim-matching hypothesis explicitly notes that different theoretical frameworks or different prior empirical findings would predict different (and incompatible) outcomes for the hypothesis. Set 'status' to 'yes' ONLY if the paper explicitly acknowledges theoretical tension or empirical inconsistency in prior work that bears on the claim-matching hypothesis (e.g., 'Theory A predicts X, but Theory B predicts the opposite', 'Prior studies have yielded mixed results regarding…'). Merely citing multiple theories that all predict the same direction is NOT sufficient. Set 'status' to 'no' if the theoretical foundation is coherent (all cited theories and prior empirical findings point in the same direction). Set 'status' to 'unclear' if partially mixed or ambiguous. In 'evidence', identify the competing theories or contradictory prior findings mentioned (or note their absence)."
+    },
+    "contradicting_evidence_discussion": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the discussion section indicates that the result for the claim-matching hypothesis contradicted prior research or the authors' own expectations. Look for statements acknowledging unexpected findings, divergence from prior literature, post-hoc explanations for surprising results, or explicit comparison with prior contradictory studies. Set 'status' to 'yes' if the result is framed as contradicting prior work or expectations, 'no' if results are described as fully consistent with prior research, 'unclear' if mixed. In 'evidence', quote the most relevant passage from the discussion."
+    },
+    "theory_based_hypothesis": {
+      "$ref": "#/$defs/yesno",
+      "description": "Determine whether the claim-matching hypothesis was explicitly and logically derived from one or more established theoretical frameworks — i.e., the prediction follows as a direct logical consequence of a cited theory, and is consistent with all prior empirical findings cited in the paper. Set 'status' to 'yes' if the hypothesis is clearly theory-derived and coherent with all cited literature. Set 'status' to 'no' if the hypothesis is exploratory (no theoretical basis stated) or contradicts cited literature or theories. Set 'status' to 'unclear' if only partially grounded or the theoretical link is tenuous. Note: a claim cannot simultaneously be theory-derived AND exploratory — if `exploratory_finding` is 'yes', this should typically be 'no'. In 'evidence', name the theoretical framework(s) cited and assess the logical link between theory and hypothesis."
+    },
+    "exploratory_finding": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the specific finding reported in the supplied claim described by the authors as exploratory (as opposed to a confirmatory test of a pre-stated hypothesis)? Set 'status' to 'yes' if the claim corresponds to an analysis that the authors label as exploratory, post-hoc, or unplanned (e.g., 'in an exploratory follow-up analysis…', 'we additionally explored…', 'this post-hoc test…', 'in supplementary analyses…'). Set 'status' to 'no' if the claim corresponds to a pre-specified or hypothesis-driven test. Set 'status' to 'unclear' if framing is mixed or absent. In 'evidence', quote the relevant language attached to the specific analysis underlying the claim."
+    },
+    "within_paper_replication_claim": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "description": "Is the effect reported in the supplied claim supported by multiple sub-studies within this same paper? Consider any sub-study (e.g., 'Study 2', 'Experiment 3', a follow-up sample) that independently tests the same effect — i.e., the same predictor-outcome relationship — possibly with variation in sample, operationalization, or moderators. Set 'status' to 'yes, consistent support' if at least one other sub-study tests the same effect AND its result is consistent with the claim (same direction, statistically supported). Set 'status' to 'yes, mixed support' if at least one other sub-study tests the same effect but the results across sub-studies are inconsistent (e.g., one positive, one null, or directions diverge). Set 'status' to 'no' if the claim is tested in only one sub-study, or if no other sub-study tests the same effect. Set 'status' to 'unclear' if it is ambiguous whether other sub-studies test the same effect. In 'evidence', briefly identify the relevant sub-studies and the direction / significance of their results.",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "yes, consistent support",
+            "yes, mixed support",
+            "no",
+            "unclear"
+          ]
+        },
+        "evidence": {"type": "string"}
+      }
+    },
+
+    "RCT_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the study underlying the supplied claim a Randomized Controlled Trial (RCT)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "cross_sectional_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the design of the study underlying the supplied claim cross-sectional — i.e., each participant is measured only once, at a single point in time? The presence of multiple experimental conditions, groups, or between-subjects comparisons does NOT make a study non-cross-sectional, provided each participant contributes data at only one time point. Cross-sectional vs. longitudinal is determined by per-participant measurement timing, NOT by the number of conditions, groups, or comparisons. Set 'status' to 'yes' if measurement is single-timepoint per participant, 'no' if any participants are measured at multiple time points, 'unclear' if ambiguous. (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "longitudinal_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the study underlying the supplied claim longitudinal or a cohort study (data collected from the same participants over multiple time points)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "observational_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the study underlying the supplied claim purely observational or correlational (no experimental manipulation of independent variables)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "experimental_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Did the study underlying the supplied claim use an experimental design with manipulated independent variables (random assignment to conditions or other experimental manipulation)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "student_sample": {
+      "$ref": "#/$defs/yesno",
+      "description": "Do the participants in the study underlying the supplied claim consist primarily of university or college students? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "paid_sample": {
+      "$ref": "#/$defs/yesno",
+      "description": "Did the participants in the study underlying the supplied claim receive monetary compensation or other tangible rewards? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "online_paid_sample": {
+      "$ref": "#/$defs/yesno",
+      "description": "Did the study underlying the supplied claim specifically use paid online panels like MTurk, Prolific, or CloudResearch (or similar)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "online_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Was the study underlying the supplied claim conducted online (versus in-person, by phone, or mixed-mode)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "WEIRD_sample": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the sample in the study underlying the supplied claim WEIRD (Western, Educated, Industrialized, Rich, Democratic)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "self_report": {
+      "$ref": "#/$defs/yesno",
+      "description": "Does the data in the study underlying the supplied claim rely on self-reports (e.g., surveys, questionnaires, diary entries) BY THE PARTICIPANTS THEMSELVES, versus objective measures (e.g., sensors, physical tests, observer ratings, administrative records, biomarkers)? Set 'status' to 'yes' if the primary measures are participant self-reports. (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "validated_scale": {
+      "$ref": "#/$defs/yesno",
+      "description": "Does the study underlying the supplied claim use established, previously validated scales (with cited psychometric evidence) as the primary measurement instruments? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "multi_item": {
+      "$ref": "#/$defs/yesno",
+      "description": "In the study underlying the supplied claim, are variables measured using multi-item scales (vs. single-item measures)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "apriori_power": {
+      "$ref": "#/$defs/yesno",
+      "description": "Was an a priori power analysis conducted for the study underlying the supplied claim to determine sample size? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "posthoc_power": {
+      "$ref": "#/$defs/yesno",
+      "description": "Was power analysis conducted after the data collection / field phase (post-hoc power) for the study underlying the supplied claim? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "power_section": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is there a dedicated section or paragraph discussing a priori sample-size justification or statistical power for the study underlying the supplied claim? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "has_robustness_check": {
+      "$ref": "#/$defs/yesno",
+      "description": "Did the authors include robustness checks to verify the stability of the result described in the supplied claim (e.g., sensitivity analyses, alternative specifications, leave-one-out)? (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "secondary_data": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the study underlying the supplied claim based on secondary data (e.g., existing datasets, archives, administrative records, previously collected survey waves) rather than primary research (newly collected data)? Set 'status' to 'yes' if secondary, 'no' if primary. (For multistudy papers, anchor on the sub-study that produced the claim's result.)"
+    },
+    "preregistration": {
+      "$ref": "#/$defs/yesno",
+      "description": "Was the study underlying the supplied claim — its hypotheses, or its analysis plan — preregistered (e.g., on OSF, AsPredicted, ClinicalTrials.gov)? Set 'status' to 'yes' if a preregistration is mentioned for THIS sub-study, 'no' if not. In multistudy papers, one sub-study may be preregistered while others are not — anchor on the sub-study that produced the claim's result. In 'evidence', quote the registration link or ID."
+    },
+    "exploratory_study": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the study underlying the supplied claim overall described as exploratory? Set 'status' to 'yes' if the authors explicitly characterize this sub-study or its primary analyses as exploratory (e.g., 'this is an exploratory analysis', 'we explored', 'no a priori hypotheses were specified', 'exploratory in nature') as opposed to confirmatory / hypothesis-testing. Set 'status' to 'no' if the study is framed as confirmatory, hypothesis-testing, or theory-driven. Set 'status' to 'unclear' if framing is mixed or absent. (For multistudy papers, anchor on the sub-study that produced the claim's result — different sub-studies in the same paper may differ in their confirmatory/exploratory framing.) In 'evidence', quote the relevant phrase."
+    },
+
+    "outcome_robustness_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "If a robustness check was performed for the result described in the supplied claim (see `has_robustness_check`), describe its outcome. In 'rating', use exactly one of the listed options. In 'reasoning', describe what the robustness check tested and what the outcome was. Set the rating to 'not applicable' if `has_robustness_check` was 'no' or 'unclear'. (For multistudy papers, anchor on the sub-study that produced the claim's result.)",
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": [
+            "results maintained",
+            "results partially maintained",
+            "results not maintained",
+            "not applicable"
+          ]
+        },
+        "reasoning": {"type": "string"}
+      }
+    },
+    "intervention_study_post_measure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "For the study underlying the supplied claim (if it is an interventional study), classify the measurement design. In 'rating', use exactly one of the listed options ('Pre-Post-Design' = baseline + at least one post; 'Pre-Post-Follow-up' = baseline + immediate post + at least one delayed follow-up; 'Post-only' = only after the intervention; 'not applicable' = not an intervention study). In 'reasoning', specify the timing and number of measurement points as described in the paper. (For multistudy papers, anchor on the sub-study that produced the claim's result.)",
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": [
+            "Pre-Post-Design",
+            "Pre-Post-Follow-up",
+            "Post-only",
+            "not applicable"
+          ]
+        },
+        "reasoning": {"type": "string"}
+      }
+    },
+
+    "notes": {
+      "type": "string",
+      "description": "Any additional free-form notes from the model (e.g. caveats, ambiguities, or details that didn't fit the structured fields)."
+    }
+  },
+  "$defs": {
+    "yesno": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["yes", "no", "unclear"]
+        },
+        "evidence": {"type": "string"}
+      }
+    },
+    "practice_partial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["yes", "no", "partly", "unclear"]
+        },
+        "evidence": {"type": "string"}
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "The extracted value (e.g., a number, a statistic, or a hypothesis text). Use 'not reported' / 'none identified' if the value cannot be found."
+        },
+        "evidence": {
+          "type": "string",
+          "description": "The passage, table cell, or location in the paper from which the value was extracted, or an explanation of why the value could not be found."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "priors": [
+    {
+      "predictor": "n_o_log",
+      "direction": "positive",
+      "central_log_odds": 0.25,
+      "ci90_low": -0.15,
+      "ci90_high": 0.65,
+      "rationale": "Larger original studies in health science should, all else equal, have less sampling error and less winner's-curse inflation, making subsequent high-powered replication more likely. The effect is only modest because very large observational samples can still yield biased or nontransportable findings, and this coefficient is conditional on original p-value and judged sample adequacy.",
+      "sources": "Health-science methodological literature on small-study effects, low statistical power, publication bias, and exaggerated effects in biomedical and epidemiologic research; direct health-science replication evidence for this exact partial predictor is limited.",
+      "confidence": 0.55
+    },
+    {
+      "predictor": "pval_z",
+      "direction": "positive",
+      "central_log_odds": 0.30,
+      "ci90_low": -0.10,
+      "ci90_high": 0.75,
+      "rationale": "Stronger originally reported statistical evidence is generally a favorable sign for replication because it is less compatible with pure sampling noise under the same design. However, in health research small p-values can arise from huge samples, analytic flexibility, confounding, or outcome multiplicity, so the partial effect should be moderate rather than large.",
+      "sources": "Health-science literature on evidential value, p-value misinterpretation, selective reporting, and replication/reproducibility in clinical, epidemiologic, and public-health studies; direct estimates from health-only replication corpora are sparse.",
+      "confidence": 0.6
+    },
+    {
+      "predictor": "llm_perceived_surprisingness",
+      "direction": "negative",
+      "central_log_odds": -0.30,
+      "ci90_low": -0.80,
+      "ci90_high": 0.20,
+      "rationale": "More counterintuitive health claims have lower prior plausibility and are more vulnerable to being chance findings, artifacts of modeling choices, or context-specific results. The LLM-coded nature of the variable and the possibility that some surprising findings are genuinely novel justify a wide interval including zero.",
+      "sources": "Bayesian and epidemiologic discussions of prior plausibility in biomedical inference, false-positive risk, and extraordinary health claims; little direct health-science replication evidence specifically quantifies perceived surprisingness.",
+      "confidence": 0.5
+    },
+    {
+      "predictor": "llm_sample_adequacy",
+      "direction": "positive",
+      "central_log_odds": 0.25,
+      "ci90_low": -0.20,
+      "ci90_high": 0.75,
+      "rationale": "A study judged to have more adequate sample size or an explicit power analysis should be somewhat more likely to yield a replicable claim, beyond raw sample size alone, because it signals better design planning and lower noise. The partial association is uncertain because the coding is imperfect and sample adequacy overlaps conceptually with original n and p-value strength.",
+      "sources": "Health-science guidance and reviews on statistical power, sample-size planning, CONSORT/STROBE-related reporting practices, and reproducibility of biomedical and behavioral health findings; direct replication-based calibration of this composite is limited.",
+      "confidence": 0.5
+    },
+    {
+      "predictor": "llm_within_paper_rep",
+      "direction": "positive",
+      "central_log_odds": 0.25,
+      "ci90_low": -0.35,
+      "ci90_high": 0.85,
+      "rationale": "Multiple sub-studies testing the same focal effect can provide some internal evidence of robustness and reduce the chance that the claim rests on a single idiosyncratic sample. The signal is imperfect because within-paper replications may share investigators, measures, analytic choices, publication selection, and sometimes small samples.",
+      "sources": "Health-science methodological writing on robustness, triangulation, multi-sample evidence, and selective reporting within biomedical, behavioral, and public-health papers; direct health-science replication evidence for this coded feature is sparse.",
+      "confidence": 0.35
+    },
+    {
+      "predictor": "llm_is_intervention",
+      "direction": "uncertain",
+      "central_log_odds": 0.05,
+      "ci90_low": -0.55,
+      "ci90_high": 0.65,
+      "rationale": "Interventional or experimental designs can improve causal identification relative to observational designs, which could aid replication. But health-behavior, communication, and public-health interventions are often context-sensitive and implementation-dependent, so the net association with replication is quite uncertain.",
+      "sources": "Health-science literature contrasting internal validity of randomized or experimental studies with transportability and implementation challenges in behavioral, communication, and public-health interventions; little direct evidence estimates this predictor's independent effect on replication.",
+      "confidence": 0.25
+    },
+    {
+      "predictor": "es_directional",
+      "direction": "uncertain",
+      "central_log_odds": 0.05,
+      "ci90_low": -0.45,
+      "ci90_high": 0.55,
+      "rationale": "Signed directional effect sizes may correspond to more specific, interpretable claims than omnibus unsigned tests, which could slightly favor replication. However, this is mostly a reporting and estimand-class marker rather than a direct quality indicator, so the direction and magnitude are highly uncertain.",
+      "sources": "Health-science statistical reporting literature on interpretable effect sizes, omnibus tests, and model-based inference; direct health-specific replication evidence for directional versus unsigned effect-size families is minimal.",
+      "confidence": 0.2
+    },
+    {
+      "predictor": "n_f_tests_tei_log1p",
+      "direction": "negative",
+      "central_log_odds": -0.20,
+      "ci90_low": -0.65,
+      "ci90_high": 0.25,
+      "rationale": "A larger number of reported F-tests can be a proxy for analytic multiplicity, multiple outcomes, subgroup analyses, and researcher degrees of freedom, all of which can reduce replicability. The proxy is noisy because many F-tests may also reflect transparent reporting or complex but legitimate designs.",
+      "sources": "Health-science literature on multiple testing, selective outcome reporting, model flexibility, subgroup analyses, and false-positive risk in epidemiology, clinical research, and behavioral health studies; direct replication-based calibration of text-counted F-tests is limited.",
+      "confidence": 0.35
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "open_data",
+    "open_data_uponrequest",
+    "open_materials",
+    "open_code",
+    "is_health_llm",
+    "conflict_of_interest",
+    "within_paper_replication",
+    "funding_disclosure",
+    "hypothesis_llm",
+    "writing_quality",
+    "study_count"
+  ],
+  "properties": {
+
+    "open_data": {
+      "$ref": "#/$defs/yesno",
+      "description": "Are the study data deposited in a publicly accessible repository (e.g., OSF, GitHub, Zenodo, Dataverse, journal supplementary materials) where anyone can download them without requesting access? Set 'status' to 'yes' ONLY if a repository link or a clear statement of public deposit is mentioned. Do NOT code 'available upon request' here — that belongs in `open_data_uponrequest`. Set 'status' to 'no' if no publicly accessible data deposit is mentioned. In 'evidence', provide the repository name and/or URL if stated."
+    },
+    "open_data_uponrequest": {
+      "$ref": "#/$defs/yesno",
+      "description": "Do the authors state that data are available upon request — i.e., data are not deposited in a public repository but can be obtained by contacting the authors? Set 'status' to 'yes' ONLY if the paper explicitly contains such a statement. Do NOT code repository-deposited data here — that belongs in `open_data`. Set 'status' to 'no' if no such statement is made. In 'evidence', quote the relevant statement."
+    },
+    "open_materials": {
+      "$ref": "#/$defs/practice_partial",
+      "description": "Are stimuli, instruments, or experimental protocols shared publicly? Set 'status' to 'yes' if all materials are publicly available (link/repository provided), 'partly' if only some materials are shared (e.g., questionnaires public but stimuli not, or some surveys shared but not the full protocol), 'no' if no materials are shared, 'unclear' if ambiguous. In 'evidence', cite the relevant statement or repository link."
+    },
+    "open_code": {
+      "$ref": "#/$defs/yesno",
+      "description": "Are the analysis scripts (R, Python, SPSS, etc.) shared publicly?"
+    },
+    "is_health_llm": {
+      "$ref": "#/$defs/yesno",
+      "description": "Is the topic health-related and suitable for journals like 'Journal of Health Communication', 'Social Science and Medicine', 'Journal of Public Health', 'Applied Research in Quality of Life', 'Annals of Behavioral Medicine', 'American Journal of Health Promotion'?"
+    },
+    "conflict_of_interest": {
+      "$ref": "#/$defs/yesno",
+      "description": "Does the paper disclose an actual conflict of interest? Set 'status' to 'yes' ONLY if the authors explicitly declare that a conflict of interest EXISTS (e.g., financial ties to industry, speaker fees, advisory roles, equity stakes). Set 'status' to 'no' if the authors explicitly state that no conflict of interest exists, OR if no conflict of interest statement is present at all. Set 'status' to 'unclear' if a statement is present but ambiguous. In 'evidence', copy the full verbatim text of the conflict of interest statement as it appears in the paper."
+    },
+    "within_paper_replication": {
+      "$ref": "#/$defs/yesno",
+      "description": "Does the paper consist of multiple sub-studies that examine the same effect, such that one sub-study functions as a within-paper replication of another? Set 'status' to 'yes' if two or more sub-studies test the same focal effect (the same predictor-outcome relationship, with or without variations in sample, operationalization, or moderators) — e.g., 'Study 2 replicates and extends Study 1'. Set 'status' to 'no' if the paper is single-study, OR if the sub-studies test distinct effects without overlap. Set 'status' to 'unclear' if it is ambiguous whether sub-studies test the same effect. In 'evidence', identify the sub-studies that constitute the within-paper replication."
+    },
+
+    "funding_disclosure": {
+      "$ref": "#/$defs/extraction",
+      "description": "Extract the statement detailing the sources of funding for the research. In 'value', copy the funding statement verbatim if one appears. Set 'value' to 'not reported' if no funding statement is present. In 'evidence', cite the section in which the statement was found (e.g. 'Funding section', 'Acknowledgements', 'back-matter')."
+    },
+    "hypothesis_llm": {
+      "$ref": "#/$defs/extraction",
+      "description": "Extract all specific hypotheses stated in the article, separating them with '|||' in 'value'. Draw hypotheses ONLY from the Introduction / Hypotheses / Theory section, not from the Results, Abstract, or Discussion. Example format: 'H1: X will positively predict Y ||| H2: The effect of X on Y will be moderated by Z'. If the paper does not state explicit hypotheses (e.g. exploratory study), set 'value' to 'none stated' and explain in 'evidence'. In 'evidence', cite the section where the hypotheses appear (e.g. 'Introduction, final paragraph')."
+    },
+
+    "writing_quality": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rating", "reasoning"],
+      "description": "Evaluate the overall clarity, structure, and professional quality of the writing. In 'rating', use exactly one of the listed options. In 'reasoning', describe the key stylistic strengths and weaknesses that informed the rating.",
+      "properties": {
+        "rating": {
+          "type": "string",
+          "enum": ["poor", "fair", "good", "excellent"]
+        },
+        "reasoning": {"type": "string"}
+      }
+    },
+
+    "study_count": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "description": "Total number of distinct studies or experiments reported in the paper. 1 if single-study. Cap at 20.",
+      "properties": {
+        "value": {"type": "integer", "minimum": 1, "maximum": 20},
+        "evidence": {"type": "string"}
+      }
+    },
+
+    "notes": {
+      "type": "string",
+      "description": "Any additional free-form notes or observations regarding the paper's methodology that did not fit into the structured fields above."
+    }
+  },
+  "$defs": {
+    "yesno": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["yes", "no", "unclear"]
+        },
+        "evidence": {"type": "string"}
+      }
+    },
+    "practice_partial": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "evidence"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["yes", "no", "partly", "unclear"]
+        },
+        "evidence": {"type": "string"}
+      }
+    },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["value", "evidence"],
+      "properties": {
+        "value": {
+          "type": "string",
+          "description": "The extracted value (e.g., free-text statement or list). Use 'not reported' / 'none stated' if the value cannot be found."
+        },
+        "evidence": {
+          "type": "string",
+          "description": "The passage, table cell, or section reference where the value was extracted from, or an explanation of why it could not be found."
+        }
+      }
+    }
+  }
+}

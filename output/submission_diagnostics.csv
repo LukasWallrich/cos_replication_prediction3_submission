@@ -1,0 +1,15 @@
+metric,value
+m1_source,"ElNet+ (transferable_lean_plus, calibrated)"
+m2_source,prior x evidence
+m3_source,raw LLM crowd
+n_claims,45
+cor_m1_m2,0.639
+cor_m1_m3,0.565
+cor_m2_m3,0.644
+mean_pairwise_r,0.616
+m1_mean,0.606
+m1_sd,0.206
+m2_mean,0.572
+m2_sd,0.12
+m3_mean,0.539
+m3_sd,0.146

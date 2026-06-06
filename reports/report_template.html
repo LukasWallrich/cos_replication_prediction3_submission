@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="$lang$">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>$pagetitle$</title>
+<style>
+  :root{ --ink:#1a1d21; --muted:#5c6670; --line:#e2e6ea; --accent:#2b6cb0; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); line-height:1.62; max-width:860px; margin:0 auto; padding:48px 32px 96px; background:#fff;}
+  h1{font-size:1.9rem; line-height:1.2; margin:0 0 8px;}
+  h2{font-size:1.3rem; margin:2.4em 0 .5em; padding-bottom:.25em; border-bottom:2px solid var(--line);}
+  h3{font-size:1.05rem; margin:1.7em 0 .35em; color:#243b53;}
+  .sub{color:var(--muted); font-size:.96rem; margin:0 0 3px;}
+  p,li{font-size:.99rem;}
+  code{background:#f1f3f5; padding:.1em .35em; border-radius:4px; font-size:.85em;}
+  table{border-collapse:collapse; width:100%; margin:1.1em 0; font-size:.9rem;}
+  th,td{border:1px solid var(--line); padding:7px 11px; text-align:left; vertical-align:top;}
+  th{background:#f4f6f8; font-weight:600;}
+  tbody tr:nth-child(even){background:#fbfcfd;}
+  td[style*="right"],th[style*="right"]{text-align:right; font-variant-numeric:tabular-nums;}
+  .box{border-left:4px solid var(--accent); background:#f3f8fd; padding:14px 18px; margin:1.4em 0; border-radius:0 6px 6px 0;}
+  .box.key{border-color:#2f855a; background:#f0faf2;}
+  .box.warn{border-color:#c05621; background:#fff6ef;}
+  .box h4{margin:0 0 .4em; font-size:1rem;}
+  .box>p:first-of-type{margin-top:0;} .box>p:last-child{margin-bottom:0;}
+  .small{font-size:.85rem; color:var(--muted);}
+  .lead{font-size:1.06rem; color:#243b53;}
+  hr{border:0; border-top:1px solid var(--line); margin:2.4em 0;}
+  ul{padding-left:1.25em;} li{margin:.28em 0;}
+  .files{font-size:.85rem; margin:.6em 0; line-height:1.9;}
+  .files code{white-space:nowrap;}
+  @media print{
+    body{padding:0; max-width:none; font-size:10.4pt;}
+    h2{margin-top:1.5em;}
+    .box,table{break-inside:avoid;}
+    h2,h3{break-after:avoid;}
+    a{color:inherit; text-decoration:none;}
+  }
+</style>
+</head>
+<body>
+$body$
+</body>
+</html>

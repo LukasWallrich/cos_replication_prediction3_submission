@@ -1,0 +1,84 @@
+{
+  "priors": [
+    {
+      "predictor": "n_o_log",
+      "direction": "positive",
+      "central_log_odds": 0.15,
+      "ci90_low": -0.20,
+      "ci90_high": 0.50,
+      "rationale": "Larger original samples are marginally associated with more replicable findings, but because the model already contains the original evidence strength (pval_z) and a sample-adequacy composite, most of that signal is absorbed elsewhere; the partial effect is therefore shrunk toward zero and the interval is allowed to cross zero (conditional on a fixed z, a larger n implies a smaller underlying effect, which can work against replication).",
+      "sources": "General methodological reasoning on precision and replicability; direct, health-science-specific quantitative estimates for the partial effect of sample size are sparse, so the interval is kept wide.",
+      "confidence": 0.4
+    },
+    {
+      "predictor": "pval_z",
+      "direction": "positive",
+      "central_log_odds": 0.45,
+      "ci90_low": 0.10,
+      "ci90_high": 0.80,
+      "rationale": "Strength of the original statistical evidence is the most consistently reported predictor of replication; findings with stronger original evidence are more likely to hold up. This is the one predictor where a moderately sized, confidently signed coefficient is justified.",
+      "sources": "Strong and broadly converging meta-scientific evidence that initial evidence strength predicts replication; health-science-specific magnitude is less precisely quantified, hence the interval is not narrower.",
+      "confidence": 0.7
+    },
+    {
+      "predictor": "llm_perceived_surprisingness",
+      "direction": "negative",
+      "central_log_odds": -0.30,
+      "ci90_low": -0.65,
+      "ci90_high": 0.05,
+      "rationale": "More surprising / counterintuitive claims tend to replicate less often, partly because publication favors novel low-prior findings. The central estimate is pulled toward zero and the interval widened to account for moderate LLM-coding noise, which attenuates the true association.",
+      "sources": "Well-supported direction in the broader replication literature; the magnitude is uncertain for health science specifically and further attenuated by imperfect automated coding.",
+      "confidence": 0.55
+    },
+    {
+      "predictor": "llm_sample_adequacy",
+      "direction": "positive",
+      "central_log_odds": 0.20,
+      "ci90_low": -0.15,
+      "ci90_high": 0.55,
+      "rationale": "Better-powered / adequately sized studies should replicate more often, but this composite overlaps heavily with n_o_log and pval_z already in the model, so the partial effect is shrunk; LLM coding plus a coarse 1-5 + power-flag scale add further noise, widening the interval.",
+      "sources": "Methodological reasoning on power and replicability; collinearity with the other size/evidence predictors and measurement noise mean a modest, uncertain partial effect.",
+      "confidence": 0.4
+    },
+    {
+      "predictor": "llm_within_paper_rep",
+      "direction": "uncertain",
+      "central_log_odds": 0.10,
+      "ci90_low": -0.40,
+      "ci90_high": 0.60,
+      "rationale": "An internal replication of the focal effect could signal a more robust finding (positive) or, conversely, a multi-study package shaped by selective reporting / analytic flexibility (negative). These pull in opposite directions, so the estimate is centered near zero with a wide interval, further widened for LLM coding noise.",
+      "sources": "Competing mechanisms with no clear net direction in health science specifically; treated as genuinely uncertain.",
+      "confidence": 0.3
+    },
+    {
+      "predictor": "llm_is_intervention",
+      "direction": "uncertain",
+      "central_log_odds": -0.10,
+      "ci90_low": -0.60,
+      "ci90_high": 0.40,
+      "rationale": "Interventional designs improve internal validity, but in this domain (behavioral / messaging experiments) effects are often small, context-dependent and fragile, whereas large observational associations can be quite stable. Net direction is unclear, so the estimate sits just below zero with a wide, LLM-noise-inflated interval.",
+      "sources": "Design-validity considerations weighed against context-sensitivity of behavioral effects; no firm health-science-specific estimate, hence treated as uncertain.",
+      "confidence": 0.3
+    },
+    {
+      "predictor": "es_directional",
+      "direction": "positive",
+      "central_log_odds": 0.20,
+      "ci90_low": -0.15,
+      "ci90_high": 0.55,
+      "rationale": "Signed / directional effect families (r, d, g, log-OR, z) usually correspond to simpler focal contrasts, whereas unsigned / omnibus families (eta-squared, R-squared, F-, chi-square-based) more often reflect complex or interaction-type effects that replicate worse. The direction is mechanistically plausible but only modestly supported, so the estimate is small and the interval crosses zero.",
+      "sources": "Methodological literature suggesting complex / omnibus and interaction-type effects replicate less well than simple directional effects; limited direct evidence, hence modest and uncertain.",
+      "confidence": 0.4
+    },
+    {
+      "predictor": "n_f_tests_tei_log1p",
+      "direction": "negative",
+      "central_log_odds": -0.20,
+      "ci90_low": -0.55,
+      "ci90_high": 0.15,
+      "rationale": "More reported F-tests proxy greater analytic multiplicity and researcher degrees of freedom, which inflate false positives and lower replication. But the count is also partly a marker of thoroughness, and the variable is strongly zero-inflated (most papers = 0), making a per-SD interpretation noisy; the estimate is therefore small and the interval crosses zero.",
+      "sources": "Reasoning on multiple-comparison / forking-paths inflation; the proxy is noisy and the distribution skewed, so the partial effect is treated as modest and uncertain.",
+      "confidence": 0.45
+    }
+  ]
+}
