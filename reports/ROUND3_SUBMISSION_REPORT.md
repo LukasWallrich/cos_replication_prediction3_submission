@@ -102,12 +102,12 @@ The labelled training data combines the challenge **Training** set with the **Ro
 
 - **Retracted originals** are dropped (six rows in training, none in the test set).
 - **Author-overlap replications** — where the replicating team overlaps with the original authors — are excluded, because same-team replications succeed at a much higher rate and are not representative of the independent-replication question the challenge asks; rows where overlap is unknown are kept.
-- **Boyce/Soto multi-study projects** are flagged and removed so that a single large coordinated effort cannot dominate the outcome distribution.
-- **Non-implied claims** (those the LLM screen judged not to be genuinely tested by the paper) and rows without a usable replication outcome are dropped.
+- **Boyce/Soto replications** are excluded, for different reasons: the Boyce replications are student work of variable quality, and the Soto project replicated the *associations the papers reported* rather than the *claims the papers actually made* — so neither is a clean signal for the replication question we are predicting.
+- **Non-implied claims** are dropped, along with rows without a usable replication outcome. A non-implied claim is one the paper may well have tested but does not build its argument on — it is not part of the paper's "story." Such peripheral claims are far less exposed to the selective reporting and *p*-hacking that bear on the headline claims a paper relies on, so they replicate under different dynamics and are not the kind of claim the test set asks about.
 
 Missing feature values are filled by **median imputation using training-fold medians only**, so no information leaks from held-out data. We implemented and tested multiple imputation (MICE), but it did not improve out-of-fold accuracy over the simpler median fill, so the deployed pipeline uses the median.
 
-For the 45 test claims we additionally **completed missing original-study metadata by hand** (e.g. sample sizes, effect sizes and *p*-values that the automated extraction did not capture), so that every claim carries the complete set of inputs each of the three predictors needs in order to score it.
+For the 45 test claims we additionally **completed missing original-study metadata by hand** (e.g. sample sizes, effect sizes and *p*-values that were not available in the provided test set), so that every claim carries the complete set of inputs each of the three predictors needs in order to score it.
 
 <p class="files">Filters &amp; feature matrix: <code>pipeline/04_base_dataset.R</code> · imputation recipes: <code>pipeline/05_imputation.R</code> · health add-on: <code>data/flora_health_addon.csv</code>. What is and is not reproducible from the shared data is documented in <code>DATA.md</code>.</p>
 

@@ -442,12 +442,19 @@ team overlaps with the original authors — are excluded, because
 same-team replications succeed at a much higher rate and are not
 representative of the independent-replication question the challenge
 asks; rows where overlap is unknown are kept.</li>
-<li><strong>Boyce/Soto multi-study projects</strong> are flagged and
-removed so that a single large coordinated effort cannot dominate the
-outcome distribution.</li>
-<li><strong>Non-implied claims</strong> (those the LLM screen judged not
-to be genuinely tested by the paper) and rows without a usable
-replication outcome are dropped.</li>
+<li><strong>Boyce/Soto replications</strong> are excluded, for different
+reasons: the Boyce replications are student work of variable quality,
+and the Soto project replicated the <em>associations the papers
+reported</em> rather than the <em>claims the papers actually made</em> —
+so neither is a clean signal for the replication question we are
+predicting.</li>
+<li><strong>Non-implied claims</strong> are dropped, along with rows
+without a usable replication outcome. A non-implied claim is one the
+paper may well have tested but does not build its argument on — it is
+not part of the paper’s “story.” Such peripheral claims are far less
+exposed to the selective reporting and <em>p</em>-hacking that bear on
+the headline claims a paper relies on, so they replicate under different
+dynamics and are not the kind of claim the test set asks about.</li>
 </ul>
 <p>Missing feature values are filled by <strong>median imputation using
 training-fold medians only</strong>, so no information leaks from
@@ -456,9 +463,9 @@ it did not improve out-of-fold accuracy over the simpler median fill, so
 the deployed pipeline uses the median.</p>
 <p>For the 45 test claims we additionally <strong>completed missing
 original-study metadata by hand</strong> (e.g. sample sizes, effect
-sizes and <em>p</em>-values that the automated extraction did not
-capture), so that every claim carries the complete set of inputs each of
-the three predictors needs in order to score it.</p>
+sizes and <em>p</em>-values that were not available in the provided test
+set), so that every claim carries the complete set of inputs each of the
+three predictors needs in order to score it.</p>
 <p class="files">
 Filters &amp; feature matrix: <code>pipeline/04_base_dataset.R</code> ·
 imputation recipes: <code>pipeline/05_imputation.R</code> · health
