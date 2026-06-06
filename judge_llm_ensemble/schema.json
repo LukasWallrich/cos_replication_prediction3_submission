@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["reasoning_top2", "bucket", "confidence_in_bucket"],
+  "properties": {
+    "reasoning_top2": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {"type": "string"},
+      "description": "Exactly two short sentences (<=25 words each) giving the two most important reasons behind your bucket choice. Write these BEFORE picking the bucket."
+    },
+    "bucket": {
+      "type": "string",
+      "enum": [
+        "almost_certainly_not",
+        "very_unlikely",
+        "unlikely",
+        "about_even",
+        "likely",
+        "very_likely",
+        "almost_certainly_yes"
+      ],
+      "description": "Verbal bucket for P(this is a real effect that would survive a well-powered replication)."
+    },
+    "confidence_in_bucket": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "How confident you are that this is the right bucket. `low` means the bucket could plausibly be one step lower or higher; `high` means you would not move."
+    }
+  }
+}
